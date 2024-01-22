@@ -1,7 +1,9 @@
 - id: state_management
   name: State management
 - id: state_management_rn_built_in
-  name: React (useState, useReducer, useContext, this.state)
+  name: |
+    React 
+    (useState, useReducer, useContext, this.state)
   homepage: https://beta.reactjs.org/reference/react
   npm: react
   github: https://github.com/facebook/react

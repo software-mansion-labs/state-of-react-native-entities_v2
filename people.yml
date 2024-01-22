@@ -1843,3 +1843,7 @@
 - id: michal_pierzchala
   name: Michał Pierzchała
   twitterName: thymikee
+- id: commenter_expert
+  name: John Doe [placeholder]
+  twitterName: CommenterExpert
+  homepage: https://starwars.com/
