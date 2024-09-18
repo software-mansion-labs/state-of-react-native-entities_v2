@@ -1,0 +1,51 @@
+- id: european
+  name: European
+
+- id: human
+  name: Human
+
+- id: indian
+  name: Indian
+
+- id: jewish
+  name: Jewish
+  patterns:
+    - jew
+
+- id: north_african
+  name: North African
+  patterns:
+    - north africa
+
+- id: slav
+  name: Slav
+  patterns:
+    - slavic
+
+- id: central_asian
+  name: Central Asian
+  patterns:
+    - central asia
+
+- id: caucasian
+  name: Caucasian
+
+- id: scandinavian
+  name: Scandinavian
+
+- id: turk
+  name: Turk
+  patterns:
+    - turk
+    - turkish
+    - turkic
+    - türk
+
+- id: mediterranean
+  name: Mediterranean
+
+- id: asian
+  name: Asian
+
+- id: brazilian
+  name: Brazilian

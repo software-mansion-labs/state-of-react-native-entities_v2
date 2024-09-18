@@ -1,0 +1,34 @@
+##################################################################
+#                    web_components_pain_points                  #
+##################################################################
+
+- id: data_binding
+
+- id: templating
+  name: Templating
+  description: Lack of templating
+  patterns:
+    - templating
+    - templates
+
+- id: events
+  patterns:
+    - event
+
+- id: progressive_enhancement
+
+- id: class_based_architecture
+  name: Class-based architecture
+  description: Forces the use of class syntax
+  patterns:
+    - classes
+    - class-based
+    - don't like.*class [p]
+
+- id: reactivity
+
+- id: shadow_dom
+
+- id: lack_of_scoped_css
+  patterns:
+    - scoped css

@@ -1,0 +1,127 @@
+- id: chrome
+  name: Chrome
+  homepageUrl: https://www.google.com/chrome/
+
+- id: chrome_android
+  name: Chrome Android
+  homepageUrl: https://www.google.com/chrome/
+
+- id: chrome_ios
+  name: Chrome iOS
+  homepageUrl: https://www.google.com/chrome/
+
+- id: brave
+  name: Brave
+  homepageUrl: https://brave.com/
+
+- id: chromium
+  name: Chromium
+  homepageUrl: https://www.chromium.org/Home
+
+- id: edge
+  name: Edge
+  homepageUrl: https://www.microsoft.com/en-us/windows/microsoft-edge
+
+- id: firefox
+  name: Firefox
+  homepageUrl: https://www.mozilla.org/en-US/firefox/new/
+
+- id: firefox_developer
+  name: Firefox Quantum
+  homepageUrl: https://www.mozilla.org/en-US/firefox/developer/
+
+  patterns:
+    - Firefox Developers Edition
+- id: firefox_android
+  name: Firefox Android
+  homepageUrl: https://www.mozilla.org/en-US/firefox/new/
+
+- id: internet_explorer_11
+  name: Internet Explorer 11
+  homepageUrl: https://www.microsoft.com/en-us/download/internet-explorer-11-for-windows-7-details.aspx
+- id: internet_explorer_8_9_10
+  name: Internet Explorer 8/9/10
+  homepageUrl: https://www.microsoft.com/en-us/download/internet-explorer.aspx
+  patterns:
+    - Internet Explorer
+
+- id: opera
+  name: Opera
+  homepageUrl: https://www.opera.com/
+
+- id: opera_mini
+  name: Opera Mini
+  homepageUrl: https://www.opera.com/mobile
+
+- id: samsung_internet
+  name: Samsung Internet
+  homepageUrl: https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en_US
+
+  patterns:
+    - Samsung
+- id: ucbrowser
+  name: UC Browser
+  homepageUrl: https://www.ucweb.com/
+
+- id: polypane
+  name: Polypane
+  homepageUrl: https://polypane.app/
+
+- id: yandex
+  name: Yandex
+  homepageUrl: https://browser.yandex.com/
+
+- id: safari
+  name: Safari
+  homepageUrl: https://www.apple.com/safari/
+
+- id: safari_ios
+  name: Safari iOS
+  homepageUrl: https://www.apple.com/safari/
+
+- id: vivaldi
+  name: Vivaldi
+  homepageUrl: https://vivaldi.com/
+
+- id: responsively
+  name: Responsively
+  homepageUrl: https://responsively.app/
+
+- id: blisk
+  name: Blisk
+  homepageUrl: https://blisk.io/
+
+- id: sizzy
+  name: Sizzy
+  homepageUrl: https://sizzy.co/
+
+- id: gnome_web
+  name: Gnome Web
+  homepageUrl: https://wiki.gnome.org/Apps/Web
+  patterns:
+    - gnome
+    - epiphany
+
+- id: duckduckgo
+  name: DuckDuckGo Browser
+  homepageUrl: https://duckduckgo.com/app
+
+- id: sidekick
+  name: Sidekick
+  homepageUrl: https://www.meetsidekick.com/
+
+- id: qutebrowser
+  name: Qutebrowser
+  homepageUrl: https://qutebrowser.org/
+
+- id: orion
+  name: Orion
+  homepageUrl: https://browser.kagi.com/
+
+- id: arc
+  name: Arc
+  homepageUrl: https://arc.net/
+
+- id: librewolf
+  name: LibreWolf
+  homepageUrl: https://librewolf.net/

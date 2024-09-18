@@ -1,0 +1,218 @@
+- id: science
+
+- id: human_resources
+  patterns:
+    - hr
+    - human_resource
+
+- id: security
+  name: Security
+
+- id: payments
+
+- id: communication
+
+- id: sports
+  patterns:
+    - sport
+    - fitness
+
+- id: music
+
+- id: gaming
+  patterns:
+    - game
+    - games
+
+- id: saas
+
+- id: tourism
+
+- id: energy
+
+- id: crypto
+  patterns:
+    - crypto [p]
+
+- id: food
+
+- id: non_profit
+  patterns:
+    - nonprofit
+
+- id: research
+  patterns:
+    - academia
+    - scientific
+    - science
+
+- id: adult_industry
+  patterns:
+    - adult
+
+- id: gambling
+  patterns:
+    - betting
+
+- id: aerospace
+  patterns:
+    - aviation
+    - geospatial
+    - space
+
+- id: gis
+  patterns:
+    - map
+
+- id: tech_it
+  patterns:
+    - tech
+    - it [e]
+
+- id: web3
+
+- id: blockchain
+
+- id: transportation
+  patterns:
+    - transport
+
+- id: biotech
+  patterns:
+    - bioinformatics
+    - biometric
+    - bioscience
+
+- id: pharma
+
+- id: advertising
+  patterns:
+    - adtech
+
+- id: iot
+
+- id: art
+
+- id: banking
+  patterns:
+    - bank
+
+- id: law
+  patterns:
+    - legal
+
+- id: education
+  patterns:
+    - teaching
+    - edtech
+
+- id: cloud_computing
+  patterns:
+    - cloud
+
+- id: defense
+  patterns:
+    - defence
+
+- id: enterprise
+
+- id: entertainment
+
+- id: environment
+  patterns:
+    - sustainability
+    - environment [p]
+    - ehs
+
+- id: finance
+  patterns:
+    - finance
+    - financial
+    - fintech
+
+- id: industrial
+  patterns:
+    - industrial
+
+- id: recruiting
+  patterns:
+    - hiring
+    - recruitment
+
+- id: travel
+
+- id: mining
+
+- id: business
+  patterns:
+    - consulting
+
+- id: design
+
+- id: automotive
+  patterns:
+    - auto
+    - car
+    - vehicle
+
+- id: religion
+  patterns:
+    - church
+
+- id: culture
+  patterns:
+    - cultural
+
+- id: e_commerce
+  patterns:
+    - commerce
+    - retail
+
+- id: e_learning
+  patterns:
+    - learning
+
+- id: student
+
+- id: unemployed
+
+- id: agency
+
+- id: agriculture
+
+- id: logistics
+
+- id: manufacturing
+
+- id: insurance
+
+- id: real_estate
+
+- id: construction
+
+- id: telecommunications
+  patterns:
+    - broadcast
+
+- id: ai
+  name: AI
+  patterns:
+    - artificial intelligence
+
+- id: fashion_beauty
+  name: Fashion & Beauty
+  patterns:
+    - fashion
+    - beauty
+
+- id: automation
+  name: Automation
+
+- id: freelance
+  name: Freelance
+
+- id: military
+  name: Military
+
+- id: e_sports
+  name: Esports

@@ -1,0 +1,118 @@
+# missing features
+
+- id: parent_selector
+  name: Parent Selector
+  patterns:
+    - parent
+    - parent select(or|ion)
+    - parent (of )?(an )?element
+    - \:parent
+    - (target|select|style) (a )?parent
+
+- id: scoping
+  name: Scoping
+  patterns:
+    - encapsulation
+    - isolation
+    - scop(e|ing)
+
+# catches too much stuff
+# - id: functions
+#   name: Functions
+#   tags:
+#     - css_missing_features
+
+- id: conditional_logic
+  name: Conditional Logic
+  patterns:
+    - conditional
+    - if statement
+
+- id: houdini
+  name: CSS Houdini
+
+- id: flow_control
+  name: Flow Control
+
+- id: center
+  name: Centering
+
+- id: simplicty
+  name: Simplicity
+
+- id: typography
+  name: Typographic Controls
+  patterns:
+    - typographic
+
+- id: form_elements
+  name: Form Elements Styling
+  patterns:
+    - form styling
+    - form input
+    - input element
+    - form element
+    - form fields
+
+- id: print
+  # name: Print Support
+
+- id: css_regions
+  name: CSS Regions
+  patterns:
+    - regions
+
+- id: animate_to_auto
+  patterns:
+    - "Animating to-&-from display: none"
+    - "animate to visibility: hidden or display: none"
+
+- id: anchored_positioning
+
+- id: loops
+  name: For Loops
+  patterns:
+    - loop
+
+- id: multi_column
+  patterns:
+    - column
+  tags:
+    - browser_interoperability
+
+- id: input_styling
+  name: Input Styling
+  patterns:
+    - styling input
+    - form controls
+  tags:
+    - browser_interoperability
+    - css_missing_features
+
+- id: cmyk_colors
+  name: CMYK Colors
+  patterns:
+    - cmyk
+
+- id: styling_select
+  name: Styling `select` Inputs
+  patterns:
+    - select input
+    - select menu
+    - select styling
+
+- id: random
+  name: "`random()` Function"
+
+- id: popups_popovers
+  name: Popups & Popovers
+  patterns:
+    - popup
+    - popover
+
+- id: animate_to_auto
+  name: Animate to Auto
+  patterns:
+    - to auto
+    - to/from auto
+    - "height(:| )auto"

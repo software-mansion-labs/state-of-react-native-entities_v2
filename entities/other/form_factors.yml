@@ -1,0 +1,15 @@
+#################################################
+# Form Factors
+#################################################
+
+- id: voice
+  name: Voice Control
+  tags:
+    - css
+    - form_factors
+
+- id: simulator
+  name: Xcode Simulator
+  tags:
+    - css
+    - form_factors

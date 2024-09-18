@@ -1,0 +1,148 @@
+##################################################################
+#                    interactivity_pain_points                   #
+##################################################################
+
+- id: interacting_with_dom
+  name: DOM interactions
+  description: Interacting with and manipulating the DOM
+
+- id: dom_manipulation
+  name: DOM manipulation
+  description: Adding, modifying, and removing DOM elements
+  parentId: interacting_with_dom
+  patterns:
+    - dom manipulation
+    - creating.*element(s)?
+    - manipulating.*dom
+
+- id: element_selection
+  name: Element selection
+  description: Selecting and targeting DOM elements
+  parentId: interacting_with_dom
+  patterns:
+    - finding, element [l]
+
+- id: dom_diffing
+  name: DOM diffing
+  description: Lack of a native DOM diffing algorithm
+  parentId: interacting_with_dom
+  patterns:
+    - dom(-| )?diff
+    - dom(-| )?diffing
+    - diff dom
+    - diffing dom
+
+- id: drag_and_drop
+  name: Drag-and-drop support
+  patterns:
+    - drag
+    - drag.*drop
+    - dragging
+    - draggable
+
+- id: event_management
+  name: Event management
+  description: Handling user events
+  patterns:
+    - event
+
+- id: frustration_with_javascript
+
+- id: dom_api
+  name: DOM API
+
+- id: inner_html
+
+- id: html_imports
+
+- id: missing_features
+
+- id: data_binding
+
+- id: react_overuse
+  patterns:
+    - react [e]
+
+- id: safari
+
+- id: transitions
+  name: Transitions
+  patterns:
+    - transition
+
+- id: virtual_dom_overuse
+
+- id: lack_of_virtual_dom
+
+- id: tooltips
+
+- id: web_components
+
+- id: content_shift
+  patterns:
+    - layout shift [p]
+    - re(-)layout
+
+- id: css_limitations
+
+- id: native_tabs
+  description: Lack of native tab element
+
+- id: frustration_with_browser_apis
+
+- id: lack_of_declarative_apis
+  name: Imperative APIs
+  description: Reliance on imperative instead of declarative APIs
+  patterns:
+    - imperative
+    - declarative
+  tags:
+    - making_web_components_pain_points
+
+- id: binding
+  patterns:
+    - bindings
+
+- id: has_selector
+  patterns:
+    - \:has [p]
+    - has\(\)
+    - ":has"
+
+- id: custom_elements
+
+- id: lack_of_reactivity_support
+  name: Reactivity
+  description: Lack of support for reactivity
+  patterns:
+    - reactive
+    - reactivity
+  tags:
+    - using_web_components_pain_points
+
+- id: native_htmx_like_features
+  patterns:
+    - htmx
+
+- id: lack_of_native_features
+  name: Lack of native features
+  description: Lack of native APIs and elements
+  patterns:
+    - native, element [l]
+    - native, primitive [l]
+
+- id: reliance_on_jquery
+
+- id: modal_issues
+  patterns:
+    - modal
+
+- id: sanitization_issues
+  patterns:
+    - sanitiz [p]
+
+- id: timing_issues
+  patterns:
+    - timing
+
+- id: selecting_elements

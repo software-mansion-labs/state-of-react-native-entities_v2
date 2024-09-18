@@ -1,0 +1,22 @@
+##################################################################
+#                    monorepo_tools_pain_points                  #
+##################################################################
+
+- id: caching
+  patterns:
+    - cache
+
+- id: multi_language_support
+  patterns:
+    - cross( |-)?language
+
+- id: versioning
+  name: Versioning
+
+- id: no_need_for_monorepos
+  name: No need for monorepos
+
+- id: typescript_support
+  name: TypeScript support
+  patterns:
+    - typescript

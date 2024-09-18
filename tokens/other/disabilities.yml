@@ -1,0 +1,130 @@
+# disability status
+
+- id: blindness
+  name: Blindness
+
+- id: adhd
+  name: ADHD
+  patterns:
+    - add
+    - attention deficit
+
+- id: autism
+  name: Autism
+  patterns:
+    - asd
+    - autistic
+
+- id: aspergers
+  name: Aspergers
+  patterns:
+    - asperger
+
+- id: glasses
+  name: Glasses
+
+- id: old
+  name: Old Age
+
+- id: back_pain
+  name: Back Pain
+  patterns:
+    - weak back
+    - back pain
+
+- id: epilepsy
+  name: Epilepsy
+
+- id: color_blindness
+  name: Color Blindness
+  patterns:
+    - color( )?blind
+    - colour( )?blind
+
+- id: carpal_tunnel
+  name: Carpal Tunnel
+  patterns:
+    - carpal
+
+- id: diabetes
+  name: Diabetes
+
+- id: anxiety
+  name: Anxiety
+
+- id: dyslexia
+  name: Dyslexia
+  patterns:
+    - dyslexic
+    - dislexic
+    - dyslectic
+
+- id: chronic_fatigue
+  name: Chronic Fatigue
+
+- id: chronic_pain
+  name: Chronic Pain
+
+- id: ocd
+  name: OCD
+
+- id: migraine
+  name: Migraine
+  patterns:
+    - headache
+
+- id: speech_impairment
+  name: Speech Impairment
+  patterns:
+    - stutter
+    - speech impediment
+
+- id: crohn
+  name: Crohn's disease
+
+- id: bipolar
+  name: Bipolar disorder
+
+- id: depression
+  name: Depression
+
+- id: mental_illness
+  name: Mental illness
+  patterns:
+    - mental health
+
+- id: ptsd
+  name: PTSD
+
+- id: vestibular_disorder
+  name: Vestibular disorder
+  patterns:
+    - vestibular
+
+- id: ibd
+  name: IBD
+  description: Inflammatory Bowel Disease
+  patterns:
+    - ibs
+    - ibd
+    - bowel
+
+- id: light_sensitivity
+  name: Ligt sensitivity
+
+- id: motion_sensitivity
+  name: Motion sensitivity
+
+- id: cognitive_disabilities
+  name: Cognitive disabilities
+  patterns:
+    - cognitive
+
+- id: speech_disabilities
+  name: Speech disabilities
+  patterns:
+    - speech, disability [l]
+    - speech, disabilities [l]
+
+- id: multiple_sclerosis
+  name: Multiple Sclerosis

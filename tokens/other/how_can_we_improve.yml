@@ -1,0 +1,89 @@
+- id: survey_length
+  description: Found the survey too long
+  patterns:
+    - too long
+    - shorter
+
+- id: information_links
+  description: Add features info links during the survey
+  patterns:
+    - links
+
+- id: light_mode
+  description: Suggested adding a light mode to the user interface
+  patterns:
+    - light theme
+
+- id: positive_impression
+  description: Overall positive impression of the survey
+  patterns:
+    - doing great
+    - doing a great
+    - great job
+    - perfect
+    - are good
+    - are great
+    - is great
+    - it's great
+    - best survey
+    - pretty good
+    - pretty great
+    - all good
+    - good
+    - all great
+    - all is fine
+    - i like it
+    - it's fine
+    - it's good
+    - it's ok
+    - its fine
+    - its good
+    - its ok
+
+- id: dont_know
+  description: No specific suggestion
+  patterns:
+    - don't know
+    - idk
+    - no idea
+    - no need
+    - nothing
+
+- id: options_suggestion
+  description: Suggested improving the options provided for existing questions
+  patterns: []
+
+- id: questions_suggestion
+  description: Suggested adding, removing, or changing questions
+  patterns: []
+
+- id: translations
+  description: Better-quality or more complete translations
+  patterns:
+    - translating
+    - localization
+    - translation
+
+- id: live_code_examples
+  description: Interactive or visual code examples
+  patterns:
+    - interactive
+    - visual
+
+- id: sentiment_ui
+  description: Sentiment UI improvements
+  patterns: []
+
+- id: ui_improvements
+  description: General UI improvements
+  patterns: []
+
+- id: mobile_version
+  description: Better mobile version
+  patterns: []
+
+- id: accessibility
+  name: Accessibility
+  description: Accessibility improvements
+  patterns:
+    - accessibility

@@ -1,0 +1,122 @@
+##################################################################
+#                    content_pain_points                         #
+##################################################################
+
+# security_privacy
+
+- id: security_privacy
+  name: Security & privacy
+  description: Lack of security and privacy
+  patterns:
+    - security
+    - privacy
+
+- id: cors_issues
+  parentId: security_privacy
+  name: CORS issues
+  description: Issues with implementing CORS
+  patterns:
+    - cross(-| )?origin
+
+- id: csp_issues
+  parentId: security_privacy
+  name: CSP issues
+  description: Issues with implementing a Content Security Policy
+
+# date_management
+
+- id: date_management
+  name: Date management
+  description: Managing dates and times
+  patterns:
+    - date
+    - temporal
+
+- id: time_zones
+  parentId: date_management
+  name: Timezones
+  description: Managing timezones
+  patterns:
+    - time( )?zone
+
+# image_management
+
+- id: image_management
+  name: Image management
+  description: Managing images
+  patterns:
+    - image
+
+- id: image_dimension_management
+  parentId: image_management
+  name: Image dimensions
+  description: Issues with properly sizing images
+  patterns:
+    - width
+    - height
+    - size.*image
+    - image.*size
+    - responsive.*image
+    - image.*responsive
+
+- id: srcset_sizes
+  name: >
+    `srcset`
+  description: Confusing `srcset` syntax
+  parentId: image_management
+  patterns:
+    - srcset
+
+# other
+
+- id: lack_of_templating
+  patterns:
+    - templat [p]
+
+- id: machine_readable_data
+  patterns:
+    - machine, readable, data [l]
+
+- id: embedding_issues
+  patterns:
+    - embedding
+    - embed
+
+- id: headings_issues
+  patterns:
+    - heading
+
+- id: handling_math_content
+  patterns:
+    - math
+    - mathml
+
+- id: svg_issues
+  belongsTo: svg_element
+  patterns:
+    - svg [p]
+
+- id: iframe_issues
+  belongsTo: iframe_element
+  patterns:
+    - iframe
+
+- id: video_issues
+  patterns:
+    - iframe
+
+- id: i18n_issues
+  name: Internationalization
+  description: Issues with internationalizing, localizing, and translating content
+  patterns:
+    - translation
+    - locali(z|s)ation
+    - internationali(z|s)ation
+    - Intl
+    - locale
+    - multiple, language [l]
+    - i18n
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: performance

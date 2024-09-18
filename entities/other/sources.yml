@@ -1,0 +1,84 @@
+# used to normalize the results of the freeform "how did you hear about this survey" field
+
+- id: vk
+  name: VK
+  homepageUrl: https://vk.com/
+  patterns:
+    - away.vk.com
+
+- id: svelte_community
+  name: Svelte Community
+  patterns:
+    - svelte
+
+- id: astro_community
+  name: Astro Community
+  patterns:
+    - astro
+
+- id: reactiflux
+  name: Reactiflux
+  homepageUrl: https://www.reactiflux.com/
+
+- id: ionic_community
+  name: Ionic Community
+  homepageUrl: https://ionicframework.com/subscribe
+  patterns:
+    - ionic
+
+- id: capacitor_community
+  name: Capacitor Community
+  homepageUrl: https://capacitorjs.com/
+  patterns:
+    - capacitor
+
+- id: elm_community
+  name: Elm Community
+  homepageUrl: https://discourse.elm-lang.org/
+  patterns:
+    - elm
+
+- id: meteor_community
+  name: Meteor Community
+  homepageUrl: https://forums.meteor.com/
+  patterns:
+    - meteor
+
+- id: angular_community
+  name: Angular Community
+  homepageUrl: angular.io
+  patterns:
+    - angular
+    - angular.io
+
+- id: vue_community
+  name: Vue Community
+  homepageUrl: https://vuejs.org/
+  patterns:
+    - vue
+
+- id: remix_community
+  name: Remix Community
+  homepageUrl: https://remix.run
+  patterns:
+    - remix
+
+- id: reddit_graphql
+  name: r/graphql
+  homepageUrl: https://www.reddit.com/r/graphql/
+  tags:
+    - graphql
+
+- id: graphile_discord
+  name: Graphile Discord
+  homepageUrl: https://www.graphile.org/
+  patterns:
+    - graphile
+  tags:
+    - graphql
+
+- id: prisma_slack
+  name: Prisma Slack
+  homepageUrl: https://www.prisma.io/
+  tags:
+    - graphql
