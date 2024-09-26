@@ -1,107 +1,136 @@
 - id: react_native_app_aspects_interactions
   name: Interactions
+
 - id: react_native_app_aspects_interactions_panresponder_api  
   name: PanResponder API
   homepage: https://reactnative.dev/docs/panresponder
+
 - id: react_native_app_aspects_interactions_touchables
   name: Touchables/Pressables
+
 - id: react_native_app_aspects_interactions_react_native_gesture_handler
   name: React Native Gesture Handler
   homepage: https://docs.swmansion.com/react-native-gesture-handler/
   description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
   github: https://github.com/software-mansion/react-native-gesture-handler/
+
 - id: react_native_app_aspects_interactions_other
   name: Other interactions solutions
 
 - id: react_native_app_aspects_internationalization
   name: Internationalization
+
 - id: react_native_app_aspects_internationalization_react_native_localize
   name: react-native-localize
   npm: react-native-localize
   github: https://github.com/zoontek/react-native-localize
   description: 🌍 A toolbox for your React Native app localization
+
 - id: react_native_app_aspects_internationalization_react_i18next
   name: react-i18next
   npm: react-i18next
   github: https://github.com/i18next/react-i18next
   homepage: https://react.i18next.com/
   description: Internationalization for react done right. Using the i18next i18n ecosystem.
+
 - id: react_native_app_aspects_internationalization_fbt
   name: FBT
   npm: fbt
   github: https://github.com/facebook/fbt
   description: A JavaScript Internationalization Framework
   homepage: https://facebook.github.io/fbt/
+
 - id: react_native_app_aspects_internationalization_other
   name: Other internationalization solutions
 
 - id: react_native_app_aspects_analytics
   name: Analytics
+
 - id: react_native_app_aspects_analytics_firebase_analytics
   name: Firebase Analytics
   homepage: https://firebase.google.com/docs/analytics
+
 - id: react_native_app_aspects_analytics_appcenter_analytics
   name: AppCenter Analytics
   homepage: https://docs.microsoft.com/en-us/appcenter/analytics/
+
 - id: react_native_app_aspects_analytics_amplitude
   name: Amplitude
   homepage: https://amplitude.com/
+
 - id: react_native_app_aspects_analytics_amplify_analytics
   name: Amplify Analytics
   homepage: https://docs.amplify.aws/lib/analytics/getting-started/q/platform/js
+
 - id: react_native_app_aspects_analytics_mixpanel
   name: Mixpanel
   homepage: https://mixpanel.com/
+
 - id: react_native_app_aspects_analytics_segment
   name: Segment
   homepage: https://segment.com/
+
 - id: react_native_app_aspects_analytics_appsflyer
   name: AppsFlyer
   homepage: https://www.appsflyer.com/
+
 - id: react_native_app_aspects_analytics_flurry
   name: Flurry
   homepage: https://developer.yahoo.com/flurry/docs/
+
 - id: react_native_app_aspects_analytics_other
   name: Other analytics solutions
 
 - id: react_native_app_aspects_crash_reporting
   name: Crash reporting
+
 - id: react_native_app_aspects_crash_reporting_sentry
   name: Sentry
   homepage: https://sentry.io/
+
 - id: react_native_app_aspects_crash_reporting_datadog
   name: Datadog
   homepage: https://www.datadoghq.com/
+
 - id: react_native_app_aspects_crash_reporting_instabug
   name: Instabug
   homepage: https://instabug.com/
+
 - id: react_native_app_aspects_crash_reporting_new_relic
   name: New Relic
   homepage: https://newrelic.com/
+
 - id: react_native_app_aspects_crash_reporting_appdynamics
   name: AppDynamics
   homepage: https://www.appdynamics.com/
+
 - id: react_native_app_aspects_crash_reporting_amazon_cloudwatch
   name: Amazon CloudWatch
   homepage: https://aws.amazon.com/cloudwatch/
+
 - id: react_native_app_aspects_crash_reporting_elastic_observability
   name: Elastic Observability
   homepage: https://www.elastic.co/observability
+
 - id: react_native_app_aspects_crash_reporting_bugsnag
   name: Bugsnag
   homepage: https://www.bugsnag.com/
+
 - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
   name: Firebase Crashlytics
   homepage: https://firebase.google.com/docs/crashlytics
+
 - id: react_native_app_aspects_crash_reporting_appcenter_crashes
   name: AppCenter Crashes
   homepage: https://docs.microsoft.com/en-us/appcenter/sdk/crashes/react-native
+
 - id: react_native_app_aspects_crash_reporting_other
   name: Other crash reporting solutions
 
 - id: react_native_app_aspects_testing
   name: Testing
+
 - id: react_native_app_aspects_testing_jest
   name: Jest
   github: https://github.com/facebook/jest
@@ -154,148 +183,166 @@
 
 - id: react_native_app_aspects_storage
   name: Storage
+
 - id: react_native_app_aspects_storage_react_native_async_storage
   name: React Native Async Storage
   homepage: https://react-native-async-storage.github.io/async-storage/
   npm: "@react-native-async-storage/async-storage"
   github: https://github.com/react-native-async-storage/async-storage
   description: An asynchronous, persistent, key-value storage system for React Native.
+
 - id: react_native_app_aspects_storage_realm
   name: Realm
   npm: realm
   homepage: https://realm.io/
   github: https://github.com/realm/realm-js
   description: "Realm is a mobile database: an alternative to SQLite & key-value stores"
+
 - id: react_native_app_aspects_storage_watermelondb
   name: WatermelonDB
   npm: "@nozbe/watermelondb"
   homepage: https://nozbe.github.io/WatermelonDB/
   github: https://github.com/Nozbe/WatermelonDB
   description: 🍉 Reactive & asynchronous database for powerful React and React Native apps ⚡️
+
 - id: react_native_app_aspects_storage_react_native_mmkv
   name: react-native-mmkv
   github: https://github.com/mrousavy/react-native-mmkv
   description: ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!
   npm: react-native-mmkv
+
 - id: react_native_app_aspects_storage_react_native_mmkv_storage
   name: react-native-mmkv-storage
   npm: react-native-mmkv-storage
   github: https://github.com/ammarahm-ed/react-native-mmkv-storage
   description: An ultra fast (0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI
   homepage: https://rnmmkv.vercel.app/
+
 - id: react_native_app_aspects_storage_react_native_sqlite_storage
   name: React Native SQLite Storage
   npm: react-native-sqlite-storage
   github: https://github.com/andpor/react-native-sqlite-storage
   description: Full featured SQLite3 Native Plugin for React Native (Android and iOS)
+
 - id: react_native_app_aspects_storage_expo_sqlite
   name: Expo SQLite
   npm: expo-sqlite
   homepage: https://docs.expo.io/versions/latest/sdk/sqlite/
+
 - id: react_native_app_aspects_storage_rxdb
   name: RxDB
   npm: rxdb
   homepage: https://rxdb.info/
   github: https://github.com/pubkey/rxdb
   description: A fast, offline-first, reactive database for JavaScript Applications
+
 - id: react_native_app_aspects_storage_other
   name: Other storage solutions
 
-
 - id: react_native_app_aspects_data_visualisation
   name: Data visualisation
+
 - id: react_native_app_aspects_data_visualisation_victory_native
   name: Victory Native
   homepage: https://formidable.com/open-source/victory/docs/native
   npm: victory-native
   github: https://github.com/FormidableLabs/victory
   description: A collection of composable React components for building interactive data visualizations
+
 - id: react_native_app_aspects_data_visualisation_react_native_svg
   name: react-native-svg
   npm: react-native-svg
   github: https://github.com/software-mansion/react-native-svg
   description: SVG library for React Native, React Native Web, and plain React web projects.
+
 - id: react_native_app_aspects_data_visualisation_recharts
   name: Recharts
   npm: recharts
   github: https://github.com/recharts/recharts
   description: Redefined chart library built with React and D3
   homepage: https://recharts.org/
+
 - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
   name: React Native Charts Kit
   npm: react-native-charts-kit
+
 - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
   npm: react-native-charts-wrapper
   github: https://github.com/wuxudong/react-native-charts-wrapper
   description: a react native charts wrapper (support android & iOS)
+
 - id: react_native_app_aspects_data_visualisation_other
   name: Other data visualisation solutions
 
-# react native other libraries
 - id: react_native_app_aspects_other_libraries
   name: Other popular libraries
+
 - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
   name: react-native-gesture-handler
   homepage: https://docs.swmansion.com/react-native-gesture-handler/
   description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
-  github: 
+
 - id: react_native_app_aspects_other_libraries_react_native_localize
   name: react-native-localize
   npm: react-native-localize
   github: https://github.com/zoontek/react-native-localize
   description: 🌍 A toolbox for your React Native app localization
+
 - id: react_native_app_aspects_other_libraries_react_native_i18next
   name: i18next
   npm: i18next
   github: i18next/i18next
   description: "i18next: learn once - translate everywhere"
   homepage: "https://www.i18next.com"
+
 - id: react_native_app_aspects_other_libraries_react_native_camera
   name: react-native-camera
   npm: react-native-camera
-  github:
+
 - id: react_native_app_aspects_other_libraries_react_native_vision_camera
   name: react-native-vision-camera
   npm: react-native-vision-camera
-  github:
+
 - id: react_native_app_aspects_other_libraries_shopify_flash_list
   name: "@shopify/flash-list"
   npm: "@shopify/flash-list"
-  github:
+
 - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
   name: "@gorhom/bottom-sheet"
   npm: "@gorhom/bottom-sheet"
-  github:
+
 - id: react_native_app_aspects_other_libraries_expo_image
   name: expo-image
   npm: expo-image
-  github:
+
 - id: react_native_app_aspects_other_libraries_react_native_fast_image
   name: react-native-fast-image
   npm: react-native-fast-image
-  github:
+
 - id: react_native_app_aspects_other_libraries_expo_vector_icons
   name: "@expo/vector-icons"
   npm: "@expo/vector-icons"
-  github:
+
 - id: react_native_app_aspects_other_libraries_react_native_webview
   name: react-native-webview
   npm: react-native-webview
-  github:
+
 - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
   name: react-native-safe-area-context
   npm: react-native-safe-area-context
   github: https://github.com/th3rdwave/react-native-safe-area-context
   homepage: https://github.com/th3rdwave/react-native-safe-area-context#readme
+
 - id: react_native_app_aspects_other_libraries_react_native_maps
   name: react-native-maps
   npm: react-native-maps
-  github:
-- id: react_native_app_aspects_other_libraries_react-native-vector-icons
+  
+- id: react_native_app_aspects_other_libraries_react_native_vector_icons
   name: react-native-vector-icons
   npm: react-native-vector-icons
+
 - id: react_native_app_aspects_other_libraries_react_native_video
   name: react-native-video
 
@@ -305,41 +352,48 @@
 - id: react_native_app_aspects_architecture_local_first
   name: Local-first app architecture
 
-# freeform
 - id: posthog
   name: PostHog
   homepage: https://posthog.com/
+
 - id: adobe
   name: Adobe Analytics
   homepage: https://business.adobe.com/products/analytics/adobe-analytics.html
+
 - id: new_relic
   name: New Relic
   homepage: https://newrelic.com/
+
 - id: countly
   name: Countly
   homepage: https://countly.com/
+
 - id: adjust
   name: Adjust
   homepage: https://www.adjust.com
+
 - id: datadog
   name: DataDog
   homepage: https://www.datadoghq.com/product/log-management/
+
 - id: rudderstack
   name: RudderStack
   homepage: https://rudderstack.com/
+
 - id: heap
   name: Heap
   homepage: https://www.heap.io/
+
 - id: matomo
   name: Matomo
   homepage: https://matomo.org/
-
 
 - id: react_native_skia
   name: React Native Skia
   github: https://github.com/Shopify/react-native-skia
   description: High-performance React Native Graphics using Skia
   npm: "@shopify/react-native-skia"
+
 - id: react_native_graph
   description: "📈 Beautiful, high-performance Graphs and Charts for React Native"
   github: https://github.com/margelo/react-native-graph
@@ -358,25 +412,30 @@
   npm: react-intl
   homepage: https://formatjs.io/docs/react-intl/
   github: https://github.com/formatjs/formatjs
+
 - id: expo_localization
   name: Expo Localization
   npm: expo-localization
   homepage: https://docs.expo.dev/versions/latest/sdk/localization/
+
 - id: i18n_js
   name: i18n-js
   npm: i18n-js
   github: https://github.com/fnando/i18n
   description: A small library to provide the I18n translations on the JavaScript.
   homepage: https://fnando.github.io/i18n/
+
 - id: "@shopify/react-i18n"
   name: "@shopify/react-i18n"
   npm: "@shopify/react-i18n"
+
 - id: polyglot
   name: Polyglot.js
   npm: node-polyglot
   description: Give your JavaScript the ability to speak many languages.
   github: https://github.com/airbnb/polyglot.js
   homepage: https://airbnb.io/polyglot.js/
+
 - id: typesafe_i18n
   npm: typesafe-i18n
   name: typesafe-i18n
@@ -388,29 +447,32 @@
   npm: react-native-keychain
   github: https://github.com/oblador/react-native-keychain
   description: 🔑 Keychain Access for React Native
+
 - id: react_native_encrypted_storage
   name: React Native Encrypted Storage
   npm: react-native-encrypted-storage
   description: React Native wrapper around EncryptedSharedPreferences and Keychain to provide a secure alternative to Async Storage.
   github: https://github.com/emeraldsanto/react-native-encrypted-storage
+
 - id: react_native_quick_sqlite
   name: React Native Quick SQLite
   npm: react-native-quick-sqlite
   description: Fast SQLite for react-native.
   github: https://github.com/ospfranco/react-native-quick-sqlite
+
 - id: file_system
   name: react-native-fs
   npm: react-native-fs
   description: Native filesystem access for react-native
   github: https://github.com/itinance/react-native-fs
+
 - id: expo_secure_store
   name: expo-secure-store
   npm: expo-secure-store
   homepage: https://docs.expo.dev/versions/latest/sdk/securestore/
+
 - id: redux_persist
   name: Redux Persist
   github: https://github.com/rt2zz/redux-persist
   description: persist and rehydrate a redux store
   npm: redux-persist
-
-
