@@ -66,7 +66,7 @@
   npm: create-react-native-app
   github: https://github.com/expo/create-react-native-app
 
-- id: tools_starter_templates_react-native-template-obytes
+- id: tools_starter_templates_react_native_template_obytes
   name: react-native-template-obytes
 
 - id: tools_starter_tamagui
