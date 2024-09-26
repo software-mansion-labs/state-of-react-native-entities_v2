@@ -1,0 +1,223 @@
+- id: developer_background_before
+  name: Before React Native
+- id: developer_background_before_react
+  name: React developer
+- id: developer_background_before_ios
+  name: iOS developer
+- id: developer_background_before_android
+  name: Android developer
+- id: developer_background_before_frontend
+  name: Frontend developer (other than React e.g. Vue, Angular, SolidJS, Svelte, etc.)
+- id: developer_background_before_backend
+  name: Backend developer (PHP, Node.js, JVM, Python, etc.)
+- id: developer_background_before_desktop
+  name: Desktop developer (e.g. macOS, Windows, Linux)
+- id: developer_background_before_qa
+  name: QA engineer
+- id: developer_background_before_devops
+  name: DevOps
+- id: developer_background_before_embedded
+  name: Embedded developer
+- id: developer_background_before_non_technical
+  name: Non-technical role
+- id: developer_background_before_started_with_rn
+  name: Started with React Native
+- id: developer_background_before_other
+  name: Other background
+
+- id: developer_background_usage_type
+  name: How do you use React Native?
+- id: developer_background_usage_type_professional
+  name: Professionally
+- id: developer_background_usage_type_student
+  name: As a student
+- id: developer_background_usage_type_hobby
+  name: As a hobby
+
+- id: developer_background_primarily_system
+  name: Desktop OS
+- id: developer_background_primarily_system_macos
+  name: macOS
+- id: developer_background_primarily_system_linux
+  name: Linux
+- id: developer_background_primarily_system_windows
+  name: Windows
+
+- id: developer_background_users_count
+  name: Top React Native app user count
+- id: developer_background_users_count_only_me
+  name: Only me
+- id: developer_background_users_count_2_100
+  name: 2-100
+- id: developer_background_users_count_101_1k
+  name: 101-1k
+- id: developer_background_users_count_1k_10k
+  name: 1k-10k
+- id: developer_background_users_count_10k_100k
+  name: 10k-100k
+- id: developer_background_users_count_100k_1m
+  name: 100k-1M
+- id: developer_background_users_count_1m_plus
+  name: 1M and more
+
+- id: developer_background_team_size
+  name: Team size
+- id: developer_background_team_size_solo
+  name: Solo developer
+- id: developer_background_team_size_two
+  name: "2"
+- id: developer_background_team_size_3_5
+  name: 3-5
+- id: developer_background_team_size_6_10
+  name: 6-10
+- id: developer_background_team_size_more_than_10
+  name: more than 10
+
+- id: developer_background_platforms
+  name: Target platforms
+- id: developer_background_platforms_ios
+  name: iOS
+- id: developer_background_platforms_android
+  name: Android
+- id: developer_background_platforms_web
+  name: Web
+- id: developer_background_platforms_macos
+  name: macOS
+- id: developer_background_platforms_windows
+  name: Windows
+- id: developer_background_platforms_android_tv
+  name: Android TV
+- id: developer_background_platforms_tvos
+  name: tvOS
+- id: developer_background_platforms_skia
+  name: React Native Skia (Linux & macOS)
+- id: developer_background_platforms_other
+  name: Other target platforms
+
+- id: developer_background_contribution_to_rn
+  name: Contribution to React Native
+
+- id: developer_background_contribution_to_lib
+  name: Open Source Contribution to React Native libraries
+
+- id: developer_background_releases_count
+  name: Number of released apps
+- id: developer_background_releases_count_none
+  name: None
+- id: developer_background_releases_count_one
+  name: "1"
+- id: developer_background_releases_count_2_5
+  name: 2-5
+- id: developer_background_releases_count_5_10
+  name: 5-10
+- id: developer_background_releases_count_more_than_10
+  name: More than 10
+
+- id: developer_background_os_target
+  name: What mobile OS versions do you target?
+- id: developer_background_os_target_most_recent
+  name: Most recent ones (iOS 17+, Android 14+)
+- id: developer_background_os_target_reasonably_current
+  name: Reasonably current (iOS 15+, Android 12+)
+- id: developer_background_os_target_old
+  name: Old (iOS 12+, Android 9+)
+- id: developer_background_os_target_as_old_as_possible
+  name: As old as possible (iOS 8+, Android 5+)
+
+- id: developer_background_industry_sector
+  name: Industry sector
+- id: developer_background_industry_sector_ecommerce
+  name: Ecommerce & Retail
+- id: developer_background_industry_sector_news_media
+  name: News, Media, & Blogging
+- id: developer_background_industry_sector_healthcare
+  name: Healthcare
+- id: developer_background_industry_sector_finance
+  name: Finance
+- id: developer_background_industry_sector_crypto
+  name: Crypto & Web3
+- id: developer_background_industry_sector_programming_tools
+  name: Programming & Technical Tools
+- id: developer_background_industry_sector_social_media
+  name: Social Media
+- id: developer_background_industry_sector_marketing_tools
+  name: Marketing/Sales/Analytics Tools
+- id: developer_background_industry_sector_education
+  name: Education
+- id: developer_background_industry_sector_real_estate
+  name: Real Estate
+- id: developer_background_industry_sector_government
+  name: Government
+- id: developer_background_industry_sector_entertainment
+  name: Entertainment
+- id: developer_background_industry_sector_consulting
+  name: Consulting & Services
+- id: developer_background_industry_sector_travel
+  name: Travel
+- id: developer_background_industry_sector_insurance
+  name: Insurance
+- id: developer_background_industry_sector_logistics
+  name: Logistics
+- id: developer_background_industry_sector_energy
+  name: Energy
+- id: developer_background_industry_sector_telecommunications
+  name: Telecommunications
+- id: developer_background_industry_sector_student
+  name: Student
+- id: developer_background_industry_sector_hospitality
+  name: Hospitality
+- id: developer_background_industry_sector_cyber_security
+  name: Cyber Security
+- id: developer_background_industry_sector_construction
+  name: Construction
+- id: developer_background_industry_sector_automotive
+  name: Automotive
+- id: developer_background_industry_sector_agriculture
+  name: Agriculture
+- id: developer_background_industry_sector_transport
+  name: Transport
+- id: developer_background_industry_sector_manufacturing
+  name: Manufacturing
+- id: developer_background_industry_sector_art_design
+  name: Art & Design
+- id: developer_background_industry_sector_beauty
+  name: Beauty
+- id: developer_background_industry_sector_books_reference
+  name: Books & Reference
+- id: developer_background_industry_sector_communication
+  name: Communication
+- id: developer_background_industry_sector_dating
+  name: Dating
+- id: developer_background_industry_sector_events
+  name: Events
+- id: developer_background_industry_sector_food_drink
+  name: Food & Drink
+- id: developer_background_industry_sector_games
+  name: Games
+- id: developer_background_industry_sector_health_fitness
+  name: Health & Fitness
+- id: developer_background_industry_sector_house_home
+  name: House & Home
+- id: developer_background_industry_sector_lifestyle
+  name: Lifestyle
+- id: developer_background_industry_sector_medical
+  name: Medical
+- id: developer_background_industry_sector_music_audio
+  name: Music & Audio
+- id: developer_background_industry_sector_navigation
+  name: Navigation
+- id: developer_background_industry_sector_photo
+  name: Photo
+- id: developer_background_industry_sector_productivity
+  name: Productivity
+- id: developer_background_industry_sector_shopping
+  name: Shopping
+- id: developer_background_industry_sector_sports
+  name: Sports
+- id: developer_background_industry_sector_weather
+  name: Weather
+- id: developer_background_industry_sector_video
+  name: Video
+- id: developer_background_industry_sector_other
+  name: Other industry sectors
+
