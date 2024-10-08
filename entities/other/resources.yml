@@ -79,55 +79,77 @@
   name: Sites, courses & books
 - id: resources_course_multiple_stack_overflow
   name: Stack Overflow
+  homepage: https://stackoverflow.com/questions/tagged/react-native
 - id: resources_course_multiple_udemy
   name: Udemy
+  homepage: https://www.udemy.com/topic/react-native/
 - id: resources_course_multiple_medium
   name: Medium
+  homepage: https://medium.com/tag/react-native
 - id: resources_course_twitter
   name: X (Twitter)
+  homepage: https://twitter.com/hashtag/reactnative
 - id: resources_course_multiple_reddit
   name: Reddit
+  homepage: https://www.reddit.com/r/reactnative/
 - id: resources_course_multiple_youtube
   name: YouTube
+  homepage: https://www.youtube.com/results?search_query=react+native
 - id: resources_course_react_native_docs
   name: React Native docs
+  homepage: https://reactnative.dev/docs/getting-started
 - id: resources_course_expo_docs
   name: Expo docs
+  homepage: https://docs.expo.dev/
 - id: resources_course_multiple_codecademy
   name: Codecademy
+  homepage: https://www.codecademy.com/learn/learn-react-native
 - id: resources_course_multiple_egghead
   name: Egghead.io
+  homepage: https://egghead.io/q/react-native
 - id: resources_course_multiple_frontend_masters
   name: Frontend Masters
+  homepage: https://frontendmasters.com/learn/react-native/
 - id: resources_course_multiple_start_react_native
   name: Start React Native (by William Candillon)
+  homepage: https://start-react-native.dev/
 - id: resources_course_multiple_developer_training
   name: Developer training (by Callstack)
+  homepage: https://callstack.com/services/react-native-developer-training/
 - id: resources_course_multiple_epic_react
   name: Epic React (by Kent C. Dodds)
+  homepage: https://epicreact.dev/
 - id: resources_course_multiple_animate_react_native
   name: Animate React Native (by Catalin Miron)
+  homepage: https://www.animatereactnative.com/
 - id: resources_course_multiple_book_react_native_optimization
   name: The Ultimate Guide to React Native Optimization (by Callstack)
+  homepage: https://callstack.com/blog/the-ultimate-guide-to-react-native-optimization-ebook/
 - id: resources_course_multiple_solito_docs
   name: Solito docs
+  homepage: https://solito.dev/
 - id: resources_course_multiple_other_courses_sites
   name: Other courses or sites
 
 - id: resources_podcast_multiple
   name: Podcasts
-- id: resources_podcast_multiple_react_native_show_callstack
-  name: The React Native Show Podcast (by Callstack)
+- id: resources_podcast_multiple_react_universe_on_air
+  name: React Universe On Air (former The React Native Show Podcast)
+  homepage: https://www.callstack.com/podcast
 - id: resources_podcast_multiple_react_native_radio
   name: React Native Radio (by Infinite Red)
+  homepage: https://reactnativeradio.com/
 - id: resources_podcast_multiple_syntax_fm
   name: Syntax.fm
 - id: resources_podcast_multiple_the_changelog
   name: The Changelog
+  homepage: https://changelog.com/
 - id: resources_podcast_multiple_podrocker
   name: PodRocker (by LogRocket)
+  homepage: https://podrocket.logrocket.com/
 - id: resources_podcast_multiple_rocket_ship
   name: Rocket Ship (by Simon Grimm)
+  homepage: https://syntax.fm/
 - id: resources_podcast_multiple_other_podcasts
   name: Other podcasts
 
@@ -149,24 +171,36 @@
   description: Which other developer surveys do you participate in?
 - id: resources_surveys_state_of_js
   name: State of JS
+  homepage: https://stateofjs.com/
 - id: resources_surveys_state_of_css
   name: State of CSS
+  homepage: https://stateofcss.com/
 - id: resources_surveys_state_of_react
   name: State of React
+  homepage: https://stateofreact.com/
 - id: resources_surveys_state_of_graphql
   name: State of GraphQL
+  homepage: https://stateofgraphql.com/
+- id: resources_surveys_state_of_html
+  name: State of HTML
+  homepage: https://stateofhtml.com/
 - id: resources_surveys_jetbrains
   name: JetBrains State of Developer Ecosystem
+  homepage: https://www.jetbrains.com/lp/devecosystem-2023/
 - id: resources_surveys_stack_overflow
   name: Stack Overflow Annual Developer Survey
+  homepage: https://survey.stackoverflow.co/
 - id: resources_surveys_codingame
   name: CodinGame Developer Survey
 - id: resources_surveys_design_tools
   name: Design Tools Survey
+  homepage: https://uxtools.co/survey/2023/
 - id: resources_surveys_postman
   name: Postman State of the API Report
+  homepage: https://www.postman.com/state-of-api/
 - id: resources_surveys_jamstack
   name: Jamstack Community Survey
+  homepage: https://jamstack.org/survey/
 - id: resources_communities
   name: Communities (e.g. Slack, Discord, etc.)
 
