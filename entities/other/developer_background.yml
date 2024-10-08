@@ -116,11 +116,11 @@
 - id: developer_background_os_target
   name: What mobile OS versions do you target?
 - id: developer_background_os_target_most_recent
-  name: Most recent ones (iOS 17+, Android 14+)
+  name: The most recent versions (iOS 18+, Android 15+)
 - id: developer_background_os_target_reasonably_current
-  name: Reasonably current (iOS 15+, Android 12+)
+  name: Reasonably current (iOS 17+, Android 13+)
 - id: developer_background_os_target_old
-  name: Old (iOS 12+, Android 9+)
+  name: Old (iOS 14+, Android 9+) <!-- https://github.com/react-native-community/discussions-and-proposals/discussions/812 -->
 - id: developer_background_os_target_as_old_as_possible
   name: As old as possible (iOS 8+, Android 5+)
 
