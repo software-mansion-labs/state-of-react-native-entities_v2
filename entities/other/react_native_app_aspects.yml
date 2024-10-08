@@ -49,11 +49,11 @@
 
 - id: react_native_app_aspects_analytics_firebase_analytics
   name: Firebase Analytics
-  homepage: https://firebase.google.com/docs/analytics
+  homepage: https://firebase.google.com/products/analytics
 
 - id: react_native_app_aspects_analytics_appcenter_analytics
   name: AppCenter Analytics
-  homepage: https://docs.microsoft.com/en-us/appcenter/analytics/
+  homepage: https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native
 
 - id: react_native_app_aspects_analytics_amplitude
   name: Amplitude
@@ -61,7 +61,7 @@
 
 - id: react_native_app_aspects_analytics_amplify_analytics
   name: Amplify Analytics
-  homepage: https://docs.amplify.aws/lib/analytics/getting-started/q/platform/js
+  homepage: https://docs.amplify.aws/react-native/
 
 - id: react_native_app_aspects_analytics_mixpanel
   name: Mixpanel
@@ -119,11 +119,11 @@
 
 - id: react_native_app_aspects_crash_reporting_firebase_crashlytics
   name: Firebase Crashlytics
-  homepage: https://firebase.google.com/docs/crashlytics
+  homepage: https://firebase.google.com/products/crashlytics
 
 - id: react_native_app_aspects_crash_reporting_appcenter_crashes
   name: AppCenter Crashes
-  homepage: https://docs.microsoft.com/en-us/appcenter/sdk/crashes/react-native
+  homepage: https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native
 
 - id: react_native_app_aspects_crash_reporting_other
   name: Other crash reporting solutions
@@ -176,7 +176,7 @@
 - id: react_native_app_aspects_testing_storybook
   name: Storybook
   homepage: https://storybook.js.org/
-  github: https://github.com/storybookjs/storybook
+  github: https://github.com/storybookjs/react-native
 
 - id: react_native_app_aspects_testing_other
   name: Other testing solutions
@@ -201,7 +201,7 @@
 - id: react_native_app_aspects_storage_watermelondb
   name: WatermelonDB
   npm: "@nozbe/watermelondb"
-  homepage: https://nozbe.github.io/WatermelonDB/
+  homepage: https://watermelondb.dev
   github: https://github.com/Nozbe/WatermelonDB
   description: 🍉 Reactive & asynchronous database for powerful React and React Native apps ⚡️
 
@@ -227,7 +227,7 @@
 - id: react_native_app_aspects_storage_expo_sqlite
   name: Expo SQLite
   npm: expo-sqlite
-  homepage: https://docs.expo.io/versions/latest/sdk/sqlite/
+  homepage: https://docs.expo.dev/versions/latest/sdk/sqlite/
 
 - id: react_native_app_aspects_storage_rxdb
   name: RxDB
@@ -244,9 +244,9 @@
 
 - id: react_native_app_aspects_data_visualisation_victory_native
   name: Victory Native
-  homepage: https://formidable.com/open-source/victory/docs/native
+  homepage: https://formidable.com/open-source/victory-native/
   npm: victory-native
-  github: https://github.com/FormidableLabs/victory
+  github: https://github.com/FormidableLabs/victory-native
   description: A collection of composable React components for building interactive data visualizations
 
 - id: react_native_app_aspects_data_visualisation_react_native_svg
@@ -260,11 +260,12 @@
   npm: recharts
   github: https://github.com/recharts/recharts
   description: Redefined chart library built with React and D3
-  homepage: https://recharts.org/
+  homepage: https://recharts.org/en-US/
 
 - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
   name: React Native Charts Kit
-  npm: react-native-charts-kit
+  npm: react-native-chart-kit
+  github: https://github.com/indiespirit/react-native-chart-kit
 
 - id: react_native_app_aspects_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
@@ -283,6 +284,7 @@
   homepage: https://docs.swmansion.com/react-native-gesture-handler/
   description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
+  github: https://github.com/software-mansion/react-native-gesture-handler
 
 - id: react_native_app_aspects_other_libraries_react_native_localize
   name: react-native-localize
@@ -293,41 +295,55 @@
 - id: react_native_app_aspects_other_libraries_react_native_i18next
   name: i18next
   npm: i18next
-  github: i18next/i18next
+  github: https://github.com/i18next/i18next
   description: "i18next: learn once - translate everywhere"
   homepage: "https://www.i18next.com"
 
 - id: react_native_app_aspects_other_libraries_react_native_camera
   name: react-native-camera
   npm: react-native-camera
+  github: https://github.com/react-native-camera/react-native-camera
+  homepage: https://react-native-camera.github.io/react-native-camera/
 
 - id: react_native_app_aspects_other_libraries_react_native_vision_camera
   name: react-native-vision-camera
   npm: react-native-vision-camera
+  github: https://github.com/mrousavy/react-native-vision-camera
+  homepage: https://react-native-vision-camera.com/
 
 - id: react_native_app_aspects_other_libraries_shopify_flash_list
   name: "@shopify/flash-list"
   npm: "@shopify/flash-list"
+  github: https://github.com/shopify/flash-list
+  homepage: https://shopify.github.io/flash-list/
 
 - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
   name: "@gorhom/bottom-sheet"
   npm: "@gorhom/bottom-sheet"
+  github: https://github.com/gorhom/react-native-bottom-sheet
+  homepage: https://gorhom.github.io/react-native-bottom-sheet/
 
 - id: react_native_app_aspects_other_libraries_expo_image
   name: expo-image
   npm: expo-image
+  github: https://github.com/expo/expo/tree/master/packages/expo-image
+  homepage: https://docs.expo.dev/versions/latest/sdk/image/
 
 - id: react_native_app_aspects_other_libraries_react_native_fast_image
   name: react-native-fast-image
   npm: react-native-fast-image
+  github: https://github.com/DylanVann/react-native-fast-image
 
 - id: react_native_app_aspects_other_libraries_expo_vector_icons
   name: "@expo/vector-icons"
   npm: "@expo/vector-icons"
+  github: https://github.com/expo/vector-icons
+  homepage: https://docs.expo.dev/guides/icons/
 
 - id: react_native_app_aspects_other_libraries_react_native_webview
   name: react-native-webview
   npm: react-native-webview
+  github: https://github.com/react-native-webview/react-native-webview
 
 - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
   name: react-native-safe-area-context
@@ -338,13 +354,31 @@
 - id: react_native_app_aspects_other_libraries_react_native_maps
   name: react-native-maps
   npm: react-native-maps
+  github: https://github.com/react-native-maps/react-native-maps
   
 - id: react_native_app_aspects_other_libraries_react_native_vector_icons
   name: react-native-vector-icons
   npm: react-native-vector-icons
+  github: https://github.com/oblador/react-native-vector-icons
+  homepage: https://oblador.github.io/react-native-vector-icons/
 
 - id: react_native_app_aspects_other_libraries_react_native_video
   name: react-native-video
+  npm: react-native-video
+  github: https://github.com/react-native-video/react-native-video
+  homepage: https://thewidlarzgroup.github.io/react-native-video/
+
+- id: react_native_app_aspects_other_libraries_formik
+  name: formik
+  npm: formik
+  github: https://github.com/jaredpalmer/formik
+  homepage: https://formik.org/
+
+- id: react_native_app_aspects_other_libraries_react_hook_form
+  name: react-hook-form
+  npm: react-hook-form
+  github: https://github.com/react-hook-form/react-hook-form
+  homepage: https://react-hook-form.com/
 
 - id: react_native_app_aspects_other_libraries_other
   name: Other popular libraries not listed above
