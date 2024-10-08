@@ -176,7 +176,7 @@
   github: https://github.com/mobxjs/mobx-state-tree
 
 - id: state_management_rn_built_in
-  name: React (hooks, this.state)
+  name: React built-ins (useState, useContext, etc.)
   homepage: https://beta.reactjs.org/reference/react
   github: https://github.com/facebook/react
 
