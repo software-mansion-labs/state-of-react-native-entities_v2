@@ -1,11 +1,7 @@
-- id: tools_js_ts
-  name: JavaScript/TypeScript Balance
-
 - id: tools_libraries
   name: Libraries. Which other libraries (not covered previously) do you regularly use?
 
-- id: tools_package_managers
-  name: Package managers
+
 - id: tools_package_managers_npm
   name: npm
   npm: npm
@@ -32,8 +28,7 @@
   name: bun
   npm: bun
 
-- id: tools_starter_templates
-  name: Starter templates
+
 - id: tools_starter_templates_expo
   name: create-expo-app
   homepage: https://docs.expo.dev/get-started/create-a-new-app/
@@ -113,24 +108,12 @@
   description: Modern, scalable tools. Exceptional developer experience.
   createdBy: Microsoft
 
-- id: tools_upgrade_helper
-  name: Upgrade Helper
-
-- id: tools_config_plugins
-  name: Config plugins
-
 - id: tools_react_native_test_app
   name: React Native Test App
   createdBy: Microsoft
 
-- id: tools_custom_development_client
-  name: Custom Development Client
-
 - id: tools_expo_go
   name: Expo Go
-
-- id: tools_other_tools
-  name: Other development tools
 
 #  freeform
 - id: tamagui_starter

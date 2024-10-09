@@ -1,6 +1,3 @@
-- id: platform_apis_questions
-  name: Platform APIs usage
-
 - id: platform_apis_offline_mode
   name: Offline mode
 
@@ -41,6 +38,11 @@
 
 - id: platform_apis_appearance
   name: Appearance
+  resources:
+    - url: https://developer.apple.com/documentation/uikit/appearance_customization
+      title: Apple
+    - url: https://developer.android.com/develop/ui/views/theming/themes
+      title: Android
 
 - id: platform_apis_accessibility
   name: Accessibility

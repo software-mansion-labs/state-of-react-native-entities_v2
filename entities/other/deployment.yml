@@ -18,8 +18,6 @@
   homepage: https://appcenter.ms/
 - id: deployment_bitrise
   name: Bitrise
-- id: deployment_other
-  name: Other ways to build app and submit for the App Store or Google Play
 
 # freeform
 - id: bitrise

@@ -44,9 +44,6 @@
 - id: react_native_app_aspects_internationalization_other
   name: Other internationalization solutions
 
-- id: react_native_app_aspects_analytics
-  name: Analytics
-
 - id: react_native_app_aspects_analytics_firebase_analytics
   name: Firebase Analytics
   homepage: https://firebase.google.com/products/analytics
@@ -81,9 +78,6 @@
 
 - id: react_native_app_aspects_analytics_other
   name: Other analytics solutions
-
-- id: react_native_app_aspects_crash_reporting
-  name: Crash reporting
 
 - id: react_native_app_aspects_crash_reporting_sentry
   name: Sentry
@@ -127,9 +121,6 @@
 
 - id: react_native_app_aspects_crash_reporting_other
   name: Other crash reporting solutions
-
-- id: react_native_app_aspects_testing
-  name: Testing
 
 - id: react_native_app_aspects_testing_jest
   name: Jest
@@ -180,9 +171,6 @@
 
 - id: react_native_app_aspects_testing_other
   name: Other testing solutions
-
-- id: react_native_app_aspects_storage
-  name: Storage
 
 - id: react_native_app_aspects_storage_react_native_async_storage
   name: React Native Async Storage
@@ -239,9 +227,6 @@
 - id: react_native_app_aspects_storage_other
   name: Other storage solutions
 
-- id: react_native_app_aspects_data_visualisation
-  name: Data visualisation
-
 - id: react_native_app_aspects_data_visualisation_victory_native
   name: Victory Native
   homepage: https://formidable.com/open-source/victory-native/
@@ -275,9 +260,6 @@
 
 - id: react_native_app_aspects_data_visualisation_other
   name: Other data visualisation solutions
-
-- id: react_native_app_aspects_other_libraries
-  name: Other popular libraries
 
 - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
   name: react-native-gesture-handler
@@ -382,9 +364,6 @@
 
 - id: react_native_app_aspects_other_libraries_other
   name: Other popular libraries not listed above
-
-- id: react_native_app_aspects_architecture_local_first
-  name: Local-first app architecture
 
 - id: posthog
   name: PostHog

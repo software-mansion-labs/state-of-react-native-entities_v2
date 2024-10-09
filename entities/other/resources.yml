@@ -1,38 +1,4 @@
-- id: resources_initially_learn_react_native
-  name: Learning methods
-- id: resources_initially_learn_react_native_official_docs
-  name: Official React Native docs
-- id: resources_initially_learn_react_native_expo_docs
-  name: Expo docs
-- id: resources_initially_learn_react_native_react_native_directory
-  name: React Native Directory
-- id: resources_initially_learn_react_native_books
-  name: Books
-- id: resources_initially_learn_react_native_videos
-  name: Videos
-- id: resources_initially_learn_react_native_x
-  name: X platform
-- id: resources_initially_learn_react_native_online_courses_free
-  name: Online courses (free)
-- id: resources_initially_learn_react_native_online_courses_paid
-  name: Online courses (paid)
-- id: resources_initially_learn_react_native_school_higher_education
-  name: School / higher education
-- id: resources_initially_learn_react_native_podcasts
-  name: Podcasts
-- id: resources_initially_learn_react_native_coding_bootcamp
-  name: Coding bootcamp
-- id: resources_initially_learn_react_native_on_the_job_training
-  name: On-the-job training
-- id: resources_initially_learn_react_native_mentoring
-  name: Mentoring
-- id: resources_initially_learn_react_native_self_directed_learning
-  name: Self-directed learning
-- id: resources_initially_learn_react_native_other
-  name: Other learning methods
 
-- id: resources_read_multiple
-  name: "Blogs, magazines & newsletters"
 - id: resources_read_multiple_react_native_blog
   name: React Native blog
   homepage: https://reactnative.dev/blog
@@ -75,8 +41,6 @@
 # - id: resources_read_multiple_other_blog_magazines_newsletters
 #   name: Other Blogs, Magazines or Newsletters
 
-- id: resources_course_multiple
-  name: Sites, courses & books
 - id: resources_course_multiple_stack_overflow
   name: Stack Overflow
   homepage: https://stackoverflow.com/questions/tagged/react-native
@@ -128,11 +92,7 @@
 - id: resources_course_multiple_solito_docs
   name: Solito docs
   homepage: https://solito.dev/
-- id: resources_course_multiple_other_courses_sites
-  name: Other courses or sites
 
-- id: resources_podcast_multiple
-  name: Podcasts
 - id: resources_podcast_multiple_react_universe_on_air
   name: React Universe On Air (former The React Native Show Podcast)
   homepage: https://www.callstack.com/podcast
@@ -150,25 +110,8 @@
 - id: resources_podcast_multiple_rocket_ship
   name: Rocket Ship (by Simon Grimm)
   homepage: https://syntax.fm/
-- id: resources_podcast_multiple_other_podcasts
-  name: Other podcasts
 
-- id: resources_read
-  name: Other blogs, magazines or newsletters
-- id: resources_course
-  name: Other sites, courses & books
-- id: resources_podcast
-  name: Other podcasts
-- id: resources_video
-  name: Video creators
-- id: resources_people
-  name: People
-- id: resources_communities
-  name: Online communities
 
-- id: resources_surveys
-  name: Other surveys
-  description: Which other developer surveys do you participate in?
 - id: resources_surveys_state_of_js
   name: State of JS
   homepage: https://stateofjs.com/
@@ -201,11 +144,6 @@
 - id: resources_surveys_jamstack
   name: Jamstack Community Survey
   homepage: https://jamstack.org/survey/
-- id: resources_communities
-  name: Communities (e.g. Slack, Discord, etc.)
-
-- id: resources_surveys_other
-  name: Other surveys not mentioned above
 
 # freeform
 - id: stackoverflow

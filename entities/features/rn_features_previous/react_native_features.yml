@@ -1,47 +1,3 @@
-- id: react_native_features_version
-  name: React Native version
-- id: react_native_features_version_0_63_or_lower
-  name: 0.63 or lower
-- id: react_native_features_version_0_64
-  name: "0.64"
-- id: react_native_features_version_0_65
-  name: "0.65"
-- id: react_native_features_version_0_66
-  name: "0.66"
-- id: react_native_features_version_0_67
-  name: "0.67"
-- id: react_native_features_version_0_68
-  name: "0.68"
-- id: react_native_features_version_0_69
-  name: "0.69"
-- id: react_native_features_version_0_70
-  name: "0.70"
-- id: react_native_features_version_0_71
-  name: "0.71"
-- id: react_native_features_version_0_72
-  name: "0.72"
-- id: react_native_features_version_0_73
-  name: "0.73"
-- id: react_native_features_version_next
-  name: next
-- id: react_native_features_version_nightly
-  name: nightly
-
-- id: react_native_features_strategies
-  name: React Native version upgrading strategy
-- id: react_native_features_strategies_stay_latest
-  name: Stay on the latest version
-- id: react_native_features_strategies_upgrade_occasionally
-  name: Upgrade occasionally
-- id: react_native_features_strategies_upgrade_for_new_features
-  name: Upgrade for the new features
-- id: react_native_features_strategies_upgrade_parallel_with_expo
-  name: Upgrade in parallel with Expo SDK releases
-- id: react_native_features_strategies_upgrade_if_necessary
-  name: Don't upgrade until I have to
-- id: react_native_features_strategies_other
-  name: Other React Native version upgrading strategy
-
 - id: react_native_features_new_architecture
   name: New Architecture
   homepage: https://reactnative.dev/docs/next/the-new-architecture/pillars
@@ -161,14 +117,6 @@
 - id: react_native_features_performance_profile_other
   name: Other performance profiling tools
 
-- id: react_native_features_brownfield
-  name: Do you integrate React Native with applications written using other technology?
-- id: react_native_features_brownfield_green
-  name: I mainly work on standalone React Native apps (greenfield)
-- id: react_native_features_brownfield_brown
-  name: I mainly work on integrated React Native apps (brownfield)
-- id: react_native_features_brownfield_both
-  name: I work on both standalone and brownfield apps
 
 - id: react_native_features_device_testing
   name: How do you test your React Native app?
@@ -181,8 +129,6 @@
 - id: react_native_features_device_testing_other
   name: Other ways to test
 
-- id: react_native_features_ota_updates
-  name: OTA updates solutions
 - id: react_native_features_ota_updates_code_push
   name: CodePush
   homepage: https://learn.microsoft.com/en-us/appcenter/distribution/codepush/
@@ -201,8 +147,7 @@
 - id: react_native_features_ota_updates_other
   name: Other OTA updates solutions
 
-- id: react_native_features_mobile_web_code_sharing
-  name: Code sharing
+
 - id: react_native_features_mobile_web_code_sharing_react_native_web
   name: React Native Web
   npm: react-native-web
