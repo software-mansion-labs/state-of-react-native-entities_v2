@@ -1,5 +1,5 @@
 - id: debugging_profiling_console
-  name: console (logs, warnings, errors)
+  name: console API
   homepage: https://developer.mozilla.org/en-US/docs/Web/API/console
   example:
     language: jsx
