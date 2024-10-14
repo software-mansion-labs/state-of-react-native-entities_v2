@@ -106,11 +106,11 @@
   github: https://github.com/microsoft/rnx-kit
   homepage: https://microsoft.github.io/rnx-kit/
   description: Modern, scalable tools. Exceptional developer experience.
-  createdBy: Microsoft
+  author: Microsoft
 
 - id: tools_react_native_test_app
   name: React Native Test App
-  createdBy: Microsoft
+  author: Microsoft
 
 - id: tools_expo_go
   name: Expo Go

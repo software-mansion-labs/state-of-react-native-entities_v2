@@ -10,10 +10,11 @@
 
 - id: react_native_app_aspects_interactions_react_native_gesture_handler
   name: React Native Gesture Handler
-  homepage: https://docs.swmansion.com/react-native-gesture-handler/
+  homepage: https://software-mansion.github.io/react-native-gesture-handler/
   description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
-  github: https://github.com/software-mansion/react-native-gesture-handler/
+  github: https://github.com/software-mansion/react-native-gesture-handler
+  author: software-mansion
 
 - id: react_native_app_aspects_interactions_other
   name: Other interactions solutions
@@ -26,6 +27,7 @@
   npm: react-native-localize
   github: https://github.com/zoontek/react-native-localize
   description: 🌍 A toolbox for your React Native app localization
+  author: zoontek
 
 - id: react_native_app_aspects_internationalization_react_i18next
   name: react-i18next
@@ -33,6 +35,7 @@
   github: https://github.com/i18next/react-i18next
   homepage: https://react.i18next.com/
   description: Internationalization for react done right. Using the i18next i18n ecosystem.
+  author: i18next
 
 - id: react_native_app_aspects_internationalization_fbt
   name: FBT
@@ -263,16 +266,18 @@
 
 - id: react_native_app_aspects_other_libraries_react_native_gesture_handler
   name: react-native-gesture-handler
-  homepage: https://docs.swmansion.com/react-native-gesture-handler/
+  homepage: https://software-mansion.github.io/react-native-gesture-handler/
   description: Declarative API exposing platform native touch and gesture system to React Native
   npm: react-native-gesture-handler
   github: https://github.com/software-mansion/react-native-gesture-handler
+  author: software-mansion
 
 - id: react_native_app_aspects_other_libraries_react_native_localize
   name: react-native-localize
   npm: react-native-localize
   github: https://github.com/zoontek/react-native-localize
   description: 🌍 A toolbox for your React Native app localization
+  author: zoontek
 
 - id: react_native_app_aspects_other_libraries_react_native_i18next
   name: i18next
@@ -280,6 +285,7 @@
   github: https://github.com/i18next/i18next
   description: "i18next: learn once - translate everywhere"
   homepage: "https://www.i18next.com"
+  author: i18next
 
 - id: react_native_app_aspects_other_libraries_react_native_camera
   name: react-native-camera
@@ -292,75 +298,87 @@
   npm: react-native-vision-camera
   github: https://github.com/mrousavy/react-native-vision-camera
   homepage: https://react-native-vision-camera.com/
+  author: mrousavy
 
 - id: react_native_app_aspects_other_libraries_shopify_flash_list
   name: "@shopify/flash-list"
   npm: "@shopify/flash-list"
   github: https://github.com/shopify/flash-list
   homepage: https://shopify.github.io/flash-list/
+  author: shopify
 
 - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
   name: "@gorhom/bottom-sheet"
   npm: "@gorhom/bottom-sheet"
   github: https://github.com/gorhom/react-native-bottom-sheet
   homepage: https://gorhom.github.io/react-native-bottom-sheet/
+  author: gorhom
 
 - id: react_native_app_aspects_other_libraries_expo_image
   name: expo-image
   npm: expo-image
   github: https://github.com/expo/expo/tree/master/packages/expo-image
   homepage: https://docs.expo.dev/versions/latest/sdk/image/
+  author: expo
 
 - id: react_native_app_aspects_other_libraries_react_native_fast_image
   name: react-native-fast-image
   npm: react-native-fast-image
   github: https://github.com/DylanVann/react-native-fast-image
+  author: DylanVann
 
 - id: react_native_app_aspects_other_libraries_expo_vector_icons
   name: "@expo/vector-icons"
   npm: "@expo/vector-icons"
   github: https://github.com/expo/vector-icons
   homepage: https://docs.expo.dev/guides/icons/
+  author: expo
 
 - id: react_native_app_aspects_other_libraries_react_native_webview
   name: react-native-webview
   npm: react-native-webview
   github: https://github.com/react-native-webview/react-native-webview
+  author: react-native-webview
 
 - id: react_native_app_aspects_other_libraries_react_native_safe_area_context
   name: react-native-safe-area-context
   npm: react-native-safe-area-context
   github: https://github.com/th3rdwave/react-native-safe-area-context
   homepage: https://github.com/th3rdwave/react-native-safe-area-context#readme
+  author: th3rdwave
 
 - id: react_native_app_aspects_other_libraries_react_native_maps
   name: react-native-maps
   npm: react-native-maps
   github: https://github.com/react-native-maps/react-native-maps
-  
+
 - id: react_native_app_aspects_other_libraries_react_native_vector_icons
   name: react-native-vector-icons
   npm: react-native-vector-icons
   github: https://github.com/oblador/react-native-vector-icons
   homepage: https://oblador.github.io/react-native-vector-icons/
+  author: oblador
 
 - id: react_native_app_aspects_other_libraries_react_native_video
   name: react-native-video
   npm: react-native-video
   github: https://github.com/react-native-video/react-native-video
   homepage: https://thewidlarzgroup.github.io/react-native-video/
+  author: thewidlarzgroup
 
 - id: react_native_app_aspects_other_libraries_formik
   name: formik
   npm: formik
   github: https://github.com/jaredpalmer/formik
   homepage: https://formik.org/
+  author: jaredpalmer
 
 - id: react_native_app_aspects_other_libraries_react_hook_form
   name: react-hook-form
   npm: react-hook-form
   github: https://github.com/react-hook-form/react-hook-form
   homepage: https://react-hook-form.com/
+  author: react-hook-form
 
 - id: react_native_app_aspects_other_libraries_other
   name: Other popular libraries not listed above

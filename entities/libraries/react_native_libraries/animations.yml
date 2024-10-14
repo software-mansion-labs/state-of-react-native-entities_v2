@@ -12,28 +12,28 @@
   homepage: https://docs.swmansion.com/react-native-reanimated/
   github: https://github.com/software-mansion/react-native-reanimated
   description: React Native's Animated library reimplemented
-  createdBy: Software Mansion
+  author: Software Mansion
 
 - id: animations_moti
   name: Moti
   description: 🐼 The React Native (+ Web) animation library, powered by Reanimated 2.
   github: https://github.com/nandorojo/moti
   npm: moti
-  createdBy: Fernando Rojo
+  author: Fernando Rojo
 
 - id: animations_skia
   name: React Native Skia
   github: https://github.com/Shopify/react-native-skia
   description: High-performance React Native Graphics using Skia
   npm: "@shopify/react-native-skia"
-  createdBy: Shopify
+  author: Shopify
   
 - id: animations_react_native_animatable
   name: React Native Animatable
   npm: react-native-animatable
   description: Standard set of easy to use animations and declarative transitions for React Native
   github: https://github.com/oblador/react-native-animatable
-  createdBy: Joel Arvidsson
+  author: Joel Arvidsson
 
 - id: animations_threejs
   name: three.js
