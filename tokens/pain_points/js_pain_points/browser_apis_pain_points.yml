@@ -1,0 +1,103 @@
+##################################################################
+#                  browser_apis_pain_points                      #
+##################################################################
+
+- id: cors
+
+- id: bluetooth
+
+- id: firefox_issues
+  patterns:
+    - firefox
+
+- id: dom_api
+  name: DOM API
+  patterns:
+    - dom
+  tags:
+    - front_end_frameworks_pain_points
+
+- id: fetch_api
+  name: Fetch API
+  patterns:
+    - fetch
+
+- id: filesystem_access
+  name: File System Access API
+  patterns:
+    - file
+    - filesystem
+
+- id: indexed_db
+  patterns:
+    - fetch
+
+- id: intl_api
+  patterns:
+    - intl
+
+- id: local_storage
+
+- id: permissions
+
+- id: polyfills
+
+- id: pwas
+  patterns:
+    - pwa
+
+- id: safari
+
+- id: cookies
+
+- id: content_editable
+
+- id: canvas_element
+  patterns:
+    - canvas
+
+- id: drag_and_drop_api
+  patterns:
+    - drag, drop [l]
+
+- id: history_api
+  patterns:
+    - history
+
+- id: web_audio
+  patterns:
+    - audio
+
+- id: browser_support
+  patterns:
+    - availability
+    - browser parity
+    - browser, implement
+    - coverage
+    - inconsistencies
+    - inconsistency
+    - inconsistent
+    - support
+
+- id: chrome
+
+- id: discoverability
+  patterns:
+    - discover
+
+- id: web_workers
+  patterns:
+    - web worker
+
+- id: event_management
+  patterns:
+    - event
+
+- id: lack_of_hardware_apis
+  patterns:
+    - hardware
+
+- id: divergence_with_node_apis
+  name: Divergence with Node APIs
+  patterns:
+    - node

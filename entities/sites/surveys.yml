@@ -1,0 +1,155 @@
+- id: state_of_js_survey
+  name: State of JavaScript
+  homepageUrl: https://stateofjs.com
+  patterns:
+    - state( |-|_)?of( |-|_)?js
+    - state( |-)?of( |-)?javascript
+    - state_of_js_email
+    - stateofjs
+    - stateofjs.com
+
+- id: state_of_css_survey
+  name: State of CSS
+  homepageUrl: https://stateofcss.com
+  patterns:
+    - state( |-|_)?of( |-|_)?css
+    - state_of_css_email
+    - stateofcss.com
+
+- id: state_of_graphql_survey
+  name: State of GraphQL
+  homepageUrl: https://stateofgraphql.com
+  patterns:
+    - state( |-|_)?of( |-|_)?graphql
+    - state_of_graphql_email
+    - stateofgraphql.com
+
+- id: state_of_html_survey
+  name: State of HTML
+  homepageUrl: https://stateofhtml.com
+  patterns:
+    - state( |-|_)?of( |-|_)?html
+    - state_of_html_email
+    - stateofhtml.com
+
+- id: state_of_react_survey
+  name: State of React
+  homepageUrl: https://stateofreact.com
+  patterns:
+    - state( |-|_)?of( |-|_)?react
+    - state_of_react_email
+    - stateofreact.com
+
+- id: stack_overflow_survey
+  name: Stack Overflow Annual Developer Survey
+  homepageUrl: https://insights.stackoverflow.com/survey/
+
+- id: jetbrains_survey
+  name: JetBrains State of Developer Ecosystem
+  homepageUrl: https://www.jetbrains.com/lp/devecosystem-2021/
+
+- id: codingame_survey
+  name: CodinGame Developer Survey
+  homepageUrl: https://www.codingame.com/work/codingame-developer-survey-2021/
+
+- id: uxtools_survey
+  name: Design Tools Survey
+  homepageUrl: https://uxtools.co/survey-2021/
+
+- id: postman_survey
+  name: Postman State of the API Report
+  homepageUrl: https://www.postman.com/state-of-api/
+  patterns:
+    - postman
+
+- id: state_of_elm
+  name: State of Elm
+  homepageUrl: https://state-of-elm.lamdera.app/
+  patterns:
+    - elm
+
+- id: state_of_octoverse
+  name: GitHub State of the Octoverse
+  homepageUrl: https://octoverse.github.com/
+  patterns:
+    - github
+
+- id: state_of_go
+  name: Go Developer Survey
+  homepageUrl: https://go.dev/blog/survey2021-results
+
+- id: state_of_frontend
+  name: State of Frontend
+  homepageUrl: https://tsh.io/state-of-frontend/
+  patterns:
+    - frontend
+
+- id: state_of_laravel
+  name: State of Laravel
+  homepageUrl: https://stateoflaravel.com/
+  patterns:
+    - laravel
+
+- id: wordpress_survey
+  name: WordPress Annual Survey
+  homepageUrl: https://wordpress.org/news/2021/11/take-the-2021-wordpress-annual-survey-and-view-the-2020-results/
+  patterns:
+    - wordpress
+
+- id: developer_nation
+  name: Developer Nation Survey
+  homepageUrl: https://www.developereconomics.net/
+  patterns:
+    - nation
+
+- id: state_of_rust
+  name: State of Rust
+  homepageUrl: https://blog.rust-lang.org/2021/12/08/survey-launch.html
+  patterns:
+    - rust
+
+- id: jamstack_survey
+  name: Jamstack Community Survey
+  homepageUrl: https://jamstack.org/survey/
+  patterns:
+    - jamstack
+
+- id: netlify_survey
+  name: Netlify Web Development Survey
+  homepageUrl: https://www.netlify.com/blog/announcing-the-2023-web-development-survey/
+  patterns:
+    - netlify
+
+- id: angular_devceloper_survey
+  name: Angular Developer Survey
+  homepageUrl: https://blog.angular.io/developer-survey-2021-results-38e653cbb36b
+  patterns:
+    - angular
+
+- id: state_of_clojure
+  name: State of Clojure
+  homepageUrl: https://clojure.org/news/2022/06/02/state-of-clojure-2022
+  patterns:
+    - clojure
+
+- id: state_of_devops
+  name: State of DevOps
+  homepageUrl: https://cloud.google.com/devops/state-of-devops
+  patterns:
+    - devops
+
+- id: state_of_purescript
+  name: State of PureScript
+  homepageUrl: https://discourse.purescript.org/t/the-state-of-purescript-survey-2022-the-results-are-in/2966
+  patterns:
+    - purescript
+
+- id: state_of_react_native
+  name: State of React Native
+  homepageUrl: https://results.stateofreactnative.com/
+
+- id: netlify_survey
+  name: Netlify Web Development Survey
+  homepageUrl: https://www.netlify.com/blog/announcing-the-2023-web-development-survey/
+  patterns:
+    - netlify

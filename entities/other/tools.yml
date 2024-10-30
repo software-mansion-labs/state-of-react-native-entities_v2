@@ -1,0 +1,131 @@
+- id: tools_libraries
+  name: Libraries. Which other libraries (not covered previously) do you regularly use?
+
+
+- id: tools_package_managers_npm
+  name: npm
+  npm: npm
+  github: https://github.com/npm/cli
+  homepageUrl: https://docs.npmjs.com/cli
+  description: the package manager for JavaScript
+- id: tools_package_managers_yarn
+  name: yarn
+  npm: yarn
+  homepageUrl: https://classic.yarnpkg.com/
+  github: https://github.com/yarnpkg/yarn
+- id: tools_package_managers_yarn_berry
+  name: yarn berry (yarn v2+)
+  github: https://github.com/yarnpkg/berry
+  homepageUrl: https://yarnpkg.com/
+  npm: yarn
+- id: tools_package_managers_pnpm
+  name: pnpm
+  npm: pnpm
+  github: https://github.com/pnpm/pnpm
+  description: Fast, disk space efficient package manager
+  homepageUrl: https://pnpm.io/
+- id: tools_package_managers_bun
+  name: bun
+  npm: bun
+
+
+- id: tools_starter_templates_expo
+  name: create-expo-app
+  homepageUrl: https://docs.expo.dev/get-started/create-a-new-app/
+  npm: create-expo-app
+  github: https://github.com/expo/expo-cli
+
+- id: tools_starter_templates_react_native_cli
+  name: react-native init (by React Native Community CLI)
+
+- id: tools_starter_templates_ignite_cli
+  name: ignite-cli
+  npm: ignite-cli
+  github: https://github.com/infinitered/ignite
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
+
+- id: tools_starter_templates_solito
+  name: create-solito-app
+  homepageUrl: https://solito.dev/
+  description: 🧍‍♂️ React Native + Next.js, unified.
+  github: https://github.com/nandorojo/solito
+  npm: solito
+
+- id: tools_starter_templates_create_t3_turbo
+  name: create-t3-turbo
+  github: https://github.com/t3-oss/create-t3-turbo
+  description: Clean and simple starter repo using the T3 Stack along with Expo React Native
+
+- id: tools_starter_templates_create_react_native_app
+  name: create-react-native-app
+  npm: create-react-native-app
+  github: https://github.com/expo/create-react-native-app
+
+- id: tools_starter_templates_react_native_template_obytes
+  name: react-native-template-obytes
+
+- id: tools_starter_tamagui
+  name: tamagui
+
+- id: tools_create_expo_stack
+  name: create-expo-stack
+
+- id: tools_starter_templates_other
+  name: Other starter templates
+
+- id: tools_expo_snack
+  name: Expo Snack
+  homepageUrl: https://snack.expo.dev/
+
+- id: tools_expo_cli
+  name: Expo CLI
+  homepageUrl: https://docs.expo.dev/workflow/expo-cli/
+  npm: "@expo/cli"
+
+- id: tools_eas_cli
+  name: EAS CLI
+  github: https://github.com/expo/eas-cli
+  description: Fastest way to build, submit, and update iOS and Android apps
+  homepageUrl: https://docs.expo.dev/eas/
+  npm: eas-cli
+
+- id: tools_react_native_cli
+  name: React Native Community CLI
+  github: https://github.com/react-native-community/cli
+  description: React Native command line tools
+  npm: "@react-native-community/cli"
+
+- id: tools_ignite_cli
+  name: Ignite CLI
+  npm: ignite-cli
+  github: https://github.com/infinitered/ignite
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
+
+- id: tools_rnx_kit
+  name: rnx-kit
+  github: https://github.com/microsoft/rnx-kit
+  homepageUrl: https://microsoft.github.io/rnx-kit/
+  description: Modern, scalable tools. Exceptional developer experience.
+  author: Microsoft
+
+- id: tools_react_native_test_app
+  name: React Native Test App
+  author: Microsoft
+
+- id: tools_expo_go
+  name: Expo Go
+
+#  freeform
+- id: tamagui_starter
+  name: Create Tamagui App
+  npm: tamagui
+  homepageUrl: https://tamagui.dev/docs/guides/create-tamagui-app
+  github: https://github.com/tamagui/tamagui
+  description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
+- id: create_react_native_library
+  npm: create-react-native-library
+  github: https://github.com/callstack/react-native-builder-bob
+  name: create-react-native-library
+- id: rnx_cli
+  npm: "@xmartlabs/rnx-cli"
+  github: https://github.com/xmartlabs/rnx-cli

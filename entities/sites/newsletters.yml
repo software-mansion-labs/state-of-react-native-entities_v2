@@ -1,0 +1,162 @@
+- id: ember_times
+  name: Ember Times
+  homepageUrl: https://the-emberjs-times.ongoodbits.com/
+
+- id: sidebar
+  name: Sidebar
+  homepageUrl: https://sidebar.io
+
+- id: heydesigner
+  name: HeyDesigner
+  homepageUrl: https://heydesigner.com
+
+- id: front_end_front
+  name: Front-End Front
+  homepageUrl: https://frontendfront.com/
+  patterns:
+    - frontendfront.com
+
+- id: css_weekly
+  name: CSS Weekly
+  homepageUrl: https://css-weekly.com/
+  patterns:
+    - css-weekly.com
+
+- id: frontend_horse
+  name: Frontend Horse
+  homepageUrl: https://frontend.horse/
+  pattenrs:
+    - front( |-)?end( |-)?horse
+
+- id: css_layout_news
+  name: CSS Layout News
+  homepageUrl: http://csslayout.news/
+
+- id: responsive_design_weekly
+  name: Responsive Design Weekly
+  homepageUrl: http://responsivedesignweekly.com/
+
+- id: js_weekly
+  name: JavaScript Weekly
+  homepageUrl: https://javascriptweekly.com/
+  patterns:
+    - javascript( |-)?weekly
+    - jsw@peterc.org
+
+- id: node_weekly
+  name: Node Weekly
+  homepageUrl: https://nodeweekly.com/
+
+- id: ember_times
+  name: The Ember Times
+  homepageUrl: https://the-emberjs-times.ongoodbits.com/
+
+- id: web_development_reading_list
+  name: Web Development Reading List
+  homepageUrl: https://wdrl.info/
+  patterns:
+    - wdrl
+
+- id: esnext
+  name: ESNext News
+  homepageUrl: http://esnextnews.com/
+
+- id: vue_news
+  name: Vue News
+  homepageUrl: https://news.vuejs.org/
+  patterns:
+    - vue\.js newsletter
+    - vue\.js weekly
+
+- id: rwd_weekly
+  name: Responsive Design Weekly
+  patterns:
+    - responsive ?design ?weekly
+
+- id: frontend_focus
+  name: Frontend Focus
+  homepageUrl: https://frontendfoc.us/
+  patterns:
+    - front( |-)?end( |-)?foc(.)?us
+
+- id: css_layout_news
+  name: CSS Layout News
+  homepageUrl: http://csslayout.news/
+
+- id: javascriptkicks
+  name: JavaScript Kicks
+  homepageUrl: https://javascriptkicks.com/
+  patterns:
+    - jsk
+    - js( |-)?kicks
+    - javascript( |-)?kicks
+
+- id: a11y_weekly
+  name: A11y Weekly
+  homepageUrl: https://a11yweekly.com/
+  patterns:
+    - accessibility weekly
+
+- id: bytes
+  name: Bytes
+  homepageUrl: https://bytes.dev/
+  tags:
+    - people
+
+- id: react_status
+  name: React Status
+  homepageUrl: https://react.statuscode.com/
+
+- id: react_newsletter
+  name: React Newsletter
+  homepageUrl: https://reactnewsletter.com/
+
+- id: this_week_in_react
+  name: This Week In React
+  homepageUrl: https://thisweekinreact.com/
+  patterns:
+    - react weekly
+
+- id: tldr
+  name: TLDR
+  homepageUrl: https://tldr.tech/
+  patterns:
+    - tl;dr
+
+- id: elm_weekly
+  name: Elm Weekly
+  homepageUrl: https://www.elmweekly.nl/
+
+- id: es_next_news
+  name: ES.next News
+  homepageUrl: http://esnextnews.com/
+
+- id: diversify_tech
+  name: Diversify Tech
+  homepageUrl: https://www.diversifytech.co/
+
+- id: react_digest
+  name: React Digest
+  homepageUrl: https://reactdigest.net/
+
+- id: next_js_weekly
+  name: Next.js Weekly
+  homepageUrl: https://nextjsweekly.com/
+
+- id: noticias
+  name: noticias.dev
+  homepageUrl: https://www.noticias.dev/
+
+- id: convertkit
+  name: ConvertKit
+  homepageUrl: https://convertkit.com/
+
+- id: ecmascript_news
+  name: ECMAScript News
+  homepageUrl: https://ecmascript.news/
+
+- id: geek_news
+  name: GeekNews
+  homepageUrl: https://news.hada.io/
+  patterns:
+    - news.hada.io

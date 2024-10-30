@@ -1,0 +1,527 @@
+- id: soft_skills_engineering
+  name: Soft Skills Engineering Podcast
+  homepageUrl: https://softskills.audio/
+
+- id: frontend_weekend
+  name: Frontend Weekend
+  homepageUrl: https://frontendweekend.ml/
+
+- id: odin_project
+  name: The Odin Project
+  homepageUrl: https://www.theodinproject.com/
+
+- id: elmtown
+  name: Elm Town
+  homepageUrl: https://elmtown.simplecast.fm/
+  patterns:
+    - elm( |-)?town
+
+- id: command_line_heroes
+  name: Command Line Heroes
+  homepageUrl: https://www.redhat.com/en/command-line-heroes
+
+- id: adventures_in_angular
+  name: Adventures in Angular
+  homepageUrl: https://devchat.tv/adv-in-angular/
+
+- id: coding_blocks
+  name: Coding Blocks
+  homepageUrl: https://www.codingblocks.net/
+
+- id: dot_net_rocks
+  name: .NET Rocks
+  homepageUrl: https://www.dotnetrocks.com/
+
+- id: embermap
+  name: EmberMap
+  homepageUrl: https://embermap.com/
+
+- id: views_on_vue
+  name: Views on Vue
+  homepageUrl: https://devchat.tv/views-on-vue/
+
+- id: reason_town
+  name: Reason Town
+  homepageUrl: https://player.fm/series/reason-town
+
+- id: devmode
+  name: DevMode.fm
+  homepageUrl: https://devmode.fm/
+
+- id: hipsters_tech
+  name: Hipsters Ponto Tech
+  homepageUrl: https://hipsters.tech/
+
+- id: syntaxfm
+  name: Syntax
+  homepageUrl: https://syntax.fm/
+  patterns:
+    - syntax
+    - syntax.fm
+
+- id: css_podcast
+  name: The CSS Podcast
+  homepageUrl: https://thecsspodcast.libsyn.com/
+
+- id: shop_talk_show
+  name: Shop Talk Show
+  homepageUrl: https://shoptalkshow.com/
+  patterns:
+    - shop( |-)?talk
+
+- id: changelog
+  name: The Changelog
+  homepageUrl: https://changelog.com/
+
+- id: web_ahead
+  name: The Web Ahead
+  homepageUrl: http://thewebahead.net/
+
+- id: big_web_show
+  name: The Big Web Show
+  homepageUrl: https://5by5.tv/bigwebshow
+
+- id: style_guide_podcast
+  name: Style Guide Podcast
+  homepageUrl: http://styleguides.io/podcast/
+
+- id: non_breaking_space_show
+  name: Non Breaking Space Show
+  homepageUrl: https://goodstuff.fm/nbsp/
+
+- id: frontend_happyhour
+  name: Front End Happy Hour
+  homepageUrl: https://frontendhappyhour.com/
+  patterns:
+    - front( |-)?end ?happy ?hour
+
+- id: javascript_jabber
+  name: JavaScript Jabber
+  homepageUrl: https://devchat.tv/js-jabber/
+  patterns:
+    - js( |-)?jabber
+
+- id: full_stack_radio
+  name: Full Stack Radio
+  homepageUrl: http://www.fullstackradio.com/
+
+- id: js_party
+  name: JS Party
+  homepageUrl: https://changelog.com/jsparty
+
+- id: codepen_radio
+  name: CodePen Radio
+  homepageUrl: https://blog.codepen.io/radio/
+
+- id: jamstack_radio
+  name: JAMStack Radio
+  homepageUrl: https://www.heavybit.com/library/podcasts/jamstack-radio/
+
+- id: modern_web
+  name: Modern Web
+  homepageUrl: https://modernweb.podbean.com/
+
+- id: web_platform_podcast
+  name: The Web Platform Podcast
+  homepageUrl: https://thewebplatformpodcast.com/
+
+- id: software_engineering_daily
+  name: Software Engineering Daily
+  homepageUrl: https://softwareengineeringdaily.com/
+
+- id: ladybug
+  name: Ladybug Podcast
+  homepageUrl: https://ladybug.dev/
+
+- id: web_rush
+  name: Web Rush
+  homepageUrl: https://webrush.io/
+  patterns:
+    - real talk javascript
+
+- id: undefined_podcast
+  name: The Undefined Podcast
+  homepageUrl: https://undefined.fm/
+  patterns:
+    - undefined
+
+- id: tools_day
+  name: Toolsday
+  homepageUrl: https://spec.fm/podcasts/toolsday
+
+- id: front_end_happy_hour
+  name: Front End Happy Hour
+  homepageUrl: https://frontendhappyhour.com/
+
+- id: fullstack_radio
+  name: Full Stack Radio
+  homepageUrl: http://www.fullstackradio.com/
+
+- id: react_podcast
+  name: React Podcast
+  homepageUrl: https://reactpodcast.com/
+
+- id: developer_tea
+  name: Developer Tea
+  homepageUrl: https://developertea.simplecast.fm/
+
+- id: the_web_platform
+  name: The Web Platform Podcast
+  homepageUrl: https://thewebplatformpodcast.com/
+
+- id: http_203
+  name: HTTP 203
+  homepageUrl: https://developers.google.com/web/shows/http203/podcast/
+
+- id: working_draft
+  name: Working Draft Podcast
+  homepageUrl: https://workingdraft.de/
+
+- id: software_engineering
+  name: Software Engineering Radio
+  homepageUrl: https://www.se-radio.net/
+
+- id: smashing_podcast
+  name: Smashing Podcast
+  homepageUrl: https://podcast.smashingmagazine.com/
+
+- id: f_word
+  name: The F-Word
+  homepageUrl: https://f-word.dev
+
+- id: frontend_first
+  name: Frontend First
+  homepageUrl: https://frontendfirst.fm/
+
+- id: a11y_rules
+  name: "#A11y Rules"
+  homepageUrl: https://a11yrules.com/
+
+- id: the_bike_shed
+  name: The Bike Shed
+  homepageUrl: https://www.bikeshed.fm/
+
+- id: angular_show
+  name: The Angular Show
+  homepageUrl: https://www.spreaker.com/show/angular-show
+
+- id: svelte_radio
+  name: Svelte Radio
+  homepageUrl: https://www.svelteradio.com/
+
+- id: elm_radio
+  name: Elm Radio
+  homepageUrl: https://elm-radio.com/
+
+- id: remotely_interesting
+  name: Remotely Interesting
+  homepageUrl: https://remotelyinteresting.transistor.fm/
+
+- id: angular_air
+  name: Angular Air
+  homepageUrl: https://angularair.com/
+
+- id: enjoy_the_vue
+  name: Enjoy The Vue
+  homepageUrl: https://enjoythevue.io/
+
+- id: compressed_fm
+  name: Compressed.fm
+  homepageUrl: https://www.compressed.fm/
+
+- id: chats_with_kent
+  name: Chats With Kent
+  homepageUrl: https://kentcdodds.com/chats/
+
+- id: web_rush
+  name: Web Rush
+  homepageUrl: https://webrush.io/
+
+- id: learn_with_jason
+  name: Learn With Jason
+  homepageUrl: https://www.learnwithjason.dev/
+
+- id: hipsters_tech
+  name: Hipsters Ponto Tech
+  homepageUrl: https://hipsters.tech/
+  patterns:
+    - hipster
+    - hispter
+
+- id: no_plans_to_merge
+  name: No Plans To Merge
+  homepageUrl: https://noplanstomerge.simplecast.com/
+
+- id: hTML_all_the_things
+  name: HTML All The Things
+  homepageUrl: https://www.htmlallthethings.com/
+
+- id: devtalles
+  name: DevTalles
+  homepageUrl: https://anchor.fm/fernando-her85
+
+- id: podlodka
+  name: Podlodka
+  homepageUrl: https://podlodka.io/
+
+- id: programmier_bar
+  name: Programmier.bar
+  homepageUrl: https://www.programmier.bar/
+  language: de-DE
+  patterns:
+    - programmier
+
+- id: mozaic_fm
+  name: Mozaic.fm
+  homepageUrl: https://mozaic.fm/
+  patterns:
+    - mozaic
+  language: ja-JP
+
+- id: graphql_radio
+  name: GraphQL Radio
+  homepageUrl: https://graphqlradio.com/
+  tags:
+    - graphql
+
+- id: graphql_fm
+  name: GraphQL.fm
+  homepageUrl: https://www.twitch.tv/graphqlfm
+  tags:
+    - graphql
+
+- id: word_wrap
+  name: Word Wrap
+  homepageUrl: https://wordwrap.dev/
+  tags:
+    - css
+
+- id: wo_wir_sind_ist_vorne
+  name: Wo Wir Sind Ist Vorne
+  homepageUrl: https://wowirsindistvorne.show/
+  tags:
+    - css
+
+- id: dot_net_rocks
+  name: .NET Rocks!
+  homepageUrl: https://discoverdot.net/broadcasts/dotnetrocks
+  patterns:
+    - .net rocks
+
+- id: all_the_code
+  name: All The Code
+  homepageUrl: https://allthecode.co/podcast
+
+- id: angular_plus_show
+  name: The Angular Plus Show
+  homepageUrl: https://www.spreaker.com/show/angular-show
+
+- id: coder_radio
+  name: Coder Radio
+  homepageUrl: https://coder.show/
+
+- id: corecursive
+  name: CoRecursive
+  homepageUrl: https://corecursive.com/
+
+- id: coding_cat
+  name: CodingCat.dev
+  homepageUrl: https://codingcat.dev/podcasts
+
+- id: darknet_diaries
+  name: Darknet Diaries
+  homepageUrl: https://darknetdiaries.com/
+
+- id: double_slash
+  name: Double Slash
+  homepageUrl: https://double-slash.dev/
+
+- id: dev_interrupted
+  name: Dev interrupted
+  homepageUrl: https://devinterrupted.com/
+
+- id: gitbar
+  name: Gitbar
+  homepageUrl: https://www.gitbar.it/
+
+- id: kodsnack
+  name: Kodsnack
+  homepageUrl: https://kodsnack.se/
+
+- id: no_me_da_la_vida
+  name: No me da la vida
+  homepageUrl: https://anchor.fm/no-me-da-la-vida
+
+- id: podrocket
+  name: PodRocket
+  homepageUrl: https://podrocket.logrocket.com/
+  patterns:
+    - pod rocket
+
+- id: react_native_radio
+  name: React Native Radio
+  homepageUrl: https://reactnativeradio.com/
+
+- id: software_unscripted
+  name: Software Unscripted
+  homepageUrl: https://feeds.resonaterecordings.com/software-unscripted
+
+- id: whiskey_web_and_whatnot
+  name: Whiskey Web and Whatnot
+  homepageUrl: https://www.whiskeywebandwhatnot.fm/
+
+- id: go_time
+  name: Go Time
+  homepageUrl: https://changelog.com/gotime
+
+- id: rebuild_fm
+  name: Rebuild.fm
+  homepageUrl: https://rebuild.fm/
+
+- id: radio_t
+  name: Radio T
+  homepageUrl: https://radio-t.com/
+# - id:
+#   name:
+#   homepageUrl:
+
+- id: javascript_jam
+  name: JavaScript Jam
+  homepageUrl: https://www.javascriptjam.com/
+
+- id: react_native_show
+  name: React Native Show
+  homepageUrl: https://www.callstack.com/podcast-react-native-show
+
+- id: underscore_podcast
+  name: Underscore_
+  homepageUrl: https://feeds.acast.com/public/shows/43160adc-fadd-4764-b93f-aa1ca93f22bf
+  patterns:
+    - underscore
+    - underscore_
+
+- id: dev_tools_fm
+  name: DevtoolsFM
+  homepageUrl: https://www.devtools.fm/
+  patterns:
+    - devtools
+
+- id: developers_podcast
+  name: "Developers!"
+  homepageUrl: https://developerspodcast.com/
+  patterns:
+    - developers [e]
+    - "developers!"
+
+- id: fukabori
+  name: Fukabori.fm
+  homepageUrl: https://fukabori.fm/
+
+- id: hanselminutes
+  name: The Hanselminutes Podcast
+  homepageUrl: https://www.hanselminutes.com/
+
+- id: how_about_tomorrow
+  name: How About Tomorrow?
+  homepageUrl: https://tomorrow.fm/
+
+- id: latent_space
+  name: Latent Space
+  homepageUrl: https://www.latent.space/podcast
+
+- id: lex_fridman
+  name: Lex Fridman
+  homepageUrl: https://lexfridman.com/podcast/
+  patterns:
+    - lex, friedman [l]
+    - lex, fridman [l]
+
+- id: mostly_technical
+  name: Mostly Technical
+  homepageUrl: https://mostlytechnical.com/
+
+- id: off_the_main_thread
+  name: Off The Main Thread
+  homepageUrl: https://offthemainthread.tech/
+  patterns:
+    - otmt
+
+- id: programming_throwdown
+  name: Programming Throwdown
+  homepageUrl: https://www.programmingthrowdown.com/
+
+- id: react_round_up
+  name: React Round Up
+  homepageUrl: https://topenddevs.com/podcasts/react-round-up
+
+- id: rustacean_station
+  name: Rustacean Station
+  homepageUrl: https://rustacean-station.org/
+  patterns:
+    - rustacean
+
+- id: security_now
+  name: Security Now
+  homepageUrl: https://twit.tv/shows/security-now
+
+- id: dot_net_rocks
+  name: .NET Rocks!
+  homepageUrl: https://www.dotnetrocks.com/
+  patterns:
+    - net, rocks [l]
+
+- id: artisan_developpeur
+  name: Artisan Développeur
+  homepageUrl: https://artisandeveloppeur.fr/
+
+- id: accidental_tech_podcast
+  name: Accidental Tech Podcast
+  homepageUrl: https://atp.fm/
+  patterns:
+    - atp
+
+- id: backend_banter
+  name: Backend Banter
+  homepageUrl: https://www.backendbanter.fm/
+
+- id: bad_at_css
+  name: Bad at CSS
+  homepageUrl: https://badatcss.com/
+
+- id: future_of_coding
+  name: Future of Coding
+  homepageUrl: https://futureofcoding.org/
+
+- id: talk_python_to_me
+  name: Talk Python To Me
+  homepageUrl: https://talkpython.fm/
+  patterns:
+    - talk, python [l]
+
+- id: tech_lead_journal
+  name: TechLead Journal
+  homepageUrl: https://techleadjournal.dev/
+
+- id: the_commit_show
+  name: The Commit Show
+  homepageUrl: https://www.youtube.com/playlist?list=PLJkcleqxxobXjEjsEAtHfuPmc6U1XVZcN
+
+- id: web_worker_podcast
+  name: Web Worker
+  homepageUrl: https://podcast.webworker.tech/
+  patterns:
+    - web worker
+
+- id: whiskey_web_whatnot
+  name: Whiskey, Web And Whatnot
+  homepageUrl: https://whiskey.fm/
+  patterns:
+    - whisk(e)?y
+
+- id: front_end_fire
+  name: Front-End Fire
+  homepageUrl: https://front-end-fire.com/
+
+- id: the_react_show
+  name: The React Show
+  homepageUrl: https://www.thereactshow.com/
