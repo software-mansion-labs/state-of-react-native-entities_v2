@@ -1,293 +1,399 @@
-- id: platform_apis_offline_mode
-  name: Offline mode
-
-- id: platform_apis_sensors
-  name: Sensors
-  description: e.g. gyroscope, accelerometer
+- id: platform_apis_3d_graphics
+  name: 3D graphics
+  description: Render advanced 3D graphics
   resources:
-    - url: https://developer.apple.com/documentation/coremotion
-      title: Apple
-    - url: https://developer.android.com/guide/topics/sensors/sensors_overview
+    - url: https://developer.apple.com/documentation/metal
+      title: iOS
+    - url: https://developer.android.com/ndk/guides/graphics
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+      title: Web API
+
+- id: platform_apis_accessibility
+  name: Accessibility (a11y)
+  description: Make the app accessible to everyone
+  resources:
+    - url: https://developer.apple.com/documentation/accessibility
+      title: iOS
+    - url: https://developer.android.com/guide/topics/ui/accessibility
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+      title: Web
+
+- id: platform_apis_appearance
+  name: Appearance
+  description: Light and dark modes configuration
+  resources:
+    - url: https://developer.apple.com/documentation/uikit/appearance_customization
+      title: iOS
+    - url: https://developer.android.com/develop/ui/views/theming/darktheme
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+      title: Web CSS API
+
+- id: platform_apis_ar
+  name: AR
+  description: Augmented reality experiences
+  resources:
+    - url: https://developer.apple.com/augmented-reality/
+      title: iOS
+    - url: https://developers.google.com/ar
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API
+      title: Web API
+
+- id: platform_apis_audio
+  name: Audio playback
+  description: Play the audio on the device
+  resources:
+    - url: https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing
+      title: iOS
+    - url: https://developer.android.com/media/media3/session/control-playback
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+      title: Web API
+
+- id: platform_apis_background_processing
+  name: Background processing
+  description: Request the system to launch the app in the background to run tasks
+  resources:
+    - url: https://developer.apple.com/documentation/backgroundtasks
+      title: iOS
+    - url: https://developer.android.com/guide/background
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Background_Fetch_API
+      title: Web API
+
+- id: platform_apis_battery
+  name: Battery
+  description: Access battery information
+  resources:
+    - url: https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel
+      title: iOS
+    - url: https://developer.android.com/training/monitoring-device-state/battery-monitoring
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API
+      title: Web API
+
+- id: platform_apis_bluetooth
+  name: Bluetooth
+  description: Communicate with bluetooth devices
+  resources:
+    - url: https://developer.apple.com/documentation/corebluetooth
+      title: iOS
+    - url: https://developer.android.com/guide/topics/connectivity/bluetooth
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API
+      title: Web API
+
+- id: platform_apis_calendar_reminders
+  name: Calendar and reminders
+  description: Manipulate calendar and reminder events
+  resources:
+    - url: https://developer.apple.com/documentation/eventkit
+      title: iOS
+    - url: https://developer.android.com/identity/providers/calendar-provider
       title: Android
 
 - id: platform_apis_camera
   name: Camera
+  description: Capture photos and videos
   resources:
     - url: https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture
-      title: Apple
-    - url: https://developer.android.com/media/camera/camerax
+      title: iOS
+    - url: https://developer.android.com/media/camera/get-started-with-camera
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API
+      title: Web API
 
-- id: platform_apis_audio
-  name: Audio playback
+- id: platform_apis_clipboard
+  name: Clipboard
+  description: Access system clipboard
   resources:
-    - url: https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing
-      title: Apple
-    - url: https://developer.android.com/guide/topics/media/mediaplayer
+    - url: https://developer.apple.com/documentation/uikit/uipasteboard
+      title: iOS
+    - url: https://developer.android.com/guide/topics/text/copy-paste
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API
+      title: Web API
 
-- id: platform_apis_security
-  name: Security
+- id: platform_apis_contacts
+  name: Contacts
+  description: Access the user's contacts
+  resources:
+    - url: https://developer.apple.com/documentation/contacts
+      title: iOS
+    - url: https://developer.android.com/identity/providers/contacts-provider
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Contact_Picker_API
+      title: Web API
 
 - id: platform_apis_cryptography
   name: Cryptography
-  description: e.g. hardware encryption
+  description: Cryptographic primitives and mechanisms (e.g. hardware encryption)
   resources:
     - url: https://developer.apple.com/documentation/cryptokit
-      title: Apple
+      title: iOS
     - url: https://developer.android.com/guide/topics/security/cryptography
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Crypto
+      title: Web API
 
-- id: platform_apis_appearance
-  name: Appearance
+- id: platform_apis_deep_links
+  name: Deep links
+  description: Link directly to content within the app
   resources:
-    - url: https://developer.apple.com/documentation/uikit/appearance_customization
-      title: Apple
-    - url: https://developer.android.com/develop/ui/views/theming/themes
-      title: Android
-
-- id: platform_apis_accessibility
-  name: Accessibility
-  resources:
-    - url: https://developer.apple.com/documentation/accessibility/
-      title: Apple
-    - url: https://developer.android.com/guide/topics/ui/accessibility
-      title: Android
-
-- id: platform_apis_microphone
-  name: Microphone
-  resources:
-    - url: https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing
-      title: Apple
-    - url: https://developer.android.com/guide/topics/media/mediarecorder
-      title: Android
-
-- id: platform_apis_media_library
-  name: Media library
-  description: e.g. gallery
-  resources:
-    - url: https://developer.apple.com/documentation/photokit
-      title: Apple
-    - url: https://developer.android.com/training/data-storage/shared/media
+    - url: https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app
+      title: iOS
+    - url: https://developer.android.com/training/app-links
       title: Android
 
 - id: platform_apis_file_system
   name: File System
+  description: Access files on the device file system
   resources:
     - url: https://developer.apple.com/documentation/foundation/filemanager
-      title: Apple
+      title: iOS
     - url: https://developer.android.com/training/data-storage
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/File_System_API
+      title: Web API
 
-- id: platform_apis_foldable
-  name: Foldable
+- id: platform_apis_generative_ai
+  name: Generative AI
+  description: On-device generative models (e.g. Apple intelligence, Gemini Nano)
   resources:
-    - url: https://developer.android.com/guide/topics/large-screens/learn-about-foldables
+    - url: https://developer.apple.com/apple-intelligence/
+      title: iOS
+    - url: https://developer.android.com/ai
       title: Android
+
+- id: platform_apis_gpu_processing
+  name: GPU processing
+  description: Perform GPU calculations
+  resources:
+    - url: https://developer.apple.com/documentation/metal/performing_calculations_on_a_gpu
+      title: iOS
+    - url: https://developer.android.com/ndk/guides/graphics
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API
+      title: Web API
 
 - id: platform_apis_haptics
   name: Haptics
+  description: Provide haptic feedback
   resources:
     - url: https://developer.apple.com/documentation/corehaptics
-      title: Apple
-    - url: https://developer.android.com/develop/ui/views/haptics?hl=en
+      title: iOS
+    - url: https://developer.android.com/develop/ui/views/haptics
       title: Android
-
-- id: platform_apis_video_playback
-  name: Video playback
-  resources:
-    - url: https://developer.apple.com/documentation/avfoundation/media_playback_and_selection
-      title: Apple
-    - url: https://developer.android.com/guide/topics/media/mediaplayer
-      title: Android
-
-- id: platform_apis_clipboard
-  name: Clipboard
-  resources:
-    - url: https://developer.apple.com/documentation/uikit/uipasteboard
-      title: Apple
-    - url: https://developer.android.com/guide/topics/text/copy-paste
-      title: Android
-
-- id: platform_apis_openGL
-  name: OpenGL
-  resources:
-    - url: https://developer.apple.com/documentation/opengles
-      title: Apple
-    - url: https://developer.android.com/guide/topics/graphics/opengl
-      title: Android
-
-- id: platform_apis_telephony
-  name: Telephony
-  description: e.g. SMS, email, dialing
-  resources:
-    - url: https://developer.apple.com/documentation/messageui
-      title: Apple
-    - url: https://developer.android.com/guide/components/intents-common#Phone
-      title: Android
-
-- id: platform_apis_location
-  name: Location
-  resources:
-    - url: https://developer.apple.com/documentation/corelocation
-      title: Apple
-    - url: https://developer.android.com/training/location
-      title: Android
-
-- id: platform_apis_maps
-  name: Maps
-  resources:
-    - url: https://developer.apple.com/maps/
-      title: Apple
-    - url: https://developers.google.com/maps/documentation/android-sdk
-      title: Android
-
-- id: platform_apis_screen_orientation
-  name: Screen orientation
-  resources:
-    - url: https://developer.apple.com/documentation/uikit/uiinterfaceorientation
-      title: Apple
-
-- id: platform_apis_battery_level
-  name: Battery
-  resources:
-    - url: https://developer.apple.com/documentation/uikit/uidevice/1620042-batterylevel
-      title: Apple
-    - url: https://developer.android.com/training/monitoring-device-state/battery-monitoring
-      title: Android
-
-- id: platform_apis_bluetooth
-  name: Bluetooth
-  resources:
-    - url: https://developer.apple.com/documentation/corebluetooth
-      title: Apple
-    - url: https://developer.android.com/guide/topics/connectivity/bluetooth
-      title: Android
-- id: platform_apis_nfc
-  name: NFC
-  resources:
-    - url: https://developer.apple.com/documentation/corenfc
-      title: Apple
-    - url: https://developer.android.com/guide/topics/connectivity/nfc
-      title: Android
-
-- id: platform_apis_rtl
-  name: RTL
-  resources:
-    - url: https://developer.apple.com/design/human-interface-guidelines/right-to-left
-      title: Apple
-    - url: https://developer.android.com/training/basics/supporting-devices/languages
-      title: Android
-
-- id: platform_apis_biometric_authentication
-  name: Biometric authentication
-  resources:
-    - url: https://developer.apple.com/documentation/localauthentication
-      title: Apple
-    - url: https://developer.android.com/training/sign-in/biometric-auth
-      title: Android
-- id: platform_apis_notifications
-  name: Notifications
-  resources:
-    - url: https://developer.apple.com/documentation/usernotifications
-      title: Apple
-    - url: https://developer.android.com/guide/topics/ui/notifiers/notifications
-      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API
+      title: Web API
 
 - id: platform_apis_in_app_payments
   name: In-app payments
+  description: Sell digital products and content in the app
   resources:
     - url: https://developer.apple.com/in-app-purchase/
-      title: Apple
+      title: iOS
     - url: https://developer.android.com/google/play/billing
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API
+      title: Web API
 
 - id: platform_apis_in_app_reviews
   name: In-app reviews
+  description: Prompt user to submit rating or review without leaving the app
   resources:
     - url: https://developer.apple.com/documentation/storekit/requestreviewaction
-      title: Apple
+      title: iOS
     - url: https://developer.android.com/guide/playcore/in-app-review
       title: Android
 
-- id: platfrom_apis_live_activity
+- id: platform_apis_live_activity
   name: Live activity
-  description: e.g. Dynamic Island
+  description: Live updates from the app via notification (e.g. Dynamic Island)
   resources:
     - url: https://developer.apple.com/documentation/activitykit
-      title: Apple
-
-- id: platform_apis_ads
-  name: Ads
-
-- id: platform_apis_webview
-  name: WebView
-  resources:
-    - url: https://developer.apple.com/documentation/webkit/wkwebview
-      title: Apple
-    - url: https://developer.android.com/guide/webapps/webview
-      title: Android
-- id: platform_apis_storage
-  name: Persistent storage
-  description: e.g. SQL database
-  resources:
-    - url: https://developer.apple.com/documentation/coredata
-      title: Apple
-    - url: https://developer.android.com/training/data-storage/sqlite
+      title: iOS
+    - url: https://developer.android.com/develop/ui/views/notifications/custom-notification
       title: Android
 
-- id: platform_apis_deep_links
-  name: Deep links
+- id: platform_apis_local_authentication
+  name: Local authentication
+  description: Authenticate biometrically or with a passphrase
   resources:
-    - url: https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app
-      title: Apple
-    - url: https://developer.android.com/training/app-links
+    - url: https://developer.apple.com/documentation/localauthentication
+      title: iOS
+    - url: https://developer.android.com/training/sign-in/biometric-auth
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API
+      title: Web API
+
+- id: platform_apis_location
+  name: Location
+  description: Access device geographic location
+  resources:
+    - url: https://developer.apple.com/documentation/corelocation
+      title: iOS
+    - url: https://developer.android.com/training/location
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+      title: Web API
+
+- id: platform_apis_maps
+  name: Maps
+  description: Render map component in the app
+  resources:
+    - url: https://developer.apple.com/maps/
+      title: iOS
+    - url: https://developers.google.com/maps/documentation/android-sdk
       title: Android
 
-- id: platform_apis_concurrency
-  name: Background processing
+- id: platform_apis_media_library
+  name: Media library
+  description: Access images and videos on the device
   resources:
-    - url: https://developer.apple.com/documentation/backgroundtasks
-      title: Apple
-    - url: https://developer.android.com/guide/background
+    - url: https://developer.apple.com/documentation/photokit
+      title: iOS
+    - url: https://developer.android.com/training/data-storage/shared/photopicker
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Window/showOpenFilePicker
+      title: Web API
+
+- id: platform_apis_microphone
+  name: Microphone
+  description: Record audio via microphone
+  resources:
+    - url: https://developer.apple.com/documentation/avfoundation/audio_playback_recording_and_processing
+      title: iOS
+    - url: https://developer.android.com/guide/topics/media/mediarecorder
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API
+      title: Web API
+
+- id: platform_apis_ml
+  name: ML
+  description: On-device machine learning capabilities (e.g. leverage pretrained ML models to perform OCR, face detection, etc)
+  resources:
+    - url: https://developer.apple.com/machine-learning/
+      title: iOS
+    - url: https://developers.google.com/ml-kit
+      title: Android
+
+- id: platform_apis_nfc
+  name: NFC (near field communication)
+  description: Communicate with NFT tags
+  resources:
+    - url: https://developer.apple.com/documentation/corenfc
+      title: iOS
+    - url: https://developer.android.com/guide/topics/connectivity/nfc
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_NFC_API
+      title: Web API
+
+- id: platform_apis_notifications
+  name: Notifications
+  description: Control user-facing notifications
+  resources:
+    - url: https://developer.apple.com/documentation/usernotifications
+      title: iOS
+    - url: https://developer.android.com/guide/topics/ui/notifiers/notifications
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API
+      title: Web API
+
+- id: platform_apis_permissions
+  name: Permissions
+  description: Access protected APIs and data
+  resources:
+    - url: https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy
+      title: iOS
+    - url: https://developer.android.com/guide/topics/permissions/overview
       title: Android
 
 - id: platform_apis_printer
   name: Printer
+  description: Print documents, images, etc
   resources:
     - url: https://developer.apple.com/documentation/uikit/uiprintinteractioncontroller
-      title: Apple
+      title: iOS
     - url: https://developer.android.com/training/printing
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Window/print
+      title: Web API
 
-- id: platform_apis_ocr
-  name: OCR
+- id: platform_apis_rtl
+  name: RTL (right-to-left)
+  description: Support right-to-left languages
   resources:
-    - url: https://developer.apple.com/documentation/vision/vnrecognizetextrequest
-      title: Apple
-    - url: https://developers.google.com/ml-kit/vision/text-recognition/android
+    - url: https://developer.apple.com/design/human-interface-guidelines/right-to-left
+      title: iOS
+    - url: https://developer.android.com/training/basics/supporting-devices/languages
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Glossary/RTL
+      title: Web
+
+- id: platform_apis_screen_orientation
+  name: Screen orientation
+  description: Access and control screen orientation
+  resources:
+    - url: https://developer.apple.com/documentation/uikit/uiinterfaceorientation
+      title: iOS
+    - url: https://developer.android.com/guide/practices/device-compatibility-mode
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Screen_Orientation_API
+      title: Web API
+
+- id: platform_apis_sensors
+  name: Sensors
+  description: Process events from accelerometer, gyroscope, magnetometer, barometer, pedometer, etc.
+  resources:
+    - url: https://developer.apple.com/documentation/coremotion
+      title: iOS
+    - url: https://developer.android.com/guide/topics/sensors/sensors_overview
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Sensor
+      title: Web API
+
+- id: platform_apis_storage
+  name: Persistent storage
+  description: Persist or cache data on the device
+  resources:
+    - url: https://developer.apple.com/documentation/coredata
+      title: iOS
+    - url: https://developer.android.com/training/data-storage/sqlite
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Storage_API
+      title: Web API
+
+- id: platform_apis_telephony
+  name: Telephony
+  description: Access SMS, email and dialing features
+  resources:
+    - url: https://developer.apple.com/documentation/messageui
+      title: iOS
+    - url: https://developer.android.com/guide/components/intents-common#Phone
       title: Android
 
-- id: platform_apis_ar_av
-  name: AR / VR
+- id: platform_apis_video_playback
+  name: Video playback
+  description: Play the video on the device
   resources:
-    - url: https://developer.apple.com/augmented-reality/
-      title: Apple
-
-- id: platform_apis_ml
-  name: ML / AI
-  resources:
-    - url: https://developer.apple.com/machine-learning/
-      title: Apple
-    - url: https://developer.android.com/ml
+    - url: https://developer.apple.com/documentation/avfoundation/media_playback_and_selection
+      title: iOS
+    - url: https://developer.android.com/guide/topics/media/mediaplayer
       title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement
+      title: Web API
 
-- id: platform_apis_permissions
-  name: Permissions
+- id: platform_apis_webview
+  name: WebView
+  description: Deliver web page as a part of the app
   resources:
-    - url: https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy
-      title: Apple
-    - url: https://developer.android.com/guide/topics/permissions/overview
+    - url: https://developer.apple.com/documentation/webkit/wkwebview
+      title: iOS
+    - url: https://developer.android.com/guide/webapps/webview
       title: Android
 
 - id: platform_apis_other
