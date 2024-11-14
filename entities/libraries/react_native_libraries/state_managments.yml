@@ -1,5 +1,5 @@
 #################################################
-# Data Layer
+# Options
 #################################################
 
 - id: state_management_jotai
@@ -158,18 +158,22 @@
   npm: xstate
   github: davidkpiano/xstate
   # description: State machines and statecharts for the modern web.
-  homepageUrl: https://xstate.js.org/docs
+  homepageUrl: https://stately.ai/docs/xstate
   example:
     language: js
     code: |
       const machine = createMachine({
-        id: 'counter',
         initial: 'active',
+        context: {
+          value: 0,
+        },
         states: {
           active: {
             on: {
               INCREMENT: {
-                actions: (context) => context.value++
+                actions: assign({
+                  value: (context) => context.value + 1 })
+                }
               }
             }
           }
@@ -177,8 +181,8 @@
       });
 
       function Counter() {
-        const [state, send] = useMachine(machine.withContext({ value: 0 }))
-        const value = state.context.value
+        const [snapshot, send] = useMachine(machine)
+        const value = snapshot.context.value
         const increment = () => send('INCREMENT')
         // ...
       }
@@ -219,6 +223,10 @@
 #     GraphQL is a query language and execution engine tied to any backend
 #     service.
 #   homepageUrl: "https://spec.graphql.org"
+
+#################################################
+# Freeform
+#################################################
 
 - id: state_management_pinia
   name: Pinia
