@@ -19,6 +19,23 @@
         // ...
       }
 
+- id: state_management_legend_state
+  name: Legend State
+  npm: "@legendapp/state"
+  github: LegendApp/legend-state
+  homepageUrl: https://legendapp.com/open-source/state/
+  # description: "Flexible, high-performance state management for React and React Native"
+  example:
+    language: js
+    code: |
+      const counter = observable({ value: 0 })
+
+      const Counter = observer(() => {
+        const value = counter.value.use()
+        const increment = () => counter.value.set((v) => v + 1)
+        // ...
+      })
+
 - id: state_management_mobx
   name: MobX
   npm: mobx
