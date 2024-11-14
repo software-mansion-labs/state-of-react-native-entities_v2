@@ -2,28 +2,196 @@
 # Data Layer
 #################################################
 
+- id: state_management_jotai
+  name: Jotai
+  npm: jotai
+  github: pmndrs/jotai
+  # description: Atom-based, primitive, flexible state management for React
+  homepageUrl: https://jotai.org
+  example:
+    language: js
+    code: |
+      const valueAtom = atom(0)
+
+      function Counter() {
+        const [value, setValue] = useAtom(animeAtom)
+        const increment = setValue((v) => v + 1)
+        // ...
+      }
+
+- id: state_management_mobx
+  name: MobX
+  npm: mobx
+  github: mobxjs/mobx
+  # description: "Simple, scalable state management."
+  homepageUrl: https://mobx.js.org
+  example:
+    language: js
+    code: |
+      const counter = observable({ value: 0 });
+
+      const Counter = observer(() => {
+        const value = counter.value
+        const increment = () => counter.value++
+        // ...
+      })
+
+- id: state_management_mobx_state_tree
+  name: MobX State Tree
+  npm: mobx-state-tree
+  homepage: https://mobx-state-tree.js.org
+  github: https://github.com/mobxjs/mobx-state-tree
+  example:
+    language: js
+    code: |
+      const model = t
+        .model('counter', { value: t.number })
+        .actions((self) => ({ increment() { self.value++ }))
+
+      const counter = model.create({ value: 0 })
+
+      function Counter() {
+        const value = counter.value
+        const increment = counter.increment
+        // ...
+      }
+
+- id: state_management_rn_built_in
+  name: React built-ins
+  homepage: https://react.dev/reference/react/hooks
+  github: https://github.com/facebook/react
+  example:
+    language: js
+    code: |
+      function Counter() {
+        const [value, setValue] = useState(0);
+        const increment = () => setValue((v) => v + 1);
+        // ...
+      }
+
+- id: state_management_recoil
+  name: Recoil
+  npm: recoil
+  github: facebookexperimental/Recoil
+  homepageUrl: https://recoiljs.org
+  example:
+    language: js
+    code: |
+      const state = atom({ key: 'counter', default: 0 });
+
+      function Counter() {
+        const [value, setValue] = useRecoilState(state)
+        const increment = () => setValue(v => v + 1)
+        // ...
+      }
+
 - id: state_management_redux
   name: Redux
   npm: redux
   github: reduxjs/redux
-  description: Predictable state container for JavaScript apps
-  homepageUrl: "https://redux.js.org"
+  # description: Predictable state container for JavaScript apps
+  homepageUrl: https://redux.js.org
+  example:
+    language: js
+    code: |
+      function reducer(state = { value: 0 }, action) {
+        switch (action.type) {
+          case 'increment':
+            return { value: state.value + 1 }
+          default:
+            return state
+        }
+      }
+      const store = createStore(reducer)
 
-- id: state_management_pinia
-  name: Pinia
-  homepageUrl: https://pinia.vuejs.org/
-  github: vuejs/pinia
-  tags:
-    - vue
+      function Counter() {
+        const value = useSelector((state) => state.value);
+        const dispatch = useDispatch()
+        const increment = dispatch({ type: 'increment' })
+        // ...
+      }
 
-- id: state_management_apollo
-  name: Apollo Client
-  npm: "@apollo/client"
-  github: apollographql/apollo-client
-  description: >-
-    A fully-featured, production ready caching GraphQL client for every UI
-    framework and GraphQL server
-  homepageUrl: "https://www.apollographql.com/docs/react/"
+- id: state_management_redux_toolkit
+  name: Redux Toolkit
+  npm: "@reduxjs/toolkit"
+  homepage: https://redux-toolkit.js.org
+  github: https://github.com/reduxjs/redux-toolkit
+  example:
+    language: js
+    code: |
+      const slice = createSlice({
+        name: 'counter',
+        initialState: { value: 0 },
+        reducers: {
+          increment: (state) => { state.value++ },
+        },
+      })
+
+      const store = configureStore({ reducer: slice.reducer })
+
+      function Counter() {
+        const value = useSelector((state) => state.value)
+        const dispatch = useDispatch()
+        const increment = () => dispatch(counterSlice.actions.increment())
+        // ...
+      }
+
+- id: state_management_xstate
+  name: XState
+  npm: xstate
+  github: davidkpiano/xstate
+  # description: State machines and statecharts for the modern web.
+  homepageUrl: https://xstate.js.org/docs
+  example:
+    language: js
+    code: |
+      const machine = createMachine({
+        id: 'counter',
+        initial: 'active',
+        states: {
+          active: {
+            on: {
+              INCREMENT: {
+                actions: (context) => context.value++
+              }
+            }
+          }
+        }
+      });
+
+      function Counter() {
+        const [state, send] = useMachine(machine.withContext({ value: 0 }))
+        const value = state.context.value
+        const increment = () => send('INCREMENT')
+        // ...
+      }
+
+- id: state_management_zustand
+  name: Zustand
+  npm: zustand
+  github: pmndrs/zustand
+  # description: Bear necessities for state management in React
+  homepageUrl: "https://zustand-demo.pmnd.rs/"
+  example:
+    language: js
+    code: |
+      const useStore = create((set) => ({
+        count: 0,
+        increment: () => set((state) => ({ count: state.count + 1 })),
+      }))
+
+      function Counter() {
+        const { count, increment } = useStore()
+        // ...
+      }
+
+# - id: state_management_apollo
+#   name: Apollo Client
+#   npm: "@apollo/client"
+#   github: apollographql/apollo-client
+#   description: >-
+#     Apollo Client is a comprehensive state management library for JavaScript. It enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
+#   homepageUrl: https://www.apollographql.com/docs/react
 
 # removed because it matches too many libraries in the GraphQL ecosystem
 # - id: state_management_graphql
@@ -35,12 +203,12 @@
 #     service.
 #   homepageUrl: "https://spec.graphql.org"
 
-- id: state_management_mobx
-  name: MobX
-  npm: mobx
-  github: mobxjs/mobx
-  description: "Simple, scalable state management."
-  homepageUrl: "https://mobx.js.org/"
+- id: state_management_pinia
+  name: Pinia
+  homepageUrl: https://pinia.vuejs.org/
+  github: vuejs/pinia
+  tags:
+    - vue
 
 - id: state_management_relay
   name: Relay
@@ -48,13 +216,6 @@
   github: facebook/relay
   description: Relay is a JavaScript framework for building data-driven React applications.
   homepageUrl: "https://relay.dev"
-
-- id: state_management_xstate
-  name: XState
-  npm: xstate
-  github: davidkpiano/xstate
-  description: State machines and statecharts for the modern web.
-  homepageUrl: "https://xstate.js.org/docs/"
 
 - id: state_management_vuex
   name: Vuex
@@ -72,13 +233,6 @@
   tags:
     - data_fetching
 
-- id: state_management_recoil
-  name: Recoil
-  npm: recoil
-  github: facebookexperimental/Recoil
-  description: An experimental state management library for React apps
-  homepageUrl: "https://recoiljs.org/"
-
 - id: state_management_ngrx
   name: NgRx
   npm: null
@@ -93,26 +247,12 @@
   description: Reactive state manager
   homepageUrl: "https://effector.dev"
 
-- id: state_management_zustand
-  name: Zustand
-  npm: zustand
-  github: pmndrs/zustand
-  description: Bear necessities for state management in React
-  homepageUrl: "https://zustand-demo.pmnd.rs/"
-
 - id: state_management_akita
   name: Akita
   npm: "@datorama/akita"
   github: datorama/akita
   description: State Management Tailored-Made for JS Applications
   homepageUrl: "https://datorama.github.io/akita/"
-
-- id: state_management_jotai
-  name: Jotai
-  npm: jotai
-  github: pmndrs/jotai
-  description: "Primitive, flexible state management for React"
-  homepageUrl: "https://jotai.org/"
 
 - id: state_management_ember_data
   name: ember-data
@@ -156,31 +296,12 @@
   description: Frictionless state management
   homepageUrl: "https://overmindjs.org"
 
-- id: state_management_redux_toolkit
-  name: Redux Toolkit
-  npm: "@reduxjs/toolkit"
-  homepage: https://redux-toolkit.js.org/
-  github: https://github.com/reduxjs/redux-toolkit
-  description: The official, opinionated, batteries-included toolset for efficient Redux development
-
 - id: state_management_react_query
-  name: TanStack Query 
+  name: TanStack Query
   description: (React Query)
   npm: "@tanstack/react-query"
   homepage: https://tanstack.com/query/latest/docs/react/overview
   github: https://github.com/TanStack/query
-
-- id: state_management_mobx_state_tree
-  name: MobX State Tree
-  npm: mobx-state-tree
-  homepage: https://mobx-state-tree.js.org/
-  github: https://github.com/mobxjs/mobx-state-tree
-
-- id: state_management_rn_built_in
-  name: React built-ins
-  description: (useState, useContext, etc.)
-  homepage: https://beta.reactjs.org/reference/react
-  github: https://github.com/facebook/react
 
 #################################################
 # Data Fetching
