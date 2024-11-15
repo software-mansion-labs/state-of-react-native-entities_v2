@@ -2,7 +2,7 @@
   name: react-navigation
   homepageUrl: https://reactnavigation.org/
   npm: "@react-navigation/native"
-  description: Routing and navigation for your React Native apps
+  # description: Routing and navigation for your React Native apps
   github: https://github.com/react-navigation/react-navigation
   author: Expo, Software Mansion and Callstack
 
@@ -11,7 +11,7 @@
   homepageUrl: https://wix.github.io/react-native-navigation/
   npm: react-native-navigation
   github: https://github.com/wix/react-native-navigation
-  description: A complete native navigation solution for React Native
+  # description: A complete native navigation solution for React Native
   author: Wix
 
 - id: navigation_react_router
@@ -19,7 +19,7 @@
   homepageUrl: https://reactrouter.com/en/main/router-components/native-router
   npm: react-router-native
   github: https://github.com/remix-run/react-router
-  description: Declarative routing for React
+  # description: Declarative routing for React
   author: Remix
 
 - id: navigation_expo_router
@@ -27,7 +27,7 @@
   homepageUrl: https://expo.github.io/router/docs/
   npm: expo-router
   github: https://github.com/expo/router
-  description: The new File-based router for universal React Native apps!
+  # description: The new File-based router for universal React Native apps!
   author: Expo
 
 - id: navigation_navigation
@@ -35,7 +35,7 @@
   homepageUrl: http://grahammendick.github.io/navigation/native/
   npm: navigation-react-native
   github: https://github.com/grahammendick/navigation
-  description: Scene-Based Navigation for React and React Native
+  # description: Scene-Based Navigation for React and React Native
   author: Graham Mendick
 
 - id: navigation_solito
@@ -44,16 +44,16 @@
   npm: solito
   author: Fernando Rojo
 
-# freeform
 - id: solito
   name: Solito
   homepageUrl: https://solito.dev/
-  description: 🧍‍♂️ React Native + Next.js, unified.
+  # description: 🧍‍♂️ React Native + Next.js, unified.
   github: https://github.com/nandorojo/solito
   npm: solito
+
 - id: react_native_url_router
   name: React Native Url Router
   github: https://github.com/software-mansion-labs/react-native-url-router
-  description: A new way to create navigation in react-native
+  # description: A new way to create navigation in react-native
   npm: react-native-url-router
   homepageUrl: https://software-mansion-labs.github.io/react-native-url-router/docs/overview
