@@ -1,91 +1,103 @@
-- id: animations
-  name: Graphics and animations
-
 - id: animations_animated_api
   name: Animated API
   homepageUrl: https://reactnative.dev/docs/animated
-  description: The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.
+  # description: The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.
+
+- id: animations_expo_gl
+  name: Expo GL
+  homepageUrl: https://docs.expo.dev/versions/latest/sdk/gl-view/
+  # description: Expo module providing WebGL2 implementation
+  github: https://github.com/expo/expo
+  npm: expo-gl
+
+- id: animations_lottie
+  name: Lottie
+  homepageUrl: https://airbnb.io/lottie/#/react-native
+  github: https://github.com/lottie-react-native/lottie-react-native
+  # description: Lottie wrapper for React Native.
+  npm: lottie-react-native
+  # example:
+  #   language: jsx
+  #   code: |
+  #     <LottieView
+  #       source={require("../path/to/animation.json")}
+  #       style={{width: "100%", height: "100%"}}
+  #     />
+
+- id: animations_moti
+  name: Moti
+  # description: 🐼 The React Native (+ Web) animation library, powered by Reanimated 2.
+  github: https://github.com/nandorojo/moti
+  npm: moti
+  author: Fernando Rojo
+  example:
+    language: jsx
+    code: |
+      <MotiView from={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} />
+
+- id: animations_react_native_animatable
+  name: React Native Animatable
+  npm: react-native-animatable
+  # description: Standard set of easy to use animations and declarative transitions for React Native
+  github: https://github.com/oblador/react-native-animatable
+  author: Joel Arvidsson
+  example:
+    language: jsx
+    code: |
+      <Animatable.Text animation="zoomInUp">Zoom me up</Animatable.Text>
 
 - id: animations_react_native_reanimated
   name: React Native Reanimated
   npm: react-native-reanimated
   homepageUrl: https://docs.swmansion.com/react-native-reanimated/
   github: https://github.com/software-mansion/react-native-reanimated
-  description: React Native's Animated library reimplemented
+  # description: React Native's Animated library reimplemented
   author: Software Mansion
 
-- id: animations_moti
-  name: Moti
-  description: 🐼 The React Native (+ Web) animation library, powered by Reanimated 2.
-  github: https://github.com/nandorojo/moti
-  npm: moti
-  author: Fernando Rojo
+- id: animations_react_three_fiber
+  name: React Three Fiber
+  npm: "@react-three/fiber"
+  github: https://github.com/pmndrs/react-three-fiber
+  # description: "🇨🇭 A React renderer for Three.js"
+  homepageUrl: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
+
+- id: animations_rive
+  name: Rive
+  homepageUrl: https://rive.app/
+  npm: rive-react-native
+  github: https://github.com/rive-app/rive-react-native
 
 - id: animations_skia
   name: React Native Skia
   github: https://github.com/Shopify/react-native-skia
-  description: High-performance React Native Graphics using Skia
+  homepageUrl: https://shopify.github.io/react-native-skia/
+  # description: High-performance React Native Graphics using Skia
   npm: "@shopify/react-native-skia"
   author: Shopify
-  
-- id: animations_react_native_animatable
-  name: React Native Animatable
-  npm: react-native-animatable
-  description: Standard set of easy to use animations and declarative transitions for React Native
-  github: https://github.com/oblador/react-native-animatable
-  author: Joel Arvidsson
 
 - id: animations_threejs
   name: three.js
   homepageUrl: https://threejs.org/
   github: https://github.com/mrdoob/three.js/
-  description: JavaScript 3D Library.
+  # description: JavaScript 3D Library.
   npm: three
-- id: animations_react_three_fiber
-  name: React Three Fiber
-  npm: "@react-three/fiber"
-  github: https://github.com/pmndrs/react-three-fiber
-  description: "🇨🇭 A React renderer for Three.js"
-  homepageUrl: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
-- id: animations_lottie
-  name: Lottie
-  homepageUrl: https://airbnb.design/lottie
-  github: https://github.com/lottie-react-native/lottie-react-native
-  description: Lottie wrapper for React Native.
-  npm: lottie-react-native
-- id: animations_expo_gl
-  name: Expo GL
-  homepageUrl: https://docs.expo.dev/versions/latest/sdk/gl-view/
-  description: Expo module providing WebGL2 implementation
-  github: https://github.com/expo/expo
-  npm: expo-gl
+
+############################
+# OTHER
+#########################
+
 - id: animations_legend_motion
   name: Legend Motion
   npm: "@legendapp/motion"
   github: https://github.com/LegendApp/legend-motion
   description: Legend Motion is a declarative animations library for React Native, to make it easy to transition between styles without needing to manage animations.
   homepageUrl: https://legendapp.com/open-source/motion/
-- id: animations_rive
-  name: Rive
-  homepageUrl: https://rive.app/
-  npm: rive-react-native
-  github: https://github.com/rive-app/rive-react-native
+
 - id: animations_other
   name: Other graphics and animations solutions
+
 - id: animations_happiness
   name: Overall happiness
 
-
-# freeform
-- id: rive
-  name: Rive
-  homepageUrl: https://rive.app/
-  npm: rive-react-native
-  github: https://github.com/rive-app/rive-react-native
-
-- id: tamagui
-  name: Tamagui
-  homepageUrl: https://tamagui.dev/
-  github: https://github.com/tamagui/tamagui
-  description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
-  npm: tamagui
+- id: animations
+  name: Graphics and animations
