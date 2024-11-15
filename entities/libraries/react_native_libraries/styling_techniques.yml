@@ -1,62 +1,161 @@
-- id: styling_techniques
-  name: Styling techniques / libraries
+- id: styling_techniques_dripsy
+  npm: dripsy
+  github: https://github.com/nandorojo/dripsy
+  # description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
+  homepageUrl: https://www.dripsy.xyz/
+  name: Dripsy
+  author: Fernando Rojo
+  example:
+    language: jsx
+    code: |
+      <View sx={{ bg: '$primary', height: [100, 200] }} />
+
+- id: styling_techniques_emotion
+  name: Emotion
+  npm: "@emotion/native"
+  homepageUrl: https://emotion.sh/
+  github: https://github.com/emotion-js/emotion
+  example:
+    language: jsx
+    code: |
+      const Card = styled.View`
+        background-color: ${props => props.theme.primary};
+        height: 100px;
+      `
+
+- id: styling_techniques_inline
+  name: Inline styling
+  example:
+    language: jsx
+    code: |
+      <View style={{ height: 100, backgroundColor: "red" }} />
 
 - id: styling_techniques_style_sheet
   name: StyleSheet API
   homepageUrl: https://reactnative.dev/docs/stylesheet
+  example:
+    language: jsx
+    code: |
+      const styles = StyleSheet.create({
+        card: { height: 100, backgroundColor: "red" }
+      })
+
+      function Component() {
+        return <View style={styles.card} />
+      }
 
 - id: styling_techniques_nativewind
   name: NativeWind
   homepageUrl: https://www.nativewind.dev/
   github: https://github.com/marklawlor/nativewind
-  description: React Native utility-first universal design system - powered by Tailwind CSS
+  # description: React Native utility-first universal design system - powered by Tailwind CSS
   npm: nativewind
   author: Mark Lawlor
+  example:
+    language: jsx
+    code: |
+      <View className="h-[100] md:h-[200] bg-primary" />
 
-- id: styling_techniques_tailwind_rn
-  name: "tailwind-rn"
-  npm: "tailwind-rn"
-  github: https://github.com/vadimdemedes/tailwind-rn
-  description: 🦎 Use Tailwind CSS in React Native projects
-  author: Vadim Demedes
+- id: styling_techniques_react_native_unistyles
+  name: react-native-unistyles
+  npm: react-native-unistyles
+  homepageUrl: https://www.unistyl.es/
+  github: https://github.com/jpudysz/react-native-unistyles
+  # description: Universal styling for React Native and React Native Web
+  author: Jacek Pudysz
+  example:
+    language: jsx
+    code: |
+      const stylesheet = createStyleSheet(theme => ({
+        card: {
+          height: {
+            xs: 100,
+            md: 200
+          },
+          backgroundColor: theme.colors.primary
+        }
+      })
+
+      function Component() {
+        const { styles } = useStyles(stylesheet)
+        return <View style={styles.card} />
+      }
+
+- id: styling_techniques_restyle
+  name: Restyle
+  npm: "@shopify/restyle"
+  github: https://github.com/Shopify/restyle
+  # description: A type-enforced system for building UI components in React Native with TypeScript.
+  homepageUrl: https://shopify.github.io/restyle/
+  author: Shopify
+  example:
+    language: jsx
+    code: |
+      <Box backgroundColor="primary" height={{ sm: 100, md: 200 }} />
 
 - id: styling_techniques_styled_components
   name: styled components
   homepageUrl: https://styled-components.com/docs/basics#react-native
   npm: styled-components
   github: https://github.com/styled-components/styled-components
-  description: Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
-
-- id: styling_techniques_restyle
-  name: Restyle
-  npm: "@shopify/restyle"
-  github: https://github.com/Shopify/restyle
-  description: A type-enforced system for building UI components in React Native with TypeScript.
-  homepageUrl: https://shopify.github.io/restyle/
-  author: Shopify
-
-- id: styling_techniques_inline
-  name: Inline styling
+  # description: Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
+  example:
+    language: jsx
+    code: |
+      const Card = styled.View`
+        background-color: ${props => props.theme.primary};
+        height: 100px;
+      `
 
 - id: styling_techniques_tamagui
   name: Tamagui
   homepageUrl: https://tamagui.dev/
   github: https://github.com/tamagui/tamagui
-  description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
+  # description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
   npm: tamagui
   author: Nate Wienert
+  example:
+    language: jsx
+    code: |
+      const Card = styled(View, {
+        height: {
+          sm: 100,
+          md: 200,
+        },
+        backgroundColor: '$primary',
+      });
 
-- id: styling_techniques_react_native_unistyles
-  name: react-native-unistyles
-  npm: react-native-unistyles
-  github: https://github.com/jpudysz/react-native-unistyles
-  description: Universal styling for React Native and React Native Web
-  author: Jacek Pudysz
+- id: styling_techniques_twrnc
+  name: Tailwind React Native Classnames (twrnc)
+  # description: Tailwind React Native Classnames
+  npm: twrnc
+  github: https://github.com/jaredh159/tailwind-react-native-classnames
+  author: Jared Henderson
+  example:
+    language: jsx
+    code: |
+      <View style={tw("h-[100] md:h-[200] bg-primary")} />
 
-- id: styling_techniques_emotion
-  name: Emotion
-  npm: "@emotion/native"
-  github: https://github.com/emotion-js/emotion
+#####################################
+# Others
+#####################################
+
+- id: styling_techniques
+  name: Styling techniques / libraries
+
+# - id: styling_techniques_tailwind_rn
+#   name: "tailwind-rn"
+#   npm: "tailwind-rn"
+#   github: https://github.com/vadimdemedes/tailwind-rn
+#   description: 🦎 Use Tailwind CSS in React Native projects
+#   author: Vadim Demedes
+
+# - id: styling_techniques_gluestack_styles
+#   name: gluestack-style
+#   npm: "@gluestack/gluestack-style"
+#   github: https://github.com/gluestack/gluestack-ui
+#   # description: "Universal and Performant Styling library for React Native, Next.js, Expo & React"
+#   author: Gluestack
 
 - id: styling_techniques_zephyr
   name: React Native Zephyr
@@ -65,34 +164,12 @@
   description: "TailwindCSS-inspired styling library for React Native."
   author: Formidable
 
-- id: styling_techniques_gluestack_styles
-  name: gluestack-style
-  npm: "@gluestack/gluestack-style"
-  github: https://github.com/gluestack/gluestack-style
-  description: "Universal and Performant Styling library for React Native, Next.js, Expo & React"
-  author: Gluestack
-
 - id: styling_techniques_fast_styles
   name: Fast Styles
   npm: "@fast-styles/react"
   github: https://github.com/fedemartinm/fast-styles
   description: "⚡ A lightweight and efficient React Native styling package that generates styles during compile time without any runtime overhead"
   author: Federico Martin
-
-- id: styling_techniques_twrnc
-  name: twrnc
-  description: Tailwind React Native Classnames
-  npm: twrnc
-  github: https://github.com/jaredh159/tailwind-react-native-classnames
-  author: Jared Henderson
-
-- id: styling_techniques_dripsy
-  npm: dripsy
-  github: https://github.com/nandorojo/dripsy
-  description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
-  homepageUrl: https://www.dripsy.xyz/
-  name: Dripsy
-  author: Fernando Rojo
 
 - id: styling_techniques_other
   name: Other styling techniques
@@ -105,18 +182,3 @@
   homepageUrl: https://nativebase.io/
   github: https://github.com/GeekyAnts/nativebase
   description: Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.
-
-- id: rxn_grife
-  npm: rxn-grife
-  name: rxn-grife
-  github: https://github.com/Luffos/rxn-grife
-
-- id: dripsy
-  npm: dripsy
-  github: https://github.com/nandorojo/dripsy
-  description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
-  homepageUrl: https://www.dripsy.xyz/
-  name: Dripsy
-
-- id: tailwind_react_native_classnames
-  name: react-native-tailwind-classnames
