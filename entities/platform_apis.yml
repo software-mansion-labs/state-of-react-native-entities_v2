@@ -395,6 +395,3 @@
       title: iOS
     - url: https://developer.android.com/guide/webapps/webview
       title: Android
-
-- id: platform_apis_other
-  name: Other platform APIs usage

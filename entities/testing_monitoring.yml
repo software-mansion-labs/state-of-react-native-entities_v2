@@ -1,0 +1,126 @@
+- id: testing_and_monitoring_testing_jest
+  name: Jest
+  github: https://github.com/facebook/jest
+  homepageUrl: https://jestjs.io/
+  description: Delightful JavaScript Testing.
+  npm: jest
+
+- id: testing_and_monitoring_testing_react_native_testing_library
+  name: React Native Testing Library
+  homepageUrl: https://callstack.github.io/react-native-testing-library/
+  github: https://github.com/callstack/react-native-testing-library
+  description: 🦉 Simple and complete React Native testing utilities that encourage good testing practices.
+  npm: "@testing-library/react-native"
+
+- id: testing_and_monitoring_testing_detox
+  name: Detox
+  homepageUrl: https://wix.github.io/Detox/
+  description: Gray box end-to-end testing and automation framework for mobile apps
+  github: https://github.com/wix/Detox
+  npm: detox
+
+- id: testing_and_monitoring_testing_appium
+  name: Appium
+  homepageUrl: https://appium.io/
+  npm: appium
+  github: https://github.com/appium/appium
+  description: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol
+
+- id: testing_and_monitoring_testing_maestro
+  name: Maestro
+  homepageUrl: https://maestro.mobile.dev/
+  github: https://github.com/mobile-dev-inc/maestro
+  description: Painless Mobile UI Automation
+
+- id: testing_and_monitoring_testing_xcuitest
+  name: XCUITest
+  homepageUrl: https://developer.apple.com/documentation/xctest
+
+- id: testing_and_monitoring_testing_espresso
+  name: Espresso
+  homepageUrl: https://developer.android.com/training/testing/espresso
+
+- id: testing_and_monitoring_testing_storybook
+  name: Storybook
+  homepageUrl: https://storybook.js.org/
+  github: https://github.com/storybookjs/react-native
+
+  ######################################################
+  #########        ANALYTICS                   #########
+  ######################################################
+
+- id: testing_and_monitoring_analytics_firebase_analytics
+  name: Firebase Analytics
+  homepageUrl: https://firebase.google.com/products/analytics
+
+- id: testing_and_monitoring_analytics_appcenter_analytics
+  name: AppCenter Analytics
+  homepageUrl: https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native
+
+- id: testing_and_monitoring_analytics_amplitude
+  name: Amplitude
+  homepageUrl: https://amplitude.com/
+
+- id: testing_and_monitoring_analytics_amplify_analytics
+  name: Amplify Analytics
+  homepageUrl: https://docs.amplify.aws/react-native/
+
+- id: testing_and_monitoring_analytics_mixpanel
+  name: Mixpanel
+  homepageUrl: https://mixpanel.com/
+
+- id: testing_and_monitoring_analytics_segment
+  name: Segment
+  homepageUrl: https://segment.com/
+
+- id: testing_and_monitoring_analytics_appsflyer
+  name: AppsFlyer
+  homepageUrl: https://www.appsflyer.com/
+
+- id: testing_and_monitoring_analytics_flurry
+  name: Flurry
+  homepageUrl: https://developer.yahoo.com/flurry/docs/
+
+  ######################################################
+  #########        CRASH REPORTING             #########
+  ######################################################
+
+- id: testing_and_monitoring_crash_reporting_sentry
+  name: Sentry
+  homepageUrl: https://sentry.io/
+
+- id: testing_and_monitoring_crash_reporting_datadog
+  name: Datadog
+  homepageUrl: https://www.datadoghq.com/
+
+- id: testing_and_monitoring_crash_reporting_instabug
+  name: Instabug
+  homepageUrl: https://instabug.com/
+
+- id: testing_and_monitoring_crash_reporting_new_relic
+  name: New Relic
+  homepageUrl: https://newrelic.com/
+
+- id: testing_and_monitoring_crash_reporting_appdynamics
+  name: AppDynamics
+  homepageUrl: https://www.appdynamics.com/
+
+- id: testing_and_monitoring_crash_reporting_amazon_cloudwatch
+  name: Amazon CloudWatch
+  homepageUrl: https://aws.amazon.com/cloudwatch/
+
+- id: testing_and_monitoring_crash_reporting_elastic_observability
+  name: Elastic Observability
+  homepageUrl: https://www.elastic.co/observability
+
+- id: testing_and_monitoring_crash_reporting_bugsnag
+  name: Bugsnag
+  homepageUrl: https://www.bugsnag.com/
+
+- id: testing_and_monitoring_crash_reporting_firebase_crashlytics
+  name: Firebase Crashlytics
+  homepageUrl: https://firebase.google.com/products/crashlytics
+
+- id: testing_and_monitoring_crash_reporting_appcenter_crashes
+  name: AppCenter Crashes
+  homepageUrl: https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native
