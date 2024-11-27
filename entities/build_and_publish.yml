@@ -1,0 +1,33 @@
+- id: build_and_publish_manually_xcode
+  name: Manually with Xcode
+  homepage: https://developer.apple.com/xcode/
+
+- id: build_and_publish_manually_android_studio
+  name: Manually with Android Studio
+  homepage: https://developer.android.com/studio
+
+- id: build_and_publish_fastlane
+  name: Fastlane
+  homepage: https://fastlane.tools/
+  github: https://github.com/fastlane/fastlane
+  description: An open source platform aimed at simplifying Android and iOS deployment. Automate every aspect of your development and release workflow.
+
+- id: build_and_publish_eas_build
+  name: EAS Build
+  homepage: https://expo.dev/eas#build
+  description: A hosted service for building app binaries for your Expo and React Native projects. Compile and sign Android/iOS apps with custom native code in the cloud.
+
+- id: build_and_publish_eas_submit
+  name: EAS Submit
+  homepage: https://expo.dev/eas#submit
+  description: A hosted service for uploading and submitting an app binary to the app stores. Upload your app to the Play Store or App Store from the cloud with a single command.
+
+- id: build_and_publish_app_center
+  name: App Center
+  homepage: https://appcenter.ms/
+  description: Continuously build, test, release, and monitor apps for every platform.
+
+- id: build_and_publish_bitrise
+  name: Bitrise
+  homepage: https://bitrise.io/
+  description: The CI/CD Platform built for Mobile DevOps.

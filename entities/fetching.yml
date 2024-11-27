@@ -1,0 +1,137 @@
+- id: data_fetching_fetch
+  name: Fetch API
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  description: An interface for fetching resources.
+  example:
+    language: js
+    code: |
+      const response = await fetch(url)
+
+- id: data_fetching_axios
+  name: Axios
+  homepage: https://axios-http.com/docs/intro
+  npm: axios
+  github: axios/axios
+  description: Promise based HTTP client for the browser and node.js
+  example:
+    language: js
+    code: |
+      const response = await axios.get(url)
+
+- id: data_fetching_apollo
+  name: Apollo Client
+  npm: "@apollo/client"
+  github: apollographql/apollo-client
+  homepage: https://www.apollographql.com/docs/react
+  description: A library enabling you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
+  example:
+    language: js
+    code: |
+      const client = new ApolloClient({ uri, cache })
+      const query = gql`
+        query Example {
+          // ...
+        }
+      `
+
+      function Component() {
+        const { loading, error, data } = useQuery(query)
+        // ...
+      }
+
+- id: data_fetching_trpc
+  name: tRPC
+  homepage: https://trpc.io/
+  npm: "@trpc/client"
+  github: trpc/trpc
+  description: tRPC allows you to easily build & consume fully typesafe APIs without schemas or code generation.
+  example:
+    language: js
+    code: |
+      const trpc = createTRPCClient<AppRouter>()
+
+      function Component() {
+        const result = trpc.hello.useQuery()
+        // ...
+      }
+
+- id: data_fetching_tan_stack
+  name: TanStack Query
+  homepage: https://tanstack.com/query/latest
+  npm: "@tanstack/react-query"
+  github: TanStack/query
+  description: TanStack Query (FKA React Query) is often described as the missing data-fetching library for applications, but in more technical terms, it makes fetching, caching, synchronizing and updating server state in your web applications a breeze.
+  example:
+    language: js
+    code: |
+      const queryClient = new QueryClient()
+
+      function Component() {
+        const { isPending, error, data } = useQuery({ queryKey: ['example'], queryFn })
+        // ...
+      }
+
+- id: data_fetching_swr
+  name: SWR
+  homepage: https://swr.vercel.app/
+  npm: swr
+  github: vercel/swr
+  description: React Hooks for Data Fetching. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
+  example:
+    language: js
+    code: |
+      function Component() {
+        const { data, error, isLoading } = useSWR(url, fetcher)
+        // ...
+      }
+
+- id: data_fetching_relay
+  name: Relay
+  homepage: https://relay.dev/
+  github: facebook/relay
+  npm: react-relay
+  description: The GraphQL client that scales with you. A JavaScript framework for building data-driven React applications.
+  example:
+    language: js
+    code: |
+      const query = graphql`
+        query Example {
+          // ...
+        }
+      `
+
+      function Component() {
+        const data = useLazyLoadQuery(query)
+        // ...
+      }
+
+- id: data_fetching_rtk_query
+  name: RTK Query
+  homepage: https://redux-toolkit.js.org/rtk-query/overview
+  npm: "@reduxjs/toolkit"
+  github: reduxjs/redux-toolkit
+  description: RTK Query is a powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.
+  example:
+    language: js
+    code: |
+      const exampleApi = createApi({
+        baseQuery: fetchBaseQuery({ baseUrl }),
+        endpoints: (builder) => ({
+          exampleQuery: builder.query({
+            query: () => `examplePath`
+          })
+        }),
+        // ...
+      })
+
+      const store = configureStore({
+        reducer: {
+          [exampleApi.reducerPath]: exampleApi.reducer
+        },
+        // ...
+      })
+
+      function Component() {
+        const { data, error, isLoading } = exampleApi.useExampleQuery()
+        // ...
+      }

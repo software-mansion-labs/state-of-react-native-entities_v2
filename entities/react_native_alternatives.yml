@@ -1,0 +1,48 @@
+- id: react_native_alternatives_swiftui
+  name: SwiftUI
+  homepage: https://developer.apple.com/xcode/swiftui/
+  description: SwiftUI helps you build great-looking apps across all Apple platforms with the power of Swift — and surprisingly little code.
+
+- id: react_native_alternatives_flutter
+  name: Flutter
+  homepage: https://flutter.dev/
+  description: Flutter transforms the development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded experiences from a single codebase.
+  github: flutter/flutter
+
+- id: react_native_alternatives_jetpack_compose
+  name: Jetpack Compose
+  homepage: https://developer.android.com/jetpack/compose
+  description: Jetpack Compose is Android’s recommended modern toolkit for building native UI. It simplifies and accelerates UI development on Android.
+  github: androidx/androidx/tree/androidx-main/compose
+
+- id: react_native_alternatives_xamarin
+  name: Xamarin
+  homepage: https://dotnet.microsoft.com/apps/xamarin
+  description: An app platform for building Android and iOS apps with .NET and C#.
+  github: xamarin/Xamarin.Forms
+
+- id: react_native_alternatives_cordova
+  name: Cordova
+  homepage: https://cordova.apache.org/
+  github: apache/cordova
+  npm: cordova
+  description: Development framework allowing you to use standard web technologies - HTML5, CSS3, and JavaScript for cross-platform development.
+
+- id: react_native_alternatives_ionic
+  name: Ionic
+  homepage: https://ionicframework.com/
+  npm: "@ionic/core"
+  github: ionic-team/ionic-framework
+  description: UI toolkit for building performant, high-quality mobile apps using web technologies — HTML, CSS, and JavaScript — with integrations for popular frameworks like Angular, React, and Vue.
+
+- id: react_native_alternatives_native_script
+  name: NativeScript
+  homepage: https://nativescript.org/
+  description: Empowering JavaScript with native platform APIs. Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java). Use what you love Angular, Capacitor, Ionic, React, Svelte, Vue and you name it compatible.
+  github: NativeScript/NativeScript
+  npm: nativescript
+
+- id: react_native_alternatives_kotlin
+  name: Kotlin Multiplatform Mobile
+  homepage: https://kotlinlang.org/lp/mobile/
+  description: Reuse Kotlin code across Android, iOS, web, desktop, and server-side while keeping native code if needed..

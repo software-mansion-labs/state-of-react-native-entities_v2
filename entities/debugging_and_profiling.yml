@@ -1,0 +1,111 @@
+- id: debugging_profiling_console
+  name: console API
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/console
+  example:
+    language: jsx
+    code: |
+      console.log("Hello React Native! 😊")
+
+- id: debugging_profiling_radon_ide
+  name: Radon IDE
+  homepage: https://ide.swmansion.com/
+  description: A better developer experience for React Native developers. A Visual Studio Code extension that aims to simplify the development of React Native applications.
+  author: Software Mansion
+
+- id: debugging_profiling_remote_javascript_debugging
+  name: Remote JavaScript Debugging
+  description: _(built-in)_ Deprecated since React Native 0.73. Remote JavaScript Debugging connects an external web browser (Chrome) to your app and runs your JavaScript code inside a web page.
+  homepage: https://reactnative.dev/docs/other-debugging-methods#remote-javascript-debugging-deprecated
+
+- id: debugging_profiling_hermes_debugger
+  name: Hermes Debugger
+  description: _(built-in)_ Available starting with React Native 0.73. Debug JavaScript code on the device via Hermes that supports Chrome DevTools Protocol.
+  homepage: https://reactnative.dev/docs/debugging?js-debugger=hermes#opening-the-debugger
+
+- id: debugging_profiling_direct_jsc_debugging
+  name: Direct JSC debugging
+  description: _(built-in)_ Use Safari to debug the iOS version of your app when using JavaScriptCore (JSC) as your app's runtime.
+  homepage: https://reactnative.dev/docs/other-debugging-methods#safari-developer-tools-direct-jsc-debugging
+
+- id: debugging_profiling_react_native_devtools
+  name: React Native DevTools
+  description: _(built-in)_ Starting with React Native 0.76. New default debugging experience for React Native apps based on Chrome DevTools Protocol with React DevTools included.
+  homepage: https://github.com/react-native-community/discussions-and-proposals/discussions/819
+
+- id: debugging_profiling_experimental_new_debugger
+  name: Experimental New Debugger
+  description: _(built-in)_ Available in React Native 0.73 - 0.75. The preview of the experimental new debugger experience with a new debugger frontend.
+  homepage: https://github.com/react-native-community/discussions-and-proposals/discussions/733
+
+- id: debugging_profiling_react_devtools
+  name: React DevTools
+  author: Meta
+  description: Components inspector and performance profiler that let's you debug the React component hierarchy within your app.
+  homepage: https://reactnative.dev/docs/react-devtools
+
+- id: debugging_profiling_element_inspector
+  name: Element Inspector
+  description: _(built-in)_ The inspector lets you tap on any UI element in the app and see information about it.
+  homepage: https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector
+
+- id: debugging_profiling_logbox
+  name: LogBox
+  description: _(built-in)_ Displays console errors and console warnings as the overlay inside your app.
+  homepage: https://reactnative.dev/docs/debugging#logbox
+
+- id: debugging_profiling_performance_monitor
+  name: Performance Monitor
+  description: _(built-in)_ Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.
+  homepage: https://reactnative.dev/docs/performance
+
+- id: debugging_profiling_flipper
+  name: Flipper
+  description: Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.
+  homepage: https://fbflipper.com/
+  github: facebook/flipper
+  author: Meta
+  npm: react-native-flipper
+
+- id: debugging_profiling_reactotron
+  name: Reactotron
+  description: A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
+  homepage: https://docs.infinite.red/reactotron/
+  github: infinitered/reactotron
+  author: Infinite Red
+
+- id: debugging_profiling_expo_dev_tools_plugins
+  name: Expo Dev tools plugins
+  description: Available for Expo Development builds of your app. Add debugging features on top of installed libraries.
+  homepage: https://docs.expo.dev/debugging/devtools-plugins
+  github: expo/dev-plugins
+  author: Expo
+
+- id: debugging_profiling_react_native_performance
+  name: react-native-performance
+  description: Toolchain to measure and monitor the performance of your React Native app in development, pipeline and in production.
+  github: oblador/react-native-performance
+  author: Joel Arvidsson
+  npm: react-native-performance
+
+- id: debugging_profiling_flashlight
+  name: Flashlight
+  description: Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.
+  homepage: https://flashlight.dev/
+  github: bamlab/flashlight
+  author: Theodo Apps (former BAM)
+
+- id: debugging_profiling_react_native_flipper_performance_monitor
+  name: react-native-flipper-performance-monitor
+  description: An attempt to have a lighthouse for React Native. Flipper plugin to show a graph of the React Native performance monitor.
+  github: bamlab/react-native-flipper-performance-monitor
+  author: Theodo Apps (format BAM)
+
+- id: debugging_profiling_native_debugging
+  name: Native debugging
+  description: (Xcode / Android Studio)
+  homepage: https://developer.android.com/studio/debug
+
+- id: debugging_profiling_native_profiling
+  name: Native profiling
+  description: (Xcode, Android Studio)
+  homepage: https://developer.android.com/studio/profile

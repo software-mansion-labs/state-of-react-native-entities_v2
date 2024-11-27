@@ -1,0 +1,98 @@
+- id: react_native_architecture_new_architecture
+  name: New Architecture
+  homepage: https://reactnative.dev/architecture/landing-page
+  description: The New Architecture adds full support for modern React features, including Suspense, Transitions, automatic batching, and useLayoutEffect. The New Architecture also includes new Native Module and Native Component systems that let you write type-safe code with direct access to native interfaces without a bridge.
+
+- id: react_native_architecture_fabric
+  name: Fabric
+  homepage: https://reactnative.dev/architecture/fabric-renderer
+  description: React Native's new rendering system, a conceptual evolution of the legacy render system. Unifies more render logic in C++, improves interoperability with host platforms, and unlocks new capabilities for React Native.
+
+#   superseded by the New Architecture
+# - id: react_native_architecture_bridgeless_mode
+#   name: Bridgeless Mode
+#   homepage: https://reactnative.dev/docs/next/the-new-architecture/bridgeless
+
+- id: react_native_architecture_turbo_modules
+  name: Turbo Native Modules
+  homepage: https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md
+  description: "The next iteration on Native Modules that provide extra benefits: strongly typed interfaces, ability to use C++, modules lazy load, usage of JSI."
+
+- id: react_native_architecture_codegen
+  name: Codegen
+  homepage: https://reactnative.dev/docs/the-new-architecture/what-is-codegen
+  npm: react-native-codegen
+  description: A tool that automates the generation of code for native modules and components.
+
+- id: react_native_architecture_custom_native_modules
+  name: Native modules (legacy architecture)
+  homepage: https://reactnative.dev/docs/legacy/native-modules-intro
+
+- id: react_native_architecture_custom_native_views
+  name: Native views (legacy architecture)
+  homepage: https://reactnative.dev/docs/native-components-android
+
+- id: react_native_architecture_jsc_runtime
+  name: JSC runtime
+  homepage: https://developer.apple.com/documentation/javascriptcore
+
+- id: react_native_architecture_hermes_runtime
+  name: Hermes runtime
+  homepage: https://hermesengine.dev/
+
+- id: react_native_architecture_v8_runtime
+  name: V8 runtime
+  github: https://github.com/Kudo/react-native-v8
+  npm: react-native-v8
+
+- id: react_native_architecture_jsi
+  name: JSI
+  homepage: https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi
+
+- id: react_native_architecture_expo_modules
+  name: Expo Modules
+  homepage: https://docs.expo.dev/modules/overview/
+  npm: expo-modules-core
+
+- id: react_native_architecture_react_native_directory
+  name: React Native Directory
+  homepage: https://reactnative.directory/
+  github: react-native-community/directory
+  description: A website where you can see all the libraries that are compatible with React Native.
+
+######################################################
+#########             OTA UPDATES            #########
+######################################################
+
+- id: react_native_architecture_ota_updates_code_push
+  name: CodePush
+  homepage: https://learn.microsoft.com/en-us/appcenter/distribution/codepush/
+  npm: react-native-code-push
+  github: https://github.com/microsoft/react-native-code-push
+  description: An App Center cloud service that enables React Native developers to deploy mobile app updates directly to their users’ devices.
+
+- id: react_native_architecture_ota_updates_eas_update
+  name: EAS Update
+  homepage: https://expo.dev/eas#update
+  npm: expo-updates
+  description: A hosted service that serves updates for projects using the expo-updates library. Seamlessly deliver live app updates, critical bug fixes, content changes, beta features, and more to give your users the best experience possible.
+
+
+######################################################
+#########             CODE SHARING           #########
+######################################################
+
+- id: react_native_architecture_mobile_web_code_sharing_react_native_web
+  name: React Native Web
+  npm: react-native-web
+  github: https://github.com/necolas/react-native-web
+  description: An accessible implementation of React Native's Components and APIs that is interoperable with React DOM.
+  homepage: https://necolas.github.io/react-native-web/
+
+- id: react_native_architecture_mobile_web_code_sharing_solito
+  name: Solito
+  homepage: https://solito.dev/
+  description: A library dedicated to unifying React Native with Next.js, primarily focused on navigation.
+  github: https://github.com/nandorojo/solito
+  npm: solito
+

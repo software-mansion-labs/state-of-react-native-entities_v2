@@ -1,0 +1,189 @@
+- id: dev_tools_expo_snack
+  name: Expo Snack
+  homepage: https://snack.expo.dev
+  description: React Native in the browser. Write code in Expo's online editor and instantly use it on your phone.
+  author: Expo
+
+- id: dev_tools_expo_cli
+  name: Expo CLI
+  homepage: https://docs.expo.dev/workflow/expo-cli/
+  npm: "@expo/cli"
+  github: https://github.com/expo/expo/tree/main/packages/@expo/cli
+  description: The fastest way to build and run universal React Native apps for Android, iOS, and the web.
+  author: Expo
+
+- id: dev_tools_eas_cli
+  name: EAS CLI
+  github: expo/eas-cli
+  description: Fastest way to build, submit, and update iOS and Android apps.
+  homepage: https://docs.expo.dev/eas
+  npm: eas-cli
+  author: Expo
+
+- id: dev_tools_react_native_cli
+  name: React Native Community CLI
+  github: react-native-community/cli
+  npm: "@react-native-community/cli"
+  description: The React Native Community CLI - command line tools to help you build RN apps.
+
+- id: dev_tools_ignite_cli
+  name: Ignite CLI
+  npm: ignite-cli
+  github: infinitered/ignite
+  author: Infinite Red
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
+
+- id: dev_tools_rnx_kit
+  name: rnx-kit
+  github: microsoft/rnx-kit
+  homepage: https://microsoft.github.io/rnx-kit
+  description: Tools to boost your productivity. By and for the community.
+  author: Microsoft
+
+- id: dev_tools_react_native_test_app
+  name: React Native Test App
+  author: Microsoft
+  github: microsoft/react-native-test-app
+  npm: react-native-test-app
+  description: "React Native Test App provides test apps for all platforms as a package. It handles the native bits for you so you can focus on what's important: your product."
+
+- id: dev_tools_expo_go
+  name: Expo Go
+  homepage: https://expo.dev/go
+  description: A sandbox that enables you to quickly experiment with building native Android and iOS apps.
+  author: Expo
+
+- id: dev_tools_expo_dev_client
+  name: Expo DevClient
+  author: Expo
+  homepage: https://docs.expo.dev/versions/latest/sdk/dev-client/
+  description: A library that allows creating a development build and includes useful development tools.
+  npm: expo-dev-client
+  github: expo/expo/tree/sdk-52/packages/expo-dev-client
+
+- id: dev_tools_upgrade_helper
+  name: Upgrade Helper
+  homepage: https://react-native-community.github.io/upgrade-helper/
+  npm: react-native-community/upgrade-helper
+  github: react-native-community/upgrade-helper
+  description: A web tool to support React Native developers in upgrading their apps.
+
+- id: dev_tools_config_plugins
+  author: Expo
+  name: Config plugins
+  npm: "@expo/config-plugins"
+  homepage: https://docs.expo.dev/config-plugins/introduction/
+  github: "expo/expo/tree/main/packages/@expo/config-plugins"
+  description: A powerful tool for generating native app code from a unified JavaScript interface.
+
+- id: dev_tools_setup_ci
+  name: setup-ci (SCI)
+  description: A tool meant to simplify the process of setting up CI/CD workflows in React Native apps.
+  homepage: https://docs.swmansion.com/setup-ci
+  author: Software Mansion
+  npm: setup-ci
+  github: software-mansion/setup-ci
+
+######################################################
+#########        PACKAGE MANAGERS            #########
+######################################################
+
+- id: dev_tools_package_managers_npm
+  name: npm
+  npm: npm
+  github: npm/cli
+  homepage: https://docs.npmjs.com/cli
+  description: npm is the standard package manager for Node.js.
+
+- id: dev_tools_package_managers_yarn
+  name: Yarn 1 (Classic)
+  npm: yarn
+  homepage: https://classic.yarnpkg.com/
+  github: yarnpkg/yarn
+  description: Fast, reliable, and secure dependency management for JavaScript.
+
+- id: dev_tools_package_managers_yarn_berry
+  name: Yarn berry (Yarn 2+)
+  github: yarnpkg/berry
+  homepage: https://yarnpkg.com/
+  npm: yarn
+  description: Fast, reliable, and secure dependency management for JavaScript.
+
+- id: dev_tools_package_managers_pnpm
+  name: pnpm
+  npm: pnpm
+  github: pnpm/pnpm
+  description: Fast, disk space efficient package manager
+  homepage: https://pnpm.io/
+
+- id: dev_tools_package_managers_bun
+  name: bun
+  github: oven-sh/bun
+  npm: bun
+  description: Develop, test, run, and bundle JavaScript & TypeScript projects—all with Bun.
+  homepage: https://bun.sh/
+
+######################################################
+#########               TEMPLATES            #########
+######################################################
+
+- id: dev_tools_starter_templates_expo
+  name: create-expo-app
+  homepage: https://docs.expo.dev/get-started/create-a-new-app/
+  npm: create-expo-app
+  github: expo/expo/tree/main/packages/create-expo
+  description: The fastest way to create universal React apps.
+  author: Expo
+
+- id: dev_tools_starter_templates_react_native_cli
+  name: react-native init (by React Native Community CLI)
+  github: react-native-community/cli
+  description: Initialize a new React Native project.
+
+- id: dev_tools_starter_templates_ignite_cli
+  name: ignite-cli
+  npm: ignite-cli
+  author: Infinite Red
+  github: infinitered/ignite
+  description: Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more!
+  homepage: https://docs.infinite.red/ignite-cli/
+
+- id: dev_tools_starter_templates_solito
+  name: create-solito-app
+  homepage: https://solito.dev/
+  description: Unifying React Native with Next.js, primarily focused on navigation.
+  github: nandorojo/solito
+  npm: solito
+  author: Fernando Rojo
+
+- id: dev_tools_starter_templates_create_t3_turbo
+  name: create-t3-turbo
+  homepage: https://turbo.t3.gg/
+  github: t3-oss/create-t3-turbo
+  description: Clean and simple starter repo using the T3 Stack along with Expo React Native
+
+- id: dev_tools_starter_templates_create_react_native_app
+  name: create-react-native-app
+  github: expo/create-react-native-app
+  description: Create React Native apps that run on iOS, Android, and web.
+
+- id: dev_tools_starter_templates_react_native_template_obytes
+  name: create-obytes-app
+  github: obytes/react-native-template-obytes
+  homepage: https://starter.obytes.com/
+  description: A template for your next React Native project, Made with developer experience and performance first.
+  author: OBytes
+
+- id: dev_tools_starter_tamagui
+  name: tamagui
+  homepage: https://tamagui.dev/docs/intro/introduction
+  github: tamagui/tamagui
+  npm: tamagui
+  description: Starter for Tamagui-based projects.
+
+- id: dev_tools_create_expo_stack
+  name: create-expo-stack
+  homepage: https://createexpostack.com/
+  description: The most configurable way to create an Expo app.
+  github: roninoss/create-expo-stack
+  author: roninOSS

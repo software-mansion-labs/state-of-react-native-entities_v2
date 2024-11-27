@@ -2,163 +2,163 @@
 
 - id: idcf_cloud
   name: IDCF Cloud
-  homepageUrl: https://www.idcf.jp/cloud/
+  homepage: https://www.idcf.jp/cloud/
 
 - id: nifcloud
   name: Nifcloud
-  homepageUrl: https://pfs.nifcloud.com/
+  homepage: https://pfs.nifcloud.com/
 
 - id: sakura_cloud
   name: Sakura Cloud
-  homepageUrl: https://cloud.sakura.ad.jp/
+  homepage: https://cloud.sakura.ad.jp/
 
 - id: z_com_cloud
   name: Z.com Cloud
-  homepageUrl: https://z.com/jp/
+  homepage: https://z.com/jp/
 
 # other services
 
 - id: supabase
   name: Supabase
-  homepageUrl: https://supabase.com/
+  homepage: https://supabase.com/
   tags:
     - graphql
     - databases
 
 - id: aws
   name: AWS
-  homepageUrl: https://aws.amazon.com/
+  homepage: https://aws.amazon.com/
 
 - id: cloudflare
   name: Cloudflare
-  homepageUrl: https://www.cloudflare.com/
+  homepage: https://www.cloudflare.com/
 
 - id: fastly
   name: Fastly
-  homepageUrl: https://www.fastly.com/
+  homepage: https://www.fastly.com/
 
 - id: github_pages
   name: GitHub Pages
-  homepageUrl: https://pages.github.com/
+  homepage: https://pages.github.com/
 
 - id: google_cloud
   name: Google Cloud
-  homepageUrl: https://cloud.google.com/
+  homepage: https://cloud.google.com/
   patterns:
     - gcp
 
 - id: planetscale
   name: PlanetScale
-  homepageUrl: https://planetscale.com/
+  homepage: https://planetscale.com/
 
 - id: netlify
   name: Netlify
-  homepageUrl: https://www.netlify.com/
+  homepage: https://www.netlify.com/
 
 - id: render
   name: Render
-  homepageUrl: https://render.com/
+  homepage: https://render.com/
   tags:
     - edge_runtimes
 
 - id: vercel
   name: Vercel
-  homepageUrl: https://vercel.com/
+  homepage: https://vercel.com/
 
 - id: sentry
   name: Sentry
-  homepageUrl: https://sentry.com/
+  homepage: https://sentry.com/
 
 - id: digital_ocean
   name: Digital Ocean
-  homepageUrl: https://digitalocean.com/
+  homepage: https://digitalocean.com/
 
 - id: upstash
   name: Upstash
-  homepageUrl: https://upstash.com/
+  homepage: https://upstash.com/
 
 - id: azure
   name: Azure
-  homepageUrl: https://azure.microsoft.com/
+  homepage: https://azure.microsoft.com/
 
 - id: heroku
   name: Heroku
-  homepageUrl: https://heroku.com/
+  homepage: https://heroku.com/
 
 - id: firebase
   name: Firebase
-  homepageUrl: https://firebase.google.com/
+  homepage: https://firebase.google.com/
 
 - id: hetzner
   name: Hetzner
-  homepageUrl: https://www.hetzner.com/
+  homepage: https://www.hetzner.com/
 
 - id: vmware
   name: Hetzner
-  homepageUrl: https://www.hetzner.com/
+  homepage: https://www.hetzner.com/
 
 - id: netlify
   name: Netlify
-  homepageUrl: https://www.netlify.com/
+  homepage: https://www.netlify.com/
 
 - id: linode
   name: Linode
-  homepageUrl: https://www.linode.com/
+  homepage: https://www.linode.com/
 
 - id: alibaba_cloud
   name: Alibaba Cloud
   patterns:
     - alibaba [p]
     - ali [p]
-  homepageUrl: https://www.alibabacloud.com/
+  homepage: https://www.alibabacloud.com/
 
 - id: clever_cloud
   name: Clever Cloud
   patterns:
     - clever [p]
-  homepageUrl: https://www.clever-cloud.com/
+  homepage: https://www.clever-cloud.com/
 
 - id: coolify
   name: Coolify
-  homepageUrl: https://coolify.io/
+  homepage: https://coolify.io/
 
 - id: cyclic
   name: Cyclic
-  homepageUrl: https://www.cyclic.sh/
+  homepage: https://www.cyclic.sh/
   patterns:
     - cyclic [p]
 
 - id: deno_deploy
   name: Deno Deploy
-  homepageUrl: https://deno.com/deploy
+  homepage: https://deno.com/deploy
   patterns:
     - deno [p]
 
 - id: dreamhost
   name: Dreamhost
-  homepageUrl: https://www.dreamhost.com/
+  homepage: https://www.dreamhost.com/
 
 - id: gitlab
   name: GitLab Pages
   patterns:
     - gitlab
-  homepageUrl: https://docs.gitlab.com/ee/user/project/pages/
+  homepage: https://docs.gitlab.com/ee/user/project/pages/
 
 - id: hostinger
   name: Hostinger
-  homepageUrl: https://www.hostinger.com/
+  homepage: https://www.hostinger.com/
 
 - id: ionos
   name: IONOS
-  homepageUrl: https://www.ionos.com/
+  homepage: https://www.ionos.com/
 
 - id: koyeb
   name: Koyeb
-  homepageUrl: https://www.koyeb.com/
+  homepage: https://www.koyeb.com/
 
 - id: kubernetes
   name: Kubernetes
-  homepageUrl: https://kubernetes.io/
+  homepage: https://kubernetes.io/
   patterns:
     - k8s
 
@@ -166,38 +166,38 @@
   name: Meteor Cloud
   patterns:
     - meteor
-  homepageUrl: https://cloud.meteor.com/
+  homepage: https://cloud.meteor.com/
 
 - id: netcup
   name: netcup
-  homepageUrl: https://www.netcup.eu/
+  homepage: https://www.netcup.eu/
 
 - id: northflank
   name: Northflank
-  homepageUrl: https://northflank.com/
+  homepage: https://northflank.com/
 
 - id: openshift
   name: OpenShift
-  homepageUrl: https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it
+  homepage: https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it
 
 - id: oracle_cloud
   name: Oracle Cloud
-  homepageUrl: https://www.oracle.com/cloud/
+  homepage: https://www.oracle.com/cloud/
   patterns:
     - oracle
     - oci
 
 - id: ovh
   name: OVH
-  homepageUrl: https://www.ovhcloud.com/
+  homepage: https://www.ovhcloud.com/
 
 - id: railway
   name: Railway
-  homepageUrl: https://railway.app/
+  homepage: https://railway.app/
 
 - id: scaleway
   name: Scaleway
-  homepageUrl: https://www.scaleway.com/
+  homepage: https://www.scaleway.com/
 
 - id: self_hosted
   name: Self-hosted
@@ -213,14 +213,14 @@
   name: Surge
   patterns:
     - surge [p]
-  homepageUrl: https://surge.sh/
+  homepage: https://surge.sh/
 
 - id: vps
   name: VPS
 
 - id: vultr
   name: Vultr
-  homepageUrl: https://www.vultr.com/
+  homepage: https://www.vultr.com/
 
 - id: yandex_cloud
   name: Yandex Cloud
@@ -230,25 +230,25 @@
 
 - id: aws_amplify
   name: AWS Amplify
-  homepageUrl: https://aws.amazon.com/amplify/
+  homepage: https://aws.amazon.com/amplify/
   patterns:
     - amplify
 
 - id: contabo
   name: Contabo
-  homepageUrl: https://contabo.com/
+  homepage: https://contabo.com/
 
 - id: glitch
   name: Glitch
-  homepageUrl: https://glitch.com/
+  homepage: https://glitch.com/
 
 - id: infomaniak
   name: Infomaniak
-  homepageUrl: https://www.infomaniak.com/
+  homepage: https://www.infomaniak.com/
 
 - id: ibm_cloud
   name: IBM Cloud
-  homepageUrl: https://www.ibm.com/cloud
+  homepage: https://www.ibm.com/cloud
 
 ###
 # Auth
@@ -256,52 +256,52 @@
 
 - id: aws_cognito
   name: AWS Cognito
-  homepageUrl: https://aws.amazon.com/cognito/
+  homepage: https://aws.amazon.com/cognito/
   patterns:
     - cognito
 
 - id: auth0
   name: Auth0
-  homepageUrl: https://auth0.com/
+  homepage: https://auth0.com/
 
 - id: descope
   name: Descope
-  homepageUrl: https://www.descope.com/
+  homepage: https://www.descope.com/
 
 - id: frontegg
   name: Frontegg
-  homepageUrl: https://frontegg.com/
+  homepage: https://frontegg.com/
 
 - id: gigya
   name: Gigya (SAP)
-  homepageUrl: https://www.sap.com
+  homepage: https://www.sap.com
 
 - id: keycloak
   name: Keycloak
-  homepageUrl: https://www.keycloak.org/
+  homepage: https://www.keycloak.org/
 
 - id: okta
   name: Okta
-  homepageUrl: https://www.okta.com/
+  homepage: https://www.okta.com/
 
 - id: slashid
   name: /id
-  homepageUrl: https://www.slashid.dev/
+  homepage: https://www.slashid.dev/
   patterns:
     - slashid
 
 - id: stytch
   name: Stytch
-  homepageUrl: https://stytch.com/
+  homepage: https://stytch.com/
 
 - id: supertokens
   name: SuperTokens
   github: supertokens/supertokens-core
-  homepageUrl: https://supertokens.com/
+  homepage: https://supertokens.com/
 
 - id: userfront
   name: Userfront
-  homepageUrl: https://userfront.com/
+  homepage: https://userfront.com/
 
 - id: amplitude
 
@@ -345,7 +345,7 @@
 
 - id: xata
   name: Xata
-  homepageUrl: https://xata.io/
+  homepage: https://xata.io/
 
 - id: clickup
 
@@ -363,72 +363,72 @@
 
 - id: pagespeed_insights
   name: PageSpeed Insights
-  homepageUrl: https://pagespeed.web.dev/
+  homepage: https://pagespeed.web.dev/
   tags:
     - performance
 
 - id: webpagetest
   name: WebPageTest
-  homepageUrl: https://www.webpagetest.org/
+  homepage: https://www.webpagetest.org/
   tags:
     - performance
 
 - id: pingdom
   name: Pingdom
-  homepageUrl: https://www.pingdom.com/
+  homepage: https://www.pingdom.com/
   tags:
     - performance
 
 - id: google_analytics
   name: Google Analytics
-  homepageUrl: https://analytics.google.com/
+  homepage: https://analytics.google.com/
   tags:
     - analytics
 
 - id: plausible
   name: Plausible Analytics
-  homepageUrl: https://plausible.io/
+  homepage: https://plausible.io/
   tags:
     - analytics
 
 - id: fathom
   name: Fathom Analytics
-  homepageUrl: https://usefathom.com/
+  homepage: https://usefathom.com/
   tags:
     - analytics
 
 - id: new_relic
   name: New Relic
-  homepageUrl: https://newrelic.com/
+  homepage: https://newrelic.com/
   tags:
     - analytics
 
 - id: mixpanel
   name: Mixpanel
-  homepageUrl: https://mixpanel.com/
+  homepage: https://mixpanel.com/
   tags:
     - analytics
 
 - id: clicky
   name: Clicky
-  homepageUrl: https://clicky.com/
+  homepage: https://clicky.com/
   tags:
     - analytics
 
 - id: matomo
   name: Matomo
-  homepageUrl: https://matomo.org/
+  homepage: https://matomo.org/
   tags:
     - analytics
 
 - id: heap
   name: Heap
-  homepageUrl: https://www.heap.io/
+  homepage: https://www.heap.io/
   tags:
     - analytics
 
 - id: datadog
   name: Datadog
-  homepageUrl: https://www.datadoghq.com/
+  homepage: https://www.datadoghq.com/
   tags:
     - analytics

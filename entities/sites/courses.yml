@@ -1,19 +1,19 @@
 - id: codecademy
   name: Codecademy
-  homepageUrl: https://www.codecademy.com/
+  homepage: https://www.codecademy.com/
   patterns:
     - code( )?academy
 
 - id: pluralsight
   name: Pluralsight
-  homepageUrl: https://www.pluralsight.com/
+  homepage: https://www.pluralsight.com/
   patterns:
     - codeschool
     - code school
 
 - id: levelup
   name: Level Up Tutorials
-  homepageUrl: https://www.leveluptutorials.com/
+  homepage: https://www.leveluptutorials.com/
   patterns:
     - level( |-|_)?up
     - LevelUp Tutorials
@@ -21,39 +21,39 @@
 
 - id: udemy
   name: Udemy
-  homepageUrl: https://www.udemy.com/
+  homepage: https://www.udemy.com/
 
 - id: lynda
   name: Lynda
-  homepageUrl: https://www.lynda.com/
+  homepage: https://www.lynda.com/
 
 - id: egghead
   name: Egghead.io
-  homepageUrl: https://egghead.io/
+  homepage: https://egghead.io/
 
 - id: udacity
   name: Udacity
-  homepageUrl: https://www.udacity.com/
+  homepage: https://www.udacity.com/
 
 - id: newline
   name: Newline
-  homepageUrl: https://www.newline.co/
+  homepage: https://www.newline.co/
 
 - id: superhi
   name: SuperHi
-  homepageUrl: https://www.superhi.com/
+  homepage: https://www.superhi.com/
 
 - id: laracasts
   name: Laracasts
-  homepageUrl: https://laracasts.com/
+  homepage: https://laracasts.com/
 
 - id: testing_javascript
   name: Testing JavaScript
-  homepageUrl: https://testingjavascript.com/
+  homepage: https://testingjavascript.com/
 
 - id: linkedin_learning
   name: LinkedIn Learning
-  homepageUrl: https://www.linkedin.com/learning/
+  homepage: https://www.linkedin.com/learning/
   patterns:
     - lynda
     - linkedin
@@ -61,30 +61,30 @@
 
 - id: ultimate_courses
   name: Ultimate Courses
-  homepageUrl: https://ultimatecourses.com/
+  homepage: https://ultimatecourses.com/
 
 - id: designcode
   name: Design+Code
-  homepageUrl: https://designcode.io/
+  homepage: https://designcode.io/
 
 - id: frontendmasters
   name: Frontend Masters
-  homepageUrl: https://frontendmasters.com/
+  homepage: https://frontendmasters.com/
   patterns:
     - front( |-)?end( |-)?master(s)?
     - frontedmaster
 
 - id: treehouse
   name: Treehouse
-  homepageUrl: https://teamtreehouse.com/
+  homepage: https://teamtreehouse.com/
 
 - id: vueschool
   name: Vue School
-  homepageUrl: https://vueschool.io/
+  homepage: https://vueschool.io/
 
 - id: superhi
   name: SuperHi
-  homepageUrl: https://www.superhi.com/
+  homepage: https://www.superhi.com/
   tags:
     - courses
     - css
@@ -92,77 +92,77 @@
 
 - id: platzi
   name: Platzi
-  homepageUrl: https://platzi.com/
+  homepage: https://platzi.com/
 
 - id: traversy_media
   name: Traversy Media
-  homepageUrl: https://www.traversymedia.com/
+  homepage: https://www.traversymedia.com/
   patterns:
     - traversy
 
 - id: javascript_info
   name: JavaScript.info
-  homepageUrl: https://javascript.info/
+  homepage: https://javascript.info/
 
 - id: every_layout
   name: Every Layout
-  homepageUrl: https://every-layout.dev/
+  homepage: https://every-layout.dev/
   tags:
     - css
 
 - id: html_academy
   name: HTML Academy
-  homepageUrl: https://htmlacademy.org/
+  homepage: https://htmlacademy.org/
   tags:
     - css
 
 - id: in_depth_dev
   name: In Depth Dev
-  homepageUrl: https://indepth.dev/
+  homepage: https://indepth.dev/
   patterns:
     - in( |-)depth
 
 - id: vue_mastery
   name: Vue Mastery
-  homepageUrl: https://www.vuemastery.com/
+  homepage: https://www.vuemastery.com/
 
 - id: epic_react
   name: Epic React
-  homepageUrl: https://epicreact.dev/
+  homepage: https://epicreact.dev/
 
 - id: odin_project
   name: The Odin Project
-  homepageUrl: https://www.theodinproject.com/
+  homepage: https://www.theodinproject.com/
 
 - id: academind
   name: Academind
   youtubeName: academind
   youtubeUrl: https://www.youtube.com/@academind
-  homepageUrl: https://academind.com/
+  homepage: https://academind.com/
 
 - id: awesome_coding
   name: Awesome Coding
   youtubeUrl: https://www.youtube.com/@awesome-coding
   youtubeName: awesome-coding
-  homepageUrl: https://awesomecoding.co/
+  homepage: https://awesomecoding.co/
 
 - id: zero_to_mastery
   name: Zero To Mastery
-  homepageUrl: https://zerotomastery.io/
+  homepage: https://zerotomastery.io/
   patterns:
     - ztm
 
 - id: codehs
   name: CodeHS
-  homepageUrl: https://codehs.com/
+  homepage: https://codehs.com/
 
 - id: educative
   name: Educative
-  homepageUrl: https://www.educative.io/
+  homepage: https://www.educative.io/
 
 - id: codely
   name: Codely
-  homepageUrl: https://codely.com/
+  homepage: https://codely.com/
   youtubeUrl: https://www.youtube.com/@CodelyTV
   tags:
     - podcasts
@@ -172,123 +172,123 @@
 
 - id: openclassrooms
   name: Openclassrooms
-  homepageUrl: https://openclassrooms.com/
+  homepage: https://openclassrooms.com/
   patterns:
     - openclassroom
 
 - id: ionic_academy
   name: Ionic Academy
-  homepageUrl: https://ionicacademy.com/
+  homepage: https://ionicacademy.com/
 
 - id: edx
   name: edx
-  homepageUrl: https://www.edx.org/
+  homepage: https://www.edx.org/
 
 - id: css_for_js_devs
   name: CSS for JS Devs
-  homepageUrl: https://css-for-js.dev/
+  homepage: https://css-for-js.dev/
 
 - id: o_reilly
   name: O'Reilly
-  homepageUrl: https://www.oreilly.com/
+  homepage: https://www.oreilly.com/
 
 - id: o_reilly
   name: O'Reilly
-  homepageUrl: https://www.oreilly.com/
+  homepage: https://www.oreilly.com/
 
 - id: coursera
   name: Coursera
-  homepageUrl: https://www.coursera.com/
+  homepage: https://www.coursera.com/
 
 - id: alura
   name: Alura
-  homepageUrl: https://www.alura.com.br/
+  homepage: https://www.alura.com.br/
 
 - id: execute_program
   name: Execute Program
-  homepageUrl: https://www.executeprogram.com/
+  homepage: https://www.executeprogram.com/
 
 - id: exercism
   name: Exercism
-  homepageUrl: https://exercism.org/
+  homepage: https://exercism.org/
 
 - id: geeks_for_geeks
   name: GeeksforGeeks
-  homepageUrl: https://www.geeksforgeeks.org/
+  homepage: https://www.geeksforgeeks.org/
 
 - id: khan_academy
   name: Khan Academy
-  homepageUrl: https://www.khanacademy.org/
+  homepage: https://www.khanacademy.org/
 
 - id: rocketseat
   name: Rocketseat
-  homepageUrl: https://www.rocketseat.com.br/
+  homepage: https://www.rocketseat.com.br/
 
 - id: skillcrush
   name: Skillcrush
-  homepageUrl: https://skillcrush.com/
+  homepage: https://skillcrush.com/
 
 - id: sololearn
   name: Sololearn
-  homepageUrl: https://www.sololearn.com/
+  homepage: https://www.sololearn.com/
 
 - id: three_js_journey
   name: Three.js Journey
-  homepageUrl: https://threejs-journey.com/
+  homepage: https://threejs-journey.com/
 
 - id: vue_school
   name: Vue School
-  homepageUrl: https://vueschool.io/
+  homepage: https://vueschool.io/
 
 - id: learn_javascript_ru
   name: Javascript.ru
   patterns:
     - javascript.ru
-  homepageUrl: https://learn.javascript.ru/
+  homepage: https://learn.javascript.ru/
 
 - id: 100devs
   name: 100Devs
-  homepageUrl: https://leonnoel.com/100devs/
+  homepage: https://leonnoel.com/100devs/
 
 - id: angular_university
   name: Angular University
-  homepageUrl: https://angular-university.io/
+  homepage: https://angular-university.io/
 
 - id: code_with_mosh
   name: Code With Mosh
-  homepageUrl: https://codewithmosh.com/
+  homepage: https://codewithmosh.com/
 
 - id: domestika
   name: Domestika
-  homepageUrl: https://www.domestika.org/
+  homepage: https://www.domestika.org/
 
 - id: code_with_harry
   name: Code With Harry
-  homepageUrl: https://www.codewithharry.com/
+  homepage: https://www.codewithharry.com/
 
 - id: learn_vue
   name: Learn Vue
-  homepageUrl: https://learnvue.co/
+  homepage: https://learnvue.co/
 
 - id: react_gg
   name: react.gg
-  homepageUrl: https://react.gg/
+  homepage: https://react.gg/
 
 - id: joy_of_react
   name: The Joy of React
-  homepageUrl: https://www.joyofreact.com/
+  homepage: https://www.joyofreact.com/
 
 - id: build_ui
   name: Build UI
-  homepageUrl: https://buildui.com/
+  homepage: https://buildui.com/
 
 - id: bytegrad
   name: ByteGrad
-  homepageUrl: https://bytegrad.com/
+  homepage: https://bytegrad.com/
 
 - id: eloquent_javascript
   name: Eloquent JavaScript
-  homepageUrl: https://eloquentjavascript.net/
+  homepage: https://eloquentjavascript.net/
   patterns:
     - eloquent js
   tags:
@@ -296,13 +296,13 @@
 
 - id: javascript_the_good_parts
   name: "JavaScript: the Good Parts"
-  homepageUrl: https://www.oreilly.com/library/view/javascript-the-good/9780596517748/
+  homepage: https://www.oreilly.com/library/view/javascript-the-good/9780596517748/
   tags:
     - books
 
 - id: javascript_the_definitive_guide
   name: "JavaScript: The Definitive Guide"
-  homepageUrl: https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/
+  homepage: https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/
 
 - id: unspecified_books
   name: Unspecified books
@@ -337,38 +337,38 @@
 
 - id: javascript_understanding_the_weird_parts
   name: "JavaScript: Understanding the Weird Parts"
-  homepageUrl: https://www.udemy.com/course/understand-javascript/
+  homepage: https://www.udemy.com/course/understand-javascript/
 
 - id: just_javascript
   name: Just JavaScript
-  homepageUrl: https://justjavascript.com/
+  homepage: https://justjavascript.com/
 
 - id: effective_typescript
   name: Effective TypeScript
-  homepageUrl: https://effectivetypescript.com/
+  homepage: https://effectivetypescript.com/
 
 - id: epic_web
   name: Epic Web
-  homepageUrl: https://www.epicweb.dev/
+  homepage: https://www.epicweb.dev/
 
 - id: total_typescript
   name: Total TypeScript
-  homepageUrl: https://www.totaltypescript.com/
+  homepage: https://www.totaltypescript.com/
 
 - id: you_dont_know_js
   name: You Don't Know JS
-  homepageUrl: https://github.com/getify/You-Dont-Know-JS
+  homepage: https://github.com/getify/You-Dont-Know-JS
   patterns:
     - you don(')?t know (js|javascript)
     - ydkjs
 
 - id: the_complete_javascript_course_from_zero_to_expert
   name: "The Complete JavaScript Course 2024: From Zero to Expert!"
-  homepageUrl: https://www.udemy.com/course/the-complete-javascript-course/
+  homepage: https://www.udemy.com/course/the-complete-javascript-course/
   patterns:
     - zero, expert [l]
     - complete, javascript, course [l]
 
 - id: type_level_typescript
   name: Type-level TypeScript
-  homepageUrl: https://type-level-typescript.com/
+  homepage: https://type-level-typescript.com/

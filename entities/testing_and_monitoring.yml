@@ -1,0 +1,127 @@
+- id: testing_and_monitoring_testing_jest
+  name: Jest
+  github: facebook/jest
+  homepage: https://jestjs.io/
+  description: A delightful JavaScript Testing Framework with a focus on simplicity.
+  npm: jest
+
+- id: testing_and_monitoring_testing_react_native_testing_library
+  name: React Native Testing Library
+  homepage: https://callstack.github.io/react-native-testing-library/
+  github: callstack/react-native-testing-library
+  description: A lightweight solution for testing React Native components. It provides light utility functions on top of React Test Renderer, in a way that encourages better testing practices.
+  npm: "@testing-library/react-native"
+
+- id: testing_and_monitoring_testing_detox
+  name: Detox
+  homepage: https://wix.github.io/Detox/
+  description: Gray box end-to-end testing and automation framework for React Native apps.
+  github: wix/Detox
+  npm: detox
+
+- id: testing_and_monitoring_testing_appium
+  name: Appium
+  homepage: https://appium.io/
+  npm: appium
+  github: appium/appium
+  description: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol.
+
+- id: testing_and_monitoring_testing_maestro
+  name: Maestro
+  homepage: https://maestro.mobile.dev/
+  github: mobile-dev-inc/maestro
+  description: The easiest way to automate UI testing for your mobile app.
+
+- id: testing_and_monitoring_testing_xcuitest
+  name: XCUITest
+  homepage: https://developer.apple.com/documentation/xctest
+  description: A framework to write unit tests for your Xcode projects that integrate seamlessly with Xcode’s testing workflow.
+
+- id: testing_and_monitoring_testing_espresso
+  name: Espresso
+  homepage: https://developer.android.com/training/testing/espresso
+  description: A testing framework for writing concise and reliable UI tests for Android applications.
+
+- id: testing_and_monitoring_testing_storybook
+  name: Storybook
+  homepage: https://storybook.js.org/
+  github: storybookjs/react-native
+  description: A development environment for UI components that allows for isolated testing and documentation of React Native components.
+
+  ######################################################
+  #########        ANALYTICS                   #########
+  ######################################################
+
+- id: testing_and_monitoring_analytics_firebase_analytics
+  name: Firebase Analytics
+  homepage: https://firebase.google.com/products/analytics
+  description: A service that provides insights into app usage and user engagement through analytics.
+
+- id: testing_and_monitoring_analytics_appcenter_analytics
+  name: AppCenter Analytics
+  homepage: https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native
+  description: A tool for tracking app performance and user analytics in React Native applications.
+
+- id: testing_and_monitoring_analytics_amplitude
+  name: Amplitude
+  homepage: https://amplitude.com/
+  description: A product analytics platform that helps teams understand user behavior and improve their applications.
+
+- id: testing_and_monitoring_analytics_amplify_analytics
+  name: Amplify Analytics
+  homepage: https://docs.amplify.aws/react-native/
+  description: A service that provides analytics capabilities for applications built with AWS Amplify.
+
+- id: testing_and_monitoring_analytics_mixpanel
+  name: Mixpanel
+  homepage: https://mixpanel.com/
+  description: An advanced analytics platform that allows for tracking user interactions and engagement within applications.
+
+- id: testing_and_monitoring_analytics_segment
+  name: Segment
+  homepage: https://segment.com/
+  description: A customer data platform that helps collect, unify, and route user data to various analytics tools.
+
+- id: testing_and_monitoring_analytics_appsflyer
+  name: AppsFlyer
+  homepage: https://www.appsflyer.com/
+  description: A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.
+
+  ######################################################
+  #########        CRASH REPORTING             #########
+  ######################################################
+
+- id: testing_and_monitoring_crash_reporting_sentry
+  name: Sentry
+  homepage: https://sentry.io/
+  description: An error tracking and performance monitoring tool that helps developers identify and fix issues in their applications.
+
+- id: testing_and_monitoring_crash_reporting_datadog
+  name: Datadog
+  homepage: https://www.datadoghq.com/
+  description: A monitoring and analytics platform for cloud-scale applications, providing insights into performance and reliability.
+
+- id: testing_and_monitoring_crash_reporting_instabug
+  name: Instabug
+  homepage: https://instabug.com/
+  description: A bug reporting and in-app feedback tool that allows users to report issues directly from the application.
+
+- id: testing_and_monitoring_crash_reporting_new_relic
+  name: New Relic
+  homepage: https://newrelic.com/
+  description: A performance monitoring tool that provides insights into application performance and user experience.
+
+- id: testing_and_monitoring_crash_reporting_bugsnag
+  name: Bugsnag
+  homepage: https://www.bugsnag.com/
+  description: An error monitoring tool that helps developers detect and resolve issues in their applications.
+
+- id: testing_and_monitoring_crash_reporting_firebase_crashlytics
+  name: Firebase Crashlytics
+  homepage: https://firebase.google.com/products/crashlytics
+  description: A lightweight crash reporting tool that helps developers track and fix stability issues in their applications.
+
+- id: testing_and_monitoring_crash_reporting_appcenter_crashes
+  name: AppCenter Crashes
+  homepage: https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native
+  description: A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.

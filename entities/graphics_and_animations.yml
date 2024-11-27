@@ -1,0 +1,85 @@
+- id: animations_animated_api
+  name: Animated API
+  homepage: https://reactnative.dev/docs/animated
+  description: The Animated library is designed to make animations fluid, powerful, and painless to build and maintain.
+
+- id: animations_expo_gl
+  name: Expo GL
+  homepage: https://docs.expo.dev/versions/latest/sdk/gl-view/
+  github: expo/expo
+  npm: expo-gl
+  description: GLView that acts as an OpenGL ES render target and provides GLContext. Useful for rendering 2D and 3D graphics.
+
+- id: animations_lottie
+  name: Lottie
+  homepage: https://airbnb.io/projects/lottie-ios
+  github: lottie-react-native/lottie-react-native
+  npm: lottie-react-native
+  description: Lottie is an ecosystem of libraries for parsing Adobe After Effects animations exported as JSON with bodymovin and rendering them natively!
+  # example:
+  #   language: jsx
+  #   code: |
+  #     <LottieView
+  #       source={require("../path/to/animation.json")}
+  #       style={{width: "100%", height: "100%"}}
+  #     />
+
+- id: animations_moti
+  name: Moti
+  github: nandorojo/moti
+  npm: moti
+  author: Fernando Rojo
+  homepage: https://moti.fyi
+  description: An universal animation package for React Native.
+  # example:
+  #   language: jsx
+  #   code: |
+  #     <MotiView from={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} />
+
+- id: animations_react_native_animatable
+  name: React Native Animatable
+  npm: react-native-animatable
+  github: oblador/react-native-animatable
+  author: Joel Arvidsson
+  description: Standard set of easy to use animations and declarative transitions for React Native
+  # example:
+  #   language: jsx
+  #   code: |
+  #     <Animatable.Text animation="zoomInUp">Zoom me up</Animatable.Text>
+
+- id: animations_react_native_reanimated
+  name: React Native Reanimated
+  npm: react-native-reanimated
+  homepage: https://docs.swmansion.com/react-native-reanimated/
+  github: software-mansion/react-native-reanimated
+  author: Software Mansion
+  description: React Native's Animated library reimplemented. With Reanimated, you can easily create smooth animations and interactions that run on the UI thread.
+
+- id: animations_react_three_fiber
+  name: React Three Fiber
+  npm: "@react-three/fiber"
+  github: pmndrs/react-three-fiber
+  homepage: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
+  description: React renderer for three.js.
+
+- id: animations_rive
+  name: Rive
+  homepage: https://rive.app/
+  npm: rive-react-native
+  github: rive-app/rive-react-native
+  description: Rive is a new way to build production-ready UI and graphics — with rich interactivity and state-driven animation. It removes the need for hard-coded graphics, empowering teams to iterate faster and build better products.
+
+- id: animations_skia
+  name: React Native Skia
+  github: Shopify/react-native-skia
+  homepage: https://shopify.github.io/react-native-skia/
+  npm: "@shopify/react-native-skia"
+  author: Shopify
+  description: High-performance React Native Graphics using Skia (2D graphics engine).
+
+- id: animations_threejs
+  name: three.js
+  homepage: https://threejs.org/
+  github: mrdoob/three.js/
+  npm: three
+  description: An easy-to-use, lightweight, cross-browser, general-purpose 3D library.

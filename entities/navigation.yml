@@ -1,0 +1,38 @@
+- id: navigation_expo_router
+  name: expo-router
+  homepage: https://expo.github.io/router/docs/
+  npm: expo-router
+  github: expo/router
+  description: A file-based router for React Native and web applications.
+  author: Expo
+
+- id: navigation_react_native_navigation
+  name: react-native-navigation
+  homepage: https://wix.github.io/react-native-navigation/
+  npm: react-native-navigation
+  github: wix/react-native-navigation
+  description: 100% native platform navigation on both iOS and Android for React Native apps.
+  author: Wix
+
+- id: navigation_react_navigation
+  name: react-navigation
+  homepage: https://reactnavigation.org/
+  npm: "@react-navigation/native"
+  description: Routing and navigation for your React Native apps.
+  github: react-navigation/react-navigation
+  author: Expo, Software Mansion and Callstack
+
+- id: navigation_react_router
+  name: react-router
+  homepage: https://reactrouter.com/en/main/router-components/native-router
+  npm: react-router-native
+  github: remix-run/react-router
+  description: Interface for running React Router in a React Native app.
+  author: Remix
+
+- id: navigation_solito
+  name: Solito
+  homepage: https://solito.dev/app-directory/overview
+  description: A wrapper around React Navigation and Next.js that lets you share navigation code when building cross-platform apps. 
+  github: nandorojo/solito
+  npm: solito

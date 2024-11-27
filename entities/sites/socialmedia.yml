@@ -2,24 +2,24 @@
 
 - id: hn
   name: Hacker News
-  homepageUrl: https://news.ycombinator.com/
+  homepage: https://news.ycombinator.com/
   patterns:
     - hacker( |-|_)?news
     - ycombinator
 
 - id: reddit
   name: Reddit
-  homepageUrl: https://reddit.com
+  homepage: https://reddit.com
   patterns:
     - \/?r\/(javascript|clojure|reactjs|angular|webdev|programming)
 
 - id: designernews
   name: Designer News
-  homepageUrl: https://www.designernews.co/
+  homepage: https://www.designernews.co/
 
 - id: facebook
   name: Facebook
-  homepageUrl: https://facebook.com
+  homepage: https://facebook.com
   patterns:
     - fb
     - http://m.facebook.com/
@@ -28,27 +28,27 @@
 
 - id: producthunt
   name: Product Hunt
-  homepageUrl: https://www.producthunt.com/
+  homepage: https://www.producthunt.com/
 
 - id: telegram
   name: Telegram
-  homepageUrl: https://telegram.org/
+  homepage: https://telegram.org/
   patterns:
     - android-app://org.telegram.messenger/
 
 - id: slack
   name: Slack
-  homepageUrl: https://slack.com/
+  homepage: https://slack.com/
   patterns:
     - android-app://com.slack/
 
 - id: github
   name: GitHub
-  homepageUrl: https://github.com/
+  homepage: https://github.com/
 
 - id: linkedin
   name: LinkedIn
-  homepageUrl: https://linkedin.com/
+  homepage: https://linkedin.com/
   patterns:
     - linked( |-)?in
     - lnkd
@@ -56,76 +56,76 @@
 
 - id: hangouts
   name: Hangouts
-  homepageUrl: https://tools.google.com/dlpage/hangoutplugin
+  homepage: https://tools.google.com/dlpage/hangoutplugin
 
 - id: twitter
   name: Twitter/X
-  homepageUrl: https://twitter.com
+  homepage: https://twitter.com
   patterns:
     - t.co
     - x
 
 - id: instagram
   name: Instagram
-  homepageUrl: https://instagram.com
+  homepage: https://instagram.com
 
 - id: juejin
   name: Juejin
-  homepageUrl: https://juejin.im/
+  homepage: https://juejin.im/
 
 - id: echo_js
   name: Echo JS
-  homepageUrl: https://echojs.com/
+  homepage: https://echojs.com/
   tags:
     - news
 
 - id: habr
   name: Habr
-  homepageUrl: https://habr.com/en/
+  homepage: https://habr.com/en/
 
 - id: microsoft_teams
   name: Microsoft Teams
-  homepageUrl: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+  homepage: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
   patterns:
     - teams
     - statics.teams.cdn.office.net
 
 - id: discord
   name: Discord
-  homepageUrl: https://discord.com/
+  homepage: https://discord.com/
 
 - id: mastodon
   name: Mastodon
-  homepageUrl: https://mastodon.social/
+  homepage: https://mastodon.social/
 
 - id: feedly
   name: Feedly
-  homepageUrl: https://feedly.com/
+  homepage: https://feedly.com/
 
 - id: bluesky
   name: Bluesky
-  homepageUrl: https://bsky.app/
+  homepage: https://bsky.app/
 
 - id: threads
   name: Threads
-  homepageUrl: https://www.threads.net/
+  homepage: https://www.threads.net/
 
 - id: threads
   name: Threads
-  homepageUrl: https://www.threads.net/
+  homepage: https://www.threads.net/
 
 - id: lemmy
   name: Lemmy
-  homepageUrl: https://join-lemmy.org/
+  homepage: https://join-lemmy.org/
 
 - id: lobsters
   name: Lobsters
-  homepageUrl: https://lobste.rs/
+  homepage: https://lobste.rs/
 
 - id: inoreader
   name: Inoreader
-  homepageUrl: https://www.inoreader.com/
+  homepage: https://www.inoreader.com/
 
 - id: dou
   name: Dou.ua
-  homepageUrl: https://dou.ua/
+  homepage: https://dou.ua/
