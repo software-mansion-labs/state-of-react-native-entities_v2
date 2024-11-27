@@ -1,49 +1,52 @@
 - id: testing_and_monitoring_testing_jest
   name: Jest
-  github: https://github.com/facebook/jest
-  homepageUrl: https://jestjs.io/
-  description: Delightful JavaScript Testing.
+  github: facebook/jest
+  homepage: https://jestjs.io/
+  description: A delightful JavaScript Testing Framework with a focus on simplicity.
   npm: jest
 
 - id: testing_and_monitoring_testing_react_native_testing_library
   name: React Native Testing Library
-  homepageUrl: https://callstack.github.io/react-native-testing-library/
-  github: https://github.com/callstack/react-native-testing-library
-  description: 🦉 Simple and complete React Native testing utilities that encourage good testing practices.
+  homepage: https://callstack.github.io/react-native-testing-library/
+  github: callstack/react-native-testing-library
+  description: A lightweight solution for testing React Native components. It provides light utility functions on top of React Test Renderer, in a way that encourages better testing practices.
   npm: "@testing-library/react-native"
 
 - id: testing_and_monitoring_testing_detox
   name: Detox
-  homepageUrl: https://wix.github.io/Detox/
-  description: Gray box end-to-end testing and automation framework for mobile apps
-  github: https://github.com/wix/Detox
+  homepage: https://wix.github.io/Detox/
+  description: Gray box end-to-end testing and automation framework for React Native apps.
+  github: wix/Detox
   npm: detox
 
 - id: testing_and_monitoring_testing_appium
   name: Appium
-  homepageUrl: https://appium.io/
+  homepage: https://appium.io/
   npm: appium
-  github: https://github.com/appium/appium
-  description: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol
+  github: appium/appium
+  description: Cross-platform automation framework for all kinds of your apps built on top of W3C WebDriver protocol.
 
 - id: testing_and_monitoring_testing_maestro
   name: Maestro
-  homepageUrl: https://maestro.mobile.dev/
-  github: https://github.com/mobile-dev-inc/maestro
-  description: Painless Mobile UI Automation
+  homepage: https://maestro.mobile.dev/
+  github: mobile-dev-inc/maestro
+  description: The easiest way to automate UI testing for your mobile app.
 
 - id: testing_and_monitoring_testing_xcuitest
   name: XCUITest
-  homepageUrl: https://developer.apple.com/documentation/xctest
+  homepage: https://developer.apple.com/documentation/xctest
+  description: A framework to write unit tests for your Xcode projects that integrate seamlessly with Xcode’s testing workflow.
 
 - id: testing_and_monitoring_testing_espresso
   name: Espresso
-  homepageUrl: https://developer.android.com/training/testing/espresso
+  homepage: https://developer.android.com/training/testing/espresso
+  description: A testing framework for writing concise and reliable UI tests for Android applications.
 
 - id: testing_and_monitoring_testing_storybook
   name: Storybook
-  homepageUrl: https://storybook.js.org/
-  github: https://github.com/storybookjs/react-native
+  homepage: https://storybook.js.org/
+  github: storybookjs/react-native
+  description: A development environment for UI components that allows for isolated testing and documentation of React Native components.
 
   ######################################################
   #########        ANALYTICS                   #########
@@ -51,35 +54,38 @@
 
 - id: testing_and_monitoring_analytics_firebase_analytics
   name: Firebase Analytics
-  homepageUrl: https://firebase.google.com/products/analytics
+  homepage: https://firebase.google.com/products/analytics
+  description: A service that provides insights into app usage and user engagement through analytics.
 
 - id: testing_and_monitoring_analytics_appcenter_analytics
   name: AppCenter Analytics
-  homepageUrl: https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native
+  homepage: https://learn.microsoft.com/en-us/appcenter/sdk/getting-started/react-native
+  description: A tool for tracking app performance and user analytics in React Native applications.
 
 - id: testing_and_monitoring_analytics_amplitude
   name: Amplitude
-  homepageUrl: https://amplitude.com/
+  homepage: https://amplitude.com/
+  description: A product analytics platform that helps teams understand user behavior and improve their applications.
 
 - id: testing_and_monitoring_analytics_amplify_analytics
   name: Amplify Analytics
-  homepageUrl: https://docs.amplify.aws/react-native/
+  homepage: https://docs.amplify.aws/react-native/
+  description: A service that provides analytics capabilities for applications built with AWS Amplify.
 
 - id: testing_and_monitoring_analytics_mixpanel
   name: Mixpanel
-  homepageUrl: https://mixpanel.com/
+  homepage: https://mixpanel.com/
+  description: An advanced analytics platform that allows for tracking user interactions and engagement within applications.
 
 - id: testing_and_monitoring_analytics_segment
   name: Segment
-  homepageUrl: https://segment.com/
+  homepage: https://segment.com/
+  description: A customer data platform that helps collect, unify, and route user data to various analytics tools.
 
 - id: testing_and_monitoring_analytics_appsflyer
   name: AppsFlyer
-  homepageUrl: https://www.appsflyer.com/
-
-- id: testing_and_monitoring_analytics_flurry
-  name: Flurry
-  homepageUrl: https://developer.yahoo.com/flurry/docs/
+  homepage: https://www.appsflyer.com/
+  description: A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.
 
   ######################################################
   #########        CRASH REPORTING             #########
@@ -87,40 +93,35 @@
 
 - id: testing_and_monitoring_crash_reporting_sentry
   name: Sentry
-  homepageUrl: https://sentry.io/
+  homepage: https://sentry.io/
+  description: An error tracking and performance monitoring tool that helps developers identify and fix issues in their applications.
 
 - id: testing_and_monitoring_crash_reporting_datadog
   name: Datadog
-  homepageUrl: https://www.datadoghq.com/
+  homepage: https://www.datadoghq.com/
+  description: A monitoring and analytics platform for cloud-scale applications, providing insights into performance and reliability.
 
 - id: testing_and_monitoring_crash_reporting_instabug
   name: Instabug
-  homepageUrl: https://instabug.com/
+  homepage: https://instabug.com/
+  description: A bug reporting and in-app feedback tool that allows users to report issues directly from the application.
 
 - id: testing_and_monitoring_crash_reporting_new_relic
   name: New Relic
-  homepageUrl: https://newrelic.com/
-
-- id: testing_and_monitoring_crash_reporting_appdynamics
-  name: AppDynamics
-  homepageUrl: https://www.appdynamics.com/
-
-- id: testing_and_monitoring_crash_reporting_amazon_cloudwatch
-  name: Amazon CloudWatch
-  homepageUrl: https://aws.amazon.com/cloudwatch/
-
-- id: testing_and_monitoring_crash_reporting_elastic_observability
-  name: Elastic Observability
-  homepageUrl: https://www.elastic.co/observability
+  homepage: https://newrelic.com/
+  description: A performance monitoring tool that provides insights into application performance and user experience.
 
 - id: testing_and_monitoring_crash_reporting_bugsnag
   name: Bugsnag
-  homepageUrl: https://www.bugsnag.com/
+  homepage: https://www.bugsnag.com/
+  description: An error monitoring tool that helps developers detect and resolve issues in their applications.
 
 - id: testing_and_monitoring_crash_reporting_firebase_crashlytics
   name: Firebase Crashlytics
-  homepageUrl: https://firebase.google.com/products/crashlytics
+  homepage: https://firebase.google.com/products/crashlytics
+  description: A lightweight crash reporting tool that helps developers track and fix stability issues in their applications.
 
 - id: testing_and_monitoring_crash_reporting_appcenter_crashes
   name: AppCenter Crashes
-  homepageUrl: https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native
+  homepage: https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native
+  description: A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.

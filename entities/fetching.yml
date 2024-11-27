@@ -1,9 +1,7 @@
-- id: data_fetching
-  name: Data fetching
-
 - id: data_fetching_fetch
   name: Fetch API
-  homepageUrl: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  description: An interface for fetching resources.
   example:
     language: js
     code: |
@@ -11,10 +9,10 @@
 
 - id: data_fetching_axios
   name: Axios
-  homepageUrl: https://axios-http.com/docs/intro
+  homepage: https://axios-http.com/docs/intro
   npm: axios
-  github: https://github.com/axios/axios
-  # description: Promise based HTTP client for the browser and node.js
+  github: axios/axios
+  description: Promise based HTTP client for the browser and node.js
   example:
     language: js
     code: |
@@ -24,8 +22,8 @@
   name: Apollo Client
   npm: "@apollo/client"
   github: apollographql/apollo-client
-  homepageUrl: https://www.apollographql.com/docs/react
-  # description: Apollo Client is a comprehensive state management library for JavaScript. It enables you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
+  homepage: https://www.apollographql.com/docs/react
+  description: A library enabling you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
   example:
     language: js
     code: |
@@ -43,10 +41,10 @@
 
 - id: data_fetching_trpc
   name: tRPC
-  homepageUrl: https://trpc.io/
+  homepage: https://trpc.io/
   npm: "@trpc/client"
-  github: https://github.com/trpc/trpc
-  # description: 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.
+  github: trpc/trpc
+  description: tRPC allows you to easily build & consume fully typesafe APIs without schemas or code generation.
   example:
     language: js
     code: |
@@ -59,10 +57,10 @@
 
 - id: data_fetching_tan_stack
   name: TanStack Query
-  homepageUrl: https://tanstack.com/query/latest
+  homepage: https://tanstack.com/query/latest
   npm: "@tanstack/react-query"
-  github: https://github.com/TanStack/query
-  # description: 🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.
+  github: TanStack/query
+  description: TanStack Query (FKA React Query) is often described as the missing data-fetching library for applications, but in more technical terms, it makes fetching, caching, synchronizing and updating server state in your web applications a breeze.
   example:
     language: js
     code: |
@@ -75,10 +73,10 @@
 
 - id: data_fetching_swr
   name: SWR
-  homepageUrl: https://swr.vercel.app/
+  homepage: https://swr.vercel.app/
   npm: swr
-  github: https://github.com/vercel/swr
-  # description: React Hooks for Data Fetching
+  github: vercel/swr
+  description: React Hooks for Data Fetching. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
   example:
     language: js
     code: |
@@ -89,10 +87,10 @@
 
 - id: data_fetching_relay
   name: Relay
-  homepageUrl: https://relay.dev/
-  github: https://github.com/facebook/relay
+  homepage: https://relay.dev/
+  github: facebook/relay
   npm: react-relay
-  # description: Relay is a JavaScript framework for building data-driven React applications.
+  description: The GraphQL client that scales with you. A JavaScript framework for building data-driven React applications.
   example:
     language: js
     code: |
@@ -109,9 +107,10 @@
 
 - id: data_fetching_rtk_query
   name: RTK Query
-  homepageUrl: https://redux-toolkit.js.org/rtk-query/overview
+  homepage: https://redux-toolkit.js.org/rtk-query/overview
   npm: "@reduxjs/toolkit"
-  github: https://github.com/reduxjs/redux-toolkit
+  github: reduxjs/redux-toolkit
+  description: RTK Query is a powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.
   example:
     language: js
     code: |

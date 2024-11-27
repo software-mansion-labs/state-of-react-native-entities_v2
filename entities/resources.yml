@@ -4,55 +4,51 @@
 
 - id: resources_read_multiple_react_native_blog
   name: React Native blog
-  homepageUrl: https://reactnative.dev/blog
+  homepage: https://reactnative.dev/blog
 
 - id: resources_read_multiple_react_native_newsletter
   name: React Native Newsletter (by Infinite Red)
-  homepageUrl: https://reactnativenewsletter.com/
+  homepage: https://reactnativenewsletter.com/
 
 - id: resources_read_multiple_medium
   name: Medium
-  homepageUrl: https://medium.com/tag/react-native
+  homepage: https://medium.com/tag/react-native
 
 - id: resources_read_multiple_dev_to
   name: DEV Community (dev.to)
-  homepageUrl: https://dev.to/t/reactnative
+  homepage: https://dev.to/t/reactnative
 
 - id: resources_read_multiple_kent_c_dodds
   name: Kent C. Dodds
-  homepageUrl: https://kentcdodds.com/blog
+  homepage: https://kentcdodds.com/blog
 
 - id: resources_read_multiple_log_rocket
   name: LogRocket
-  homepageUrl: https://blog.logrocket.com/
+  homepage: https://blog.logrocket.com/
 
 - id: resources_read_multiple_expo_blog
   name: Expo blog (Exposition)
-  homepageUrl: https://blog.expo.dev/
+  homepage: https://blog.expo.dev/
 
 - id: resources_read_multiple_software_mansion_blog
   name: Software Mansion blog
-  homepageUrl: https://blog.swmansion.com/
+  homepage: https://blog.swmansion.com/
 
 - id: resources_read_multiple_callstack_blog
   name: Callstack blog
-  homepageUrl: https://www.callstack.com/blog
+  homepage: https://www.callstack.com/blog
 
 - id: resources_read_multiple_microsof_react_native_blog
   name: Microsoft React Native blog
-  homepageUrl: https://devblogs.microsoft.com/react-native/
+  homepage: https://devblogs.microsoft.com/react-native/
 
 - id: resources_read_multiple_this_week_in_react
   name: This Week In React (by Sébastien Lorber)
-  homepageUrl: https://thisweekinreact.com/
-
-- id: resources_read_multiple_react_native_newsletter
-  name: React Native Newsletter (by Infinite Red)
-  homepageUrl: https://reactnativenewsletter.com/
+  homepage: https://thisweekinreact.com/
 
 - id: resources_read_react_native_reddit
   name: r/reactnative
-  homepageUrl: https://www.reddit.com/r/reactnative/
+  homepage: https://www.reddit.com/r/reactnative/
 
 ######################################################
 ######### SITES / COURSES                    #########
@@ -60,71 +56,71 @@
 
 - id: resources_course_multiple_stack_overflow
   name: Stack Overflow
-  homepageUrl: https://stackoverflow.com/questions/tagged/react-native
+  homepage: https://stackoverflow.com/questions/tagged/react-native
 
 - id: resources_course_multiple_udemy
   name: Udemy
-  homepageUrl: https://www.udemy.com/topic/react-native/
+  homepage: https://www.udemy.com/topic/react-native/
 
 - id: resources_course_multiple_medium
   name: Medium
-  homepageUrl: https://medium.com/tag/react-native
+  homepage: https://medium.com/tag/react-native
 
 - id: resources_course_twitter
   name: X (Twitter)
-  homepageUrl: https://twitter.com/hashtag/reactnative
+  homepage: https://twitter.com/hashtag/reactnative
 
 - id: resources_course_multiple_reddit
   name: Reddit
-  homepageUrl: https://www.reddit.com/r/reactnative/
+  homepage: https://www.reddit.com/r/reactnative/
 
 - id: resources_course_multiple_youtube
   name: YouTube
-  homepageUrl: https://www.youtube.com/results?search_query=react+native
+  homepage: https://www.youtube.com/results?search_query=react+native
 
 - id: resources_course_react_native_docs
   name: React Native docs
-  homepageUrl: https://reactnative.dev/docs/getting-started
+  homepage: https://reactnative.dev/docs/getting-started
 
 - id: resources_course_expo_docs
   name: Expo docs
-  homepageUrl: https://docs.expo.dev/
+  homepage: https://docs.expo.dev/
 
 - id: resources_course_multiple_codecademy
   name: Codecademy
-  homepageUrl: https://www.codecademy.com/learn/learn-react-native
+  homepage: https://www.codecademy.com/learn/learn-react-native
 
 - id: resources_course_multiple_egghead
   name: Egghead.io
-  homepageUrl: https://egghead.io/q/react-native
+  homepage: https://egghead.io/q/react-native
 
 - id: resources_course_multiple_frontend_masters
   name: Frontend Masters
-  homepageUrl: https://frontendmasters.com/learn/react-native/
+  homepage: https://frontendmasters.com/learn/react-native/
 
 - id: resources_course_multiple_start_react_native
   name: Start React Native (by William Candillon)
-  homepageUrl: https://start-react-native.dev/
+  homepage: https://start-react-native.dev/
 
 - id: resources_course_multiple_developer_training
   name: Developer training (by Callstack)
-  homepageUrl: https://callstack.com/services/react-native-developer-training/
+  homepage: https://callstack.com/services/react-native-developer-training/
 
 - id: resources_course_multiple_epic_react
   name: Epic React (by Kent C. Dodds)
-  homepageUrl: https://epicreact.dev/
+  homepage: https://epicreact.dev/
 
 - id: resources_course_multiple_animate_react_native
   name: Animate React Native (by Catalin Miron)
-  homepageUrl: https://www.animatereactnative.com/
+  homepage: https://www.animatereactnative.com/
 
 - id: resources_course_multiple_book_react_native_optimization
   name: The Ultimate Guide to React Native Optimization (by Callstack)
-  homepageUrl: https://callstack.com/blog/the-ultimate-guide-to-react-native-optimization-ebook/
+  homepage: https://callstack.com/blog/the-ultimate-guide-to-react-native-optimization-ebook/
 
 - id: resources_course_multiple_solito_docs
   name: Solito docs
-  homepageUrl: https://solito.dev/
+  homepage: https://solito.dev/
 
 ######################################################
 ######### PODCASTS                           #########
@@ -132,28 +128,27 @@
 
 - id: resources_podcast_multiple_react_universe_on_air
   name: React Universe On Air
-  description: (former The React Native Show Podcast)
-  homepageUrl: https://www.callstack.com/podcast
+  homepage: https://www.callstack.com/podcast
 
 - id: resources_podcast_multiple_react_native_radio
   name: React Native Radio (by Infinite Red)
-  homepageUrl: https://reactnativeradio.com/
+  homepage: https://reactnativeradio.com/
 
 - id: resources_podcast_multiple_syntax_fm
   name: Syntax.fm
-  homepageUrl: https://syntax.fm/
+  homepage: https://syntax.fm/
 
 - id: resources_podcast_multiple_the_changelog
   name: The Changelog
-  homepageUrl: https://changelog.com/
+  homepage: https://changelog.com/
 
 - id: resources_podcast_multiple_podrocker
   name: PodRocker (by LogRocket)
-  homepageUrl: https://podrocket.logrocket.com/
+  homepage: https://podrocket.logrocket.com/
 
 - id: resources_podcast_multiple_rocket_ship
   name: Rocket Ship (by Simon Grimm)
-  homepageUrl: https://podcast.galaxies.dev/
+  homepage: https://podcast.galaxies.dev/
 
 ######################################################
 ######### SURVEYS                            #########
@@ -161,43 +156,40 @@
 
 - id: resources_surveys_state_of_js
   name: State of JS
-  homepageUrl: https://stateofjs.com/
+  homepage: https://stateofjs.com/
 
 - id: resources_surveys_state_of_css
   name: State of CSS
-  homepageUrl: https://stateofcss.com/
+  homepage: https://stateofcss.com/
 
 - id: resources_surveys_state_of_react
   name: State of React
-  homepageUrl: https://stateofreact.com/
+  homepage: https://stateofreact.com/
 
 - id: resources_surveys_state_of_graphql
   name: State of GraphQL
-  homepageUrl: https://stateofgraphql.com/
+  homepage: https://stateofgraphql.com/
 
 - id: resources_surveys_state_of_html
   name: State of HTML
-  homepageUrl: https://stateofhtml.com/
+  homepage: https://stateofhtml.com/
 
 - id: resources_surveys_jetbrains
   name: JetBrains State of Developer Ecosystem
-  homepageUrl: https://www.jetbrains.com/lp/devecosystem-2023/
+  homepage: https://www.jetbrains.com/lp/devecosystem-2023/
 
 - id: resources_surveys_stack_overflow
   name: Stack Overflow Annual Developer Survey
-  homepageUrl: https://survey.stackoverflow.co/
-
-- id: resources_surveys_codingame
-  name: CodinGame Developer Survey
+  homepage: https://survey.stackoverflow.co/
 
 - id: resources_surveys_design_tools
   name: Design Tools Survey
-  homepageUrl: https://uxtools.co/survey/2023/
+  homepage: https://uxtools.co/survey/2023/
 
 - id: resources_surveys_postman
   name: Postman State of the API Report
-  homepageUrl: https://www.postman.com/state-of-api/
+  homepage: https://www.postman.com/state-of-api/
 
 - id: resources_surveys_jamstack
   name: Jamstack Community Survey
-  homepageUrl: https://jamstack.org/survey/
+  homepage: https://jamstack.org/survey/

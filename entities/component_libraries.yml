@@ -1,9 +1,9 @@
 - id: component_libraries_gluestack_ui
   name: gluestack-ui
-  github: https://github.com/gluestack/gluestack-ui
+  github: gluestack/gluestack-ui
   npm: "@gluestack-ui/themed"
-  homepageUrl: https://gluestack.io/
-  # description: Universal headless components for React Native, Next.js & React with beautiful & optional styling (alpha)
+  homepage: https://gluestack.io/
+  description: React & React Native Components & Patterns. Copy-paste components & patterns crafted with Tailwind CSS (NativeWind).
   # example:
   #   language: jsx
   #   code: |
@@ -15,11 +15,11 @@
 
 - id: component_libraries_native_base
   name: NativeBase
-  homepageUrl: https://nativebase.io/
-  github: https://github.com/GeekyAnts/nativebase
+  homepage: https://nativebase.io/
+  github: GeekyAnts/nativebase
   npm: native-base
   author: GeekyAnts
-  # description: Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.
+  description: (NativeBase is now gluestack-ui) Copy-paste components & patterns for flexibility and customizability.
   # example:
   #   language: jsx
   #   code: |
@@ -35,9 +35,9 @@
 - id: component_libraries_rn_elements
   name: React Native Elements
   npm: react-native-elements
-  homepageUrl: https://reactnativeelements.com/
-  github: https://github.com/react-native-elements/react-native-elements
-  # description: Cross-Platform React Native UI Toolkit
+  homepage: https://reactnativeelements.com/
+  github: react-native-elements/react-native-elements
+  description: Cross Platform React Native UI toolkit. A React Native framework for making cross platform applications.
   # example:
   #   language: jsx
   #   code: |
@@ -45,11 +45,11 @@
 
 - id: component_libraries_react_native_material_kit
   name: React Native Material Kit
-  github: https://github.com/xinthink/react-native-material-kit
+  github: xinthink/react-native-material-kit
   npm: react-native-material-kit
-  homepageUrl: https://rnmk.xinthink.com/
+  homepage: https://rnmk.xinthink.com/
   author: Jeremy Hamilton
-  # description: Bringing Material Design to React Native
+  description: A set of UI components, in the purpose of introducing Material Design to apps built with React Native, quickly and painlessly.
   # example:
   #   language: jsx
   #   code: |
@@ -68,9 +68,9 @@
 - id: component_libraries_react_native_material_ui
   name: react-native-material-ui
   npm: react-native-material-ui
-  github: https://github.com/xotahal/react-native-material-ui
+  github: xotahal/react-native-material-ui
   author: Jiří Otáhal
-  # description: Highly customizable material design components for React Native
+  description: Highly customizable material design components for React Native.
   # example:
   #   language: jsx
   #   code: |
@@ -80,23 +80,23 @@
 
 - id: component_libraries_rn_paper
   name: react-native-paper
-  homepageUrl: https://reactnativepaper.com/
-  github: https://github.com/callstack/react-native-paper
+  homepage: https://reactnativepaper.com/
+  github: callstack/react-native-paper
   npm: react-native-paper
   author: Callstack
-  # description: Material Design for React Native (Android & iOS)
+  description: React Native Paper is a high-quality, standard-compliant Material Design library that has you covered in all major use-cases.
   # example:
   #   language: jsx
   #   code: |
   #     <Chip icon="information">This is the Chip</Chip>
 
 - id: component_libraries_rn_ui_lib
-  name: react-native-ui-lib
+  name: RNUILib (react-native-ui-lib)
   npm: react-native-ui-lib
-  github: https://github.com/wix/react-native-ui-lib
-  homepageUrl: https://wix.github.io/react-native-ui-lib/
+  github: wix/react-native-ui-lib
+  homepage: https://wix.github.io/react-native-ui-lib/
   author: Wix
-  # description: UI Components Library for React Native
+  description: RNUI is a UI Toolset & Components Library for React Native.
   # example:
   #   language: jsx
   #   code: |
@@ -106,10 +106,10 @@
 
 - id: component_libraries_shoutem_ui
   name: Shoutem UI
-  github: https://github.com/shoutem/ui
+  github: shoutem/ui
   npm: "@shoutem/ui"
-  homepageUrl: https://shoutem.github.io/docs/ui-toolkit/introduction
-  # description: Customizable set of components for React Native applications
+  homepage: https://shoutem.github.io/docs/ui-toolkit/introduction
+  description: Shoutem UI is a set of styleable components that enables you to build beautiful React Native applications for iOS and Android.
   # example:
   #   language: jsx
   #   code: |
@@ -119,11 +119,11 @@
 
 - id: component_libraries_ui_kitten
   name: ui-kitten
-  github: https://github.com/akveo/react-native-ui-kitten
+  github: akveo/react-native-ui-kitten
   npm: "@ui-kitten/components"
-  homepageUrl: https://akveo.github.io/react-native-ui-kitten/
+  homepage: https://akveo.github.io/react-native-ui-kitten/
   author: Akveo
-  # description: 💥 React Native UI Library based on Eva Design System
+  description: A React Native framework for creating stunning cross-platform mobile applications.
   # example:
   #   language: jsx
   #   code: |
@@ -133,10 +133,10 @@
 
 - id: component_libraries_tamagui
   name: Tamagui
-  github: https://github.com/tamagui/tamagui
+  github: tamagui/tamagui
   npm: tamagui
-  homepageUrl: https://tamagui.dev/
-  # description: A style library, UI kit, and optimizing compiler that makes React run faster - on both native and web
+  homepage: https://tamagui.dev/
+  description: All the components you'd want, cross platform and adaptable to each other. Compound Component APIs, styled or unstyled, sizable, themeable, and more.
   # example:
   #   language: jsx
   #   code: |
@@ -150,33 +150,33 @@
 
 - id: component_libraries_data_visualisation_victory_native
   name: Victory Native
-  homepageUrl: https://formidable.com/open-source/victory-native/
+  homepage: https://formidable.com/open-source/victory-native/
   npm: victory-native
-  github: https://github.com/FormidableLabs/victory-native
+  github: FormidableLabs/victory-native
   description: A collection of composable React components for building interactive data visualizations
 
 - id: component_libraries_data_visualisation_react_native_svg
   name: react-native-svg
   npm: react-native-svg
-  github: https://github.com/software-mansion/react-native-svg
+  github: software-mansion/react-native-svg
   description: SVG library for React Native, React Native Web, and plain React web projects.
 
 - id: component_libraries_data_visualisation_recharts
   name: Recharts
   npm: recharts
-  github: https://github.com/recharts/recharts
+  github: recharts/recharts
   description: Redefined chart library built with React and D3
-  homepageUrl: https://recharts.org/en-US/
+  homepage: https://recharts.org/en-US/
 
 - id: component_libraries_data_visualisation_react_native_charts_kit
   name: React Native Charts Kit
   npm: react-native-chart-kit
-  github: https://github.com/indiespirit/react-native-chart-kit
+  github: indiespirit/react-native-chart-kit
 
 - id: component_libraries_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
   npm: react-native-charts-wrapper
-  github: https://github.com/wuxudong/react-native-charts-wrapper
+  github: wuxudong/react-native-charts-wrapper
   description: a react native charts wrapper (support android & iOS)
 
 #######################################################################
@@ -186,100 +186,113 @@
 - id: component_libraries_other_libraries_expo_image
   name: expo-image
   npm: expo-image
-  github: https://github.com/expo/expo/tree/master/packages/expo-image
-  homepageUrl: https://docs.expo.dev/versions/latest/sdk/image/
+  github: expo/expo/tree/master/packages/expo-image
+  homepage: https://docs.expo.dev/versions/latest/sdk/image/
   author: expo
+  description: A cross-platform and performant React component that loads and renders images.
 
 - id: component_libraries_other_libraries_expo_vector_icons
   name: "@expo/vector-icons"
   npm: "@expo/vector-icons"
-  github: https://github.com/expo/vector-icons
-  homepageUrl: https://docs.expo.dev/guides/icons/
+  github: expo/vector-icons
+  homepage: https://docs.expo.dev/guides/icons/
   author: expo
+  description: Use various types of icons in your Expo app, including vector icons, custom icon fonts, icon images, and icon buttons.
 
 - id: component_libraries_other_libraries_formik
   name: formik
   npm: formik
-  github: https://github.com/jaredpalmer/formik
-  homepageUrl: https://formik.org/
+  github: jaredpalmer/formik
+  homepage: https://formik.org/
   author: jaredpalmer
+  description: Build forms in React, without the tears.
 
 - id: component_libraries_other_libraries_react_hook_form
   name: react-hook-form
   npm: react-hook-form
-  github: https://github.com/react-hook-form/react-hook-form
-  homepageUrl: https://react-hook-form.com/
+  github: react-hook-form/react-hook-form
+  homepage: https://react-hook-form.com/
   author: react-hook-form
+  description: Performant, flexible and extensible forms with easy-to-use validation.
 
 - id: component_libraries_other_libraries_gorhom_bottom_sheet
   name: "@gorhom/bottom-sheet"
   npm: "@gorhom/bottom-sheet"
-  github: https://github.com/gorhom/react-native-bottom-sheet
-  homepageUrl: https://gorhom.github.io/react-native-bottom-sheet/
+  github: gorhom/react-native-bottom-sheet
+  homepage: https://gorhom.github.io/react-native-bottom-sheet/
   author: gorhom
+  description: A performant interactive bottom sheet with fully configurable options.
 
 - id: component_libraries_other_libraries_react_native_camera
   name: react-native-camera
   npm: react-native-camera
-  github: https://github.com/react-native-camera/react-native-camera
-  homepageUrl: https://react-native-camera.github.io/react-native-camera/
+  github: react-native-camera/react-native-camera
+  homepage: https://react-native-camera.github.io/react-native-camera/
+  description: The comprehensive camera module for React Native.
 
 - id: component_libraries_other_libraries_react_native_fast_image
   name: react-native-fast-image
   npm: react-native-fast-image
-  github: https://github.com/DylanVann/react-native-fast-image
+  github: DylanVann/react-native-fast-image
   author: DylanVann
+  description: Performant React Native image component.
 
 - id: component_libraries_other_libraries_react_native_gesture_handler
   name: react-native-gesture-handler
-  homepageUrl: https://software-mansion.github.io/react-native-gesture-handler/
-  description: Declarative API exposing platform native touch and gesture system to React Native
+  homepage: https://software-mansion.github.io/react-native-gesture-handler/
   npm: react-native-gesture-handler
-  github: https://github.com/software-mansion/react-native-gesture-handler
+  github: software-mansion/react-native-gesture-handler
   author: software-mansion
+  description: Declarative API exposing platform native touch and gesture system to React Native
 
 - id: component_libraries_other_libraries_react_native_maps
   name: react-native-maps
   npm: react-native-maps
-  github: https://github.com/react-native-maps/react-native-maps
+  github: react-native-maps/react-native-maps
+  description: React Native Map components for iOS + Android.
 
 - id: component_libraries_other_libraries_react_native_safe_area_context
   name: react-native-safe-area-context
   npm: react-native-safe-area-context
-  github: https://github.com/th3rdwave/react-native-safe-area-context
-  homepageUrl: https://github.com/th3rdwave/react-native-safe-area-context#readme
+  github: th3rdwave/react-native-safe-area-context
   author: th3rdwave
+  description: A flexible way to handle safe area, also works on Android and Web.
 
 - id: component_libraries_other_libraries_react_native_vector_icons
   name: react-native-vector-icons
   npm: react-native-vector-icons
-  github: https://github.com/oblador/react-native-vector-icons
-  homepageUrl: https://oblador.github.io/react-native-vector-icons/
+  github: oblador/react-native-vector-icons
+  homepage: https://oblador.github.io/react-native-vector-icons/
   author: oblador
+  description: Customizable Icons for React Native with support for image source and full styling.
 
 - id: component_libraries_other_libraries_react_native_video
   name: react-native-video
   npm: react-native-video
-  github: https://github.com/react-native-video/react-native-video
-  homepageUrl: https://thewidlarzgroup.github.io/react-native-video/
+  github: react-native-video/react-native-video
+  homepage: https://thewidlarzgroup.github.io/react-native-video/
   author: thewidlarzgroup
+  description: A <Video /> component for react-native.
 
 - id: component_libraries_other_libraries_react_native_vision_camera
   name: react-native-vision-camera
   npm: react-native-vision-camera
-  github: https://github.com/mrousavy/react-native-vision-camera
-  homepageUrl: https://react-native-vision-camera.com/
+  github: mrousavy/react-native-vision-camera
+  homepage: https://react-native-vision-camera.com/
   author: mrousavy
+  description: A powerful, high-performance React Native Camera library.
 
 - id: component_libraries_other_libraries_react_native_webview
   name: react-native-webview
   npm: react-native-webview
-  github: https://github.com/react-native-webview/react-native-webview
+  github: react-native-webview/react-native-webview
   author: react-native-webview
+  description: React Native Cross-Platform WebView.
 
 - id: component_libraries_other_libraries_shopify_flash_list
   name: "@shopify/flash-list"
   npm: "@shopify/flash-list"
-  github: https://github.com/shopify/flash-list
-  homepageUrl: https://shopify.github.io/flash-list/
+  github: shopify/flash-list
+  homepage: https://shopify.github.io/flash-list/
   author: shopify
+  description: Fast & performant React Native list. No more blank cells. Swap from FlatList in seconds. Get instant performance.

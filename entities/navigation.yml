@@ -1,59 +1,38 @@
-- id: navigation_react_navigation
-  name: react-navigation
-  homepageUrl: https://reactnavigation.org/
-  npm: "@react-navigation/native"
-  # description: Routing and navigation for your React Native apps
-  github: https://github.com/react-navigation/react-navigation
-  author: Expo, Software Mansion and Callstack
+- id: navigation_expo_router
+  name: expo-router
+  homepage: https://expo.github.io/router/docs/
+  npm: expo-router
+  github: expo/router
+  description: A file-based router for React Native and web applications.
+  author: Expo
 
 - id: navigation_react_native_navigation
   name: react-native-navigation
-  homepageUrl: https://wix.github.io/react-native-navigation/
+  homepage: https://wix.github.io/react-native-navigation/
   npm: react-native-navigation
-  github: https://github.com/wix/react-native-navigation
-  # description: A complete native navigation solution for React Native
+  github: wix/react-native-navigation
+  description: 100% native platform navigation on both iOS and Android for React Native apps.
   author: Wix
+
+- id: navigation_react_navigation
+  name: react-navigation
+  homepage: https://reactnavigation.org/
+  npm: "@react-navigation/native"
+  description: Routing and navigation for your React Native apps.
+  github: react-navigation/react-navigation
+  author: Expo, Software Mansion and Callstack
 
 - id: navigation_react_router
   name: react-router
-  homepageUrl: https://reactrouter.com/en/main/router-components/native-router
+  homepage: https://reactrouter.com/en/main/router-components/native-router
   npm: react-router-native
-  github: https://github.com/remix-run/react-router
-  # description: Declarative routing for React
+  github: remix-run/react-router
+  description: Interface for running React Router in a React Native app.
   author: Remix
-
-- id: navigation_expo_router
-  name: expo-router
-  homepageUrl: https://expo.github.io/router/docs/
-  npm: expo-router
-  github: https://github.com/expo/router
-  # description: The new File-based router for universal React Native apps!
-  author: Expo
-
-- id: navigation_navigation
-  name: The Navigation router
-  homepageUrl: http://grahammendick.github.io/navigation/native/
-  npm: navigation-react-native
-  github: https://github.com/grahammendick/navigation
-  # description: Scene-Based Navigation for React and React Native
-  author: Graham Mendick
 
 - id: navigation_solito
   name: Solito
-  homepageUrl: https://solito.dev/
+  homepage: https://solito.dev/app-directory/overview
+  description: A wrapper around React Navigation and Next.js that lets you share navigation code when building cross-platform apps. 
+  github: nandorojo/solito
   npm: solito
-  author: Fernando Rojo
-
-- id: solito
-  name: Solito
-  homepageUrl: https://solito.dev/
-  # description: 🧍‍♂️ React Native + Next.js, unified.
-  github: https://github.com/nandorojo/solito
-  npm: solito
-
-- id: react_native_url_router
-  name: React Native Url Router
-  github: https://github.com/software-mansion-labs/react-native-url-router
-  # description: A new way to create navigation in react-native
-  npm: react-native-url-router
-  homepageUrl: https://software-mansion-labs.github.io/react-native-url-router/docs/overview

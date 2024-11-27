@@ -2,8 +2,8 @@
   name: Jotai
   npm: jotai
   github: pmndrs/jotai
-  # description: Atom-based, primitive, flexible state management for React
-  homepageUrl: https://jotai.org
+  homepage: https://jotai.org
+  description: Jotai takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.
   example:
     language: js
     code: |
@@ -19,8 +19,8 @@
   name: Legend State
   npm: "@legendapp/state"
   github: LegendApp/legend-state
-  homepageUrl: https://legendapp.com/open-source/state/
-  # description: "Flexible, high-performance state management for React and React Native"
+  homepage: https://legendapp.com/open-source/state/
+  description: Legend State is an extremely fast signal-based state library with fine-grained reactivity and a powerful sync system that works with any backend.
   example:
     language: js
     code: |
@@ -36,8 +36,8 @@
   name: MobX
   npm: mobx
   github: mobxjs/mobx
-  # description: "Simple, scalable state management."
-  homepageUrl: https://mobx.js.org
+  description: MobX is a signal based, battle-tested library that makes state management simple and scalable by transparently applying functional reactive programming.
+  homepage: https://mobx.js.org
   example:
     language: js
     code: |
@@ -53,7 +53,8 @@
   name: MobX State Tree
   npm: mobx-state-tree
   homepage: https://mobx-state-tree.js.org
-  github: https://github.com/mobxjs/mobx-state-tree
+  description: A state container system built on MobX, a functional reactive state library. MobX is a state management "engine", and MobX-State-Tree gives it structure and common tools you need for your app.
+  github: mobxjs/mobx-state-tree
   example:
     language: js
     code: |
@@ -72,7 +73,8 @@
 - id: state_management_rn_built_in
   name: React built-ins
   homepage: https://react.dev/reference/react/hooks
-  github: https://github.com/facebook/react
+  github: facebook/react
+  description: The most basic primitives for "remembering" the state of the React component.
   example:
     language: js
     code: |
@@ -86,7 +88,8 @@
   name: Recoil
   npm: recoil
   github: facebookexperimental/Recoil
-  homepageUrl: https://recoiljs.org
+  homepage: https://recoiljs.org
+  description: An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.
   example:
     language: js
     code: |
@@ -102,8 +105,8 @@
   name: Redux
   npm: redux
   github: reduxjs/redux
-  # description: Predictable state container for JavaScript apps
-  homepageUrl: https://redux.js.org
+  description: A library for predictable and maintainable global state management.
+  homepage: https://redux.js.org
   example:
     language: js
     code: |
@@ -128,7 +131,8 @@
   name: Redux Toolkit
   npm: "@reduxjs/toolkit"
   homepage: https://redux-toolkit.js.org
-  github: https://github.com/reduxjs/redux-toolkit
+  description: The official, opinionated, batteries-included toolset for efficient Redux development.
+  github: reduxjs/redux-toolkit
   example:
     language: js
     code: |
@@ -153,8 +157,8 @@
   name: XState
   npm: xstate
   github: davidkpiano/xstate
-  # description: State machines and statecharts for the modern web.
-  homepageUrl: https://stately.ai/docs/xstate
+  description: A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.
+  homepage: https://stately.ai/docs/xstate
   example:
     language: js
     code: |
@@ -187,8 +191,8 @@
   name: Zustand
   npm: zustand
   github: pmndrs/zustand
-  # description: Bear necessities for state management in React
-  homepageUrl: "https://zustand-demo.pmnd.rs/"
+  description: A small, fast, and scalable bearbones state management solution. It isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.
+  homepage: https://zustand-demo.pmnd.rs
   example:
     language: js
     code: |
@@ -208,52 +212,53 @@
 
 - id: state_management_storage_react_native_async_storage
   name: React Native Async Storage
-  homepageUrl: https://react-native-async-storage.github.io/async-storage/
+  homepage: https://react-native-async-storage.github.io/async-storage/
   npm: "@react-native-async-storage/async-storage"
-  github: https://github.com/react-native-async-storage/async-storage
-  description: An asynchronous, persistent, key-value storage system for React Native.
+  github: react-native-async-storage/async-storage
+  description: An asynchronous, unencrypted, persistent, key-value storage system for React Native.
 
 - id: state_management_storage_realm
   name: Realm
   npm: realm
-  homepageUrl: https://realm.io/
-  github: https://github.com/realm/realm-js
-  description: "Realm is a mobile database: an alternative to SQLite & key-value stores"
+  homepage: https://realm.io/
+  github: realm/realm-js
+  description: "Realm is a mobile database that runs directly inside phones, tablets or wearables; an alternative to SQLite & key-value stores."
 
 - id: state_management_storage_watermelondb
   name: WatermelonDB
   npm: "@nozbe/watermelondb"
-  homepageUrl: https://watermelondb.dev
-  github: https://github.com/Nozbe/WatermelonDB
-  description: 🍉 Reactive & asynchronous database for powerful React and React Native apps ⚡️
+  homepage: https://watermelondb.dev
+  github: Nozbe/WatermelonDB
+  description: Reactive & asynchronous database for powerful React and React Native apps.
 
 - id: state_management_storage_react_native_mmkv
   name: react-native-mmkv
-  github: https://github.com/mrousavy/react-native-mmkv
-  description: ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!
   npm: react-native-mmkv
+  github: mrousavy/react-native-mmkv
+  description: The fastest key/value storage for React Native based on MMKV. ~30x faster than AsyncStorage.
 
 - id: state_management_storage_react_native_mmkv_storage
   name: react-native-mmkv-storage
   npm: react-native-mmkv-storage
-  github: https://github.com/ammarahm-ed/react-native-mmkv-storage
-  description: An ultra fast (0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI
-  homepageUrl: https://rnmmkv.vercel.app/
+  github: ammarahm-ed/react-native-mmkv-storage
+  description: An ultra fast(0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI.
+  homepage: https://rnmmkv.vercel.app/
 
 - id: state_management_storage_react_native_sqlite_storage
   name: React Native SQLite Storage
   npm: react-native-sqlite-storage
-  github: https://github.com/andpor/react-native-sqlite-storage
-  description: Full featured SQLite3 Native Plugin for React Native (Android and iOS)
+  github: andpor/react-native-sqlite-storage
+  description: Full featured SQLite3 Native Plugin for React Native (Android and iOS).
 
 - id: state_management_storage_expo_sqlite
   name: Expo SQLite
   npm: expo-sqlite
-  homepageUrl: https://docs.expo.dev/versions/latest/sdk/sqlite/
+  homepage: https://docs.expo.dev/versions/latest/sdk/sqlite/
+  description: A library that provides access to a database that can be queried through a SQLite API.
 
 - id: state_management_storage_rxdb
   name: RxDB
   npm: rxdb
-  homepageUrl: https://rxdb.info/
-  github: https://github.com/pubkey/rxdb
-  description: A fast, offline-first, reactive database for JavaScript Applications
+  homepage: https://rxdb.info/
+  github: pubkey/rxdb
+  description: RxDB (short for Reactive Database) is a local-first, NoSQL-database for JavaScript Applications.

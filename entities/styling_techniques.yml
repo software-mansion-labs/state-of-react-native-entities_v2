@@ -1,8 +1,8 @@
 - id: styling_techniques_dripsy
   npm: dripsy
-  github: https://github.com/nandorojo/dripsy
-  # description: 🍷 Responsive, unstyled UI primitives for React Native + Web.
-  homepageUrl: https://www.dripsy.xyz/
+  github: nandorojo/dripsy
+  description: Unstyled, responsive UI primitives for React Native + Web.
+  homepage: https://www.dripsy.xyz/
   name: Dripsy
   author: Fernando Rojo
   example:
@@ -13,8 +13,9 @@
 - id: styling_techniques_emotion
   name: Emotion
   npm: "@emotion/native"
-  homepageUrl: https://emotion.sh/
-  github: https://github.com/emotion-js/emotion
+  homepage: https://emotion.sh/
+  description: CSS-in-JS library designed for high performance style composition.
+  github: emotion-js/emotion
   example:
     language: jsx
     code: |
@@ -25,6 +26,8 @@
 
 - id: styling_techniques_inline
   name: Inline styling
+  description: A straightforward method of applying styles directly within the component using the style prop.
+  homepage: https://reactnative.dev/docs/view
   example:
     language: jsx
     code: |
@@ -32,7 +35,8 @@
 
 - id: styling_techniques_style_sheet
   name: StyleSheet API
-  homepageUrl: https://reactnative.dev/docs/stylesheet
+  homepage: https://reactnative.dev/docs/stylesheet
+  description: A built-in React Native API for creating stylesheets that improve performance and organization of styles.
   example:
     language: jsx
     code: |
@@ -46,9 +50,9 @@
 
 - id: styling_techniques_nativewind
   name: NativeWind
-  homepageUrl: https://www.nativewind.dev/
-  github: https://github.com/marklawlor/nativewind
-  # description: React Native utility-first universal design system - powered by Tailwind CSS
+  homepage: https://www.nativewind.dev/
+  github: marklawlor/nativewind
+  description: A utility-first design system for React Native that leverages Tailwind CSS for styling components.
   npm: nativewind
   author: Mark Lawlor
   example:
@@ -59,9 +63,9 @@
 - id: styling_techniques_react_native_unistyles
   name: react-native-unistyles
   npm: react-native-unistyles
-  homepageUrl: https://www.unistyl.es/
-  github: https://github.com/jpudysz/react-native-unistyles
-  # description: Universal styling for React Native and React Native Web
+  homepage: https://www.unistyl.es/
+  github: jpudysz/react-native-unistyles
+  description: A cross-platform library that enables you to share up to 100% of your styles across all platforms. It combines the simplicity of StyleSheet with the performance of C++.
   author: Jacek Pudysz
   example:
     language: jsx
@@ -84,9 +88,9 @@
 - id: styling_techniques_restyle
   name: Restyle
   npm: "@shopify/restyle"
-  github: https://github.com/Shopify/restyle
-  # description: A type-enforced system for building UI components in React Native with TypeScript.
-  homepageUrl: https://shopify.github.io/restyle/
+  github: Shopify/restyle
+  description: A type-enforced system for building UI components in React Native with TypeScript. It's a library for building UI libraries, with themability as the core focus.
+  homepage: https://shopify.github.io/restyle/
   author: Shopify
   example:
     language: jsx
@@ -95,10 +99,10 @@
 
 - id: styling_techniques_styled_components
   name: styled components
-  homepageUrl: https://styled-components.com/docs/basics#react-native
+  homepage: https://styled-components.com/docs/basics#react-native
   npm: styled-components
-  github: https://github.com/styled-components/styled-components
-  # description: Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
+  github: styled-components/styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress. Utilising tagged template literals and the power of CSS, styled-components allows you to write actual CSS code to style your components.
   example:
     language: jsx
     code: |
@@ -109,9 +113,9 @@
 
 - id: styling_techniques_tamagui
   name: Tamagui
-  homepageUrl: https://tamagui.dev/
-  github: https://github.com/tamagui/tamagui
-  # description: Universal UI kit and style system for React Native + Web - with an optimizing compiler 🚄
+  homepage: https://tamagui.dev/
+  github: tamagui/tamagui
+  description: A style library for React and React Native with a large typed superset of the React Native style API, with no outside dependencies.
   npm: tamagui
   author: Nate Wienert
   example:
@@ -127,9 +131,9 @@
 
 - id: styling_techniques_twrnc
   name: Tailwind React Native Classnames (twrnc)
-  # description: Tailwind React Native Classnames
+  description: A simple, expressive API for TailwindCSS + React Native, written in TypeScript.
   npm: twrnc
-  github: https://github.com/jaredh159/tailwind-react-native-classnames
+  github: jaredh159/tailwind-react-native-classnames
   author: Jared Henderson
   example:
     language: jsx
