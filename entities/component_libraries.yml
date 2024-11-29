@@ -153,7 +153,7 @@
   homepage: https://formidable.com/open-source/victory-native/
   npm: victory-native
   github: FormidableLabs/victory-native
-  description: A collection of composable React components for building interactive data visualizations
+  description: A collection of composable React components for building interactive data visualizations.
 
 - id: component_libraries_data_visualisation_react_native_svg
   name: react-native-svg
@@ -165,19 +165,20 @@
   name: Recharts
   npm: recharts
   github: recharts/recharts
-  description: Redefined chart library built with React and D3
+  description: Redefined chart library built with React and D3.
   homepage: https://recharts.org/en-US/
 
 - id: component_libraries_data_visualisation_react_native_charts_kit
   name: React Native Charts Kit
   npm: react-native-chart-kit
   github: indiespirit/react-native-chart-kit
+  description: Stunning charts for your React Native app.
 
 - id: component_libraries_data_visualisation_react_native_charts_wrapper
   name: React Native Charts Wrapper
   npm: react-native-charts-wrapper
   github: wuxudong/react-native-charts-wrapper
-  description: a react native charts wrapper (support android & iOS)
+  description: A React Native charts wrapper (support android & iOS).
 
 #######################################################################
 ###                 OTHER COMPONENTS LIBRARIES                      ###

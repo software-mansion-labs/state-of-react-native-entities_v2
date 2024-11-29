@@ -33,7 +33,7 @@
   homepage: https://ionicframework.com/
   npm: "@ionic/core"
   github: ionic-team/ionic-framework
-  description: UI toolkit for building performant, high-quality mobile apps using web technologies — HTML, CSS, and JavaScript — with integrations for popular frameworks like Angular, React, and Vue.
+  description: An open source mobile UI toolkit for building modern, high quality cross-platform mobile apps from a single code base in React, Vue or Angular.
 
 - id: react_native_alternatives_native_script
   name: NativeScript
@@ -45,4 +45,14 @@
 - id: react_native_alternatives_kotlin
   name: Kotlin Multiplatform Mobile
   homepage: https://kotlinlang.org/lp/mobile/
-  description: Reuse Kotlin code across Android, iOS, web, desktop, and server-side while keeping native code if needed..
+  description: Reuse Kotlin code across Android, iOS, web, desktop, and server-side while keeping native code if needed.
+
+- id: react_native_alternatives_tauri
+  name: Tauri
+  homepage: https://tauri.app/
+  description: A framework for building tiny, fast binaries for all major desktop and mobile platforms. Developers can integrate any frontend framework that compiles to HTML, JavaScript, and CSS for building their user experience while leveraging languages such as Rust, Swift, and Kotlin for backend logic when needed.
+
+- id: react_native_alternatives_capacitor
+  name: Capacitor
+  homepage: https://capacitorjs.com/
+  description: An open source native runtime for building Web Native apps. Create cross-platform iOS, Android, and Progressive Web Apps with JavaScript, HTML, and CSS.

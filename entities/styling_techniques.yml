@@ -85,6 +85,31 @@
         return <View style={styles.card} />
       }
 
+- id: styling_techniques_react_strict_dom
+  name: React Strict DOM
+  npm: react-strict-dom
+  homepage: https://facebook.github.io/react-strict-dom
+  github: facebook/react-strict-dom
+  description: React Strict DOM (RSD) standardizes the development of styled React components for web and native.
+  author: Meta
+  example:
+    language: jsx
+    code: |
+      const theme = css.createTheme({ /* ... */ })
+
+      const styles = css.create({
+        card: {
+          height: 100,
+          backgroundColor: theme.primary,
+        }
+      })
+
+      function Component() {
+        return (
+          <html.div style={styles.card} />
+        );
+      }
+
 - id: styling_techniques_restyle
   name: Restyle
   npm: "@shopify/restyle"
@@ -110,6 +135,27 @@
         background-color: ${props => props.theme.primary};
         height: 100px;
       `
+
+- id: styling_techniques_stylex
+  name: StyleX
+  homepage: https://stylexjs.com/
+  npm: "@stylexjs/stylex"
+  github: facebook/stylex
+  description: The styling system that powers Meta products (e.g. Facebook, Instagram).
+  author: Meta
+  example:
+    language: jsx
+    code: |
+      const vars = stylex.defineVars({ /* ... */ })
+
+      const styles = stylex.create({
+        card: {
+          backgroundColor: vars.primary,
+          height: vars.height,
+        }
+      })
+
+      <View {...stylex.props(styles.base)} />
 
 - id: styling_techniques_tamagui
   name: Tamagui

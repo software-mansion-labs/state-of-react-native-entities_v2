@@ -262,3 +262,17 @@
   homepage: https://rxdb.info/
   github: pubkey/rxdb
   description: RxDB (short for Reactive Database) is a local-first, NoSQL-database for JavaScript Applications.
+
+#######################################################################
+###                              ARCHITECTURE PATTERNS              ###
+#######################################################################
+
+- id: state_management_app_architecture_pattern_local_first
+  name: Local-first app architecture
+  question: Are you familiar with local-first app architecture pattern?
+  description: Prioritize local data storage and processing. Data stored on the device is the primary source of truth, with the server acting as a secondary source of truth.
+  resources:
+    - title: Expo docs
+      url: https://docs.expo.dev/guides/local-first
+    - title: "\"Local-first Software\" community website"
+      url: https://localfirstweb.dev

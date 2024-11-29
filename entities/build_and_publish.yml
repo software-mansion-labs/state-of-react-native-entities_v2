@@ -14,16 +14,19 @@
 
 - id: build_and_publish_eas_build
   name: EAS Build
+  author: Expo
   homepage: https://expo.dev/eas#build
   description: A hosted service for building app binaries for your Expo and React Native projects. Compile and sign Android/iOS apps with custom native code in the cloud.
 
 - id: build_and_publish_eas_submit
   name: EAS Submit
+  author: Expo
   homepage: https://expo.dev/eas#submit
   description: A hosted service for uploading and submitting an app binary to the app stores. Upload your app to the Play Store or App Store from the cloud with a single command.
 
 - id: build_and_publish_app_center
   name: App Center
+  author: Microsoft
   homepage: https://appcenter.ms/
   description: Continuously build, test, release, and monitor apps for every platform.
 
@@ -31,3 +34,9 @@
   name: Bitrise
   homepage: https://bitrise.io/
   description: The CI/CD Platform built for Mobile DevOps.
+
+- id: build_and_publish_workflows
+  name: Workflows
+  author: Expo
+  homepage: https://docs.expo.dev/workflows/get-started/
+  description: A service that allows you and your team to do things like build your project, run end-to-end tests on them, submit those builds to the app stores, then run custom scripts after the submissions are complete.

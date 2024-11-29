@@ -1,0 +1,48 @@
+#########################################################
+# Target platforms
+#########################################################
+
+- id: developer_background_platforms_web
+  name: Web
+  homepage: https://necolas.github.io/react-native-web
+  github: necolas/react-native-web
+  description: React Native on the web using React DOM.
+
+- id: developer_background_platforms_macos
+  name: macOS
+  author: Microsoft
+  homepage: https://microsoft.github.io/react-native-windows
+  github: microsoft/react-native-macos
+  description: Native macOS apps with React.
+
+- id: developer_background_platforms_windows
+  name: Windows
+  author: Microsoft
+  homepage: https://microsoft.github.io/react-native-windows
+  github: microsoft/react-native-windows
+  description: Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.
+
+- id: developer_background_platforms_visionos
+  name: visionOS
+  homepage: https://developer.apple.com/visionos
+  github: callstack/react-native-visionos
+  author: Callstack
+  description: Native Apple's visionOS apps with React.
+
+- id: developer_background_platforms_android_tv
+  name: Android TV
+  homepage: https://developer.android.com/tv
+  github: https://github.com/react-native-tvos/react-native-tvos
+  description: React Native for Android TV devices.
+
+- id: developer_background_platforms_tvos
+  name: tvOS
+  homepage: https://www.apple.com/tv-home/
+  github: https://github.com/react-native-tvos/react-native-tvos
+  description: React Native for Apple TV devices.
+
+- id: developer_background_platforms_skia
+  name: Linux (via Skia)
+  homepage: https://github.com/react-native-skia/react-native-skia
+  github: react-native-skia/react-native-skia
+  description: Linux (Ubuntu 18) apps using Skia as a renderer.
