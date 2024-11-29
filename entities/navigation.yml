@@ -33,6 +33,15 @@
 - id: navigation_solito
   name: Solito
   homepage: https://solito.dev/app-directory/overview
-  description: A wrapper around React Navigation and Next.js that lets you share navigation code when building cross-platform apps. 
+  description: A wrapper around React Navigation and Next.js that lets you share navigation code when building cross-platform apps.
   github: nandorojo/solito
   npm: solito
+  author: Fernando Rojo
+
+- id: navigation_react_native_screens
+  name: React Native Screens
+  homepage: https://docs.swmansion.com/react-native-screens/
+  description: Native Navigation primitives for your React Native app. Used directly in the React Navigation (Native Stack Navigator) and Expo Router libraries.
+  github: software-mansion/react-native-screens
+  npm: react-native-screens
+  author: Software Mansion

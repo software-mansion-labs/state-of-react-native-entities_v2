@@ -1,12 +1,12 @@
 - id: react_native_architecture_new_architecture
   name: New Architecture
   homepage: https://reactnative.dev/architecture/landing-page
-  description: The New Architecture adds full support for modern React features, including Suspense, Transitions, automatic batching, and useLayoutEffect. The New Architecture also includes new Native Module and Native Component systems that let you write type-safe code with direct access to native interfaces without a bridge.
+  description: A modern framework for React Native that enhances support for advanced React features and improves native module integration.
 
 - id: react_native_architecture_fabric
   name: Fabric
   homepage: https://reactnative.dev/architecture/fabric-renderer
-  description: React Native's new rendering system, a conceptual evolution of the legacy render system. Unifies more render logic in C++, improves interoperability with host platforms, and unlocks new capabilities for React Native.
+  description: A new rendering system for React Native that consolidates rendering logic in C++ and enhances compatibility with host platforms.
 
 #   superseded by the New Architecture
 # - id: react_native_architecture_bridgeless_mode
@@ -16,49 +16,72 @@
 - id: react_native_architecture_turbo_modules
   name: Turbo Native Modules
   homepage: https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md
-  description: "The next iteration on Native Modules that provide extra benefits: strongly typed interfaces, ability to use C++, modules lazy load, usage of JSI."
+  description: An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.
 
 - id: react_native_architecture_codegen
   name: Codegen
   homepage: https://reactnative.dev/docs/the-new-architecture/what-is-codegen
-  npm: react-native-codegen
   description: A tool that automates the generation of code for native modules and components.
 
 - id: react_native_architecture_custom_native_modules
   name: Native modules (legacy architecture)
   homepage: https://reactnative.dev/docs/legacy/native-modules-intro
+  description: Custom modules written in platform-specific native code (Java/Kotlin or Objective-C/Swift) that allow accessing platform-specific APIs and functionalities not available in JavaScript.
 
 - id: react_native_architecture_custom_native_views
   name: Native views (legacy architecture)
   homepage: https://reactnative.dev/docs/native-components-android
+  description: Components that are implemented in platform-specific native code (Java/Kotlin or Objective-C/Swift) and are used to render UI elements that require platform-specific functionality or performance optimizations.
 
 - id: react_native_architecture_jsc_runtime
   name: JSC runtime
   homepage: https://developer.apple.com/documentation/javascriptcore
+  description: A JavaScript engine coming from Apple that provides runtime support for executing JavaScript code in React Native applications.
 
 - id: react_native_architecture_hermes_runtime
   name: Hermes runtime
   homepage: https://hermesengine.dev/
+  description: A JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode.
 
 - id: react_native_architecture_v8_runtime
   name: V8 runtime
   github: https://github.com/Kudo/react-native-v8
   npm: react-native-v8
+  description: A high-performance JavaScript engine used in React Native, known for its speed and efficiency.
 
 - id: react_native_architecture_jsi
   name: JSI
   homepage: https://reactnative.dev/architecture/glossary#javascript-interfaces-jsi
+  description: A JavaScript Interface that allows for direct communication between JavaScript and native code in React Native.
 
 - id: react_native_architecture_expo_modules
-  name: Expo Modules
+  name: Expo Modules API
   homepage: https://docs.expo.dev/modules/overview/
   npm: expo-modules-core
+  description: API for creating native modules and views for React Native leveraging Kotlin and Swift languages modern features, consistency between platforms, minimal boilerplate and performance.
 
-- id: react_native_architecture_react_native_directory
-  name: React Native Directory
-  homepage: https://reactnative.directory/
-  github: react-native-community/directory
-  description: A website where you can see all the libraries that are compatible with React Native.
+- id: react_native_architecture_ota
+  name: Over-the-air updates
+  homepage: https://en.wikipedia.org/wiki/Over-the-air_update
+  description: A feature enabling deploying updates, bug fixes, and new content directly to users' devices without going through the app store review process, enabling faster iteration and delivery of improvements to React Native applications.
+
+- id: react_native_architecture_concurrent_react
+  name: Concurrent React
+  homepage: https://react.dev/blog/2022/03/29/react-v18#what-is-concurrent-react
+  description: "React 18 concurrent features that are enabled in New Architecture"
+
+- id: react_native_architecture_dom_components
+  name: DOM components
+  homepage: https://expo.dev/blog/the-magic-of-expo-dom-components
+  description: Components allowing existing React web components directly within native apps. By using the "use dom" directive, these components can leverage web technologies while maintaining compatibility with native functionality.
+
+- id: react_native_architecture_server_components
+  name: Server components
+  homepage: https://react.dev/reference/rsc/server-components
+  description: A new type of Component that renders ahead of time, before bundling, in an environment separate from your client app.
+  resources:
+    - title: Expo docs
+      url: https://docs.expo.dev/guides/server-components/
 
 ######################################################
 #########             OTA UPDATES            #########

@@ -1,158 +1,225 @@
 ######################################################
-######### BOOKS / MAGAZINES / NEWSLETTERS    #########
+######### LEARN REACT NATIVE    #########
 ######################################################
 
-- id: resources_read_multiple_react_native_blog
-  name: React Native blog
-  homepage: https://reactnative.dev/blog
-
-- id: resources_read_multiple_react_native_newsletter
-  name: React Native Newsletter (by Infinite Red)
-  homepage: https://reactnativenewsletter.com/
-
-- id: resources_read_multiple_medium
-  name: Medium
-  homepage: https://medium.com/tag/react-native
-
-- id: resources_read_multiple_dev_to
-  name: DEV Community (dev.to)
-  homepage: https://dev.to/t/reactnative
-
-- id: resources_read_multiple_kent_c_dodds
-  name: Kent C. Dodds
-  homepage: https://kentcdodds.com/blog
-
-- id: resources_read_multiple_log_rocket
-  name: LogRocket
-  homepage: https://blog.logrocket.com/
-
-- id: resources_read_multiple_expo_blog
-  name: Expo blog (Exposition)
-  homepage: https://blog.expo.dev/
-
-- id: resources_read_multiple_software_mansion_blog
-  name: Software Mansion blog
-  homepage: https://blog.swmansion.com/
-
-- id: resources_read_multiple_callstack_blog
-  name: Callstack blog
-  homepage: https://www.callstack.com/blog
-
-- id: resources_read_multiple_microsof_react_native_blog
-  name: Microsoft React Native blog
-  homepage: https://devblogs.microsoft.com/react-native/
-
-- id: resources_read_multiple_this_week_in_react
-  name: This Week In React (by Sébastien Lorber)
-  homepage: https://thisweekinreact.com/
-
-- id: resources_read_react_native_reddit
-  name: r/reactnative
-  homepage: https://www.reddit.com/r/reactnative/
+# only translations here
 
 ######################################################
-######### SITES / COURSES                    #########
+# SITES / COURSES - to learn more
 ######################################################
 
-- id: resources_course_multiple_stack_overflow
-  name: Stack Overflow
-  homepage: https://stackoverflow.com/questions/tagged/react-native
+### official docs
 
-- id: resources_course_multiple_udemy
-  name: Udemy
-  homepage: https://www.udemy.com/topic/react-native/
-
-- id: resources_course_multiple_medium
-  name: Medium
-  homepage: https://medium.com/tag/react-native
-
-- id: resources_course_twitter
-  name: X (Twitter)
-  homepage: https://twitter.com/hashtag/reactnative
-
-- id: resources_course_multiple_reddit
-  name: Reddit
-  homepage: https://www.reddit.com/r/reactnative/
-
-- id: resources_course_multiple_youtube
-  name: YouTube
-  homepage: https://www.youtube.com/results?search_query=react+native
-
-- id: resources_course_react_native_docs
+- id: resources_learn_more_react_native_docs
   name: React Native docs
   homepage: https://reactnative.dev/docs/getting-started
+  description: Official React Native documentation (guides, components, APIs, architecture, etc.).
 
-- id: resources_course_expo_docs
+- id: resources_learn_more_expo_docs
   name: Expo docs
   homepage: https://docs.expo.dev/
+  description: Expo and EAS documentation (app creation, guides, APIs references, tutorials, etc.).
 
-- id: resources_course_multiple_codecademy
+### blogs
+
+- id: resources_learn_more_react_native_blog
+  name: React Native blog
+  homepage: https://reactnative.dev/blog
+  description: The official blog providing updates, news, and insights about React Native development.
+
+- id: resources_learn_more_expo_blog
+  name: Expo blog
+  homepage: https://blog.expo.dev/
+  description: The official blog for Expo, providing updates, tutorials, and resources for building React Native apps.
+
+- id: resources_learn_more_medium
+  name: Medium
+  homepage: https://medium.com/tag/react-native
+  description: A platform where you can find articles and tutorials on React Native, written by industry experts and enthusiasts.
+- id: resources_learn_more_dev_to
+  name: DEV Community (dev.to)
+  homepage: https://dev.to/t/reactnative
+  description: A community-driven platform where developers share articles, tutorials, and discussions about React Native.
+
+- id: resources_learn_more_software_mansion_blog
+  name: Software Mansion blog
+  homepage: https://blog.swmansion.com/
+  description: A blog by Software Mansion that covers React Native development, tools, and insights from industry experts.
+
+- id: resources_learn_more_log_rocket
+  name: LogRocket
+  homepage: https://blog.logrocket.com/
+  description: A blog that shares insights, tutorials, and best practices for React Native and web development.
+
+- id: resources_learn_more_callstack_blog
+  name: Callstack blog
+  homepage: https://www.callstack.com/blog
+  description: A blog by Callstack that shares knowledge, tutorials, and updates on React Native and related technologies.
+
+- id: resources_learn_more_microsoft_react_native_blog
+  name: Microsoft React Native blog
+  homepage: https://devblogs.microsoft.com/react-native/
+  description: The official Microsoft blog dedicated to React Native, featuring updates, news, and resources for developers.
+
+### courses
+
+- id: resources_learn_more_udemy
+  name: Udemy
+  homepage: https://www.udemy.com/topic/react-native/
+  description: An online learning platform offering a variety of courses on React Native, catering to different skill levels and learning styles.
+
+- id: resources_learn_more_coursera
+  name: Coursera
+  homepage: https://www.coursera.org/courses?query=react%20native
+  description: An online learning platform that provides courses on React Native from various institutions.
+
+- id: resources_learn_more_codecademy
   name: Codecademy
   homepage: https://www.codecademy.com/learn/learn-react-native
+  description: An interactive learning platform that offers a course on React Native, helping beginners learn the fundamentals of mobile development.
 
-- id: resources_course_multiple_egghead
+- id: resources_learn_more_egghead
   name: Egghead.io
   homepage: https://egghead.io/q/react-native
+  description: Bite-Sized Screencasts for Web Developers that Hate Long Boring Videos.
 
-- id: resources_course_multiple_frontend_masters
+- id: resources_learn_more_frontend_masters
   name: Frontend Masters
-  homepage: https://frontendmasters.com/learn/react-native/
+  homepage: https://frontendmasters.com/?q=react+native
+  description: In-Depth Frontend & Fullstack Courses. Your Path to Senior Developer and Beyond.
 
-- id: resources_course_multiple_start_react_native
-  name: Start React Native (by William Candillon)
-  homepage: https://start-react-native.dev/
+- id: resources_learn_more_galaxies_dev
+  name: Galaxies.dev (by Simon Grimm)
+  homepage: https://galaxies.dev/
+  description: Learn React Native without wasting your time. Jump into fast-paced courses you actually enjoy to quickly fix bugs and understand the core concepts of React Native.
 
-- id: resources_course_multiple_developer_training
-  name: Developer training (by Callstack)
-  homepage: https://callstack.com/services/react-native-developer-training/
+- id: resources_learn_more_react_native_mastery
+  name: React Native Mastery (by Vadim Savin)
+  homepage: https://www.notjust.dev/react-native-mastery
+  description: The only course you need to Master mobile development with React Native & Expo.
 
-- id: resources_course_multiple_epic_react
-  name: Epic React (by Kent C. Dodds)
-  homepage: https://epicreact.dev/
+### other
 
-- id: resources_course_multiple_animate_react_native
+- id: resources_learn_more_stack_overflow
+  name: Stack Overflow
+  homepage: https://stackoverflow.com/questions/tagged/react-native
+  description: A question-and-answer site where developers can seek help and share knowledge about React Native and other programming topics.
+
+- id: resources_learn_more_youtube
+  name: YouTube
+  homepage: https://www.youtube.com/results?search_query=react+native
+  description: React Native tutorials, commentary, how-to videos and similar.
+
+- id: resources_learn_more_animate_react_native
   name: Animate React Native (by Catalin Miron)
   homepage: https://www.animatereactnative.com/
+  description: Ready to use React Native animations. An extensive collection of more than 133+ react native animations.
 
-- id: resources_course_multiple_book_react_native_optimization
+- id: resources_learn_more_book_react_native_optimization
   name: The Ultimate Guide to React Native Optimization (by Callstack)
-  homepage: https://callstack.com/blog/the-ultimate-guide-to-react-native-optimization-ebook/
+  homepage: https://www.callstack.com/ebook/the-ultimate-guide-to-react-native-optimization
+  description: Your complete compendium for peak performance from React Native experts.
 
-- id: resources_course_multiple_solito_docs
-  name: Solito docs
-  homepage: https://solito.dev/
+
+######################################################
+#  NEWSLETTERS - to stay up to date
+######################################################
+
+- id: resources_stay_up_to_date_react_native_newsletter
+  name: React Native Newsletter (by Infinite Red)
+  homepage: https://reactnativenewsletter.com/d
+  description: A curated, fun to read newsletter all about React Native. Monthly summary of React Native news, articles, libraries, apps, and more!
+
+- id: resources_stay_up_to_date_callstack_newsletter
+  name: React Universe Journals (by Callstack)
+  homepage: https://www.callstack.com/newsletter
+  description: Newsletter to keep your finger on the pulse of the React & React Native ecosystem.
+
+- id: resources_stay_up_to_date_this_week_in_react
+  name: This Week In React Newsletter (by Sébastien Lorber)
+  homepage: https://thisweekinreact.com/
+  description: The latest news directly in your inbox.
+
+- id: resources_stay_up_to_date_notjustdev
+  name: notJust Newsletter (by Vadim Savin)
+  homepage: https://www.notjust.dev/newsletter
+  description: Stay up-to-date with the latest technologies and become a better React Native Developer.
+
+- id: resources_stay_up_to_date_expo_newsletter
+  name: Optimistic Updates (by Expo)
+  homepage: https://expo.dev/mailing-list/signup
+  description: Expo's monthly newsletter. a summary of new features, capabilities, content, and news about Expo and the React Native community.
+
+- id: resources_stay_up_to_date_expo_changelog
+  name: Changelog (by Expo)
+  homepage: https://expo.dev/changelog
+  description: New updates and improvements to Expo and EAS.
+
+- id: resources_stay_up_to_date_x
+  name: X
+  homepage: https://x.com/hashtag/reactnative
+  description: People, announcements and discussions on X related to React Native.
+
+- id: resources_stay_up_to_date_bluesky
+  name: Bluesky
+  homepage: https://bsky.app/search?q=%23reactnative
+  description: People, announcements and discussions on Bluesky related to React Native.
+
+- id: resources_stay_up_to_date_expo_discord
+  name: Expo Developers Discord
+  homepage: https://discord.com/invite/expo
+  description: Discussions, Q&A, explanations and talking about topic related to React Native and Expo.
+
+- id: resources_stay_up_to_date_reddit
+  name: r/reactnative
+  homepage: https://www.reddit.com/r/reactnative/
+  description: React Native sub-Reddit.
 
 ######################################################
 ######### PODCASTS                           #########
 ######################################################
 
-- id: resources_podcast_multiple_react_universe_on_air
-  name: React Universe On Air
+- id: resources_podcasts_react_universe_on_air
+  name: React Universe On Air (by Callstack)
   homepage: https://www.callstack.com/podcast
 
-- id: resources_podcast_multiple_react_native_radio
+- id: resources_podcasts_react_native_radio
   name: React Native Radio (by Infinite Red)
   homepage: https://reactnativeradio.com/
 
-- id: resources_podcast_multiple_syntax_fm
+- id: resources_podcasts_syntax_fm
   name: Syntax.fm
   homepage: https://syntax.fm/
 
-- id: resources_podcast_multiple_the_changelog
+- id: resources_podcasts_the_changelog
   name: The Changelog
   homepage: https://changelog.com/
 
-- id: resources_podcast_multiple_podrocker
+- id: resources_podcasts_podrocker
   name: PodRocker (by LogRocket)
   homepage: https://podrocket.logrocket.com/
 
-- id: resources_podcast_multiple_rocket_ship
+- id: resources_podcasts_rocket_ship
   name: Rocket Ship (by Simon Grimm)
   homepage: https://podcast.galaxies.dev/
+
+#####################################################
+# reactNative.directory
+#####################################################
+
+- id: resources_react_native_directory
+  name: React Native Directory
+  homepage: https://reactnative.directory
+  description: A searchable and filterable directory of React Native libraries.
+  github: react-native-community/directory
 
 ######################################################
 ######### SURVEYS                            #########
 ######################################################
+
+- id: resources_surveys_design_tools
+  name: Design Tools Survey
+  homepage: https://uxtools.co/survey/2023/
 
 - id: resources_surveys_state_of_js
   name: State of JS
@@ -166,10 +233,6 @@
   name: State of React
   homepage: https://stateofreact.com/
 
-- id: resources_surveys_state_of_graphql
-  name: State of GraphQL
-  homepage: https://stateofgraphql.com/
-
 - id: resources_surveys_state_of_html
   name: State of HTML
   homepage: https://stateofhtml.com/
@@ -182,14 +245,6 @@
   name: Stack Overflow Annual Developer Survey
   homepage: https://survey.stackoverflow.co/
 
-- id: resources_surveys_design_tools
-  name: Design Tools Survey
-  homepage: https://uxtools.co/survey/2023/
-
 - id: resources_surveys_postman
   name: Postman State of the API Report
   homepage: https://www.postman.com/state-of-api/
-
-- id: resources_surveys_jamstack
-  name: Jamstack Community Survey
-  homepage: https://jamstack.org/survey/

@@ -87,6 +87,17 @@
   homepage: https://www.appsflyer.com/
   description: A mobile attribution and marketing analytics platform that helps track user acquisition and engagement.
 
+- id: testing_and_monitoring_analytics_adobe_analytics
+  name: Adobe Analytics
+  homepage: https://business.adobe.com/products/adobe-analytics.html
+  description: The analytics solution for unified customer measurement across data, content, and journeys.
+
+- id: testing_and_monitoring_analytics_posthog
+  name: PostHog
+  homepage: https://posthog.com/product-analytics
+  description: The only product analytics platform built to natively work with session replay, feature flags, experiments, and surveys.
+
+
   ######################################################
   #########        CRASH REPORTING             #########
   ######################################################
