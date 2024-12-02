@@ -9,12 +9,12 @@
 - id: debugging_profiling_radon_ide
   name: Radon IDE
   homepage: https://ide.swmansion.com/
-  description: A better developer experience for React Native developers. A Visual Studio Code extension that aims to simplify the development of React Native applications.
+  description: A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.
   author: Software Mansion
 
 - id: debugging_profiling_legacy_javascript_hermes_debugging
   name: Legacy JavaScript runtime debuggers
-  description: _(built-in)_ JavaScript runtime debuggers up to React Native 0.75.
+  description: "_(React Native built-in)_ JavaScript runtime debugging solutions up to React Native 0.75 (from before <strong>React Native DevTools</strong> era) - <i>experimental New Debugger</i>, <i>Hermes debugging</i> or <i>remote JavaScript debugging</i>."
   homepage:
   resources:
     - title: Deprecated remote JavaScript debugging
@@ -24,33 +24,33 @@
 
 - id: debugging_profiling_react_native_devtools
   name: React Native DevTools
-  description: _(built-in)_ New default debugging experience for React Native apps since React Native 0.76 based on Chrome DevTools Protocol with React DevTools included.
+  description: "_(React Native built-in)_ The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature."
   homepage: https://github.com/react-native-community/discussions-and-proposals/discussions/819
 
 - id: debugging_profiling_react_devtools
   name: React DevTools
   author: Meta
-  description: Components inspector and performance profiler that let's you debug the React component hierarchy within your app.
+  description: "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>."
   homepage: https://reactnative.dev/docs/react-devtools
 
 - id: debugging_profiling_element_inspector
   name: Element Inspector
-  description: _(built-in)_ The inspector lets you tap on any UI element in the app and see information about it.
+  description: _(React Native built-in)_ A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.
   homepage: https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector
 
 - id: debugging_profiling_logbox
   name: LogBox
-  description: _(built-in)_ Displays console errors and console warnings as the overlay inside your app.
+  description: _(React Native built-in)_ An overlay system that automatically surfaces whenever console errors or warnings occur, providing comprehensive error reporting.
   homepage: https://reactnative.dev/docs/debugging#logbox
 
 - id: debugging_profiling_performance_monitor
   name: Performance Monitor
-  description: _(built-in)_ Displays performance overlay inside your app. Inspect RAM consumption, UI and JS threads FPS and number of views mounted.
+  description: _(React Native built-in)_ An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.
   homepage: https://reactnative.dev/docs/performance
 
 - id: debugging_profiling_flipper
   name: Flipper
-  description: Cross-platform debugging tool for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.
+  description: A desktop application enabling cross-platform debugging for mobile apps. Visualize, inspect, and control your apps from a desktop interface, with extensibility via plugins.
   homepage: https://fbflipper.com/
   github: facebook/flipper
   author: Meta
@@ -58,38 +58,31 @@
 
 - id: debugging_profiling_reactotron
   name: Reactotron
-  description: A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.
+  description: A desktop application for inspecting your React and React Native projects. Enables monitoring application's state, network requests, and performance metrics.
   homepage: https://docs.infinite.red/reactotron/
   github: infinitered/reactotron
   author: Infinite Red
 
-# - id: debugging_profiling_expo_dev_tools_plugins
-#   name: Expo Dev tools plugins
-#   description: Available for Expo Development builds of your app. Add debugging features on top of installed libraries.
-#   homepage: https://docs.expo.dev/debugging/devtools-plugins
-#   github: expo/dev-plugins
-#   author: Expo
-
 - id: debugging_profiling_react_native_performance
   name: react-native-performance
-  description: An implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.
+  description: A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.
   github: oblador/react-native-performance
   author: Joel Arvidsson
   npm: react-native-performance
 
 - id: debugging_profiling_flashlight
   name: Flashlight
-  description: Lighthouse for Mobile - audits your app and gives a performance score to your Android apps.
+  description: Lighthouse for Mobile - a web service that audits your app and gives a performance score to your Android apps.
   homepage: https://flashlight.dev/
   github: bamlab/flashlight
   author: Theodo Apps (former BAM)
 
 - id: debugging_profiling_native_debugging
   name: Native debugging
-  description: (Xcode / Android Studio)
+  description: (Xcode, Android Studio) Platform-native tools for debugging app behavior, variables, and execution flow.
   homepage: https://developer.android.com/studio/debug
 
 - id: debugging_profiling_native_profiling
   name: Native profiling
-  description: (Xcode, Android Studio)
+  description: (Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.
   homepage: https://developer.android.com/studio/profile

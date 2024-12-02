@@ -12,7 +12,7 @@
   homepage: https://axios-http.com/docs/intro
   npm: axios
   github: axios/axios
-  description: Promise based HTTP client for the browser and node.js
+  description: Promise based HTTP client based on XMLHttpRequests.
   example:
     language: js
     code: |
@@ -23,7 +23,7 @@
   npm: "@apollo/client"
   github: apollographql/apollo-client
   homepage: https://www.apollographql.com/docs/react
-  description: A library enabling you to manage both local and remote data with GraphQL. Use it to fetch, cache, and modify application data, all while automatically updating your UI.
+  description: "A library enabling managing both local and remote data with GraphQL. Used for fetching, caching, and modifying application data, all while automatically updating the app's UI."
   example:
     language: js
     code: |
@@ -44,7 +44,7 @@
   homepage: https://trpc.io/
   npm: "@trpc/client"
   github: trpc/trpc
-  description: tRPC allows you to easily build & consume fully typesafe APIs without schemas or code generation.
+  description: A solution that allows you to easily build & consume fully typesafe APIs without schemas or code generation.
   example:
     language: js
     code: |
@@ -60,7 +60,7 @@
   homepage: https://tanstack.com/query/latest
   npm: "@tanstack/react-query"
   github: TanStack/query
-  description: TanStack Query (FKA React Query) is often described as the missing data-fetching library for applications, but in more technical terms, it makes fetching, caching, synchronizing and updating server state in your web applications a breeze.
+  description: (former React Query) A data-fetching library that makes fetching, caching, synchronizing and updating server state in the application a breeze.
   example:
     language: js
     code: |
@@ -76,7 +76,7 @@
   homepage: https://swr.vercel.app/
   npm: swr
   github: vercel/swr
-  description: React Hooks for Data Fetching. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
+  description: React Hooks for Data Fetching. A strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
   example:
     language: js
     code: |
@@ -90,7 +90,7 @@
   homepage: https://relay.dev/
   github: facebook/relay
   npm: react-relay
-  description: The GraphQL client that scales with you. A JavaScript framework for building data-driven React applications.
+  description: The GraphQL client that scales with you. A framework for building data-driven React applications.
   example:
     language: js
     code: |
@@ -110,7 +110,7 @@
   homepage: https://redux-toolkit.js.org/rtk-query/overview
   npm: "@reduxjs/toolkit"
   github: reduxjs/redux-toolkit
-  description: RTK Query is a powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.
+  description: A powerful data fetching and caching tool. It is designed to simplify common cases for loading data in an application, eliminating the need to hand-write data fetching & caching logic yourself.
   example:
     language: js
     code: |
@@ -135,3 +135,4 @@
         const { data, error, isLoading } = exampleApi.useExampleQuery()
         // ...
       }
+

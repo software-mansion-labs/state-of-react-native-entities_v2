@@ -84,7 +84,7 @@
   github: callstack/react-native-paper
   npm: react-native-paper
   author: Callstack
-  description: React Native Paper is a high-quality, standard-compliant Material Design library that has you covered in all major use-cases.
+  description: A high-quality, standard-compliant Material Design library that has you covered in all major use-cases.
   # example:
   #   language: jsx
   #   code: |
@@ -96,7 +96,7 @@
   github: wix/react-native-ui-lib
   homepage: https://wix.github.io/react-native-ui-lib/
   author: Wix
-  description: RNUI is a UI Toolset & Components Library for React Native.
+  description: A UI toolset & components library for React Native.
   # example:
   #   language: jsx
   #   code: |
@@ -109,7 +109,7 @@
   github: shoutem/ui
   npm: "@shoutem/ui"
   homepage: https://shoutem.github.io/docs/ui-toolkit/introduction
-  description: Shoutem UI is a set of styleable components that enables you to build beautiful React Native applications for iOS and Android.
+  description: A set of styleable components that enables you to build beautiful React Native applications for iOS and Android.
   # example:
   #   language: jsx
   #   code: |
@@ -198,7 +198,7 @@
   github: expo/vector-icons
   homepage: https://docs.expo.dev/guides/icons/
   author: expo
-  description: Use various types of icons in your Expo app, including vector icons, custom icon fonts, icon images, and icon buttons.
+  description: A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.
 
 - id: component_libraries_other_libraries_formik
   name: formik
@@ -206,7 +206,7 @@
   github: jaredpalmer/formik
   homepage: https://formik.org/
   author: jaredpalmer
-  description: Build forms in React, without the tears.
+  description: A library for building forms in React with minimal tears and maximum productivity.
 
 - id: component_libraries_other_libraries_react_hook_form
   name: react-hook-form
@@ -214,7 +214,7 @@
   github: react-hook-form/react-hook-form
   homepage: https://react-hook-form.com/
   author: react-hook-form
-  description: Performant, flexible and extensible forms with easy-to-use validation.
+  description: A library for building performant, flexible and extensible forms with easy-to-use validation.
 
 - id: component_libraries_other_libraries_gorhom_bottom_sheet
   name: "@gorhom/bottom-sheet"
@@ -244,13 +244,13 @@
   npm: react-native-gesture-handler
   github: software-mansion/react-native-gesture-handler
   author: software-mansion
-  description: Declarative API exposing platform native touch and gesture system to React Native
+  description: Declarative API exposing platform native touch and gesture system to React Native.
 
 - id: component_libraries_other_libraries_react_native_maps
   name: react-native-maps
   npm: react-native-maps
   github: react-native-maps/react-native-maps
-  description: React Native Map components for iOS + Android.
+  description: React Native map components for iOS + Android.
 
 - id: component_libraries_other_libraries_react_native_safe_area_context
   name: react-native-safe-area-context
@@ -265,7 +265,7 @@
   github: oblador/react-native-vector-icons
   homepage: https://oblador.github.io/react-native-vector-icons/
   author: oblador
-  description: Customizable Icons for React Native with support for image source and full styling.
+  description: Customizable icons for React Native with support for image source and full styling.
 
 - id: component_libraries_other_libraries_react_native_video
   name: react-native-video
@@ -281,14 +281,14 @@
   github: mrousavy/react-native-vision-camera
   homepage: https://react-native-vision-camera.com/
   author: mrousavy
-  description: A powerful, high-performance React Native Camera library.
+  description: A powerful, high-performance React Native camera library.
 
 - id: component_libraries_other_libraries_react_native_webview
   name: react-native-webview
   npm: react-native-webview
   github: react-native-webview/react-native-webview
   author: react-native-webview
-  description: React Native Cross-Platform WebView.
+  description: React Native cross-platform <WebView />.
 
 - id: component_libraries_other_libraries_shopify_flash_list
   name: "@shopify/flash-list"
