@@ -41,10 +41,18 @@
 - id: navigation_react_native_screens
   name: React Native Screens
   homepage: https://docs.swmansion.com/react-native-screens/
-  description: Native Navigation primitives for your React Native app. Used directly in the React Navigation (Native Stack Navigator) and Expo Router libraries.
+  description: Native navigation primitives for your React Native app. Used directly in the React Navigation (Native Stack Navigator) and Expo Router libraries.
   github: software-mansion/react-native-screens
   npm: react-native-screens
   author: Software Mansion
+
+- id: navigation_navigation
+  name: The Navigation router
+  homepageUrl: https://grahammendick.github.io/navigation/documentation/native/setup.html
+  description: Scene-based navigation for React and React Native.
+  npm: navigation-react-native
+  github: grahammendick/navigation
+  author: Graham Mendick
 
 #######################################################################
 ###                              ARCHITECTURE PATTERNS              ###
