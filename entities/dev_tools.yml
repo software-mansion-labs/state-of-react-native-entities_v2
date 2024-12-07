@@ -76,13 +76,14 @@
   github: "expo/expo/tree/main/packages/@expo/config-plugins"
   description: A powerful tool for generating native app code from a unified JavaScript interface.
 
-- id: dev_tools_setup_ci
-  name: setup-ci (SCI)
-  description: A tool meant to simplify the process of setting up CI/CD workflows in React Native apps.
-  homepage: https://docs.swmansion.com/setup-ci
-  author: Software Mansion
-  npm: setup-ci
-  github: software-mansion/setup-ci
+# removed as it's too niche
+# - id: dev_tools_setup_ci
+#   name: setup-ci (SCI)
+#   description: A tool meant to simplify the process of setting up CI/CD workflows in React Native apps.
+#   homepage: https://docs.swmansion.com/setup-ci
+#   author: Software Mansion
+#   npm: setup-ci
+#   github: software-mansion/setup-ci
 
 ######################################################
 #########        PACKAGE MANAGERS            #########

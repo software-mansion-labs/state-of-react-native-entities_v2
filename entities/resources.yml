@@ -137,7 +137,7 @@
 
 - id: resources_stay_up_to_date_this_week_in_react
   name: This Week In React Newsletter (by Sébastien Lorber)
-  homepage: https://thisweekinreact.com/
+  homepage: https://thisweekinreact.com/?utm_source=state_of_rn
   description: The latest news directly in your inbox.
 
 - id: resources_stay_up_to_date_notjustdev

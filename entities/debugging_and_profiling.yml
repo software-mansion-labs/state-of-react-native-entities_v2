@@ -64,7 +64,7 @@
   author: Infinite Red
 
 - id: debugging_profiling_react_native_performance
-  name: react-native-performance
+  name: Performance API (react-native-performance)
   description: A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.
   github: oblador/react-native-performance
   author: Joel Arvidsson
@@ -86,3 +86,15 @@
   name: Native profiling
   description: (Xcode, Android Studio) Platform-native tools for profiling app performance, memory usage, and resource consumption.
   homepage: https://developer.android.com/studio/profile
+
+- id: debugging_profiling_expo_devtools_plugins
+  name: Expo DevTools Plugins
+  description: A plugin system for Expo DevTools that enables developers to create custom debugging and development tools. Allows integration of third-party debugging tools and custom functionality directly into the Expo development environment.
+  homepage: https://docs.expo.dev/debugging/devtools-plugins/
+  github: expo/dev-plugins
+
+- id: debugging_profiling_network_inspector_expo
+  name: Network Inspector
+  author: Expo
+  description: A network inspector available only in Expo projects that allows you to monitor and debug network requests made by your app.
+  homepage: https://docs.expo.dev/debugging/tools/#inspecting-network-requests
