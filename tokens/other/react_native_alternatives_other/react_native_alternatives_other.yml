@@ -1,0 +1,24 @@
+- id: one
+  name: One
+  patterns:
+    - one
+
+- id: dot_net_maui
+  name: .NET MAUI
+  patterns:
+    - .net[ ]?maui
+    - maui
+
+- id: skip_tools
+  name: Skip tools
+  patterns:
+    - skip[ ]?tools
+    - skip[ ]?tool
+    - skip[ ]?tool.*
+    - skip.*tools
+    - skip
+
+- id: unity
+  name: Unity
+  patterns:
+    - unity

@@ -1,0 +1,29 @@
+- id: apple_app_store
+  name: Apple app store
+  patterns:
+    - apple.*store
+
+- id: ios_certificate
+  name: iOS certificate
+  patterns:
+    - ios.*certificate
+    - ios.*cert
+
+- id: google_review_process
+  name: Google review process
+  patterns:
+    - google.*review
+    - google.*review.*process
+
+- id: time_of_build
+  name: Time of build
+  patterns:
+    - time[ ]?of[ ]?build
+    - time[ ]?of[ ]?build.*
+    - time.*take
+    - time.*build
+
+- id: xcode_builds
+  name: Xcode builds
+  patterns:
+    - xcode

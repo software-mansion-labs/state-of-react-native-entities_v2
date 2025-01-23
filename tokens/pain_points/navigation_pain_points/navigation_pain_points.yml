@@ -1,0 +1,53 @@
+- id: bottom_sheet
+  name: Bottom sheet
+  patterns:
+    - bottom[ ]?sheet
+
+- id: deeplinks
+  name: Deep links
+  patterns:
+    - deep[ ]?link
+    - deep[ ]?links
+    - deep[ ]?links
+
+- id: expo_router
+  name: Expo Router
+  patterns:
+    - expo[ ]?router
+    - expo-router
+
+- id: file_based_routing
+  name: File Based Routing
+  patterns:
+    - file[ ]?based[ ]?routing
+    - file[ ]?based[ ]?routes
+    - file[ ]?based[ ]?route
+    - file[ ]?based
+
+- id: modals
+  name: Modals
+  patterns:
+    - modal
+    - modals
+    - modal.*dialog
+
+- id: nested_navigation
+  name: Nested navigation
+  patterns:
+    - nested[ ]?navigation
+    - nested[ ]?routes
+    - nested[ ]?route
+
+- id: query_params
+  name: Query params
+  patterns:
+    - query[ ]?params
+    - query[ ]?param
+
+- id: types_problems
+  name: Types problems
+  patterns:
+    - types
+    - typing
+    - ts
+    - typescript

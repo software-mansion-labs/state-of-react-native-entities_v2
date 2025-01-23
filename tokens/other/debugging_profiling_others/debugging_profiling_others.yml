@@ -1,0 +1,25 @@
+- id: adb
+  name: ADB
+  patterns:
+    - adb
+
+- id: charles_proxy
+  name: Charles Proxy
+  patterns:
+    - charles.*proxy
+
+- id: proxyman
+  name: Proxyman
+  patterns:
+    - proxyman
+
+- id: sentry
+  name: Sentry
+  patterns:
+    - sentry
+
+- id: react-native-debbuger
+  name: React Native Debugger
+  patterns:
+    - react-native-debugger
+    - react[ ]?native[ ]?debugger

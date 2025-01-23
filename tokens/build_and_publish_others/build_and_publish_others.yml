@@ -1,0 +1,25 @@
+- id: Azure
+  name: Azure
+  patterns:
+    - azure
+
+- id: Circle CI
+  name: Circle CI
+  patterns:
+    - circle[ ]?ci
+
+- id: Codemagic
+  name: Codemagic
+  patterns:
+    - codemagic
+
+- id: Github Actions
+  name: Github Actions
+  patterns:
+    - github[ ]?action
+    - github[ ]?actions
+
+- id: Jenkins
+  name: Jenkins
+  patterns:
+    - jenkins
