@@ -37,6 +37,7 @@
   name: Element Inspector
   description: _(React Native built-in)_ A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.
   homepage: https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector
+  npm: react-native-element-inspector
 
 - id: debugging_profiling_logbox
   name: LogBox
