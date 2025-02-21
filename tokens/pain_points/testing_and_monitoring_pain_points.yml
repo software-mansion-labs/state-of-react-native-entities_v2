@@ -9,8 +9,8 @@
     - accuracy
     - measure, correctly [l]
 
-- id: callstack
-  name: Callstack
+- id: stacktrace
+  name: Unreadable stacktrace
   patterns:
     - callstack, of
     - source, of
