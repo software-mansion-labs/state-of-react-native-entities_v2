@@ -1,0 +1,249 @@
+- id: accessibility
+  name: Accessibility
+  description: Accessibility issues
+  patterns:
+    - accessibility
+    - a11y
+    - accessible
+    - accesibility
+    - accessbility
+
+- id: error_handling
+  name: Error handling
+  patterns:
+    - custom error
+    - error management
+    - error messages
+    - errors
+    - error
+    - exception
+    - exceptions
+  tags:
+    - js_missing_features
+
+- id: speed_of_change
+  name: Speed of change
+  description: Features, libraries, and APIs changing too fast
+  patterns:
+    - change to(o)? fast
+    - changes to(o)? fast
+    - changing to(o)? fast
+    - keeping up
+    - always changing
+    - keep up
+    - churn
+    - constant.*chang [p]
+    - fast changing
+    - changing api
+    - changes too often
+    - changing too rapidly
+    - api change [p]
+    - rate of change
+    - to(o)? many change [p]
+    - frequent change
+    - change very fast
+
+- id: version_updates
+  name: Version changes
+  description: Breaking changes and other updating issues
+  patterns:
+    - breaking changes
+    - migration
+    - version [p]
+    - upgrad [p]
+    - often change
+
+- id: too_many_choices
+  name: Choice overload
+  description: Overwhelming amount of options and choices
+  patterns:
+    - to(o)? many choice [p]
+    - decision fatigue
+    - choice paralysis
+    - choice overload
+    - to(o)? many of them [p]
+    - (to|so)?(o)? many (different|new)?( )?(libraries|lib|framework|option|choice|tool) [p]
+    - to(o)? much choice [p]
+    - to(o)? many.*choose [p]
+    - choosing a framework
+    - too many [e]
+    - overwhelming
+    - overwhelmed
+    - hard to choose
+    - hard to decide
+    - hard to pick
+
+- id: excessive_complexity
+  name: Excessive complexity
+  description: Too much complexity
+  patterns:
+    - complicated [p]
+    - complication [p]
+    - over( |-)?engineer [p]
+    - overcomplicate
+    - too, complex [l]
+    - very, complex [l]
+    - get, complex [l]
+    - complex
+    - complexity
+    - clunky
+    - confusing
+    - cumbersome
+    - overly complex
+    - difficulty
+    - difficulties
+    - difficult to.*understand
+    - challenging
+    - hard time
+    - hard to implement
+
+- id: performance
+  name: Performance
+  description: Performance issues
+  patterns:
+    - slow
+    - slowness
+    - speed
+    - optimization
+    - perfomance [p]
+    - performances
+    - performative
+    - optimize
+    - runtime overhead
+    - perf impact
+    - perf implications
+
+- id: too_much_boilerplate
+  name: Excessive boilerplate
+  description: Too much boilerplate required
+  patterns:
+    - boiler( )?plate
+    - boiler [p]
+
+- id: verbosity
+  name: Excessive verbosity
+  description: APIs that are overly verbose
+  patterns:
+    - verbose
+
+- id: configuration
+  name: Configuration
+  description: Difficulties with set-up and configuration
+  patterns:
+    - set( |-)?up
+    - setting( |-)?up
+    - configure
+    - config [p]
+    - configuration [p]
+
+- id: stability
+  name: Lack of stability
+  patterns:
+    - unstable
+    - instability
+
+- id: memory_management
+  description: Memory usage & management
+  patterns:
+    - garbage
+    - leaks
+    - memory
+
+- id: tough_learning_curve
+  name: Tough learning curve
+  parentId: educational_issues
+  patterns:
+    - hard to learn
+    - learning curve
+    - hard to get started
+    - difficult to learn
+    - where to start
+    - how to start
+
+- id: lack_of_documentation
+  name: Lack of documentation
+  description: Lack of documentation or code examples
+  parentId: educational_issues
+  patterns:
+    - docs
+    - documentation
+    - documentaion
+    - lack, education [l]
+    - lack, tutorial [l]
+    - lack, resources [l]
+    - learning resources
+    - not documented
+    - poorly.*documented
+    - .+documented
+    - documented.*better
+
+- id: lack_of_best_practices
+  name: Lack of best practices
+  parentId: educational_issues
+  patterns:
+    - best practice
+    - standardization
+    - lack of standard
+    # - standard
+    - too many ways
+    - so many ways
+
+- id: lack_of_knowledge
+  name: Lack of knowledge
+  parentId: educational_issues
+  patterns:
+    - education
+    - lack of information
+    - lack of knowledge
+    - awareness
+    - knowledge
+    - never heard
+    - know nothing
+    - not.*familiar
+    - never used
+
+- id: poor_developer_experience
+  patterns:
+    - bad dx
+    - poor dx
+    - awful dx
+
+- id: bugs_and_stability_issues
+  name: Bugs and stability issues
+  patterns:
+    - buggy
+    - flakey
+    - flakiness
+
+- id: fragmentation
+  name: Fragmentation
+  patterns:
+    - fragmented
+    - community lib [p]
+
+- id: maintenance
+  name: Maintenance
+  patterns:
+    - maintained
+    - outdated
+    - unmaintained
+    - bug, not, solved [l]
+    - maintainability
+    - lack, maintenance [l]
+    - issue, never, fixed [l]
+
+- id: excessive_rerendering
+  name: Excessive re-renders
+  patterns:
+    - re(-| )?renders
+
+- id: unusable
+  name: Unusable
+  patterns:
+    - missing.*styling
+    - missing.*options
+    - missing.*component
+    - opinionated
+    - no, component [l]
+    - broken
+    - lack, of, primitive [l]

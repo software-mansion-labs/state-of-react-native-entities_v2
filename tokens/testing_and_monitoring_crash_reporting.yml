@@ -1,0 +1,24 @@
+- id: bugsee
+  name: Bugsee
+  patterns:
+    - bugsee
+
+- id: dynatrace
+  name: Dynatrace
+  patterns:
+    - dynatrace
+
+- id: embrace
+  name: Embrace
+  patterns:
+    - embrace
+
+- id: logrocket
+  name: LogRocket
+  patterns:
+    - logrocket
+
+- id: raygun
+  name: Raygun
+  patterns:
+    - raygun

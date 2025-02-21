@@ -1,0 +1,40 @@
+- id: flaky
+  name: Flaky
+  patterns:
+    - flaky
+
+- id: accuracy
+  name: Accuracy
+  patterns:
+    - accuracy
+    - measure, correctly [l]
+
+- id: callstack
+  name: Callstack
+  patterns:
+    - callstack, of
+    - source, of
+    - stack( |-)?trace
+    - crash [p]
+    - logs
+    - report
+
+- id: anr
+  name: ANR
+  patterns:
+    - anr
+
+- id: architecture
+  name: Architecture
+  patterns:
+    - guideline
+
+- id: maestro
+  name: Maestro
+  patterns:
+    - maestro
+
+- id: e2e
+  name: E2E
+  patterns:
+    - e2e

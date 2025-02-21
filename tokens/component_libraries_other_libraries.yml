@@ -1,0 +1,14 @@
+- id: lucide-react-native
+  name: lucide-react-native
+  patterns:
+    - lucide(-| )?react(-| )?native
+
+- id: react-native-actions-sheet
+  name: react-native-actions-sheet
+  patterns:
+    - react(-| )?native(-| )?action(s)?(-| )?sheet
+
+- id: react-native-keyboard-controller
+  name: react-native-keyboard-controller
+  patterns:
+    - react(-| )?native(-| )?keyboard(-| )?controller

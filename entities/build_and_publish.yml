@@ -36,7 +36,7 @@
   description: The CI/CD Platform built for Mobile DevOps.
 
 - id: build_and_publish_workflows
-  name: Workflows
+  name: EAS Workflows
   author: Expo
   homepage: https://docs.expo.dev/workflows/get-started/
   description: A service that allows you and your team to do things like build your project, run end-to-end tests on them, submit those builds to the app stores, then run custom scripts after the submissions are complete.

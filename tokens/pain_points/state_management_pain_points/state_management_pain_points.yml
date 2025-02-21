@@ -1,9 +1,0 @@
-- id: local_first
-  name: Local first
-  patterns:
-    - local[ ]?first
-
-- id: offline_first
-  name: Offline first
-  patterns:
-    - offline[ ]?first

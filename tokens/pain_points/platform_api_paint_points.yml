@@ -1,0 +1,262 @@
+
+- id: background_processing
+  name: Background processing
+  patterns:
+    - background[ ]?processing
+    - background[ ]?task
+    - background[ ]?tasks
+    - background[ ]?processes
+    - background[ ]?process
+    - background job
+    - background service
+    - background[ ]?fetch
+
+- id: background_location
+  name: Background location
+  patterns:
+    - background[ ]?location
+
+- id: 3D_graphics
+  name: 3D graphics
+  patterns:
+    - 3d
+    - 3d rendering
+    - 3d graphics
+
+- id: audio
+  name: Audio
+  patterns:
+    - audio
+    - audio playback
+    - audio library
+    - audio api
+    - audio player
+    - expo-audio
+    - media playback
+    - media player
+
+- id: camera
+  name: Camera
+  patterns:
+    - camera
+    - camera api
+    - barcode
+
+- id: calendar
+  name: Calendar
+  patterns:
+    - calendar
+
+- id: crypto
+  name: Crypto
+  patterns:
+    - crypto
+    - cryptography
+
+- id: deep_linking
+  name: Deep linking
+  patterns:
+    - deep[ ]?link
+    - deep[ ]?linking
+    - deep[ ]?links
+    - branch
+
+- id: bluetooth
+  name: Bluetooth
+  patterns:
+    - bluetooth
+    - bluetooth api
+    - ble
+
+- id: filesystem
+  name: Filesystem
+  patterns:
+    - file[ ]?system
+    - save.*file
+
+- id: gpu_processing
+  name: GPU processing
+  patterns:
+    - gpu
+    - gpu processing
+    - gpu rendering
+    - expo-gl
+    - threejs
+
+- id: haptics
+  name: Haptics
+  patterns:
+    - haptic
+    - haptic feedback
+    - haptic api
+    - haptics
+
+- id: geolocation
+  name: Geolocation
+  patterns:
+    - geolocation
+    - geolocation api
+
+- id: machine_learning_and_ai
+  name: Machine learning & AI
+  patterns:
+    - machine learning
+    - machine learning api
+    - machine learning library
+    - machine learning model
+    - ai
+    - ai api
+    - ai library
+    - ai model
+
+- id: keyboard
+  name: Keyboard
+  patterns:
+    - keyboard [p]
+    - keyboard api
+
+- id: location
+  name: Location
+  patterns:
+    - location
+    - location api
+
+- id: maps
+  name: Maps
+  patterns:
+    - map
+    - map api
+
+- id: in_app_payment_library
+  name: In-app payment library
+  patterns:
+    - in( |-)?app( |-)?payment
+    - in( |-)?app( |-)?purchase
+    - payment
+
+- id: notifications
+  name: Notifications
+  patterns:
+    - notification
+    - notification api
+    - notification library
+
+- id: permissions
+  name: Permissions
+  patterns:
+    - permission
+
+- id: persistence_storage
+  name: Persistence storage
+  patterns:
+    - persistence[ ]?storage
+    - persistent[ ]?storage
+
+- id: rtl
+  name: RTL
+  patterns:
+    - rtl
+    - arabic
+    - ltr
+
+- id: webview
+  name: Webview
+  patterns:
+    - webview
+    - webview api
+    - webview library
+
+- id: video
+  name: Video
+  patterns:
+    - video
+    - video api
+    - video library
+    - /video library/i
+    - expo-video
+    - expo-av
+    - media playback
+    - media player
+
+- id: battery
+  name: Battery
+  patterns:
+    - battery drain
+
+- id: privacy
+  name: Privacy
+  patterns:
+    - privacy
+    - sensitive data
+
+- id: files_and_assets_manipulation
+  name: Files & assets manipulation
+  patterns:
+    - image picker
+    - image pick
+    - file pick
+    - file picker
+    - document pick
+    - document picker
+    - media[ ]?library
+    - media[ ]?picker
+    - upload file
+
+- id: live_activity
+  name: Live Activity
+  patterns:
+    - live activity
+    - live activities
+
+- id: screen_orientation
+  name: Screen orientation
+  patterns:
+    - screen orientation
+    - orientation
+    - screen rotation
+
+- id: secure_storage
+  name: Secure storage
+  patterns:
+    - secure storage
+
+- id: animations
+  name: Animations
+  patterns:
+    - animation
+
+- id: ar
+  name: AR
+  patterns:
+    - ar
+
+- id: authentication
+  name: Authentication
+  patterns:
+    - authentication
+    - auth
+    - biometric
+
+- id: car_play_android_auto
+  name: CarPlay & Android Auto
+  patterns:
+    - carplay
+    - android( )?auto
+
+- id: clipboard
+  name: Clipboard
+  patterns:
+    - clipboard
+
+- id: contacts
+  name: Contacts
+  patterns:
+    - message
+    - contact
+    - sms
+    - telephony
+
+- id: printer
+  name: Printer
+  patterns:
+    - printer

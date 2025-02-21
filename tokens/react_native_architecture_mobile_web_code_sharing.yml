@@ -1,0 +1,19 @@
+- id: expo_router
+  name: Expo router
+  patterns:
+    - expo(-| )?router
+
+- id: one_stack
+  name: One stack
+  patterns:
+    - one
+
+- id: tamagui
+  name: Tamagui
+  patterns:
+    - tamagui
+
+- id: monorepo
+  name: monorepo
+  patterns:
+    - monorepo

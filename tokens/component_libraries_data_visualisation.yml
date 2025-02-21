@@ -1,0 +1,28 @@
+- id: d3
+  name: D3.js
+  patterns:
+    - d3
+    - d3.js
+
+- id: react_native_skia
+  name: react-native-skia
+  patterns:
+    - skia
+    - react(-| )?native(-| )?skia
+
+- id: echarts
+  name: react-native-echarts
+  patterns:
+    - echart
+    - react(-| )?native(-| )?echarts
+
+- id: gifted_charts
+  name: react-native-gifted-charts
+  patterns:
+     - gifted(-| )?chart
+     - react(-| )?native(-| )?gifted(-| )?chart
+
+- id: react_native_charts_wrapper
+  name: react-native-charts-wrapper
+  patterns:
+    - react(-| )?native(-| )?chart(s)?(-| )?wrapper

@@ -1,0 +1,21 @@
+- id: expo_secure_store
+  name: expo-secure-store
+  patterns:
+    - expo( |-)?secure( |-)?store
+    - expo( |-)?secure( |-)?storage
+    - expo( |-)?secure
+
+- id: expo_file_system
+  name: expo-file-system
+  patterns:
+    - expo( |-)?file( |-)?system
+
+- id: react_native_keychain
+  name: react-native-keychain
+  patterns:
+    - react-native-keychain
+
+- id: op_sqlite
+  name: op-sqlite
+  patterns:
+    - op(-| )?sqlite

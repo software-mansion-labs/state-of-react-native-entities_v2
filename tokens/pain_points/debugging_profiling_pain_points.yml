@@ -1,0 +1,79 @@
+- id: breakpoints
+  name: Breakpoints
+  patterns:
+    - break( |-)?point
+
+- id: fliper
+  name: Fliper
+  patterns:
+    - fliper
+    - flipper
+
+- id: network
+  name: Network
+  patterns:
+    - network [p]
+
+- id: react_dev_tools
+  name: React Dev Tools
+  patterns:
+    - react( |-)?dev( |-)?tools
+    - react( |-)?dev( |-)?tool
+    - react( |-)?dev( |-)?tool.*
+
+- id: reliability
+  name: Reliability
+  patterns:
+    - reliability
+    - not, stable [l]
+    - breaks
+    - fails to
+    - limited
+    - doesn't, work [l]
+    - crash [p]
+
+- id: platforms_inconsistencies
+  name: Platforms inconsistencies
+  patterns:
+    - across platform
+    - across
+
+- id: radon_ide
+  name: Radon IDE
+  patterns:
+    - radon ide
+
+- id: launching
+  name: Launching
+  patterns:
+    - can't start
+    - cannot access
+    - connecting to
+    - connection
+    - reload
+
+- id: web_devtools_parity
+  name: Web devtools parity
+  patterns:
+    - web experience
+    - web dev
+    - with, web [l]
+
+- id: styles
+  name: Styles
+  patterns:
+    - pixel perfect
+    - inspect.*styling
+    - inspect.*styles
+
+- id: separate_window
+  name: Separate window
+  patterns:
+    - separate window
+    - chrome
+    - chromium
+
+- id: debugging_in_general
+  name: Debugging in general
+  patterns:
+    - debugging in general

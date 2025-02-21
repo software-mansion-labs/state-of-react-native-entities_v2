@@ -1,0 +1,119 @@
+- id: adjust
+  name: Adjust
+  patterns:
+    - adjust
+
+- id: azure_insights
+  name: Azure Insights
+  patterns:
+    - azure, insights [l]
+
+- id: aptabase
+  name: Aptabase
+  patterns:
+    - aptabase
+
+- id: blueconic
+  name: Blueconic
+  patterns:
+    - blueconic
+
+- id: braze
+  name: Braze
+  patterns:
+    - braze
+
+- id: bugsnag
+  name: Bugsnag
+  patterns:
+    - bugsnag
+
+- id: clarity
+  name: Clarity
+  patterns:
+    - clarity
+
+- id: clevertap
+  name: Clevertap
+  patterns:
+    - clevertap
+
+- id: datad
+  name: Datad
+  patterns:
+    - datad
+
+- id: datadog
+  name: DataDog
+  patterns:
+    - datadog
+
+- id: dynatrace
+  name: Dynatrace
+  patterns:
+    - dynatrace
+
+- id: heap
+  name: Heap
+  patterns:
+    - heap
+
+- id: instabug
+  name: InstaBug
+  patterns:
+    - instabug
+
+- id: matomo
+  name: Matomo
+  patterns:
+    - matomo
+
+- id: mparticle
+  name: mParticle
+  patterns:
+    - mparticle
+
+- id: newrelic
+  name: NewRelic
+  patterns:
+    - new( )?relic
+
+- id: pendo
+  name: Pendo
+  patterns:
+    - pendo
+
+- id: piwik
+  name: Piwik
+  patterns:
+    - piwik
+
+- id: plausible
+  name: Plausible
+  patterns:
+    - plausible
+
+- id: rudderstack
+  name: Rudderstack
+  patterns:
+    - rudderstack
+
+- id: sentry
+  name: Sentry
+  patterns:
+    - sentry
+
+- id: snowplow
+  name: Snowplow
+  patterns:
+    - snowplow
+
+- id: statsig
+  name: Statsig
+  patterns:
+    - statsig
+
+- id: uxcam
+  name: Uxcam
+  patterns:
+    - uxcam

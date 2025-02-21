@@ -1,0 +1,4 @@
+- id: flutter
+  name: Flutter developer
+  patterns:
+    - flutter

@@ -1,0 +1,123 @@
+- id: caching
+  name: Caching
+  patterns:
+    - cache
+    - caching
+    - cacheing
+    - cached data
+
+- id: background_fetching
+  name: Background fetching
+  patterns:
+    - background fetch
+
+- id: normalization
+  name: Data normalization
+  patterns:
+    - normalization
+    - data structures
+
+- id: types
+  name: Missing types
+  patterns:
+    - type
+    - typesafe
+    - untyped
+    - typing
+
+- id: file_upload
+  name: File upload & download
+  patterns:
+    - file upload
+    - file uploading
+    - upload image(s)?
+    - upload file
+
+- id: local_first
+  name: Local first support
+  patterns:
+    - local-first
+    - offline
+
+- id: syncing
+  name: Syncing state
+  patterns:
+    - resolve conflicts
+    - up to date
+    - syncing with storage
+    - syncing
+    - server state
+    - state management
+
+- id: automatic_refetch
+  name: Automatic refetch
+    - automatically refresh
+    - automated
+
+- id: authentication
+  name: Authentication
+  patterns:
+    - authenticated API
+    - protected
+    - auth
+
+- id: failures
+  name: Fetching failures
+  patterns:
+    - retry
+
+- id: infinite_fetching
+  name: Infinite fetching
+  patterns:
+    - infinite scroll(ing)?
+    - paginated
+    - pagination
+
+- id: stream_support
+  name: Stream support
+  patterns:
+    - streaming
+
+- id: excessive_rerendering
+  name: Excessive rerendering
+  patterns:
+    - re( |-)?render
+    - re( |-)?rendering
+    - render
+
+- id: middleware
+  name: Middlewares
+  patterns:
+    - interceptor
+    - middleware
+
+- id: debugging
+  name: Debugging
+  patterns:
+    - logs
+    - debug
+    - inspect [p]
+    - developer tool
+    - devtools
+    - see.*request
+
+- id: loading_state
+  name: Loading state
+  patterns:
+    - loading
+    - fetching.*state
+
+- id: cancellation
+  name: Cancellation
+  patterns:
+    - cancellation
+    - navigation back
+    - invalidation
+
+- id: navigation
+  name: Navigation integration
+  patterns:
+    - conditional
+    - navigation
+    - on( )?focus
+    - route

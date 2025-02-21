@@ -1,0 +1,61 @@
+- id: reanimated
+  name: Reanimated
+  patterns:
+    - reanimated
+
+- id: 3d_animations
+  name: 3D animations
+  patterns:
+    - 3d
+    - 3d rendering
+    - 3d graphics
+    - expo(-| )?gl
+
+- id: skia
+  name: Skia
+  patterns:
+    - skia
+
+- id: size
+  name: Size
+  patterns:
+    - bundle size
+
+- id: design_patterns
+  name: Lack of design patterns
+  patterns:
+    - animation recipes
+    - joining.*animations
+    - learning path
+    - real life.*examples
+    - more.*guides
+    - tutorial
+
+- id: Flickering
+  name: Flickering
+  patterns:
+    - flickering
+    - laggy
+
+- id: gesture_based_animation
+  name: Gesture based animation
+  patterns:
+    - gesture
+    - scroll(-| )?view
+
+- id: list_based_animation
+  name: List animations
+  patterns:
+    - virtualized list
+
+- id: lack_of_css_api
+  name: Lack of CSS api
+  patterns:
+    - css animation api
+
+- id: debugging
+  name: Debugging
+  patterns:
+    - debug
+    - crash
+    - crashes

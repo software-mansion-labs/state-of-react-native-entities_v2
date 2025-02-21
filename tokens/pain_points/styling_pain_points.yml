@@ -1,0 +1,117 @@
+- id: tailwind_support
+  name: Tailwind support
+  patterns:
+    - tailwind.*support
+
+- id: light_dark_theme
+  name: Light/dark theme
+  patterns:
+    - light.*dark
+    - dark.*light
+    - theme
+    - theming
+    - dark
+
+- id: nativewind
+  name: Nativewind
+  patterns:
+    - native[ ]?wind
+
+- id: shadows
+  name: Shadows
+  patterns:
+    - shadow
+    - shadows
+
+- id: tamagui
+  name: Tamagui
+  patterns:
+    - tamagui
+
+- id: grid
+  name: Grid
+  patterns:
+    - grid
+
+- id: animations
+  name: Animations
+  patterns:
+    - animation
+    - animated
+    - animating
+
+- id: cross_platform_consistency
+  name: Cross platform support
+  patterns:
+    - consistency
+    - consistent
+    - code sharing
+    - web and native
+    - web and mobile
+    - web and ios
+    - inconsistencies
+    - platform style
+    - cross.*platform
+    - ios.*android
+    - android.*ios
+    - native.*web
+    - platform.*difference
+    - different platform
+    - platform discrepancy
+
+- id: responsiveness
+  name: responsiveness
+  patterns:
+    - responsiveness [p]
+    - break( |-)points
+
+- id: lack_of_css_api
+  name: Lack of CSS api
+  patterns:
+    - css api
+    - css web
+    - css functionality
+    - css cascades
+    - css property
+    - css properties
+    - limited css
+    - css parity
+    - web primitives
+
+- id: web_issues
+  name: Web issues
+  patterns:
+    - web.*only
+    - css in web
+
+- id: types
+  name: Types
+  patterns:
+    - definition
+    - typescript
+    - type( |-)?safe
+
+- id: styled_components
+  name: Styled components
+  patterns:
+    - styled component
+
+- id: architecture
+  name: Architecture
+  patterns:
+    - large stylesheet
+    - guidelines
+    - code.*organized
+    - keep.*simple [p]
+    - modularity
+    - reusable, style [l]
+
+- id: devtools
+  name: Devtools
+  patterns:
+    - dev( |-)?tool
+
+- id: global_styling
+  name: Global styling
+  patterns:
+    - global styling

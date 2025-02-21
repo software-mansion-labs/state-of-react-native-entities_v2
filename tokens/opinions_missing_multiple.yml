@@ -1,0 +1,4 @@
+- id: background_processing
+  name: Background processing
+  patterns:
+    - background

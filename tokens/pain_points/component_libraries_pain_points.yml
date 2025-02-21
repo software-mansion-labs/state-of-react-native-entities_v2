@@ -1,0 +1,48 @@
+- id: list
+  name: List
+  patterns:
+    - flash( |-)?list
+    - flat( |-)?list
+
+- id: cross_platform_consistency
+  name: Cross platform support
+  patterns:
+    - consistency
+    - consistent
+    - code sharing
+    - web and native
+    - web and mobile
+    - web and ios
+    - inconsistencies
+    - platform style
+    - cross.*platform
+    - ios.*android
+    - android.*ios
+    - native.*web
+    - platform.*difference
+    - different platform
+    - platform discrepancy
+
+- id: customization
+  name: Customization
+  patterns:
+    - custom
+    - predefined
+    - styles.*replace
+    - customize
+    - own, design, system [l]
+
+- id: bottom_sheet
+  name: Bottom sheet
+  patterns:
+    - bottom( |-)?sheet
+
+- id: bundle_size
+  name: Bundle size
+  patterns:
+    - bundle( |-)?size
+
+- id: compatibility
+  name: compatibility
+  patterns:
+    - compatibility

@@ -1,4 +1,0 @@
-- id: flashlist
-  name: Flashlist
-  patterns:
-    - flash[ ]?list

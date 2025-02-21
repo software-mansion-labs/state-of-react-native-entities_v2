@@ -1,0 +1,94 @@
+- id: local_first
+  name: Local first
+  patterns:
+    - local[ ]?first
+
+- id: offline_first
+  name: Offline first
+  patterns:
+    - offline[ ]?first
+
+- id: caching
+  name: Caching
+  patterns:
+    - cache
+    - caching
+
+- id: encryption
+  name: Encrypted storage
+  patterns:
+    - secure storage
+    - encryption
+
+- id: architecture
+  name: Architecture
+  patterns:
+    - example
+    - design
+    - architecture
+    - defaults
+    - architectural
+    - organising
+    - organise
+
+- id: persistence
+  name: Persistence
+  patterns:
+    - persist
+
+- id: synchronization_issues
+  name: Synchronization issues
+  patterns:
+    - sync [p]
+
+- id: excessive_rerendering
+  name: Excessive rerendering
+  patterns:
+    - re( |-)?render
+    - re( |-)?rendering
+    - render
+
+- id: context
+  name: Context
+  patterns:
+    - context
+
+- id: dev_tools
+  name: Missing dev tools
+  patterns:
+    - dev[ ]?tool
+
+- id: complex
+  name: Complexity
+  patterns:
+    - complex
+    - mental model
+
+- id: debugging
+  name: Debugging
+  patterns:
+    - debugging
+    - debug
+    - view storage
+
+- id: migration
+  name: Migration
+  patterns:
+    - migrating
+
+- id: types
+  name: Types
+  patterns:
+    - type.*safety
+    - typescript
+
+- id: global
+  name: Global state management
+  patterns:
+    - global state
+    - global system
+
+- id: redux
+  name: Redux
+  patterns:
+    - redux

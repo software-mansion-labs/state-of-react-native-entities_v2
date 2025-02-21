@@ -1,0 +1,51 @@
+- id: signing
+  name: Signing
+  patterns:
+    - sign [p]
+    - certificate
+    - cert
+
+- id: review_process
+  name: Review process
+  patterns:
+    - review
+    - approval
+
+- id: key_management
+  name: Key management
+  patterns:
+    - api key
+
+- id: time_of_build
+  name: Build time
+  patterns:
+    - time
+
+- id: xcode_builds
+  name: Xcode builds
+  patterns:
+    - xcode
+
+- id: stores
+  name: Stores
+  patterns:
+    - store
+
+- id: failures
+  name: Failures
+  patterns:
+    - fail [p]
+    - break
+    - issue
+    - crash
+
+- id: pricing
+  name: Pricing
+  patterns:
+    - expensive
+    - cost
+
+- id: submitting
+  name: Submitting
+  patterns:
+    - submit [p]

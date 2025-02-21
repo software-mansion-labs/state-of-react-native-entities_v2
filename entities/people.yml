@@ -1,0 +1,432 @@
+- id: ben_awad
+  name: Ben Awad
+  twitterName: benawad
+  homepage:
+  blog:
+  rss:
+  youtubeUrl: https://www.youtube.com/@bawad/
+  youtubeName: bawad
+
+- id: callstack
+  name: Callstack
+  homepage: https://www.callstack.com/
+  youtubeUrl: https://www.youtube.com/c/CallstackEngineers
+  twitterName: callstackio
+  patterns:
+    - callstack
+
+- id: catalin_miron
+  name: Catalin Miron
+  homepage: https://www.animatereactnative.com/
+  twitterName: mironcatalin
+  youtubeUrl: https://www.youtube.com/c/catalinmirondev
+  patterns:
+    - catalin
+    - catalyn
+
+- id: code_with_beto
+  name: Beto Moedano
+  alias: Code with Beto
+  homepage: https://beto.vercel.app/
+  youtubeUrl: https://www.youtube.com/@codewithbeto
+  twitterName: betomoedano
+  patterns:
+    - code( )?with( )?beto
+    - beto
+
+- id: dans_react_native_lab
+  name: Dan's React Native Lab
+  youtubeUrl: https://www.youtube.com/@DanRNLab
+  blueskyId: wa2goose.bsky.social
+  twitterName: wa2goose
+  patterns:
+    - Dan's React Native Lab
+
+- id: evan_bacon
+  name: Evan Bacon
+  twitterName: baconbrix
+  homepage: https://evanbacon.dev/
+  blueskyId: bacon.bsky.social
+  patterns:
+    - bacon
+    - becon
+    - beacon
+    - evan [e]
+
+- id: fernando_rojo
+  name: Fernando Rojo
+  homepage: https://fernandorojo.co/
+  twitterName: FernandoTheRojo
+  blueskyId: rojo.bsky.social
+  patterns:
+    - fernando rojo
+
+- id: enzo
+  alias: Reactiive
+  name: Enzo Manuel Mangano
+  twitterName: reactiive_
+  homepage: https://reactiive.io/
+  youtubeUrl: https://www.youtube.com/@Reactiive
+  patterns:
+    - enzo
+    - reacti(i?)ve
+
+
+- id: theo_browne
+  alias: Theo
+  name: Theo Browne
+  homepage: https://t3.gg/
+  blogUrl: https://t3.gg/blog
+  twitterName: theo
+  youtubeUrl: https://www.youtube.com/@t3dotgg
+  youtubeName: t3dotgg
+  twitchName: theo
+  blueskyId: t3.gg
+  discordId: t3.gg
+  patterns:
+    - ping
+    - theo
+    - t3dotgg
+    - t3
+    - t3.gg
+    - theo( )?gg
+    - theot3
+    - theo_discord
+    - t3gg
+    - browne
+    - théo gg
+    - thio.gg
+
+- id: expo
+  name: Expo
+  twitterName: expo
+  blueskyId: expo.dev
+  homepage: https://expo.dev
+  youtubeUrl: https://www.youtube.com/@ExpoDevelopers
+  patterns:
+    - expo
+
+- id: simon_grimm
+  name: Simon Grimm
+  twitterName: schlimmson
+  homepage: https://devdactic.com/
+  blogUrl: https://devdactic.com/devblog
+  youtubeUrl: https://www.youtube.com/@galaxies_dev
+  youtubeName: galaxies_dev
+  blueskyId: galaxies.dev
+  patterns:
+    - grimm(m)?
+    - galaxies
+    - simon
+    - galaxy(\.| |-)?dev
+
+- id: jeff_delaney
+  name: Jeff Delaney
+  alias: Fireship
+  twitterName: jeffdelaney23
+  homepage: https://jeffdelaney.me/
+  homepage2: https://fireship.io/
+  youtubeUrl: https://www.youtube.com/@Fireship
+  youtubeName: Fireship
+  patterns:
+    - fireship
+
+- id: jack_herrington
+  name: Jack Herrington
+  twitterName: jherr
+  homepage: https://www.jackherrington.com/
+  blogUrl: https://www.jackherrington.com/
+  rssUrl: https://www.jackherrington.com/rss/
+  youtubeUrl: https://www.youtube.com/@jherr
+  youtubeName: jherr
+  blueskyId: jherr.dev
+  patterns:
+    - blue( )?col(l)?ar
+    - jack harrington
+    - jack herington
+
+- id: matt_pocock
+  name: Matt Pocock
+  twitterName: mattpocockuk
+  homepage: https://www.mattpocock.com/
+  homepage2: https://www.totaltypescript.com/
+  blogUrl: https://www.totaltypescript.com/articles
+  rssUrl: https://www.totaltypescript.com/rss.xml
+  youtubeUrl: https://www.youtube.com/@mattpocockuk
+  youtubeName: mattpocockuk
+  blueskyId: mattpocock.com
+  discordId: mattpocockuk
+  patterns:
+    - pocock
+    - poccock
+    - pockock
+
+- id: miguel_angel_duran
+  name: Miguel Ángel Durán
+  alias: Midudev
+  twitterName: midudev
+  homepage: https://midu.dev/
+  blogUrl: https://midu.dev/
+  rssUrl: https://midu.dev/index.xml
+  youtubeUrl: https://www.youtube.com/@midudev
+  youtubeName: midudev
+  twitchName: midudev
+  blueskyId: midu.dev
+  discordId: midudev
+  patterns:
+    - midudev
+    - midu
+    - Miguel Ángel Durán
+    - Miguel Angel
+    - duran
+    - midulive
+
+- id: vadim_savin
+  aliad: notJust.dev
+  name: Vadim Savin
+  homepage: https://www.notjust.dev/
+  youtubeName: notjustdev
+  youtubeUrl: https://www.youtube.com/c/notjustdev
+  twitterName: VadimNotJustDev
+  blueskyId: notjust.dev
+  patterns:
+    - not( )?just( |.)?dev [p]
+    - vadim
+    - vandim
+    - savin
+
+- id: the_primeagen
+  name: The Primeagen
+  youtubeUrl: https://www.youtube.com/c/ThePrimeagen
+  twitterName: ThePrimeagen
+  twitchName: theprimeagen
+  youtubeName: ThePrimeagen
+  patterns:
+    - primeagen
+    - primagen
+    - primeagean
+    - primegen
+    - theprimagen
+    - prime( )?time
+    - prime [e]
+    - theprim [p]
+    - primagean
+    - primegean
+    - primeagan
+    - primeagon
+    - primegan
+    - primeogen
+    - prime( )?reacts
+    - primogen
+
+- id: william_candillion
+  name: William Candillion
+  youtubeUrl: https://www.youtube.com/wcandillon
+  twitterName: wcandillon
+  patterns:
+    - candil(l)?ion
+    - candillon
+    - william
+    - can it be done
+
+- id: fernando_herrera
+  name: Fernando Herrera
+  patterns:
+    - fernando herrera
+
+- id: jamon_holmgren
+  name: Jamon Holmgren
+  homepage: https://jamon.dev/
+  twitterName: jamonholmgren
+  patterns:
+    - holmgren
+    - jamon [e]
+    - jamon, infinite [l]
+
+- id: infinite_red
+  name: Infinite Red
+  patterns:
+    - infinite red
+
+- id: javascript_mastery
+  name: Javascript mastery
+  youtubeUrl: https://www.youtube.com/@javascriptmastery
+  homepage: https://www.jsmastery.pro/
+  patterns:
+    - java( |-)?script( |-)?mastery
+
+- id: marc_rousavy
+  name: Marc Rousavy
+  homepage: https://mrousavy.com/
+  twitterName: mrousavy
+  patterns:
+    - marc [e]
+    - mrousavy
+    - mark [e]
+    - rousavi
+    - roussavy
+    - nitro module
+
+- id: software_mansion
+  name: Software Mansion
+  homepage: https://swmansion.com/
+  twitterName: swmansion
+  youtubeUrl: https://www.youtube.com/c/SoftwareMansion
+  blueskyId: swmansion.com
+  patterns:
+    - software mansion
+    - swm
+
+- id: web_dev_simplified
+  name: Web Dev Simplified
+  youtubeUrl: https://www.youtube.com/c/WebDevSimplified
+  homepage: https://courses.webdevsimplified.com/
+  twitterName: DevSimplified
+  patterns:
+    - web( |-)?dev( |-)?simplified
+
+- id: net_ninja
+  name: Net Ninjs
+  patterns:
+    - net( | )?ninja [p]
+
+- id: code_with_mosh
+  name: Code with Mosh
+  patterns:
+    - code( |-)?with( |-)?mosh
+
+- id: dan_abramov
+  twitterName: dan_abramov
+  name: Dan Abramov
+  homepage: https://overreacted.io/
+  blogUrl: https://overreacted.io/
+  rssUrl: https://overreacted.io/rss.xml
+  blueskyId: danabra.mov
+  patterns:
+    - overreacted
+    - overeacted
+    - abramov
+    - dan abromov
+    - dan [e]
+
+- id: jacek_pudysz
+  name: Jacek Pudysz
+  twitchName: jpudysz
+  homepage: https://www.reactnativecrossroads.com/
+  patterns:
+    - jacek [e]
+    - pudysz
+
+- id: tomasz_sapeta
+  name: Tomasz Sapeta
+  patterns:
+    - sapeta [p]
+
+- id: tzvetan_mikov
+  name: Tzvetan Mikov
+  patterns:
+    - tzvetan
+    - mikov
+    - tmikov
+
+- id: tkdodo
+  alias: TKDodo
+  name: Dominik Dorfmeister
+  homepage: https://tkdodo.eu
+  blueskyId: tkdodo.eu
+  patterns:
+    - tk( )?dodo
+
+- id: krzysztof_magiera
+  name: Krzysztof Magiera
+  twitterName: kzzzf
+  patterns:
+    - magiera
+
+- id: kacper_kapusciak
+  name: Kacper Kapuściak
+  patterns:
+    - kapuściak
+    - kapusciak
+
+- id: tanner_linsley
+  name: Tanner Linsley
+  twitterName: tannerlinsley
+  homepage: https://tanstack.com/
+  patterns:
+    - tanner( )?linsley
+    - linsley
+    - lindsey
+
+- id: sebastien_lorber
+  name: Sebastien Lorber
+  twitterName: sebastienlorber
+  homepage: https://thisweekinreact.com/
+  homepage2: https://sebastienlorber.com/
+  blogUrl: https://thisweekinreact.com/articles
+  rssUrl: https://thisweekinreact.com/articles/rss.xml
+  patterns:
+    - lorber [p]
+    - this( )?week( )?in( )?react
+
+- id: oskar_kwasniewski
+  name: Oskar Kwaśniewski
+  patterns:
+    - kwaśniewski
+    - kwasniewski (p)
+
+- id: nate_wienert
+  name: Nate Wienert
+  homepage: https://tamagui.dev/
+  twitterName: natebirdman
+  patterns:
+    - wienert
+    - nate [e]
+    - natebirdman
+
+- id: mo_gorhom
+  name: Mo Gorhom
+  patterns:
+    - gorhom
+
+- id: margelo
+  name: Margelo
+  patterns:
+    - margelo
+
+- id: krzystof_piaskowy
+  name: Krzysztof Piaskowy
+  patterns:
+    - piaskowy
+
+- id: kent_c_dodds
+  twitterName: kentcdodds
+  name: Kent C. Dodds
+  homepage: https://kentcdodds.com/
+  blogUrl: https://kentcdodds.com/blog
+  rssUrl: https://kentcdodds.com/blog/rss.xml
+  youtubeUrl: https://www.youtube.com/@KentCDodds-vids
+  youtubeName: KentCDodds-vids
+  blueskyId: kentcdodds.com
+  discordId: kentcdodds
+  patterns:
+    - ken(t)? (c)?(.)?( )?do(o)?(d)?ds
+
+- id: josh_comeau
+  twitterName: JoshWComeau
+  name: Josh W. Comeau
+  homepage: https://joshwcomeau.com/
+  blogUrl: https://www.joshwcomeau.com/
+  rssUrl: https://www.joshwcomeau.com/rss.xml
+  blueskyId: joshwcomeau.com
+  linkedinId: joshwcomeau
+  patterns:
+    - josh ?w?( |.|. )?com(m)?eau
+    - comeau
+    - josh w c
+    - comeu
+    - coumeau
+    - cameau
+    - comeaux
+    - comeou
+    - coumeu
