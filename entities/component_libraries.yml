@@ -132,7 +132,7 @@
   #     </Layout>
 
 - id: component_libraries_tamagui
-  name: Tamagui
+  name: Tamagui UI
   github: tamagui/tamagui
   npm: tamagui
   homepage: https://tamagui.dev/
