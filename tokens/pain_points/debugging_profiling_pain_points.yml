@@ -3,11 +3,12 @@
   patterns:
     - break( |-)?point
 
-- id: fliper
-  name: Fliper
-  patterns:
-    - fliper
-    - flipper
+# removed due to a consistent downward trend in usage (as of 2025-09-01, ref: https://npmtrends.com/react-native-flipper)
+# - id: fliper
+#   name: Fliper
+#   patterns:
+#     - fliper
+#     - flipper
 
 - id: network
   name: Network

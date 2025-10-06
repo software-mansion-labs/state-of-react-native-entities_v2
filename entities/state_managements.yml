@@ -1,278 +1,279 @@
-- id: state_management_jotai
-  name: Jotai
-  npm: jotai
-  github: pmndrs/jotai
-  homepage: https://jotai.org
-  description: A state management solution that takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.
-  example:
-    language: js
-    code: |
-      const valueAtom = atom(0)
+# removed to shorten the survey, as this segment duplicates content from the State of React survey
+# - id: state_management_jotai
+#   name: Jotai
+#   npm: jotai
+#   github: pmndrs/jotai
+#   homepage: https://jotai.org
+#   description: A state management solution that takes an atomic approach to global React state management. Build state by combining atoms and renders are automatically optimized based on atom dependency.
+#   example:
+#     language: js
+#     code: |
+#       const valueAtom = atom(0)
 
-      function Counter() {
-        const [value, setValue] = useAtom(animeAtom)
-        const increment = setValue((v) => v + 1)
-        // ...
-      }
+#       function Counter() {
+#         const [value, setValue] = useAtom(animeAtom)
+#         const increment = setValue((v) => v + 1)
+#         // ...
+#       }
 
-- id: state_management_legend_state
-  name: Legend State
-  npm: "@legendapp/state"
-  github: LegendApp/legend-state
-  homepage: https://legendapp.com/open-source/state/
-  description: A state management solution that provides extremely fast signal-based state with fine-grained reactivity and a powerful sync system that works with any backend.
-  example:
-    language: js
-    code: |
-      const counter = observable({ value: 0 })
+# - id: state_management_legend_state
+#   name: Legend State
+#   npm: "@legendapp/state"
+#   github: LegendApp/legend-state
+#   homepage: https://legendapp.com/open-source/state/
+#   description: A state management solution that provides extremely fast signal-based state with fine-grained reactivity and a powerful sync system that works with any backend.
+#   example:
+#     language: js
+#     code: |
+#       const counter = observable({ value: 0 })
 
-      const Counter = observer(() => {
-        const value = counter.value.use()
-        const increment = () => counter.value.set((v) => v + 1)
-        // ...
-      })
+#       const Counter = observer(() => {
+#         const value = counter.value.use()
+#         const increment = () => counter.value.set((v) => v + 1)
+#         // ...
+#       })
 
-- id: state_management_mobx
-  name: MobX
-  npm: mobx
-  github: mobxjs/mobx
-  description: A signal-based state management library that makes state management simple and scalable by transparently applying functional reactive programming.
-  homepage: https://mobx.js.org
-  example:
-    language: js
-    code: |
-      const counter = observable({ value: 0 })
+# - id: state_management_mobx
+#   name: MobX
+#   npm: mobx
+#   github: mobxjs/mobx
+#   description: A signal-based state management library that makes state management simple and scalable by transparently applying functional reactive programming.
+#   homepage: https://mobx.js.org
+#   example:
+#     language: js
+#     code: |
+#       const counter = observable({ value: 0 })
 
-      const Counter = observer(() => {
-        const value = counter.value
-        const increment = () => counter.value++
-        // ...
-      })
+#       const Counter = observer(() => {
+#         const value = counter.value
+#         const increment = () => counter.value++
+#         // ...
+#       })
 
-- id: state_management_mobx_state_tree
-  name: MobX State Tree
-  npm: mobx-state-tree
-  homepage: https://mobx-state-tree.js.org
-  description: A state container system built on top of MobX. MobX is a state management "engine", and MobX-State-Tree gives it structure and common tools you need for your app.
-  github: mobxjs/mobx-state-tree
-  example:
-    language: js
-    code: |
-      const model = t
-        .model('counter', { value: t.number })
-        .actions((self) => ({ increment() { self.value++ }))
+# - id: state_management_mobx_state_tree
+#   name: MobX State Tree
+#   npm: mobx-state-tree
+#   homepage: https://mobx-state-tree.js.org
+#   description: A state container system built on top of MobX. MobX is a state management "engine", and MobX-State-Tree gives it structure and common tools you need for your app.
+#   github: mobxjs/mobx-state-tree
+#   example:
+#     language: js
+#     code: |
+#       const model = t
+#         .model('counter', { value: t.number })
+#         .actions((self) => ({ increment() { self.value++ }))
 
-      const counter = model.create({ value: 0 })
+#       const counter = model.create({ value: 0 })
 
-      function Counter() {
-        const value = counter.value
-        const increment = counter.increment
-        // ...
-      }
+#       function Counter() {
+#         const value = counter.value
+#         const increment = counter.increment
+#         // ...
+#       }
 
-- id: state_management_rn_built_in
-  name: React built-ins
-  homepage: https://react.dev/reference/react/hooks
-  github: facebook/react
-  description: The most basic primitives for "remembering" the state of the React component.
-  example:
-    language: js
-    code: |
-      function Counter() {
-        const [value, setValue] = useState(0)
-        const increment = () => setValue((v) => v + 1)
-        // ...
-      }
+# - id: state_management_rn_built_in
+#   name: React built-ins
+#   homepage: https://react.dev/reference/react/hooks
+#   github: facebook/react
+#   description: The most basic primitives for "remembering" the state of the React component.
+#   example:
+#     language: js
+#     code: |
+#       function Counter() {
+#         const [value, setValue] = useState(0)
+#         const increment = () => setValue((v) => v + 1)
+#         // ...
+#       }
 
-- id: state_management_recoil
-  name: Recoil
-  npm: recoil
-  github: facebookexperimental/Recoil
-  homepage: https://recoiljs.org
-  description: An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.
-  example:
-    language: js
-    code: |
-      const state = atom({ key: 'counter', default: 0 })
+# - id: state_management_recoil
+#   name: Recoil
+#   npm: recoil
+#   github: facebookexperimental/Recoil
+#   homepage: https://recoiljs.org
+#   description: An experimental state management library that lets you create a data-flow graph that flows from atoms (shared state) through selectors (pure functions) and down into your React components.
+#   example:
+#     language: js
+#     code: |
+#       const state = atom({ key: 'counter', default: 0 })
 
-      function Counter() {
-        const [value, setValue] = useRecoilState(state)
-        const increment = () => setValue(v => v + 1)
-        // ...
-      }
+#       function Counter() {
+#         const [value, setValue] = useRecoilState(state)
+#         const increment = () => setValue(v => v + 1)
+#         // ...
+#       }
 
-- id: state_management_redux
-  name: Redux
-  npm: redux
-  github: reduxjs/redux
-  description: A predictable state container based on unidirectional data flow and immutable state updates.
-  homepage: https://redux.js.org
-  example:
-    language: js
-    code: |
-      function reducer(state = { value: 0 }, action) {
-        switch (action.type) {
-          case 'increment':
-            return { value: state.value + 1 }
-          default:
-            return state
-        }
-      }
-      const store = createStore(reducer)
+# - id: state_management_redux
+#   name: Redux
+#   npm: redux
+#   github: reduxjs/redux
+#   description: A predictable state container based on unidirectional data flow and immutable state updates.
+#   homepage: https://redux.js.org
+#   example:
+#     language: js
+#     code: |
+#       function reducer(state = { value: 0 }, action) {
+#         switch (action.type) {
+#           case 'increment':
+#             return { value: state.value + 1 }
+#           default:
+#             return state
+#         }
+#       }
+#       const store = createStore(reducer)
 
-      function Counter() {
-        const value = useSelector((state) => state.value)
-        const dispatch = useDispatch()
-        const increment = dispatch({ type: 'increment' })
-        // ...
-      }
+#       function Counter() {
+#         const value = useSelector((state) => state.value)
+#         const dispatch = useDispatch()
+#         const increment = dispatch({ type: 'increment' })
+#         // ...
+#       }
 
-- id: state_management_redux_toolkit
-  name: Redux Toolkit
-  npm: "@reduxjs/toolkit"
-  homepage: https://redux-toolkit.js.org
-  description: The official, opinionated, batteries-included toolset for efficient Redux development.
-  github: reduxjs/redux-toolkit
-  example:
-    language: js
-    code: |
-      const slice = createSlice({
-        name: 'counter',
-        initialState: { value: 0 },
-        reducers: {
-          increment: (state) => { state.value++ },
-        },
-      })
+# - id: state_management_redux_toolkit
+#   name: Redux Toolkit
+#   npm: "@reduxjs/toolkit"
+#   homepage: https://redux-toolkit.js.org
+#   description: The official, opinionated, batteries-included toolset for efficient Redux development.
+#   github: reduxjs/redux-toolkit
+#   example:
+#     language: js
+#     code: |
+#       const slice = createSlice({
+#         name: 'counter',
+#         initialState: { value: 0 },
+#         reducers: {
+#           increment: (state) => { state.value++ },
+#         },
+#       })
 
-      const store = configureStore({ reducer: slice.reducer })
+#       const store = configureStore({ reducer: slice.reducer })
 
-      function Counter() {
-        const value = useSelector((state) => state.value)
-        const dispatch = useDispatch()
-        const increment = () => dispatch(counterSlice.actions.increment())
-        // ...
-      }
+#       function Counter() {
+#         const value = useSelector((state) => state.value)
+#         const dispatch = useDispatch()
+#         const increment = () => dispatch(counterSlice.actions.increment())
+#         // ...
+#       }
 
-- id: state_management_xstate
-  name: XState
-  npm: xstate
-  github: davidkpiano/xstate
-  description: A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.
-  homepage: https://stately.ai/docs/xstate
-  example:
-    language: js
-    code: |
-      const machine = createMachine({
-        initial: 'active',
-        context: {
-          value: 0,
-        },
-        states: {
-          active: {
-            on: {
-              INCREMENT: {
-                actions: assign({
-                  value: (context) => context.value + 1 })
-                }
-              }
-            }
-          }
-        }
-      })
+# - id: state_management_xstate
+#   name: XState
+#   npm: xstate
+#   github: davidkpiano/xstate
+#   description: A powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.
+#   homepage: https://stately.ai/docs/xstate
+#   example:
+#     language: js
+#     code: |
+#       const machine = createMachine({
+#         initial: 'active',
+#         context: {
+#           value: 0,
+#         },
+#         states: {
+#           active: {
+#             on: {
+#               INCREMENT: {
+#                 actions: assign({
+#                   value: (context) => context.value + 1 })
+#                 }
+#               }
+#             }
+#           }
+#         }
+#       })
 
-      function Counter() {
-        const [snapshot, send] = useMachine(machine)
-        const value = snapshot.context.value
-        const increment = () => send('INCREMENT')
-        // ...
-      }
+#       function Counter() {
+#         const [snapshot, send] = useMachine(machine)
+#         const value = snapshot.context.value
+#         const increment = () => send('INCREMENT')
+#         // ...
+#       }
 
-- id: state_management_zustand
-  name: Zustand
-  npm: zustand
-  github: pmndrs/zustand
-  description: A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.
-  homepage: https://zustand-demo.pmnd.rs
-  example:
-    language: js
-    code: |
-      const useStore = create((set) => ({
-        count: 0,
-        increment: () => set((state) => ({ count: state.count + 1 })),
-      }))
+# - id: state_management_zustand
+#   name: Zustand
+#   npm: zustand
+#   github: pmndrs/zustand
+#   description: A small, fast, and scalable bearbones state management solution that isn't boilerplatey or opinionated, but has enough convention to be explicit and flux-like.
+#   homepage: https://zustand-demo.pmnd.rs
+#   example:
+#     language: js
+#     code: |
+#       const useStore = create((set) => ({
+#         count: 0,
+#         increment: () => set((state) => ({ count: state.count + 1 })),
+#       }))
 
-      function Counter() {
-        const { count, increment } = useStore()
-        // ...
-      }
+#       function Counter() {
+#         const { count, increment } = useStore()
+#         // ...
+#       }
 
-#######################################################################
-###                              STORAGE LIBS                       ###
-#######################################################################
+# #######################################################################
+# ###                              STORAGE LIBS                       ###
+# #######################################################################
 
-- id: state_management_storage_react_native_async_storage
-  name: React Native Async Storage
-  homepage: https://react-native-async-storage.github.io/async-storage/
-  npm: "@react-native-async-storage/async-storage"
-  github: react-native-async-storage/async-storage
-  description: An asynchronous, unencrypted, persistent, key-value storage system for React Native.
+# - id: state_management_storage_react_native_async_storage
+#   name: React Native Async Storage
+#   homepage: https://react-native-async-storage.github.io/async-storage/
+#   npm: "@react-native-async-storage/async-storage"
+#   github: react-native-async-storage/async-storage
+#   description: An asynchronous, unencrypted, persistent, key-value storage system for React Native.
 
-- id: state_management_storage_realm
-  name: Realm
-  npm: realm
-  homepage: https://realm.io/
-  github: realm/realm-js
-  description: "Realm is a mobile database that runs directly inside phones, tablets or wearables; an alternative to SQLite & key-value stores."
+# - id: state_management_storage_realm
+#   name: Realm
+#   npm: realm
+#   homepage: https://realm.io/
+#   github: realm/realm-js
+#   description: "Realm is a mobile database that runs directly inside phones, tablets or wearables; an alternative to SQLite & key-value stores."
 
-- id: state_management_storage_watermelondb
-  name: WatermelonDB
-  npm: "@nozbe/watermelondb"
-  homepage: https://watermelondb.dev
-  github: Nozbe/WatermelonDB
-  description: Reactive & asynchronous database for powerful React and React Native apps.
+# - id: state_management_storage_watermelondb
+#   name: WatermelonDB
+#   npm: "@nozbe/watermelondb"
+#   homepage: https://watermelondb.dev
+#   github: Nozbe/WatermelonDB
+#   description: Reactive & asynchronous database for powerful React and React Native apps.
 
-- id: state_management_storage_react_native_mmkv
-  name: react-native-mmkv
-  npm: react-native-mmkv
-  github: mrousavy/react-native-mmkv
-  description: The fastest key/value storage for React Native based on MMKV. ~30x faster than AsyncStorage.
+# - id: state_management_storage_react_native_mmkv
+#   name: react-native-mmkv
+#   npm: react-native-mmkv
+#   github: mrousavy/react-native-mmkv
+#   description: The fastest key/value storage for React Native based on MMKV. ~30x faster than AsyncStorage.
 
-- id: state_management_storage_react_native_mmkv_storage
-  name: react-native-mmkv-storage
-  npm: react-native-mmkv-storage
-  github: ammarahm-ed/react-native-mmkv-storage
-  description: An ultra fast(0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI.
-  homepage: https://rnmmkv.vercel.app/
+# - id: state_management_storage_react_native_mmkv_storage
+#   name: react-native-mmkv-storage
+#   npm: react-native-mmkv-storage
+#   github: ammarahm-ed/react-native-mmkv-storage
+#   description: An ultra fast(0.0002s read/write), small & encrypted mobile key-value storage framework for React Native written in C++ using JSI.
+#   homepage: https://rnmmkv.vercel.app/
 
-- id: state_management_storage_react_native_sqlite_storage
-  name: React Native SQLite Storage
-  npm: react-native-sqlite-storage
-  github: andpor/react-native-sqlite-storage
-  description: Full featured SQLite3 Native Plugin for React Native (Android and iOS).
+# - id: state_management_storage_react_native_sqlite_storage
+#   name: React Native SQLite Storage
+#   npm: react-native-sqlite-storage
+#   github: andpor/react-native-sqlite-storage
+#   description: Full featured SQLite3 Native Plugin for React Native (Android and iOS).
 
-- id: state_management_storage_expo_sqlite
-  name: Expo SQLite
-  npm: expo-sqlite
-  homepage: https://docs.expo.dev/versions/latest/sdk/sqlite/
-  description: A library providing access to a database that can be queried through a SQLite API.
+# - id: state_management_storage_expo_sqlite
+#   name: Expo SQLite
+#   npm: expo-sqlite
+#   homepage: https://docs.expo.dev/versions/latest/sdk/sqlite/
+#   description: A library providing access to a database that can be queried through a SQLite API.
 
-- id: state_management_storage_rxdb
-  name: RxDB
-  npm: rxdb
-  homepage: https://rxdb.info/
-  github: pubkey/rxdb
-  description: RxDB (short for Reactive Database) is a local-first, NoSQL-database for JavaScript Applications.
+# - id: state_management_storage_rxdb
+#   name: RxDB
+#   npm: rxdb
+#   homepage: https://rxdb.info/
+#   github: pubkey/rxdb
+#   description: RxDB (short for Reactive Database) is a local-first, NoSQL-database for JavaScript Applications.
 
-#######################################################################
-###                              ARCHITECTURE PATTERNS              ###
-#######################################################################
+# #######################################################################
+# ###                              ARCHITECTURE PATTERNS              ###
+# #######################################################################
 
-- id: state_management_app_architecture_pattern_local_first
-  name: Local-first app architecture
-  question: Are you familiar with local-first app architecture pattern?
-  description: A software architecture pattern that prioritizes local data storage and processing. Data stored on the device serves as the primary source of truth, with the server acting as a secondary source.
-  resources:
-    - title: Expo docs
-      url: https://docs.expo.dev/guides/local-first
-    - title: "\"Local-first Software\" community website"
-      url: https://localfirstweb.dev
+# - id: state_management_app_architecture_pattern_local_first
+#   name: Local-first app architecture
+#   question: Are you familiar with local-first app architecture pattern?
+#   description: A software architecture pattern that prioritizes local data storage and processing. Data stored on the device serves as the primary source of truth, with the server acting as a secondary source.
+#   resources:
+#     - title: Expo docs
+#       url: https://docs.expo.dev/guides/local-first
+#     - title: "\"Local-first Software\" community website"
+#       url: https://localfirstweb.dev

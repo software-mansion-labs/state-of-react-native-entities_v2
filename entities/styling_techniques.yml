@@ -1,14 +1,15 @@
-- id: styling_techniques_dripsy
-  npm: dripsy
-  github: nandorojo/dripsy
-  description: Unstyled, responsive UI primitives for React Native + Web.
-  homepage: https://www.dripsy.xyz/
-  name: Dripsy
-  author: Fernando Rojo
-  example:
-    language: jsx
-    code: |
-      <View sx={{ bg: '$primary', height: [100, 200] }} />
+# removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/dripsy)
+# - id: styling_techniques_dripsy
+#   npm: dripsy
+#   github: nandorojo/dripsy
+#   description: Unstyled, responsive UI primitives for React Native + Web.
+#   homepage: https://www.dripsy.xyz/
+#   name: Dripsy
+#   author: Fernando Rojo
+#   example:
+#     language: jsx
+#     code: |
+#       <View sx={{ bg: '$primary', height: [100, 200] }} />
 
 - id: styling_techniques_emotion
   name: Emotion

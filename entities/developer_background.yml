@@ -46,3 +46,21 @@
   homepage: https://github.com/react-native-skia/react-native-skia
   github: react-native-skia/react-native-skia
   description: Linux (Ubuntu 18) apps using Skia as a renderer.
+
+- id: developer_background_target_platforms_vegaos
+  name: Vega OS
+  homepage: https://developer.amazon.com/apps-and-games/vega
+  github:
+  description: React Native apps for Vega OS.
+
+- id: developer_background_target_platforms_harmonyos
+  name: HarmonyOS
+  homepage: https://www.harmonyos.com/en/
+  github:
+  description: React Native apps for Harmony OS.
+
+- id: developer_background_target_platforms_carplay_androidauto
+  name: CarPlay / Android Auto
+  homepage:
+  github:
+  description: Apps for car infotainment systems.

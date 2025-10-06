@@ -22,13 +22,14 @@
   github: react-navigation/react-navigation
   author: Expo, Software Mansion and Callstack
 
-- id: navigation_react_router
-  name: react-router
-  homepage: https://reactrouter.com/en/main/router-components/native-router
-  npm: react-router-native
-  github: remix-run/react-router
-  description: Interface for running React Router in a React Native app.
-  author: Remix
+# removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-router-native)
+# - id: navigation_react_router
+#   name: react-router
+#   homepage: https://reactrouter.com/en/main/router-components/native-router
+#   npm: react-router-native
+#   github: remix-run/react-router
+#   description: Interface for running React Router in a React Native app.
+#   author: Remix
 
 - id: navigation_solito
   name: Solito
@@ -46,13 +47,14 @@
   npm: react-native-screens
   author: Software Mansion
 
-- id: navigation_navigation
-  name: The Navigation router
-  homepageUrl: https://grahammendick.github.io/navigation/documentation/native/setup.html
-  description: Scene-based navigation for React and React Native.
-  npm: navigation-react-native
-  github: grahammendick/navigation
-  author: Graham Mendick
+# removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/navigation-react-native)
+# - id: navigation_navigation
+#   name: The Navigation router
+#   homepageUrl: https://grahammendick.github.io/navigation/documentation/native/setup.html
+#   description: Scene-based navigation for React and React Native.
+#   npm: navigation-react-native
+#   github: grahammendick/navigation
+#   author: Graham Mendick
 
 #######################################################################
 ###                              ARCHITECTURE PATTERNS              ###

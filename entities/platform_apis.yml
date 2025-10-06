@@ -395,3 +395,23 @@
       title: iOS
     - url: https://developer.android.com/guide/webapps/webview
       title: Android
+
+- id: platform_apis_voice_recognition
+  name: Voice Recognition
+  description: APIs that handle speech to text conversion and voice command processing
+  resources:
+    - url: https://developer.apple.com/documentation/speech
+      title: iOS
+    - url: https://developer.android.com/reference/android/speech/package-summary
+      title: Android
+    - url: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
+      title: Web API
+
+- id: platform_apis_on_device_ai
+  name: On-device-AI
+  description: APIs that enable AI processing directly on devices, enhancing privacy, speed, and offline capabilities
+  resources:
+    - url: https://developer.apple.com/machine-learning/resources/
+      title: iOS
+    - url: https://developer.android.com/google/play/on-device-ai
+      title: Android
