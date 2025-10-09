@@ -1,0 +1,7 @@
+- id: file_based_routing
+  name: File Based Routing
+  patterns:
+    - file[ ]?based[ ]?routing
+    - file[ ]?based[ ]?routes
+    - file[ ]?based[ ]?route
+    - file[ ]?based

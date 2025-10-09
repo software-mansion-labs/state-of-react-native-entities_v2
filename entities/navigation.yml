@@ -56,16 +56,3 @@
 #   github: grahammendick/navigation
 #   author: Graham Mendick
 
-#######################################################################
-###                              ARCHITECTURE PATTERNS              ###
-#######################################################################
-
-- id: navigation_app_architecture_pattern_file_based_routing
-  name: File-based routing pattern
-  question: Are you familiar with file-based routing architecture pattern?
-  description: A navigation architecture pattern where routes are configured using the filesystem. Instead of defining route structure via code, routes are defined through files and directories that represent the application's navigation hierarchy.
-  resources:
-    - title: Expo docs
-      url: https://docs.expo.dev/develop/file-based-routing/
-    - title: TanStack docs
-      url: https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing

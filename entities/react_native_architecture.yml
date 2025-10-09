@@ -131,7 +131,6 @@
   npm: expo-updates
   description: A hosted service that serves updates for projects using the expo-updates library. Seamlessly deliver live app updates, critical bug fixes, content changes, beta features, and more to give your users the best experience possible.
 
-
 ######################################################
 #########             CODE SHARING           #########
 ######################################################
@@ -150,3 +149,27 @@
   github: nandorojo/solito
   npm: solito
 
+#######################################################################
+###                              ARCHITECTURE PATTERNS              ###
+#######################################################################
+
+- id: react_native_architecture_app_architecture_pattern_file_based_routing
+  name: File-based routing pattern
+  question: Are you familiar with file-based routing architecture pattern?
+  description: A navigation architecture pattern where routes are configured using the filesystem. Instead of defining route structure via code, routes are defined through files and directories that represent the application's navigation hierarchy.
+  resources:
+    - title: Expo docs
+      url: https://docs.expo.dev/develop/file-based-routing/
+    - title: TanStack docs
+      url: https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing
+
+      
+- id: react_native_architecture_app_architecture_pattern_local_first
+  name: Local-first app architecture
+  question: Are you familiar with local-first app architecture pattern?
+  description: A software architecture pattern that prioritizes local data storage and processing. Data stored on the device serves as the primary source of truth, with the server acting as a secondary source.
+  resources:
+    - title: Expo docs
+      url: https://docs.expo.dev/guides/local-first
+    - title: "\"Local-first Software\" community website"
+      url: https://localfirstweb.dev
