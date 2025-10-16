@@ -15,7 +15,7 @@
 
 - id: react_native_architecture_turbo_modules
   name: Turbo Native Modules
-  homepage: https://github.com/reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md
+  homepage: reactwg/react-native-new-architecture/blob/main/docs/turbo-modules.md
   description: An advanced iteration of Native Modules that offers strongly typed interfaces, lazy loading, and JSI integration.
 
 - id: react_native_architecture_codegen
@@ -45,7 +45,7 @@
 
 - id: react_native_architecture_v8_runtime
   name: V8 runtime
-  github: https://github.com/Kudo/react-native-v8
+  github: Kudo/react-native-v8
   npm: react-native-v8
   description: A high-performance JavaScript engine used in React Native, known for its speed and efficiency.
 
@@ -83,6 +83,37 @@
     - title: Expo docs
       url: https://docs.expo.dev/guides/server-components/
 
+- id: react_native_architecture_nitro_modules
+  name: Nitro Modules
+  github: mrousavy/nitro
+  npm: react-native-nitro-modules
+  homepage: https://nitro.margelo.com/
+  description: A core part of React Native's new architecture that enables high-performance communication between JavaScript and native platform code, replacing the older, slower Bridge-based Native Modules.
+
+######################################################
+#########             FRAMEWORKS             #########
+######################################################
+
+- id: react_native_architecture_framework_usage_react_native_rock
+  name: React Native Rock
+  npm: rock
+  github: callstackincubator/rock
+  homepage: https://www.rockjs.dev/
+  description: Cross-platform React Native app development and build toolchain built for modularity, build reuse, and incremental adoption.
+
+- id: react_native_architecture_framework_usage_expo_cli
+  name: Expo CLI
+  npm: "@expo/cli"
+  github: expo/expo/tree/main/packages/@expo/cli
+  homepage: https://docs.expo.dev/more/expo-cli/
+  description: Command-line tool that is the primary interface between a developer and other Expo tools.
+  
+- id: react_native_architecture_framework_usage_react_native_cli
+  name: React Native CLI
+  npm: "@react-native-community/cli"
+  github: react-native-community/cli
+  description: Command line tools that help you build apps with React Native.
+  
 ######################################################
 #########             OTA UPDATES            #########
 ######################################################
@@ -91,7 +122,7 @@
   name: CodePush
   homepage: https://learn.microsoft.com/en-us/appcenter/distribution/codepush/
   npm: react-native-code-push
-  github: https://github.com/microsoft/react-native-code-push
+  github: microsoft/react-native-code-push
   description: An App Center cloud service that enables React Native developers to deploy mobile app updates directly to their users’ devices.
 
 - id: react_native_architecture_ota_updates_eas_update
@@ -100,7 +131,6 @@
   npm: expo-updates
   description: A hosted service that serves updates for projects using the expo-updates library. Seamlessly deliver live app updates, critical bug fixes, content changes, beta features, and more to give your users the best experience possible.
 
-
 ######################################################
 #########             CODE SHARING           #########
 ######################################################
@@ -108,7 +138,7 @@
 - id: react_native_architecture_mobile_web_code_sharing_react_native_web
   name: React Native Web
   npm: react-native-web
-  github: https://github.com/necolas/react-native-web
+  github: necolas/react-native-web
   description: An accessible implementation of React Native's Components and APIs that is interoperable with React DOM.
   homepage: https://necolas.github.io/react-native-web/
 
@@ -116,6 +146,30 @@
   name: Solito
   homepage: https://solito.dev/
   description: A library dedicated to unifying React Native with Next.js, primarily focused on navigation.
-  github: https://github.com/nandorojo/solito
+  github: nandorojo/solito
   npm: solito
 
+#######################################################################
+###                              ARCHITECTURE PATTERNS              ###
+#######################################################################
+
+- id: react_native_architecture_app_architecture_pattern_file_based_routing
+  name: File-based routing pattern
+  question: Are you familiar with file-based routing architecture pattern?
+  description: A navigation architecture pattern where routes are configured using the filesystem. Instead of defining route structure via code, routes are defined through files and directories that represent the application's navigation hierarchy.
+  resources:
+    - title: Expo docs
+      url: https://docs.expo.dev/develop/file-based-routing/
+    - title: TanStack docs
+      url: https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing
+
+      
+- id: react_native_architecture_app_architecture_pattern_local_first
+  name: Local-first app architecture
+  question: Are you familiar with local-first app architecture pattern?
+  description: A software architecture pattern that prioritizes local data storage and processing. Data stored on the device serves as the primary source of truth, with the server acting as a secondary source.
+  resources:
+    - title: Expo docs
+      url: https://docs.expo.dev/guides/local-first
+    - title: "\"Local-first Software\" community website"
+      url: https://localfirstweb.dev

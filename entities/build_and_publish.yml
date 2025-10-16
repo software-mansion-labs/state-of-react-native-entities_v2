@@ -24,11 +24,12 @@
   homepage: https://expo.dev/eas#submit
   description: A hosted service for uploading and submitting an app binary to the app stores. Upload your app to the Play Store or App Store from the cloud with a single command.
 
-- id: build_and_publish_app_center
-  name: App Center
-  author: Microsoft
-  homepage: https://appcenter.ms/
-  description: Continuously build, test, release, and monitor apps for every platform.
+# removed as the App Center service was retired in March 2025
+# - id: build_and_publish_app_center
+#   name: App Center
+#   author: Microsoft
+#   homepage: https://appcenter.ms/
+#   description: Continuously build, test, release, and monitor apps for every platform.
 
 - id: build_and_publish_bitrise
   name: Bitrise

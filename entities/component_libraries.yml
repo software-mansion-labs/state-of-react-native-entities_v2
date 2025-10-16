@@ -180,120 +180,121 @@
   github: wuxudong/react-native-charts-wrapper
   description: A React Native charts wrapper (support android & iOS).
 
-#######################################################################
-###                 OTHER COMPONENTS LIBRARIES                      ###
-#######################################################################
+# removed to shorten the survey, as it provided low-value data
+# #######################################################################
+# ###                 OTHER COMPONENTS LIBRARIES                      ###
+# #######################################################################
 
-- id: component_libraries_other_libraries_expo_image
-  name: expo-image
-  npm: expo-image
-  github: expo/expo/tree/master/packages/expo-image
-  homepage: https://docs.expo.dev/versions/latest/sdk/image/
-  author: expo
-  description: A cross-platform and performant React component that loads and renders images.
+# - id: component_libraries_other_libraries_expo_image
+#   name: expo-image
+#   npm: expo-image
+#   github: expo/expo/tree/master/packages/expo-image
+#   homepage: https://docs.expo.dev/versions/latest/sdk/image/
+#   author: expo
+#   description: A cross-platform and performant React component that loads and renders images.
 
-- id: component_libraries_other_libraries_expo_vector_icons
-  name: "@expo/vector-icons"
-  npm: "@expo/vector-icons"
-  github: expo/vector-icons
-  homepage: https://docs.expo.dev/guides/icons/
-  author: expo
-  description: A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.
+# - id: component_libraries_other_libraries_expo_vector_icons
+#   name: "@expo/vector-icons"
+#   npm: "@expo/vector-icons"
+#   github: expo/vector-icons
+#   homepage: https://docs.expo.dev/guides/icons/
+#   author: expo
+#   description: A library providing various types of icons for Expo apps, including vector icons, custom icon fonts, icon images, and icon buttons.
 
-- id: component_libraries_other_libraries_formik
-  name: formik
-  npm: formik
-  github: jaredpalmer/formik
-  homepage: https://formik.org/
-  author: jaredpalmer
-  description: A library for building forms in React with minimal tears and maximum productivity.
+# - id: component_libraries_other_libraries_formik
+#   name: formik
+#   npm: formik
+#   github: jaredpalmer/formik
+#   homepage: https://formik.org/
+#   author: jaredpalmer
+#   description: A library for building forms in React with minimal tears and maximum productivity.
 
-- id: component_libraries_other_libraries_react_hook_form
-  name: react-hook-form
-  npm: react-hook-form
-  github: react-hook-form/react-hook-form
-  homepage: https://react-hook-form.com/
-  author: react-hook-form
-  description: A library for building performant, flexible and extensible forms with easy-to-use validation.
+# - id: component_libraries_other_libraries_react_hook_form
+#   name: react-hook-form
+#   npm: react-hook-form
+#   github: react-hook-form/react-hook-form
+#   homepage: https://react-hook-form.com/
+#   author: react-hook-form
+#   description: A library for building performant, flexible and extensible forms with easy-to-use validation.
 
-- id: component_libraries_other_libraries_gorhom_bottom_sheet
-  name: "@gorhom/bottom-sheet"
-  npm: "@gorhom/bottom-sheet"
-  github: gorhom/react-native-bottom-sheet
-  homepage: https://gorhom.github.io/react-native-bottom-sheet/
-  author: gorhom
-  description: A performant interactive bottom sheet with fully configurable options.
+# - id: component_libraries_other_libraries_gorhom_bottom_sheet
+#   name: "@gorhom/bottom-sheet"
+#   npm: "@gorhom/bottom-sheet"
+#   github: gorhom/react-native-bottom-sheet
+#   homepage: https://gorhom.github.io/react-native-bottom-sheet/
+#   author: gorhom
+#   description: A performant interactive bottom sheet with fully configurable options.
 
-- id: component_libraries_other_libraries_react_native_camera
-  name: react-native-camera
-  npm: react-native-camera
-  github: react-native-camera/react-native-camera
-  homepage: https://react-native-camera.github.io/react-native-camera/
-  description: The comprehensive camera module for React Native.
+# - id: component_libraries_other_libraries_react_native_camera
+#   name: react-native-camera
+#   npm: react-native-camera
+#   github: react-native-camera/react-native-camera
+#   homepage: https://react-native-camera.github.io/react-native-camera/
+#   description: The comprehensive camera module for React Native.
 
-- id: component_libraries_other_libraries_react_native_fast_image
-  name: react-native-fast-image
-  npm: react-native-fast-image
-  github: DylanVann/react-native-fast-image
-  author: DylanVann
-  description: Performant React Native image component.
+# - id: component_libraries_other_libraries_react_native_fast_image
+#   name: react-native-fast-image
+#   npm: react-native-fast-image
+#   github: DylanVann/react-native-fast-image
+#   author: DylanVann
+#   description: Performant React Native image component.
 
-- id: component_libraries_other_libraries_react_native_gesture_handler
-  name: react-native-gesture-handler
-  homepage: https://software-mansion.github.io/react-native-gesture-handler/
-  npm: react-native-gesture-handler
-  github: software-mansion/react-native-gesture-handler
-  author: software-mansion
-  description: Declarative API exposing platform native touch and gesture system to React Native.
+# - id: component_libraries_other_libraries_react_native_gesture_handler
+#   name: react-native-gesture-handler
+#   homepage: https://software-mansion.github.io/react-native-gesture-handler/
+#   npm: react-native-gesture-handler
+#   github: software-mansion/react-native-gesture-handler
+#   author: software-mansion
+#   description: Declarative API exposing platform native touch and gesture system to React Native.
 
-- id: component_libraries_other_libraries_react_native_maps
-  name: react-native-maps
-  npm: react-native-maps
-  github: react-native-maps/react-native-maps
-  description: React Native map components for iOS + Android.
+# - id: component_libraries_other_libraries_react_native_maps
+#   name: react-native-maps
+#   npm: react-native-maps
+#   github: react-native-maps/react-native-maps
+#   description: React Native map components for iOS + Android.
 
-- id: component_libraries_other_libraries_react_native_safe_area_context
-  name: react-native-safe-area-context
-  npm: react-native-safe-area-context
-  github: th3rdwave/react-native-safe-area-context
-  author: th3rdwave
-  description: A flexible way to handle safe area, also works on Android and Web.
+# - id: component_libraries_other_libraries_react_native_safe_area_context
+#   name: react-native-safe-area-context
+#   npm: react-native-safe-area-context
+#   github: th3rdwave/react-native-safe-area-context
+#   author: th3rdwave
+#   description: A flexible way to handle safe area, also works on Android and Web.
 
-- id: component_libraries_other_libraries_react_native_vector_icons
-  name: react-native-vector-icons
-  npm: react-native-vector-icons
-  github: oblador/react-native-vector-icons
-  homepage: https://oblador.github.io/react-native-vector-icons/
-  author: oblador
-  description: Customizable icons for React Native with support for image source and full styling.
+# - id: component_libraries_other_libraries_react_native_vector_icons
+#   name: react-native-vector-icons
+#   npm: react-native-vector-icons
+#   github: oblador/react-native-vector-icons
+#   homepage: https://oblador.github.io/react-native-vector-icons/
+#   author: oblador
+#   description: Customizable icons for React Native with support for image source and full styling.
 
-- id: component_libraries_other_libraries_react_native_video
-  name: react-native-video
-  npm: react-native-video
-  github: react-native-video/react-native-video
-  homepage: https://thewidlarzgroup.github.io/react-native-video/
-  author: thewidlarzgroup
-  description: A <Video /> component for react-native.
+# - id: component_libraries_other_libraries_react_native_video
+#   name: react-native-video
+#   npm: react-native-video
+#   github: react-native-video/react-native-video
+#   homepage: https://thewidlarzgroup.github.io/react-native-video/
+#   author: thewidlarzgroup
+#   description: A <Video /> component for react-native.
 
-- id: component_libraries_other_libraries_react_native_vision_camera
-  name: react-native-vision-camera
-  npm: react-native-vision-camera
-  github: mrousavy/react-native-vision-camera
-  homepage: https://react-native-vision-camera.com/
-  author: mrousavy
-  description: A powerful, high-performance React Native camera library.
+# - id: component_libraries_other_libraries_react_native_vision_camera
+#   name: react-native-vision-camera
+#   npm: react-native-vision-camera
+#   github: mrousavy/react-native-vision-camera
+#   homepage: https://react-native-vision-camera.com/
+#   author: mrousavy
+#   description: A powerful, high-performance React Native camera library.
 
-- id: component_libraries_other_libraries_react_native_webview
-  name: react-native-webview
-  npm: react-native-webview
-  github: react-native-webview/react-native-webview
-  author: react-native-webview
-  description: React Native cross-platform <WebView />.
+# - id: component_libraries_other_libraries_react_native_webview
+#   name: react-native-webview
+#   npm: react-native-webview
+#   github: react-native-webview/react-native-webview
+#   author: react-native-webview
+#   description: React Native cross-platform <WebView />.
 
-- id: component_libraries_other_libraries_shopify_flash_list
-  name: "@shopify/flash-list"
-  npm: "@shopify/flash-list"
-  github: shopify/flash-list
-  homepage: https://shopify.github.io/flash-list/
-  author: shopify
-  description: Fast & performant React Native list. No more blank cells. Swap from FlatList in seconds. Get instant performance.
+# - id: component_libraries_other_libraries_shopify_flash_list
+#   name: "@shopify/flash-list"
+#   npm: "@shopify/flash-list"
+#   github: shopify/flash-list
+#   homepage: https://shopify.github.io/flash-list/
+#   author: shopify
+#   description: Fast & performant React Native list. No more blank cells. Swap from FlatList in seconds. Get instant performance.
