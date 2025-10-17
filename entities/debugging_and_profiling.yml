@@ -28,10 +28,23 @@
   description: "_(React Native built-in)_ The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature."
   homepage: https://github.com/react-native-community/discussions-and-proposals/discussions/819
 
-- id: debugging_profiling_react_devtools
-  name: React DevTools
+# replaced by React DevTools Components Tab and  React DevTools Profiler Tab
+# - id: debugging_profiling_react_devtools
+#   name: React DevTools
+#   author: Meta
+#   description: "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>."
+#   homepage: https://reactnative.dev/docs/react-devtools
+
+- id: debugging_profiling_react_devtools_components_tab
+  name: React DevTools Components Tab
   author: Meta
-  description: "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>."
+  description: "_(React Native built-in)_ Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
+  homepage: https://reactnative.dev/docs/react-devtools
+
+- id: debugging_profiling_react_devtools_profiler_tab
+  name: React DevTools Profiler Tab
+  author: Meta
+  description: "_(React Native built-in)_ Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
   homepage: https://reactnative.dev/docs/react-devtools
 
 - id: debugging_profiling_element_inspector
