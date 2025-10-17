@@ -71,7 +71,7 @@
   example:
     language: jsx
     code: |
-      const stylesheet = createStyleSheet(theme => ({
+      const styles = StyleSheet.create(theme => ({
         card: {
           height: {
             xs: 100,
@@ -79,11 +79,10 @@
           },
           backgroundColor: theme.colors.primary
         }
-      })
+      }));
 
       function Component() {
-        const { styles } = useStyles(stylesheet)
-        return <View style={styles.card} />
+          return <View style={styles.card} />
       }
 
 - id: styling_techniques_react_strict_dom
