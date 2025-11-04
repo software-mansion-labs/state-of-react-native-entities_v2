@@ -25,7 +25,7 @@
 
 - id: debugging_profiling_react_native_devtools
   name: React Native DevTools
-  description: "_(React Native built-in)_ The new default debugging experience introduced in React Native 0.76, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature."
+  description: "Default React Native debugging experience, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature."
   homepage: https://github.com/react-native-community/discussions-and-proposals/discussions/819
 
 # replaced by React DevTools Components Tab and  React DevTools Profiler Tab
@@ -37,30 +37,28 @@
 
 - id: debugging_profiling_react_devtools_components_tab
   name: React DevTools Components Tab
-  author: Meta
-  description: "_(React Native built-in)_ Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
+  description: "Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
   homepage: https://reactnative.dev/docs/react-devtools
 
 - id: debugging_profiling_react_devtools_profiler_tab
   name: React DevTools Profiler Tab
-  author: Meta
-  description: "_(React Native built-in)_ Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
+  description: "Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
   homepage: https://reactnative.dev/docs/react-devtools
 
 - id: debugging_profiling_element_inspector
   name: Element Inspector
-  description: _(React Native built-in)_ A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.
+  description: A debugging utility that, once enabled, allows inspection of UI elements through direct interaction, displaying detailed component information upon tap directly within the app.
   homepage: https://reactnative.dev/docs/react-devtools#integration-with-the-element-inspector
   npm: react-native-element-inspector
 
 - id: debugging_profiling_logbox
   name: LogBox
-  description: _(React Native built-in)_ An overlay system that automatically surfaces whenever console errors or warnings occur, providing comprehensive error reporting.
+  description: An overlay system that automatically surfaces whenever console errors or warnings occur, providing comprehensive error reporting.
   homepage: https://reactnative.dev/docs/debugging#logbox
 
 - id: debugging_profiling_performance_monitor
   name: Performance Monitor
-  description: _(React Native built-in)_ An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.
+  description: An integrated performance monitoring overlay that provides real-time metrics visualization. Allows inspection of RAM consumption, UI and JS threads FPS and number of views mounted.
   homepage: https://reactnative.dev/docs/performance
 
 # removed due to a consistent downward trend in usage (as of 2025-09-01, ref: https://npmtrends.com/react-native-flipper)

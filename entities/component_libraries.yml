@@ -19,7 +19,7 @@
   github: GeekyAnts/nativebase
   npm: native-base
   author: GeekyAnts
-  description: (NativeBase is now gluestack-ui) Copy-paste components & patterns for flexibility and customizability.
+  description: (deprecated in favour of gluestack-ui) Copy-paste components & patterns for flexibility and customizability.
   # example:
   #   language: jsx
   #   code: |
@@ -179,6 +179,14 @@
   npm: react-native-charts-wrapper
   github: wuxudong/react-native-charts-wrapper
   description: A React Native charts wrapper (support android & iOS).
+
+- id: component_libraries_data_visualisation_react_native_gifted_charts
+  name: React Native Gifted Charts
+  npm: react-native-gifted-charts
+  github: n4kz/react-native-gifted-charts
+  homepage: https://github.com/n4kz/react-native-gifted-charts
+  author: n4kz
+  description: A fast and flexible charts library for React Native.
 
 # removed to shorten the survey, as it provided low-value data
 # #######################################################################
