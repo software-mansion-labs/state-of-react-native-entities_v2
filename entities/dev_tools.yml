@@ -74,7 +74,7 @@
   npm: "@expo/config-plugins"
   homepage: https://docs.expo.dev/config-plugins/introduction/
   github: "expo/expo/tree/main/packages/@expo/config-plugins"
-  description: A powerful tool for generating native app code from a unified JavaScript interface.
+  description: Continuous Native Generation (CNG) - tool for generating native app code from a unified JavaScript interface.
 
 # removed as it's too niche
 # - id: dev_tools_setup_ci

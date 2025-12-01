@@ -1,9 +1,16 @@
+- id: component_libraries_nativewindui
+  name: NativeWindUI
+  github: roninoss/nativewindui
+  homepage: https://nativewindui.dev/
+  description: Beautiful components and templates that look and feel native on mobile devices - built on top of NativeWind.
+
 - id: component_libraries_gluestack_ui
   name: gluestack-ui
   github: gluestack/gluestack-ui
   npm: "@gluestack-ui/themed"
   homepage: https://gluestack.io/
   description: React & React Native Components & Patterns. Copy-paste components & patterns crafted with Tailwind CSS (NativeWind).
+  npmtrends: https://npmtrends.com/@gluestack-ui/themed
   # example:
   #   language: jsx
   #   code: |
@@ -20,6 +27,7 @@
   npm: native-base
   author: GeekyAnts
   description: (deprecated in favour of gluestack-ui) Copy-paste components & patterns for flexibility and customizability.
+  npmtrends: https://npmtrends.com/native-base
   # example:
   #   language: jsx
   #   code: |
@@ -103,6 +111,14 @@
   #     <View row gap-s5 centerV>
   #       <Text text30>This is the Text</Text>
   #     </View>
+
+- id: component_libraries_react_native_reusables
+  name: React Native Reusables
+  github: founded-labs/react-native-reusables
+  author: Founded Labs
+  homepage: https://reactnativereusables.com/
+  description: Bringing shadcn/ui to React Native. Based on Nativewind.
+
 
 - id: component_libraries_shoutem_ui
   name: Shoutem UI

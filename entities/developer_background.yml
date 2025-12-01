@@ -6,61 +6,60 @@
   name: Web
   homepage: https://necolas.github.io/react-native-web
   github: necolas/react-native-web
-  description: React Native on the web using React DOM.
+  description: _(react-native-web)_ React Native on the web using React DOM.
 
 - id: developer_background_target_platforms_macos
   name: macOS
   author: Microsoft
-  homepage: https://microsoft.github.io/react-native-windows
+  homepage: https://microsoft.github.io/react-native-macos
   github: microsoft/react-native-macos
-  description: Native macOS apps with React.
+  description: _(react-native-macos)_ React Native for macOS and Cocoa.
 
 - id: developer_background_target_platforms_windows
   name: Windows
   author: Microsoft
   homepage: https://microsoft.github.io/react-native-windows
   github: microsoft/react-native-windows
-  description: Native Windows (Microsoft's Universal Windows Platform (UWP)) apps with React.
+  description: _(react-native-windows)_ React Native for Microsoft's Universal Windows Platform (UWP).
 
 - id: developer_background_target_platforms_visionos
   name: visionOS
   homepage: https://developer.apple.com/visionos
   github: callstack/react-native-visionos
   author: Callstack
-  description: Native Apple's visionOS apps with React.
+  description: _(react-native-visionos)_ React Native for Apple's visionOS.
 
 - id: developer_background_target_platforms_android_tv
   name: Android TV
   homepage: https://developer.android.com/tv
   github: https://github.com/react-native-tvos/react-native-tvos
-  description: React Native for Android TV devices.
+  description: _(react-native-tvos)_ React Native for Android TV devices.
 
 - id: developer_background_target_platforms_tvos
   name: tvOS
   homepage: https://www.apple.com/tv-home/
   github: https://github.com/react-native-tvos/react-native-tvos
-  description: React Native for Apple TV devices.
+  description: _(react-native-tvos)_ React Native for Apple TV devices.
 
 - id: developer_background_target_platforms_skia
-  name: Linux (via Skia)
+  name: Linux & macOS via Skia
   homepage: https://github.com/react-native-skia/react-native-skia
   github: react-native-skia/react-native-skia
-  description: Linux (Ubuntu 18) apps using Skia as a renderer.
+  description: _(react-native-skia)_ React Native using Skia as a renderer. Currently supports Linux and macOS.
 
 - id: developer_background_target_platforms_vegaos
   name: Vega OS
-  homepage: https://developer.amazon.com/apps-and-games/vega
-  github:
-  description: React Native apps for Vega OS.
+  homepage: https://developer.amazon.com/docs/react-native-vega/0.72/react_overview.html
+  description: React Native for Vega OS.
 
 - id: developer_background_target_platforms_harmonyos
   name: HarmonyOS
   homepage: https://www.harmonyos.com/en/
-  github:
-  description: React Native apps for Harmony OS.
+  description: React Native for Harmony OS.
 
 - id: developer_background_target_platforms_carplay_androidauto
+  author: Birkir Gunnarsson
   name: CarPlay / Android Auto
-  homepage:
-  github:
-  description: Apps for car infotainment systems.
+  homepage: https://birkir.dev/react-native-carplay/
+  github: birkir/react-native-carplay
+  description: _(react-native-carplay)_ React Native for car infotainment systems (CarPlay / Android Auto).

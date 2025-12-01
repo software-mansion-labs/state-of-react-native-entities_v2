@@ -41,3 +41,8 @@
   author: Expo
   homepage: https://docs.expo.dev/workflows/get-started/
   description: A service that allows you and your team to do things like build your project, run end-to-end tests on them, submit those builds to the app stores, then run custom scripts after the submissions are complete.
+
+- id: build_and_publish_github_actions
+  name: GitHub Actions
+  homepage: https://docs.github.com/en/actions
+  description: Automate, customize, and execute your software development workflows right in your repository with GitHub Actions.

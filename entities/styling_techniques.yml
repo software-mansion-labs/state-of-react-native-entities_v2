@@ -85,30 +85,30 @@
           return <View style={styles.card} />
       }
 
-- id: styling_techniques_react_strict_dom
-  name: React Strict DOM
-  npm: react-strict-dom
-  homepage: https://facebook.github.io/react-strict-dom
-  github: facebook/react-strict-dom
-  description: React Strict DOM (RSD) standardizes the development of styled React components for web and native.
-  author: Meta
-  example:
-    language: jsx
-    code: |
-      const theme = css.createTheme({ /* ... */ })
+# - id: styling_techniques_react_strict_dom
+#   name: React Strict DOM
+#   npm: react-strict-dom
+#   homepage: https://facebook.github.io/react-strict-dom
+#   github: facebook/react-strict-dom
+#   description: React Strict DOM (RSD) standardizes the development of styled React components for web and native.
+#   author: Meta
+#   example:
+#     language: jsx
+#     code: |
+#       const theme = css.createTheme({ /* ... */ })
 
-      const styles = css.create({
-        card: {
-          height: 100,
-          backgroundColor: theme.primary,
-        }
-      })
+#       const styles = css.create({
+#         card: {
+#           height: 100,
+#           backgroundColor: theme.primary,
+#         }
+#       })
 
-      function Component() {
-        return (
-          <html.div style={styles.card} />
-        );
-      }
+#       function Component() {
+#         return (
+#           <html.div style={styles.card} />
+#         );
+#       }
 
 - id: styling_techniques_restyle
   name: Restyle

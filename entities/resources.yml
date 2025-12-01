@@ -98,6 +98,11 @@
   homepage: https://www.notjust.dev/react-native-mastery
   description: The only course you need to Master mobile development with React Native & Expo.
 
+- id: resources_learn_more_makeitanimated_dev
+  name: Make It Animated (by Volodymyr Serbulenko)
+  homepage: https://www.makeitanimated.dev/
+  description: Fast growing collection of React Native animations for inspiration and practical usage.
+
 ### other
 
 - id: resources_learn_more_stack_overflow
@@ -144,6 +149,11 @@
   name: notJust Newsletter (by Vadim Savin)
   homepage: https://www.notjust.dev/newsletter
   description: Stay up-to-date with the latest technologies and become a better React Native Developer.
+
+- id: resources_stay_up_to_date_the_react_native_rewind
+  name: The React Native Rewind
+  homepage: https://thereactnativerewind.com/
+  description: A bi-weekly newsletter breaking down the latest and upcoming in React Native, highlighting what’s worth your time with humor, occasional rants, and memes.
 
 - id: resources_stay_up_to_date_expo_newsletter
   name: Optimistic Updates (by Expo)

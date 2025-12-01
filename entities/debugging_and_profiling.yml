@@ -6,11 +6,31 @@
     code: |
       console.log("Hello React Native! 😊")
 
+- id: debugging_profiling_breakpoints
+  name: breakpoints
+  homepage: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger
+  example:
+    language: jsx
+    code: |
+      debugger
+
+- id: debugging_profiling_web_performance_api
+  name: Web Performance API
+  homepage: https://developer.mozilla.org/en-US/docs/Web/API/Performance
+
 - id: debugging_profiling_radon_ide
   name: Radon IDE
   homepage: https://ide.swmansion.com/
   description: A better developer experience for React Native developers. A Visual Studio Code / Cursor IDE extension that aims to simplify the development of React Native applications.
   author: Software Mansion
+
+- id: debugging_profiling_rozenite
+  name: Rozenite
+  homepage: https://www.rozenite.dev/
+  description: Plug-and-play panels for React Native DevTools. Install, enable, and start debugging in minutes. 
+  author: Rozenite
+  npm: rozenite
+  npmtrends: https://npmtrends.com/rozenite
 
 # removed to focus on current tools as legacy options are now outdated
 # - id: debugging_profiling_legacy_javascript_hermes_debugging
@@ -25,7 +45,7 @@
 
 - id: debugging_profiling_react_native_devtools
   name: React Native DevTools
-  description: "Default React Native debugging experience, leveraging <strong>Chrome DevTools Protocol</strong> (<strong><i>Console API</i>, <i>Sources & breakpoints</i></strong>) and providing integrated <strong>React DevTools</strong> functionality as a core feature."
+  description: "Default React Native debugging experience built on top of Chrome DevTools Protocol and providing integrated React DevTools functionality as a core feature."
   homepage: https://github.com/react-native-community/discussions-and-proposals/discussions/819
 
 # replaced by React DevTools Components Tab and  React DevTools Profiler Tab
@@ -35,14 +55,29 @@
 #   description: "A desktop application providing <strong>Component Inspector</strong> and <strong>Performance Profiler</strong> panels, mirroring functionality from web browser extension. Now seamlessly integrated within <strong>React Native DevTools</strong>."
 #   homepage: https://reactnative.dev/docs/react-devtools
 
-- id: debugging_profiling_react_devtools_components_tab
-  name: React DevTools Components Tab
+- id: debugging_profiling_react_devtools_components_panel
+  name: React DevTools Components Panel
   description: "Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
   homepage: https://reactnative.dev/docs/react-devtools
 
-- id: debugging_profiling_react_devtools_profiler_tab
-  name: React DevTools Profiler Tab
+- id: debugging_profiling_react_devtools_profiler_panel
+  name: React DevTools Profiler Panel
   description: "Allows inspection of the React component tree, with the ability to view and edit props, state, and hooks, and understand the relationships between components."
+  homepage: https://reactnative.dev/docs/react-devtools
+
+- id: debugging_profiling_network_panel
+  name: Network Panel
+  description: Allows inspection of network requests and responses.
+  homepage: https://reactnative.dev/docs/react-devtools
+
+- id: debugging_profiling_performance_panel
+  name: Performance Panel
+  description: Allows inspection of performance metrics.
+  homepage: https://reactnative.dev/docs/react-devtools
+
+- id: debugging_profiling_memory_panel
+  name: Memory Panel
+  description: Allows inspection of memory usage.
   homepage: https://reactnative.dev/docs/react-devtools
 
 - id: debugging_profiling_element_inspector
@@ -79,7 +114,7 @@
 
 - id: debugging_profiling_react_native_performance
   name: Performance API (react-native-performance)
-  description: A runtime library that delivers an implementation of the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.
+  description: A 3rd party library implementing the Performance API for React Native based on the User Timing Level 3 and Performance Timeline Level 2 drafts.
   github: oblador/react-native-performance
   author: Joel Arvidsson
   npm: react-native-performance
@@ -112,3 +147,10 @@
   author: Expo
   description: A network inspector available only in Expo projects that allows you to monitor and debug network requests made by your app.
   homepage: https://docs.expo.dev/debugging/tools/#inspecting-network-requests
+
+- id: debugging_profiling_expo_tools
+  name: Expo Tools
+  description: VSCode extension for Expo projects.
+  homepage: https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools
+  github: expo/vscode-expo
+  author: Expo

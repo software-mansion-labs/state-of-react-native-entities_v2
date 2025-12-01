@@ -97,6 +97,10 @@
   homepage: https://posthog.com/product-analytics
   description: The only product analytics platform built to natively work with session replay, feature flags, experiments, and surveys.
 
+- id: testing_and_monitoring_analytics_logrocket
+  name: LogRocket
+  homepage: https://logrocket.com/
+  description: Quantify and visualize every user experience.
 
   ######################################################
   #########        CRASH REPORTING             #########
@@ -136,3 +140,8 @@
   name: AppCenter Crashes
   homepage: https://learn.microsoft.com/en-us/appcenter/sdk/crashes/react-native
   description: A service that provides crash reporting and diagnostics for applications built with Microsoft App Center.
+
+- id: testing_and_monitoring_crash_reporting_logrocket
+  name: LogRocket
+  homepage: https://logrocket.com/
+  description: Separate signal from noise so you can proactively identify, triage, and resolve the most impactful user issues.

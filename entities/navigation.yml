@@ -22,14 +22,14 @@
   github: react-navigation/react-navigation
   author: Expo, Software Mansion and Callstack
 
-# removed due to low usage (<20k weekly downloads on 2025-09-01, ref: https://npmtrends.com/react-router-native)
-# - id: navigation_react_router
-#   name: react-router
-#   homepage: https://reactrouter.com/en/main/router-components/native-router
-#   npm: react-router-native
-#   github: remix-run/react-router
-#   description: Interface for running React Router in a React Native app.
-#   author: Remix
+- id: navigation_react_router
+  name: react-router
+  homepage: https://reactrouter.com/6.30.2/router-components/native-router
+  npm: react-router-native
+  github: remix-run/react-router
+  description: Interface for running React Router in a React Native app.
+  author: Remix
+  npmtrends: https://npmtrends.com/react-router-native
 
 - id: navigation_solito
   name: Solito

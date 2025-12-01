@@ -47,7 +47,7 @@
   name: V8 runtime
   github: Kudo/react-native-v8
   npm: react-native-v8
-  description: A high-performance JavaScript engine used in React Native, known for its speed and efficiency.
+  description: A high-performance JavaScript engine optionally used in React Native, known for its speed and efficiency.
 
 - id: react_native_architecture_jsi
   name: JSI
@@ -88,14 +88,14 @@
   github: mrousavy/nitro
   npm: react-native-nitro-modules
   homepage: https://nitro.margelo.com/
-  description: A core part of React Native's new architecture that enables high-performance communication between JavaScript and native platform code, replacing the older, slower Bridge-based Native Modules.
+  description: A framework to build mindblowingly fast native modules with type-safe statically compiled JS bindings.
 
 ######################################################
 #########             FRAMEWORKS             #########
 ######################################################
 
 - id: react_native_architecture_framework_usage_react_native_rock
-  name: React Native Rock
+  name: Rock
   npm: rock
   github: callstackincubator/rock
   homepage: https://www.rockjs.dev/
@@ -109,7 +109,7 @@
   description: Command-line tool that is the primary interface between a developer and other Expo tools.
   
 - id: react_native_architecture_framework_usage_react_native_cli
-  name: React Native CLI
+  name: React Native Community CLI
   npm: "@react-native-community/cli"
   github: react-native-community/cli
   description: Command line tools that help you build apps with React Native.
@@ -131,6 +131,18 @@
   npm: expo-updates
   description: A hosted service that serves updates for projects using the expo-updates library. Seamlessly deliver live app updates, critical bug fixes, content changes, beta features, and more to give your users the best experience possible.
 
+- id: react_native_architecture_ota_updates_bitrise_codepush
+  name: Bitrise CodePush
+  author: Bitrise
+  homepage: https://docs.bitrise.io/en/release-management/codepush/about-codepush.html
+  description: App Center CodePush fork for Bitrise Release Management.
+
+- id: react_native_architecture_ota_updates_codemagic_codepush
+  name: Codemagic CodePush
+  author: Codemagic
+  homepage: https://codemagic.io/codepush/
+  description: A drop-in replacement for App Center CodePush.
+
 ######################################################
 #########             CODE SHARING           #########
 ######################################################
@@ -148,6 +160,18 @@
   description: A library dedicated to unifying React Native with Next.js, primarily focused on navigation.
   github: nandorojo/solito
   npm: solito
+
+- id: react_native_architecture_mobile_web_code_sharing_react_strict_dom
+  name: React Strict DOM
+  homepage: https://facebook.github.io/react-strict-dom/
+  description: Cross-platform, platform-native interfaces using web APIs.
+  github: facebook/react-strict-dom
+  npm: react-strict-dom
+
+- id: react_native_architecture_mobile_web_code_sharing_dom_components
+  name: DOM components
+  homepage: https://expo.dev/blog/the-magic-of-expo-dom-components
+  description: Using Web React DOM components in Expo native apps using the 'use dom' directive.
 
 #######################################################################
 ###                              ARCHITECTURE PATTERNS              ###
