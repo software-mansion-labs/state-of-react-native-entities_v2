@@ -1,18 +1,18 @@
 - id: debugging_profiling_console
   name: console API
   homepage: https://developer.mozilla.org/en-US/docs/Web/API/console
-  example:
-    language: jsx
-    code: |
-      console.log("Hello React Native! 😊")
+  # example:
+  #   language: jsx
+  #   code: |
+  #     console.log("Hello React Native! 😊")
 
 - id: debugging_profiling_breakpoints
   name: breakpoints
   homepage: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger
-  example:
-    language: jsx
-    code: |
-      debugger
+  # example:
+  #   language: jsx
+  #   code: |
+  #     debugger
 
 - id: debugging_profiling_web_performance_api
   name: Web Performance API

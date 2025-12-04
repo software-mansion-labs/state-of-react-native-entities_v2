@@ -205,8 +205,8 @@
   name: The Changelog
   homepage: https://changelog.com/
 
-- id: resources_podcasts_podrocker
-  name: PodRocker (by LogRocket)
+- id: resources_podcasts_podrocket
+  name: PodRocket (by LogRocket)
   homepage: https://podrocket.logrocket.com/
 
 - id: resources_podcasts_rocket_ship
