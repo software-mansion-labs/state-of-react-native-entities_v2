@@ -1,0 +1,14 @@
+- id: react_native_architecture_ota_updates_hot_updater
+  name: Hot Updater
+  patterns:
+    - (@)?hot(-)?updater
+
+- id: react_native_architecture_ota_updates_stallion
+  name: Stallion
+  patterns:
+    - stallion
+
+- id: react_native_architecture_ota_updates_revopush
+  name: Revopush
+  patterns:
+    - revopush

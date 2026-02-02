@@ -71,7 +71,6 @@
     - enzo
     - reacti(i?)ve
 
-
 - id: theo_browne
   alias: Theo
   name: Theo Browne
@@ -294,6 +293,7 @@
   name: Code with Mosh
   patterns:
     - code( |-)?with( |-)?mosh
+    - mosh
 
 - id: dan_abramov
   twitterName: dan_abramov
@@ -430,3 +430,67 @@
     - comeaux
     - comeou
     - coumeu
+
+- id: traversy_media
+  name: Traversy Media
+  homepage: https://www.traversymedia.com
+  youtubeUrl: https://www.youtube.com/@TraversyMedia
+  youtubeName: Traversy Media
+
+- id: oscar_franco
+  name: Oscar Franco
+  twitterName: ospfranco
+  homepage: ospfranco.com
+  youtubeUrl: https://www.youtube.com/@ospfranco
+  youtubeName: OscarFranco
+
+- id: hirbod
+  name: Hirbod
+  youtubeUrl: https://www.youtube.com/@hirbod
+  homepage: https://hirbod.dev/
+  twitterName: hirbod_dev
+  patterns:
+    - hirbod
+    - hirbod( |-)?nandakumar
+
+- id: jay_meistrich
+  name: Jay Meistrich
+  youtubeUrl: https://www.youtube.com/c/JayMeistrich
+  homepage: https://jaymeistrich.com/
+  twitterName: JayMeistrich
+  patterns:
+    - jay( |-)?meistrich
+
+- id: jamie_birch
+  name: Jamie Birch
+  youtubeUrl: https://www.youtube.com/@shirakaba
+  homepage: https://github.com/shirakaba
+  twitterName: shirakaba
+  patterns:
+    - jamie( |-)?birch
+    - shirakaba
+
+- id: nishan_bende
+  name: Nishan Bende
+  youtubeUrl: https://www.youtube.com/@NishanBende
+  homepage: https://nishanbende.com/
+  twitterName: NishanBende
+  patterns:
+    - nishan( |-)?bende
+
+- id: kadi_kraman
+  name: Kadi Kraman
+  youtubeUrl: https://www.youtube.com/@kadikraman
+  homepage: https://kadikraman.com/
+  twitterName: kadikraman
+  patterns:
+    - kadi( |-)?kraman
+
+- id: tomasz_zawadzki
+  name: Tomasz Zawadzki
+  youtubeUrl: https://www.youtube.com/@SoftwareMansion
+  homepage: https://github.com/tomekzaw
+  twitterName: tomekzaw_
+  patterns:
+    - tomasz( |-)?zawadzki
+    - tomekzaw

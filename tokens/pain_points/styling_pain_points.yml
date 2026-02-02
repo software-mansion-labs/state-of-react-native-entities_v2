@@ -43,12 +43,13 @@
 - id: cross_platform_consistency
   name: Cross platform support
   patterns:
+    - (in)?consistency.*platform[s]?
     - consistency
     - consistent
     - code sharing
-    - web and native
-    - web and mobile
-    - web and ios
+    - web (and|&) native
+    - web (and|&) mobile
+    - web (and|&) ios
     - inconsistencies
     - platform style
     - cross.*platform
@@ -60,29 +61,37 @@
     - platform discrepancy
 
 - id: responsiveness
-  name: responsiveness
+  name: Responsiveness
   patterns:
+    - responsive
     - responsiveness [p]
     - break( |-)points
+    - (multiple|different) [\w]* sizes
 
 - id: lack_of_css_api
-  name: Lack of CSS api
+  name: Lack of CSS API
   patterns:
     - css api
     - css web
     - css functionality
-    - css cascades
+    - css cascade[s]?
     - css property
     - css properties
     - limited css
     - css parity
     - web primitives
+    - lack of css
+    - like css
+    - css[ |-]like
+    - css.*support(ed)?
+    - css features
 
 - id: web_issues
   name: Web issues
   patterns:
     - web.*only
     - css in web
+    - web support
 
 - id: types
   name: Types
@@ -115,3 +124,17 @@
   name: Global styling
   patterns:
     - global styling
+
+- id: stylesheet_api
+  name: StyleSheet API
+  patterns:
+    - stylesheet
+    - stylesheets
+
+- id: large_ecosystem
+  name: Large ecosystem
+  description: No built-in standards
+  patterns:
+    - large ecosystem
+    - no standard
+    - need.*standard

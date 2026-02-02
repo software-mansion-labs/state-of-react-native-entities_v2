@@ -10,7 +10,7 @@
     - skia
     - react(-| )?native(-| )?skia
 
-- id: echarts
+- id: component_libraries_data_visualisation_echarts
   name: react-native-echarts
   patterns:
     - echart
@@ -19,8 +19,8 @@
 - id: gifted_charts
   name: react-native-gifted-charts
   patterns:
-     - gifted(-| )?chart
-     - react(-| )?native(-| )?gifted(-| )?chart
+    - gifted(-| )?chart
+    - react(-| )?native(-| )?gifted(-| )?chart
 
 - id: react_native_charts_wrapper
   name: react-native-charts-wrapper

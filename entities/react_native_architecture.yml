@@ -107,13 +107,13 @@
   github: expo/expo/tree/main/packages/@expo/cli
   homepage: https://docs.expo.dev/more/expo-cli/
   description: Command-line tool that is the primary interface between a developer and other Expo tools.
-  
+
 - id: react_native_architecture_framework_usage_react_native_cli
   name: React Native Community CLI
   npm: "@react-native-community/cli"
   github: react-native-community/cli
   description: Command line tools that help you build apps with React Native.
-  
+
 ######################################################
 #########             OTA UPDATES            #########
 ######################################################
@@ -143,6 +143,27 @@
   homepage: https://codemagic.io/codepush/
   description: A drop-in replacement for App Center CodePush.
 
+- id: react_native_architecture_ota_updates_hot_updater
+  name: Hot Updater
+  homepage: https://hot-updater.dev/
+  npm: "@hot-updater/react-native"
+  github: gronxb/hot-updater
+  description: Self-hostable OTA solution supporting multiple providers (AWS, Supabase, Cloudflare) with a plugin-based architecture.
+
+- id: react_native_architecture_ota_updates_stallion
+  name: Stallion
+  homepage: https://stalliontech.io/
+  npm: react-native-stallion
+  github: stallion-tech/react-native-stallion
+  description: Fully managed OTA platform offering efficient patch updates, rollbacks, and a dedicated CLI for React Native apps.
+
+- id: react_native_architecture_ota_updates_revopush
+  name: Revopush
+  homepage: https://revopush.org/
+  npm: "@revopush/react-native-code-push"
+  github: revopush/react-native-code-push
+  description: A drop-in replacement for App Center CodePush that fully supports the New Architecture and offers seamless OTA updates.
+
 ######################################################
 #########             CODE SHARING           #########
 ######################################################
@@ -160,6 +181,13 @@
   description: A library dedicated to unifying React Native with Next.js, primarily focused on navigation.
   github: nandorojo/solito
   npm: solito
+
+- id: react_native_architecture_mobile_web_code_sharing_tamagui
+  name: Tamagui
+  homepage: https://tamagui.dev/
+  npm: tamagui
+  github: tamagui/tamagui
+  description: A universal UI kit and style system for React Native and Web that features an optimizing compiler for zero-runtime performance.
 
 - id: react_native_architecture_mobile_web_code_sharing_react_strict_dom
   name: React Strict DOM
@@ -187,7 +215,6 @@
     - title: TanStack docs
       url: https://tanstack.com/router/latest/docs/framework/react/guide/file-based-routing
 
-      
 - id: react_native_architecture_app_architecture_pattern_local_first
   name: Local-first app architecture
   question: Are you familiar with local-first app architecture pattern?
@@ -195,5 +222,5 @@
   resources:
     - title: Expo docs
       url: https://docs.expo.dev/guides/local-first
-    - title: "\"Local-first Software\" community website"
+    - title: '"Local-first Software" community website'
       url: https://localfirstweb.dev

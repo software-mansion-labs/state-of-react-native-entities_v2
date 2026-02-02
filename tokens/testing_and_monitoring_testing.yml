@@ -1,0 +1,7 @@
+- id: testing_and_monitoring_testing_vitest
+  name: Vitest
+  patterns:
+    - vitest
+
+- id: playwright
+  name: Playwright

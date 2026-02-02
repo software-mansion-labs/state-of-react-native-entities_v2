@@ -539,3 +539,11 @@
 - id: web_features_explorer
   name: Web Features Explorer
   homepage: https://web-platform-dx.github.io/web-features-explorer/
+
+- id: outlook_live
+  name: Microsoft Outlook
+  homepage: https://outlook.live.com/
+
+- id: nativeweekly
+  name: Nativeweekly
+  homepage: nativeweekly.beehiiv.com

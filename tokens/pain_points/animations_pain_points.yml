@@ -49,9 +49,10 @@
     - virtualized list
 
 - id: lack_of_css_api
-  name: Lack of CSS api
+  name: Lack of CSS API
   patterns:
     - css animation api
+    - css animation[s]?
 
 - id: debugging
   name: Debugging
@@ -59,3 +60,8 @@
     - debug
     - crash
     - crashes
+
+- id: js_thread
+  name: JS thread performance
+  patterns:
+    - js( |-)thread[s]?

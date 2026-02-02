@@ -46,3 +46,19 @@
   name: compatibility
   patterns:
     - compatibility
+
+- id: shadcn_equivelent
+  name: No shadcn equivalent
+  patterns:
+    - shadcn
+    - shad-cn
+
+- id: no_personalization
+  name: Difficult to personalize
+  patterns:
+    - not flexible
+    - personalization
+    - personalize
+
+- id: chart_lib_missing
+  name: Good chart library missing

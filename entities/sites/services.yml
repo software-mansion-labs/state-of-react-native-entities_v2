@@ -65,10 +65,6 @@
   name: Vercel
   homepage: https://vercel.com/
 
-- id: sentry
-  name: Sentry
-  homepage: https://sentry.com/
-
 - id: digital_ocean
   name: Digital Ocean
   homepage: https://digitalocean.com/
@@ -424,11 +420,5 @@
 - id: heap
   name: Heap
   homepage: https://www.heap.io/
-  tags:
-    - analytics
-
-- id: datadog
-  name: Datadog
-  homepage: https://www.datadoghq.com/
   tags:
     - analytics

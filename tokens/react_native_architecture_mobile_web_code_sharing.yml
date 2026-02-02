@@ -8,7 +8,7 @@
   patterns:
     - one
 
-- id: tamagui
+- id: react_native_architecture_mobile_web_code_sharing_tamagui
   name: Tamagui
   patterns:
     - tamagui

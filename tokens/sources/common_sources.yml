@@ -73,6 +73,7 @@
 - id: blog
 
 - id: other_online_sources
+  name: Other online sources
   patterns:
     - internet
     - online
@@ -84,3 +85,8 @@
     - kevin
     - powell
     - kp
+
+- id: source_code
+  name: Source code
+  patterns:
+    - source( |-)code

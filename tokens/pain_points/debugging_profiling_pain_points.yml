@@ -78,3 +78,19 @@
   name: Debugging in general
   patterns:
     - debugging in general
+
+- id: console_logs_missing
+  name: Console logs missing
+  description: Console logs are no longer visible in a terminal
+  patterns:
+    - log[s]?, missing [l]
+    - log[s]?, terminal [l]
+    - log[s]?, removed [l]
+
+- id: devtools_connection
+  name: DevTools connection issues
+  patterns:
+    - disconnect
+    - reconnect
+    - restart
+    - connection

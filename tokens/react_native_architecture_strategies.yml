@@ -6,3 +6,31 @@
     - n-1
     - previous to latest
     - one, before [l]
+    - 1, version, behind [l]
+
+- id: resource_constraints
+  name: Resource/Time Constraints
+  patterns:
+    - don't, have, time [l]
+    - boss
+    - management
+    - time, upgrade [l]
+    - allow
+    - when, possible [l]
+
+- id: native_dependency_alignment
+  name: Native Dependency Alignment
+  patterns:
+    - agp
+    - gradle
+    - kotlin
+    - native
+    - versions, across [l]
+    - align
+
+- id: expo_sdk_alignment
+  name: Expo SDK Alignment
+  patterns:
+    - expo
+    - sdk
+    - sync

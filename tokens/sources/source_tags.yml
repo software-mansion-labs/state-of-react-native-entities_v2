@@ -1,0 +1,9 @@
+- id: hubspot_email
+  name: HubSpot email
+  patterns:
+    - hs_email
+
+- id: post_survey_share
+  name: Survey Share
+  patterns:
+    - post_survey_share.*

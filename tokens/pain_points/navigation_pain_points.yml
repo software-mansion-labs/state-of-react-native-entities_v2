@@ -6,11 +6,11 @@
 - id: deeplinks
   name: Deep links
   patterns:
-    - deep[ ]?link
-    - deep[ ]?links
-    - deep[ ]?links
-    - deep[ ]?linking
-    - universal[ ]?links
+    - deep[ |-]?link
+    - deep[ |-]?links
+    - deep[ |_]?links
+    - deep[ |-]?linking
+    - universal[ |-]?links
     - linking
 
 - id: expo_router
@@ -18,6 +18,9 @@
   patterns:
     - expo[ ]?router
     - expo-router
+    - expo[ |-]?route
+
+- id: formsheet
 
 - id: modals
   name: Modals
@@ -118,3 +121,27 @@
   name: Drawer
   patterns:
     - drawer
+
+- id: back_navigation
+  name: Back navigation
+  patterns:
+    - back navigation
+    - back button
+    - back stack
+    - go back
+    - going back
+    - swipe back
+    - back behaviour
+
+- id: consistency
+  name: Consistency
+  patterns:
+    - inconsistent
+    - inconsistencies
+
+- id: react_navigation
+  name: React Navigation
+  patters:
+    - native navigation
+    - react navigation
+    - react[ |-]?native[ |-]?navigation
