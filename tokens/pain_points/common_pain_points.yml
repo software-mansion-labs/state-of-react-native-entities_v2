@@ -146,7 +146,7 @@
     - instability
 
 - id: memory_management
-  name: Memeory management
+  name: Memory management
   description: Memory usage & management
   patterns:
     - garbage

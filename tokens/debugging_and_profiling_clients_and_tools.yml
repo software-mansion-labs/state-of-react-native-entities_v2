@@ -4,5 +4,7 @@
     - console( |.)log
     - console print[s]?
 
-- id: flipper
+- id: debugging_profiling_flipper
   name: Flipper
+  patterns:
+    - flipper

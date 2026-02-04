@@ -100,8 +100,6 @@
 - id: bytes
   name: Bytes
   homepage: https://bytes.dev/
-  tags:
-    - people
 
 - id: react_status
   name: React Status

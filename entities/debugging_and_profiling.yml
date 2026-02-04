@@ -27,10 +27,18 @@
 - id: debugging_profiling_rozenite
   name: Rozenite
   homepage: https://www.rozenite.dev/
-  description: Plug-and-play panels for React Native DevTools. Install, enable, and start debugging in minutes. 
+  description: Plug-and-play panels for React Native DevTools. Install, enable, and start debugging in minutes.
   author: Rozenite
   npm: rozenite
   npmtrends: https://npmtrends.com/rozenite
+
+- id: debugging_profiling_flipper
+  name: Flipper
+  homepage: https://fbflipper.com/
+  description: A desktop debugging platform for mobile developers. Visualize, inspect, and control your React Native apps.
+  author: Meta
+  npm: react-native-flipper
+  npmtrends: https://npmtrends.com/react-native-flipper
 
 # removed to focus on current tools as legacy options are now outdated
 # - id: debugging_profiling_legacy_javascript_hermes_debugging

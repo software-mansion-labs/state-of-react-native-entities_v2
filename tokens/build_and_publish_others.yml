@@ -33,7 +33,7 @@
   name: GitLab
 
 - id: locally
-  name: local manual building and publishing
+  name: Local/Manual building and publishing
   patterns:
     - manual(ly)?
     - local(ly)?
