@@ -3,7 +3,7 @@
   patterns:
     - bugsee
 
-- id: dynatrace
+- id: testing_and_monitoring_crash_reporting_dynatrace
   name: Dynatrace
   patterns:
     - dynatrace
@@ -22,3 +22,16 @@
   name: Raygun
   patterns:
     - raygun
+
+- id: testing_and_monitoring_crash_reporting_new_relic
+  name: NewRelic
+  patterns:
+    - new( )?relic
+
+- id: testing_and_monitoring_crash_reporting_instabug
+  name: Instabug
+  patterns:
+    - luciq
+
+- id: posthog
+  name: Posthog

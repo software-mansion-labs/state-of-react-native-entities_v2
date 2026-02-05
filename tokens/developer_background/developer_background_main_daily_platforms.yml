@@ -1,0 +1,9 @@
+- id: harmony_os_physical
+  name: HarmonyOS physical device
+  patterns:
+    - harmonyos .*device
+
+- id: mac_os_physical
+  name: MacOS physical device
+  patterns:
+    - macos

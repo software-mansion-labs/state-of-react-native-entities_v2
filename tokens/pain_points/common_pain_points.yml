@@ -1,3 +1,6 @@
+- id: unsupported_language
+  name: Unsupported language
+
 - id: accessibility
   name: Accessibility
   description: Accessibility issues
@@ -143,6 +146,7 @@
     - instability
 
 - id: memory_management
+  name: Memory management
   description: Memory usage & management
   patterns:
     - garbage
@@ -203,6 +207,7 @@
     - never used
 
 - id: poor_developer_experience
+  name: Poor developer experience
   patterns:
     - bad dx
     - poor dx
@@ -211,6 +216,7 @@
 - id: bugs_and_stability_issues
   name: Bugs and stability issues
   patterns:
+    - bugs?
     - buggy
     - flakey
     - flakiness
@@ -247,3 +253,30 @@
     - no, component [l]
     - broken
     - lack, of, primitive [l]
+
+- id: debugging
+  name: Debugging
+  patterns:
+    - debug
+    - error message
+    - stack trace
+
+- id: profiling
+  name: Profiling
+  patterns:
+    - profiling
+    - optimizing
+    - optimization
+
+- id: cross_platform_compatibility
+  name: Cross-platform compatibility
+  patterns:
+    - cross( |-)?platform
+    - cross( |-)?platform, (in)?consisten(t|cy|cies) [l]
+    - cross( |-)?platform, (in)?compatib(le|ility|ilities) [l]
+    - cross( |-)?platform, integrations? [l]
+    - platforms?, (in)?consisten(t|cy|cies) [l]
+    - platforms?, (in)?compatib(le|ility|ilities) [l]
+    - platforms?, integrations? [l]
+    - platform specific
+    - platforms? differences?

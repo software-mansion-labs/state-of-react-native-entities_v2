@@ -1,0 +1,12 @@
+- id: dev_tools_better_t_stack
+  name: better-t-stack
+  patterns:
+    - better( |-)t( |-)stack
+
+- id: custom
+  name: Custom template
+  patterns:
+    - custom
+    - my own
+    - i, own [l]
+    - own, template [l]

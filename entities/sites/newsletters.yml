@@ -100,8 +100,6 @@
 - id: bytes
   name: Bytes
   homepage: https://bytes.dev/
-  tags:
-    - people
 
 - id: react_status
   name: React Status
@@ -114,8 +112,10 @@
 - id: this_week_in_react
   name: This Week In React
   homepage: https://thisweekinreact.com/?utm_source=state_of_rn
-  patterns:
-    - react weekly
+
+- id: react_weekly
+  name: React Weekly
+  homepage: https://react-weekly.dev/
 
 - id: tldr
   name: TLDR

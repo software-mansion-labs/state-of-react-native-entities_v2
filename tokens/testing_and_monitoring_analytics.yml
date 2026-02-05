@@ -43,7 +43,7 @@
   patterns:
     - datad
 
-- id: datadog
+- id: testing_and_monitoring_analytics_datadog
   name: DataDog
   patterns:
     - datadog
@@ -73,7 +73,7 @@
   patterns:
     - mparticle
 
-- id: newrelic
+- id: testing_and_monitoring_analytics_newrelic
   name: NewRelic
   patterns:
     - new( )?relic
@@ -98,7 +98,7 @@
   patterns:
     - rudderstack
 
-- id: sentry
+- id: testing_and_monitoring_analytics_sentry
   name: Sentry
   patterns:
     - sentry
@@ -117,3 +117,29 @@
   name: Uxcam
   patterns:
     - uxcam
+
+- id: testing_and_monitoring_analytics_vexo
+  name: Vexo
+  patterns:
+    - vexo
+
+- id: branch
+  name: Branch
+
+- id: adobe_analytics
+  name: Adobe Analytics
+  patterns:
+    - adobe analytics
+
+- id: testing_and_monitoring_analytics_expo_insights
+  name: Expo Insights
+  patterns:
+    - expo( |-)insights
+
+- id: custom
+  name: Custom / internal solution
+  patterns:
+    - custom
+    - in( )?house
+    - internal
+    - internally

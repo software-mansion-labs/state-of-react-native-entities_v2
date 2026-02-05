@@ -42,6 +42,13 @@
   homepage: https://developer.android.com/training/testing/espresso
   description: A testing framework for writing concise and reliable UI tests for Android applications.
 
+- id: testing_and_monitoring_testing_vitest
+  name: Vitest
+  homepage: https://vitest.dev/
+  npm: vitest
+  github: vitest-dev/vitest
+  description: Blazing fast unit test framework powered by Vite with out-of-the-box support for ESM, TypeScript, and JSX, featuring a Jest-compatible API.
+
 - id: testing_and_monitoring_testing_storybook
   name: Storybook
   homepage: https://storybook.js.org/
@@ -102,9 +109,49 @@
   homepage: https://logrocket.com/
   description: Quantify and visualize every user experience.
 
+- id: testing_and_monitoring_analytics_sentry
+  name: Sentry
+  homepage: https://sentry.io/
+  npm: "@sentry/react-native"
+  github: getsentry/sentry-react-native
+  description: Application monitoring platform that helps developers identify, diagnose, and fix errors and performance issues.
+
+- id: testing_and_monitoring_analytics_datadog
+  name: Datadog
+  homepage: https://www.datadoghq.com/
+  npm: "@datadog/mobile-react-native"
+  github: DataDog/dd-sdk-reactnative
+  description: Unified observability and security platform offering real user monitoring (RUM) and crash reporting for mobile apps.
+
+- id: testing_and_monitoring_analytics_expo_insights
+  name: EAS Insights
+  homepage: https://expo.dev/insights
+  npm: expo-insights
+  description: Analytics service specifically for Expo and React Native apps that tracks performance, usage, and update adoption.
+
+- id: testing_and_monitoring_analytics_newrelic
+  name: New Relic
+  homepage: https://newrelic.com/
+  npm: newrelic-react-native-agent
+  github: newrelic/newrelic-react-native-agent
+  description: Full-stack observability platform providing real-time insights into mobile application performance and user interactions.
+
+- id: testing_and_monitoring_analytics_vexo
+  name: Vexo
+  homepage: https://vexo.co/
+  npm: vexo-analytics
+  description: Analytics tool designed specifically for React Native to track user engagement, session replays, and navigation flows.
+
   ######################################################
   #########        CRASH REPORTING             #########
   ######################################################
+
+- id: testing_and_monitoring_crash_reporting_dynatrace
+  name: Dynatrace
+  homepage: https://www.dynatrace.com/
+  npm: "@dynatrace/react-native-plugin"
+  github: Dynatrace/dynatrace-react-native-plugin
+  description: AI-powered full-stack observability platform providing real user monitoring (RUM), crash analysis, and application performance monitoring.
 
 - id: testing_and_monitoring_crash_reporting_sentry
   name: Sentry

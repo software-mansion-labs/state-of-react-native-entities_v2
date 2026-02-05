@@ -1,0 +1,10 @@
+- id: console_log
+  name: Console logging
+  patterns:
+    - console( |.)log
+    - console print[s]?
+
+- id: debugging_profiling_flipper
+  name: Flipper
+  patterns:
+    - flipper

@@ -1,0 +1,173 @@
+- id: standard_library_and_official_solutions
+  name: Standarized solutions
+  description: Requests for official, built-in solutions (Navigation, Router, State Management) to reduce fragmentation.
+  patterns:
+    - standard
+    - official
+    - built-in
+    - built in
+    - unified
+
+- id: native_language_support
+  name: Native support
+  description: Requests for better support of native segments.
+  patterns:
+    - swift
+    - kotlin
+    - c\+\+
+    - cpp
+    - spm
+    - rust
+    - native module
+    - bridge
+    - turbo module
+
+- id: native_features
+  name: Native features
+  description: Requests for more native features and modules
+  patterns:
+    - native
+
+- id: debugging_and_profiling
+  name: Debugging and profiling
+  description: Requests for better debugging tools, network inspection, and performance profiling.
+  patterns:
+    - debug(ging)?
+    - inspector
+    - network
+    - profiling
+    - dev( |-)?tool(ing|s)?
+    - logging
+    - console, logs? [l]
+
+- id: ui_styling_and_animations
+  name: Better UI solutions
+  description: Requests for better styling solutions and libraries.
+  patterns:
+    - ui
+    - ui components?
+    - css
+    - tailwind
+    - styles?
+    - styling
+    - animations?
+    - transitions?
+    - gestures?
+    - layouts?
+    - shadows?
+    - gradients?
+    - lists?
+    - scrollviews?
+
+- id: libraries
+  name: Missing libraries
+  description: Missing good libraries
+  patterns:
+    - better, lib(rary|raries|s)? [l]
+    - lib(rary|raries|s)?
+
+- id: routing_navigation
+  name: Routing and navigation
+  description: Requests for better routing and navigation solutions.
+  patterns:
+    - routings?
+    - routes?
+    - navigations?
+    - navigate
+
+- id: android_features
+  name: Android features
+  description: Requests for Android features and attention.
+  patterns:
+    - android
+
+- id: ios_features
+  name: iOS features
+  description: Requests for iOS features and attention.
+  patterns:
+    - ios
+
+- id: expo_competitor
+  name: Expo competitor
+  description: Need for a good Expo competitor
+  patterns:
+    - expo, compete [l]
+    - expo, competitor [l]
+    - expo, competition [l]
+
+- id: cross_platform_compatibility
+  name: Cross-platform consistency
+  description: Requests for better cross-platform consistency
+  patterns:
+    - cross( |-)?platform
+    - cross( |-)?platform, (in)?consisten(t|cy|cies) [l]
+    - cross( |-)?platform, (in)?compatib(le|ility|ilities) [l]
+    - cross( |-)?platform, integrations? [l]
+    - platforms?, (in)?consisten(t|cy|cies) [l]
+    - platforms?, (in)?compatib(le|ility|ilities) [l]
+    - platforms?, integrations? [l]
+    - platform specific
+    - platforms? differences?
+
+- id: cross_platform_expansion
+  name: Improved cross-platform support
+  description: Requests for better support on Web, Windows, MacOS, TV, and WatchOS.
+  patterns:
+    - web, support [l]
+    - web, more [l]
+    - web, for [l]
+    - web, better [l]
+    - web, integration [l]
+    - web, (in)?compatibility [l]
+    - windows, support [l]
+    - windows, more [l]
+    - windows, for [l]
+    - windows, better [l]
+    - windows, integration [l]
+    - windows, (in)?compatibility [l]
+    - macos, support [l]
+    - macos, more [l]
+    - macos, for [l]
+    - macos, better [l]
+    - macos, integration [l]
+    - macos, (in)?compatibility [l]
+    - tv, support [l]
+    - tv, more [l]
+    - tv, for [l]
+    - tv, better [l]
+    - tv, integration [l]
+    - tv, (in)?compatibility [l]
+    - (watchos|apple watch), support [l]
+    - (watchos|apple watch), more [l]
+    - (watchos|apple watch), for [l]
+    - (watchos|apple watch), better [l]
+    - (watchos|apple watch), integration [l]
+    - (watchos|apple watch), (in)compatibility [l]
+
+- id: performance_and_threading
+  name: Performance
+  description: Requests for multi-threading, worklets, and lighter bundle sizes.
+  patterns:
+    - threads?
+    - concurren(t|cy)
+    - worklets?
+    - bundle size
+    - performance
+    - slow
+    - startup
+    - fps
+    - stable
+    - stability
+    - core
+    - multi( |-)thread(ing|s)?
+
+- id: documentation_and_guides
+  name: Documentation
+  description: Requests for better docs on advanced topics (Native Modules, Architecture).
+  patterns:
+    - docs?
+    - guides?
+    - tutorials?
+    - examples?
+    - best practices?
+    - advanced

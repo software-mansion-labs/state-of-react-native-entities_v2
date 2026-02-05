@@ -188,3 +188,10 @@
   description: The most configurable way to create an Expo app.
   github: roninoss/create-expo-stack
   author: roninOSS
+
+- id: dev_tools_better_t_stack
+  name: better-t-stack
+  homepage: https://better-t-stack.dev/
+  npm: create-better-t-stack
+  github: AmanVarshney01/create-better-t-stack
+  description: A modern CLI tool for scaffolding end-to-end TypeScript projects.

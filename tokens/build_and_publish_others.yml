@@ -23,3 +23,19 @@
   name: Jenkins
   patterns:
     - jenkins
+
+- id: app_center
+  name: App Center
+  patterns:
+    - app( )?center
+
+- id: gitlab
+  name: GitLab
+
+- id: locally
+  name: Local/Manual building and publishing
+  patterns:
+    - manual(ly)?
+    - local(ly)?
+    - command line
+    - console

@@ -1,0 +1,133 @@
+- id: cross_platform_efficiency
+  name: Cross-platform features
+  description: Advantages related to code sharing, write-once-run-anywhere, and single codebase efficiency.
+  patterns:
+    - cross( |-)platforms?
+    - multi( |-)?platforms?
+    - single codebase
+    - (1|one) codebases?
+    - share code
+    - code shar(e|ing)
+    - code once
+    - write once
+    - build once
+    - reuse
+    - unified
+    - all, platforms [l]
+    - multiple, platforms [l]
+    - two, platforms [l]
+    - both, platforms [l]
+    - many, platforms [l]
+    - ios and android
+    - android and ios
+    - (1|one) code
+    - flexibility
+    - flexible
+    - duplication
+
+- id: developer_experience
+  name: Developer experience
+  description: Speed of development, Hot Reloading, OTA updates and general developer experience.
+  patterns:
+    - hot( |-)reload(ing|s)?
+    - fast refresh(ing|es)?
+    - fast reload(ing|s)?
+    - fast iterations?
+    - developer experience
+    - dev experience
+    - speed, dev(elopment)? [l]
+    - fast, development [l]
+    - move fast
+    - devx
+    - dx
+    - documentation
+    - docs
+    - ota
+    - over the air
+    - deploy
+    - publish
+    - release cycle
+    - ship fast
+    - time to market
+
+- id: easy_to_learn
+  name: Ease to learn
+  description: Ease to learn and leverage existing Ract, Javascript skills
+  patterns:
+    - react
+    - javascript
+    - js
+    - typescript
+    - ts
+    - web dev
+    - web skill
+    - web knowledge
+    - jsx
+    - familiar
+    - similar
+    - simple
+    - simplicity
+    - easy, start [l]
+    - easy, use [l]
+    - ease, use [l]
+    - easy, learn [l]
+    - easy, learning [l]
+    - learning curve
+    - easy to learn
+
+- id: ecosystem_and_community
+  name: Ecosystem and community
+  description: The size of the community, availability of libraries, and resources.
+  patterns:
+    - community
+    - communities
+    - ecosystem
+    - librar(y|ies)
+    - libs?
+    - packages?
+    - resources?
+    - support
+    - help
+    - lot, tools [l]
+    - many, tools [l]
+    - open source
+    - tutorials?
+
+- id: native_performance_and_feel
+  name: Native performance and feel
+  description: Access to native primitives, native look and feel, and performance compared to webviews/hybrid.
+  patterns:
+    - is native
+    - being native
+    - native feel(ing)?
+    - native look
+    - native component
+    - native primitive
+    - truly native
+    - performance
+    - native api
+    - speed
+    - fast
+
+- id: expo_ecosystem
+  name: Expo ecosystem
+  description: Specific praise for Expo and its tools (EAS, Go, Router).
+  patterns:
+    - expo
+    - eas
+
+- id: cost_and_hiring
+  name: Job market position
+  description: Advantages regarding hiring availability, team size, and cost effectiveness.
+  patterns:
+    - hiring
+    - hire
+    - jobs
+    - talent
+    - team size
+    - cheap
+    - cost
+    - market
+    - find, dev(eveloper)?s? [l]
+    - companies
+    - job offers?

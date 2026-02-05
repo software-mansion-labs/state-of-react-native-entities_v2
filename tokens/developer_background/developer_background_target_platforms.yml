@@ -1,0 +1,6 @@
+- id: harmony_os
+  name: HarmonyOS
+  patterns:
+    - harmony
+    - harmonyos
+    - huawei

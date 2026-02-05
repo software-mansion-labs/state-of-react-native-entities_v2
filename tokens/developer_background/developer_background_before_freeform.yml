@@ -1,0 +1,29 @@
+- id: flutter
+  name: Flutter developer
+  patterns:
+    - flutter
+
+- id: cordova
+  name: Cordova developer
+  patterns:
+    - Cordova
+
+- id: ionic
+  name: Ioic developer
+  patterns:
+    - ionic
+
+- id: xamarin
+  name: Xamarin developer
+  patterns:
+    - xamarin
+
+- id: full_stack
+  name: Full-stack developer
+  patterns:
+    - full( |-)stack
+
+- id: game_dev
+  name: Game developer
+  patterns:
+    - game( |-)dev(eloper)?

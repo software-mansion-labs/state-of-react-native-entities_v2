@@ -49,3 +49,25 @@
   name: Submitting
   patterns:
     - submit [p]
+
+- id: ci_cd_workflows
+  name: CI/CD & Workflows
+  patterns:
+    - ci
+    - cd
+    - gitlab
+    - github
+    - workflows?
+    - pipelines?
+    - yaml
+    - appcenter
+    - dagger
+
+- id: env_management
+  name: Environment management
+  patterns:
+    - env(ironment)?s?
+    - secrets?
+    - \.env
+    - \.env\.[\w]*
+    - prod(uction)?, dev(elepment)? [l]

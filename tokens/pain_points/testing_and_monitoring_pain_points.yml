@@ -29,7 +29,7 @@
   patterns:
     - guideline
 
-- id: maestro
+- id: testing_and_monitoring_testing_maestro
   name: Maestro
   patterns:
     - maestro
@@ -38,3 +38,15 @@
   name: E2E
   patterns:
     - e2e
+
+- id: testing_and_monitoring_analytics_sentry
+  name: Sentry
+  patterns:
+    - sentry
+
+- id: expensive_cost
+  name: Expensive prices, costs
+  patterns:
+    - expensive,
+    - price[s]
+    - pricing

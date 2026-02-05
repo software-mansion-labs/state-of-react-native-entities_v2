@@ -3,11 +3,26 @@
   patterns:
     - too long
     - shorter
+    - shorten
+    - fatigue
+    - remove some blocks
+    - less questions
+    - compact
 
 - id: information_links
   description: Add features info links during the survey
   patterns:
     - links
+    - docs
+    - documentation
+    - resources
+    - tutorials?
+
+- id: dark_mode
+  description: Requests for Dark Mode support
+  patterns:
+    - dark mode
+    - dark theme
 
 - id: light_mode
   description: Suggested adding a light mode to the user interface
@@ -24,7 +39,8 @@
     - are good
     - are great
     - is great
-    - it's great
+    - it'?s great
+    - it'?s best
     - best survey
     - pretty good
     - pretty great
@@ -39,6 +55,12 @@
     - its fine
     - its good
     - its ok
+    - no notes
+    - fantastic
+    - love it
+    - excellent
+    - 10/10
+    - liked
 
 - id: dont_know
   description: No specific suggestion
@@ -48,14 +70,31 @@
     - no idea
     - no need
     - nothing
+    - no much improvement
 
 - id: options_suggestion
   description: Suggested improving the options provided for existing questions
-  patterns: []
+  patterns:
+    - option list
+    - list of options
+    - predefined list
+    - other option
+    - missing options
+    - more options
+    - add options
+
+- id: countries
+  description: Suggested improvements over the list of countries
+  patterns:
+    - countries
+    - country
 
 - id: questions_suggestion
   description: Suggested adding, removing, or changing questions
-  patterns: []
+  patterns:
+    - more questions
+    - different type of question
+    - when asking
 
 - id: translations
   description: Better-quality or more complete translations
@@ -72,11 +111,28 @@
 
 - id: sentiment_ui
   description: Sentiment UI improvements
-  patterns: []
+  patterns:
+    - favorable opinion
+    - sentiment
 
 - id: ui_improvements
   description: General UI improvements
-  patterns: []
+  patterns:
+    - enter
+    - textbox
+    - button
+    - submit
+    - checkbox
+    - mobile
+
+- id: marketing_reach
+  description: Suggestions to improve marketing and reach of the survey
+  patterns:
+    - marketing
+    - promote
+    - penetration
+    - referral
+    - channels
 
 - id: mobile_version
   description: Better mobile version

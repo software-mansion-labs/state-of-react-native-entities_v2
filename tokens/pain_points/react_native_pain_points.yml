@@ -1,0 +1,179 @@
+- id: upgrades_and_maintenance
+  name: Upgrades and maintenance
+  description: Pain points related to upgrading RN versions, breaking changes, and version mismatch.
+  patterns:
+    - upgrade
+    - update
+    - version
+    - breaking change
+    - migration
+    - migrate
+    - backward compat
+    - compatibility
+    - deprecat
+    - bleeding edge
+    - unstable
+    - instability
+    - maintenance
+    - maintain
+
+- id: ecosystem_and_dependencies
+  name: Ecosystem and dependencies
+  description: Issues with third-party libraries being unmaintained, abandoned, or fragmented.
+  patterns:
+    - librar(y|ies)
+    - libs?
+    - dependenc(y|ies)
+    - package
+    - third party
+    - 3rd party
+    - ecosystem
+    - unmaintained
+    - abandoned
+    - outdated
+    - deprecated
+    - obsolete
+    - community packages
+    - npm
+    - fragmentation
+    - fragmented
+    - standard
+
+- id: dev_tools
+  name: Developer tools
+  description: Developer experience tools.
+  patterns:
+    - dev ?tools?
+    - dev ?tooling
+    - developers? ?tools?
+    - flipper
+    - hot reload
+    - fast refresh
+
+- id: native_interop
+  name: Native code
+  description: Difficulty writing native code, bridging, and dealing with native modules.
+  patterns:
+    - native code
+    - native module
+    - bridge
+    - native part
+    - native dev
+    - swift
+    - kotlin
+    - java
+    - obj(ective)?(-)?c
+    - integration
+    - native api
+
+- id: build_tooling
+  name: Building
+  description: Issues with build times, Xcode, Gradle, and compilation.
+  patterns:
+    - (re)?builds?
+    - (re)?building
+    - (re)?compile
+    - (re)?compiling
+    - x( |-)?code
+    - gradle
+    - cocoapods
+    - pod(s)?
+    - metro
+    - bundler
+    - ci(\/)?cd
+    - configuration
+    - setup
+
+- id: local_development
+  name: Local development
+  description: Issues with local development and building
+  patterns:
+    - local builds?
+    - local building
+    - locally
+    - local dev(elopments?)?
+
+- id: android_experience
+  name: Android experience
+  description: Specific complaints about Android development, emulators, and fragmentation.
+  patterns:
+    - android
+    - emulators?
+    - google play
+    - play store
+
+- id: ios_experience
+  name: iOS experience
+  description: Specific complaints about iOS development, simulators.
+  patterns:
+    - iphones?
+    - ios
+    - simulators?
+    - apple
+    - app ?store
+
+- id: performance
+  name: Performance
+  description: General performance issues, lag, bundle size, and memory usage.
+  patterns:
+    - performances?
+    - slow
+    - lag
+    - memory
+    - bundle size
+    - jank
+    - fps
+    - optimization
+    - hog
+    - speed
+
+- id: ui_styling_navigation
+  name: UI
+  description: Issues with styling, layout, keyboard handling, and navigation.
+  patterns:
+    - styles?
+    - styling
+    - css
+    - layout
+    - flexbox
+    - navigation
+    - router
+    - routing
+    - keyboard
+    - animation
+    - gesture
+    - reanimated
+    - svg
+    - responsive
+    - dark mode
+    - flatlist
+    - list
+
+- id: new_architecture
+  name: New architecture
+  description: Friction related to the New Architecture (Fabric, TurboModules).
+  patterns:
+    - new arch(itecture)?
+    - fabric
+    - turbo
+    - bridgeless
+    - c\+\+
+    - jsi
+
+- id: expo_specifics
+  name: Expo
+  description: Complaints specifically about Expo, EAS, or lock-in.
+  patterns:
+    - expo
+    - eas
+    - prebuild
+    - config plugin
+    - managed workflow
+
+- id: web_support
+  name: Web support
+  description: Issues with React Native Web parity and support.
+  patterns:
+    - web
+    - dom
+    - html
